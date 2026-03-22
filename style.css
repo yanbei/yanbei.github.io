@@ -115,6 +115,12 @@ code { background: #eef2f8; padding: 0.1rem 0.25rem; border-radius: 4px; }
 .tab-panel {
   margin-top: 0;
 }
+.archive-count {
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
 @media (max-width: 720px) {
   .hero { grid-template-columns: 1fr; }
   .tabs { gap: 0.5rem; }

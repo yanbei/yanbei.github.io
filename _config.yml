@@ -30,5 +30,7 @@ navigation:
     url: /publications/
   - title: arXiv Watch
     url: /arxiv/
+  - title: arXiv Archive
+    url: /arxiv-archive/
   - title: Contact
     url: /contact/
