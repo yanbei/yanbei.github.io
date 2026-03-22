@@ -7,8 +7,8 @@ description: Yanbei Chen's Research Website
 <section class="hero">
   <div>
     <h2>Welcome</h2>
-    <p>This is a website created mainly by AI.</p>
-    <p>It contains information about my research, group, publications and papers on arXiv that I might be interested in.</p>
+    <p>I am a professor of physics at the California Institute of Technology.</p>
+    <p>This website contains information about my research interests, research group, publications and papers on arXiv that I might be interested in.</p>
   </div>
   <aside class="card">
     <h3>Quick links</h3>
