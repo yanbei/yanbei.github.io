@@ -39,7 +39,7 @@
           <div class="paper-list">
             ${w.papers.map(p => `
               <article class="paper">
-                <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.preferred_author_matches && p.preferred_author_matches.length ? ' · <span class="author-badge">Preferred author</span>' : ''}${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
+                <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
                 <h3>${p.title}</h3>
                 <p><strong>Authors:</strong> ${(p.authors_short || p.authors).join(', ')}</p>
                 <p>${p.summary}</p>

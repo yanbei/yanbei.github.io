@@ -466,5 +466,95 @@
     ],
     "relevance": 2,
     "worth_reading_full": false
+  },
+  "beyond-gr-kerr::2603.03391": {
+    "summary": "We investigate the steady, axisymmetric, force-free magnetosphere of Kerr-Sen black hole (BH) within the framework of the Einstein-Maxwell-dilaton-axion (EMDA) theory. By perturbatively solving the nonlinear Grad-Shafranov (GS) equation, we determine the magnetic field configuration and quantify the influence of the dilaton parameter $r_2$ on the energy extraction rate and radiative efficiency. Our results show that both the energy extraction power and the radiative efficiency increase with $r_2$, exceeding those of the standard Kerr BH, whereas the extraction efficiency remain consistent with the Kerr case. In addition, we perform $χ^2$ statistical analysis using observational data from six binary BH systems, which indicates that the Kerr BH currently provides a better fit for bulk Lorentz factors $Γ= 2$ and $5$.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.03033": {
+    "summary": "In this note, we clarify the relationship between the two-point Carrollian correlator and massless scattering in black hole background. It turns out that there are two kinds of Carrollian correlators at the null boundaries of each asymptotically flat spacetime. The correlator from $\\mathscr I^-$ to $\\mathscr I^+$ should be regularized by subtracting the flat space analog, and it is the position space version of the reflection amplitude of massless scattering. On the other hand, the correlator from $\\mathscr I^-$ to the future horizon $\\mathcal H^+$ is absent in flat space, and it is the position space version of the transmission amplitude. The poles of the Carrollian correlators are governed by the null geodesics from $\\mathscr I^-$ to $\\mathscr I^+$ or $\\mathcal H^+$, and they define two kinds of classical equations in Carrollian space. These equations establish the relationship between the Shapiro time delay and the deflection angle for light rays and should be understood as the dual descriptions of the quasinormal modes (QNMs) and the branch cut of the Green's function. We find that the time delay contains a logarithmic/quadratic behavior for the correlator from $\\mathscr I^-$ to $\\mathscr I^+/\\mathcal H^+$ for small deflection angles. On the other hand, the time delay is always increasing linearly for both correlators when the deflection angle is large.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: black hole perturbation."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.11895": {
+    "summary": "As cosmology rapidly approaches the data-dominated phase of stage IV large scale structure surveys, the modelling of nonlinear scales has become a serious challenge that faces the community, particularly when analysing models beyond $w$CDM. In this work, we emulate the matter power spectrum in a phenomenological parameterisation of modified gravity in which a time-varying effective gravitational constant $μ$ and a gravitational slip $η$ are binned in redshift. We are able to achieve accuracy $<1\\%$ in the modified gravity boost relative to COLA (COmoving Lagrangian Acceleration) simulations. We forecast the constraining power for each bin using a simulated $3\\times 2$pt LSST Y10-like data vector and a $6\\times 2$pt LSST Y10 x Simons Observatory cosmic microwave background (CMB) lensing data vector. We recover the characteristic degeneracy between $μ$ and $η$ previously identified in Fisher forecasts and demonstrate that the best-constrained direction corresponds to the combination $Σ=μ(1+η)/2$ which governs the lensing potential. We show that while large scale structure is sensitive to growth of structure at low redshift, CMB lensing extends the sensitivity to a higher redshift range. These results demonstrate that fast emulation of nonlinear modified-gravity effects enables full Bayesian analyses of model-agnostic gravity parameterisations with realistic survey data vectors and astrophysical systematics.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: modified gravity."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.08067": {
+    "summary": "We investigate the interior structure of asymptotically flat hairy black holes (HBHs) arising in the Einstein-Klein-Gordon theory with nonpositive-definite scalar potentials, where nontrivial scalar hair exists at the event horizon. While exterior properties, including shadow imaging for HBHs supported by an inverted Higgs-like potential have been extensively investigated, their interior structure remains largely unexplored. In many gravitational theories, backreaction of classical fields can significantly eliminate the Cauchy horizon, which is known to be highly unstable due to the mass inflation effect, raising important questions regarding the validity of the Strong Cosmic Censorship conjecture. These considerations motivate us to examine the interior structure of HBHs by numerically integrating the field equations inward from the outer horizon. We find that the scalar field and the metric functions increase monotonically inside the horizon and diverge as $r \\rightarrow 0$. The Ricci and Kretschmann scalars also diverge at $r=0$, confirming the presence of a genuine curvature singularity. No additional root of the metric function is observed, indicating the absence of a Cauchy horizon in the electrically neutral HBHs considered here. Furthermore, the weak energy condition is violated throughout the interior region, and the degree of violation becomes more pronounced as the scalar field at the horizon increases. These results provide new insight into the global structure of HBHs and their implications for cosmic censorship.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: hairy black holes."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.05810": {
+    "summary": "The Black Hole Explorer (BHEX) is a proposed mission to launch a sub-millimeter radio telescope into Earth orbit that will take the sharpest images in the history of astronomy and reveal novel horizon-scale features of supermassive black holes. Black Hole Vision is an open-source application, freely available on the iOS App Store, that produces lensed images which highlight the key features expected to appear in the black hole images BHEX will capture. The app combines video feeds from the front- and rear-facing iPhone cameras and uses the black hole lensing equations to synthesize an onscreen image displaying the user's surroundings as if they were gravitationally lensed by a black hole within the cameras' field of view. Here, we describe how light rays are lensed by non-rotating (Schwarzschild) and rotating (Kerr) black holes, and we list the equations needed for computing black-hole-lensed images. We also describe their specific implementation within Black Hole Vision.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.05084": {
+    "summary": "Magnetic fields represent a critical component of astrophysical research, laying the foundation for interpreting high-energy astrophysical activity across galactic scales. In this work, we investigate the parametrized post-Einsteinian (ppE) waveform imprints induced by the external magnetic fields of Bertotti-Robinson and Bonnor-Melvin black holes, with the aim of distinguishing such magnetic effects from environmental influences--particularly for massive black holes posited to reside at galactic centers. We first compute the ppE frequency-domain waveform for a small black hole inspiraling into a massive Kerr-Bertotti-Robinson (KBR) black hole, which corresponds to a Kerr black hole embedded in an external magnetic field. We find that the leading-order correction arising from the magnetic field is at the $-2$ post-Newtonian (PN) order relative to the quadrupole term, while the next-leading-order correction is at $-1.5$ PN, originating from the spin of the black hole. We further examine the effects of a spinning Kerr-Bonnor-Melvin (KBM) black hole, whose leading-order magnetic correction is at $-3$ PN (consistent with the preceding result), whereas its spin-induced correction is also at $-1.5$ PN. The leading-order ppE corrections for both KBR and KBM black holes do not appear degenerate with any modified theory of gravity effects; nonetheless, we demonstrate that they resemble the gravitational pull contributions from additional matter with power-law distributions of index $γ=1$ and $γ=0$, respectively. As a result, future gravitational wave (GW) observations detecting $-3$ or $-2$ PN order corrections will infer their origin as either magnetic field effects or matter environmental influences.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.04214": {
+    "summary": "We investigate the relativistic scattering of spinning black holes using modern amplitude methods within a heavy-mass effective field theory formalism at third post-Minkowskian order. Using a systematic self-force expansion up to first order in the mass ratio, the gravitational amplitude and the associated eikonal-like phase are computed for a spin-aligned binary system comprising a heavy and a light black hole up to fifth order in the total spin and up to quadratic order in the spin of the light black hole. We also consider the resummation of the heavy black hole's spin in both the probe limit and the radiation-reaction sector, and verify that the resulting phase displays the characteristic ring singularity features associated with the Kerr metric.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.17563": {
+    "summary": "The pulsar timing array systems have reported a detection of a nanohertz-band stochastic gravitational wave background in our galaxy. It is of interest to use this observation to probe modified gravity and to forecast the sensitivity with which certain deviations can be tested in the coming years. In this paper, we focus on the modified dispersion relation of the tensor modes and its effect on the overlap reduction function of the timing residual cross-correlations. We perform a comprehensive forecast of the phase velocity uncertainty, $σ_v$, using a Fisher analysis validated by a mock-data study to account for potential non-Gaussian behavior. We also take into account the sample variance effect and provide an observational timeline for future PTA sensitivity: detecting a $10\\%$ or $-1\\%$ deviation from the speed of light at the $3σ$ level requires $\\mathcal{O}(30)$ years of observations.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: modified gravity."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.08635": {
+    "summary": "One of the main targets for space-borne gravitational wave detectors is the detection of Extreme Mass Ratio Inspirals (EMRIs). The data analysis of EMRIs requires waveform models that are both accurate and fast. The major challenge for the fast generation of such waveforms is the generation of the Teukolsky amplitudes for generic (eccentric and inclined) Kerr orbits. The requirement for the modeling of $\\sim10^5$ harmonic modes across a four-dimensional parameter space makes traditional approaches, including direct computation or dense interpolation, computationally prohibitive. To overcome this issue, we introduce a convolutional encoder-decoder architecture for a fast and end-to-end global fitting of the Teukolsky amplitudes. We also adopt a transfer learning strategy to reduce the size of the training dataset, and the model is trained gradually from the simplest Schwarzschild circular orbits to generic Kerr orbits step by step. Within this framework, we obtain a surrogate model based on a semi-analytical Post-Newtonian dataset, and the full harmonic amplitudes can be generated within milliseconds, while the median mode-distribution error for generic orbits is approximately $\\sim10^{-3}$. This result indicates that the framework is viable for constructing efficient waveform models for EMRIs.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han, Scott A. Hughes.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
+  },
+  "beyond-gr-kerr::2603.08408": {
+    "summary": "We show that the hidden symmetry and separability characteristic of Kerr geometry arise as an inevitable \\emph{local} consequence of the Einstein equations for rotating spacetimes. Without assuming separability, algebraic speciality, Killing-Yano symmetry, or global boundary conditions, we analyze general stationary and axisymmetric geometries in a locally non-rotating orthonormal frame. Imposing a minimal physical requirement, the local equilibrium condition, we find that the mixed Einstein equations enforce a rigid projective alignment between the radial and angular sectors. This result does not rely on vacuum: the mixed equations are insensitive to the detailed form of a comoving stress-energy tensor. Consistency then requires equality of Schwarzian derivatives, leading to a universal classification of local solutions into Möbius, exponential, and trigonometric branches. Global regularity generically excludes the trigonometric branch, leaving precisely the Kerr-type sector and the emergence of Petrov type D structure. This provides a structural precursor to Kerr uniqueness, demonstrating that the kinematical core of Kerr geometry is encoded locally within the Einstein equations.",
+    "technical_bullets": [
+      "Preferred author match: Wenbiao Han.",
+      "Matched keywords: Kerr."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true
   }
 }
