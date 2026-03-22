@@ -26,15 +26,13 @@ This repo is a GitHub Pages starter for a personal research website with an auto
 - Edit `config/preferences.json` to encode your taste
 - Edit `scripts/update_arxiv.py` to change categories, keywords, ranking, and synthesis behavior
 
+## Archive and reuse
+
+Processed papers are archived one-file-per-paper under `data/archive/` and reused on future runs so the pipeline does not redo the same paper unnecessarily.
+
 ## OpenAI synthesis
 
-If `OPENAI_API_KEY` is set, the updater will ask OpenAI for:
-- one-sentence summary
-- two technical bullets
-- relevance score
-- worth-reading flag
-
-If no key is present, the script falls back to metadata-only summaries.
+If `OPENAI_API_KEY` is set, the updater will ask OpenAI for summaries. If no key is present, the script falls back to metadata-only summaries.
 
 For GitHub Actions, add `OPENAI_API_KEY` as a repository secret.
 

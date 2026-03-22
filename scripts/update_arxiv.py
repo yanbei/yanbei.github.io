@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "arxiv.json"
 OUT_JS = ROOT / "data" / "arxiv.js"
 CACHE = ROOT / "data" / "arxiv_cache.json"
+ARCHIVE_DIR = ROOT / "data" / "archive"
 PREFS = ROOT / "config" / "preferences.json"
 PROFILE = ROOT / "config" / "yanbei_profile.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
@@ -47,6 +48,25 @@ def dedupe_keep_order(items):
         seen.add(key)
         out.append(item)
     return out
+
+
+def archive_path(arxiv_id):
+    return ARCHIVE_DIR / f"{arxiv_id}.json"
+
+
+def load_archive_entry(arxiv_id):
+    path = archive_path(arxiv_id)
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return None
+
+
+def save_archive_entry(arxiv_id, data):
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    archive_path(arxiv_id).write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
 
 def effective_profile(watch, global_profile):
@@ -338,11 +358,26 @@ def process_watch(watch, cache, display, global_profile):
     for paper in papers:
         cache_key = f"{watch['id']}::{paper['id']}"
         cached = cache.get(cache_key)
+        archived = load_archive_entry(paper['id'])
         if cached:
             for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
                 if key in cached:
                     paper[key] = cached[key]
             enriched.append(paper)
+            continue
+        if archived:
+            for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
+                if key in archived:
+                    paper[key] = archived[key]
+            enriched.append(paper)
+            cache[cache_key] = {
+                "summary_bullets": paper.get("summary_bullets", []),
+                "relevance": paper.get("relevance"),
+                "worth_reading_full": paper.get("worth_reading_full"),
+                "used_openai": paper.get("used_openai", False),
+                "used_pdf_text": paper.get("used_pdf_text", False),
+                "pdf_text_chars": paper.get("pdf_text_chars", 0)
+            }
             continue
         pdf_text = extract_pdf_text(paper.get("pdf_url", ""), pdf_max_pages, pdf_max_chars)
         paper["used_pdf_text"] = bool(pdf_text)
@@ -357,6 +392,19 @@ def process_watch(watch, cache, display, global_profile):
             "used_pdf_text": paper.get("used_pdf_text", False),
             "pdf_text_chars": paper.get("pdf_text_chars", 0),
         }
+        save_archive_entry(paper['id'], {
+            "id": paper['id'],
+            "title": paper['title'],
+            "authors": paper['authors'],
+            "category": paper['category'],
+            "published": paper.get('published', ''),
+            "summary_bullets": paper['summary_bullets'],
+            "relevance": paper['relevance'],
+            "worth_reading_full": paper['worth_reading_full'],
+            "used_openai": paper.get("used_openai", False),
+            "used_pdf_text": paper.get("used_pdf_text", False),
+            "pdf_text_chars": paper.get("pdf_text_chars", 0)
+        })
         enriched.append(paper)
 
     return {
