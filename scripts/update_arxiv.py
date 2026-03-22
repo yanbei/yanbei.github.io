@@ -197,8 +197,8 @@ def synthesize_with_openai(paper, watch, profile):
     system = (
         "You are curating arXiv papers for Yanbei Chen. Use only the supplied metadata. "
         "Return exactly three bullets in strict JSON. "
-        "Bullet 1 must be a three-sentence summary of the paper's content. "
-        "Bullet 2 must explain why Yanbei would be interested in it, connecting to his previous work and current interests when relevant. "
+        "Bullet 1 must be exactly three sentences summarizing the scientific content and novelty of the paper, based only on title/abstract metadata. "
+        "Bullet 2 must explain why Yanbei would care, grounding the explanation in his previous work and current interests rather than generic topic overlap. "
         "Bullet 3 must list key words/topics and mention when it was published or how recent it is."
     )
     user = {
@@ -248,8 +248,9 @@ def merge_synthesis(paper, synth, watch, profile):
         current = ", ".join(paper.get("current_interest_hits") or profile.get("expertise", [])[:2])
         why_parts = [part for part in [previous, current] if part]
         why_text = "; and also to ".join(why_parts) if why_parts else watch.get("label", "this topic")
+        novelty_hint = "The apparent novelty is inferred only from the abstract and title metadata."
         paper["summary_bullets"] = [
-            f"This paper studies {paper['title']} using the approach described in the abstract. It is categorized under {paper['category']} and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            f"This paper studies {paper['title']} using the methods and problem setup described in the abstract. Its scientific content appears to center on {paper['category']} themes highlighted by the metadata. {novelty_hint}",
             f"Yanbei may care because it connects to his previous work and current interests, especially {why_text}.",
             f"Key words/topics: {', '.join(paper['matches']) or 'none recorded'}; {age_note}."
         ]
