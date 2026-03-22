@@ -5,14 +5,15 @@ permalink: /research/
 ---
 
 <h2>Research</h2>
-<p class="page-intro">Describe your main research themes here. A good layout is 2–4 themes, each with a short paragraph and selected papers.</p>
+<p class="page-intro">Here are topics that I am intereted in.</p>
 
 <div class="card">
-  <h3>Theme 1</h3>
-  <p>Add a concise description of one research area.</p>
+  <h3>General Relativity and Black Hole Physics</h3>
+  <p>I am interested in understanding space-time geometry described by general relativity, especially around black holes.  I am 
+  also interested in comparing those predictions with gravitational-wave observations.</p>
 </div>
 
 <div class="card">
-  <h3>Theme 2</h3>
-  <p>Add another research area here.</p>
+  <h3>Quantum Mechanics and Quantum Measurement Theory</h3>
+  <p>I am interested in the application of quantum mechanics and quantum measurement theory to systems involving macroscopic test masses.</p>
 </div>
