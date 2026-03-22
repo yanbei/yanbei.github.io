@@ -253,7 +253,7 @@ def process_watch(watch, cache, display):
             enriched.append(paper)
             continue
         synth = synthesize_with_openai(paper, watch)
-        paper = merge_synthesis(paper, synth)
+        paper = merge_synthesis(paper, synth, watch)
         cache[cache_key] = {
             "summary_bullets": paper["summary_bullets"],
             "relevance": paper["relevance"],

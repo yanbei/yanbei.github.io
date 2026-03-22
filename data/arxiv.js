@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T05:34:27+00:00",
+  "updated": "2026-03-22T05:50:17+00:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
@@ -1830,9 +1830,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
-            "Key match: quasinormal mode, ringdown, Kerr.",
-            "Primary category: gr-qc.",
-            "Published about 2.6 days ago."
+            "This paper studies GWTC-4.0: Tests of General Relativity. III. Tests of the Remnants using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode, ringdown, Kerr; published published about 2.6 days ago."
           ],
           "worth_reading_full": true
         },
@@ -1864,9 +1864,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
-            "Key match: quasinormal mode, QNM, ringdown.",
-            "Primary category: astro-ph.HE.",
-            "Published about 5.5 days ago."
+            "This paper studies Hankel low-rank matrix approximation for gravitational-wave data analysis using the approach described in the abstract. It is categorized under astro-ph.HE and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode, QNM, ringdown; published published about 5.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -1893,9 +1893,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
-            "Key match: quasinormal mode, ringdown, Kerr.",
-            "Primary category: gr-qc.",
-            "Published about 11.5 days ago."
+            "This paper studies Kerr Black Hole Ringdown in Effective Field Theory using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode, ringdown, Kerr; published published about 11.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -1927,9 +1927,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
-            "Key match: QNM, ringdown, Kerr.",
-            "Primary category: gr-qc.",
-            "Published about 5.3 days ago."
+            "This paper studies Ringdown waves from hairy black holes using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: QNM, ringdown, Kerr; published published about 5.3 days ago."
           ],
           "worth_reading_full": true
         },
@@ -1958,9 +1958,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
-            "Key match: Kerr, Teukolsky, EMRI.",
-            "Primary category: gr-qc.",
-            "Published about 8.3 days ago."
+            "This paper studies Analytical derivation of long-term dephasing caused by phase transitions in the context of Kerr black holes using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr, Teukolsky, EMRI; published published about 8.3 days ago."
           ],
           "worth_reading_full": true
         },
@@ -1986,9 +1986,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 11,
           "summary_bullets": [
-            "Key match: Kerr, EMRI.",
-            "Primary category: astro-ph.HE.",
-            "Published about 4.0 days ago."
+            "This paper studies Fluxes of Generic Extreme-Mass-Ratio Inspirals with a Spinning Secondary using the approach described in the abstract. It is categorized under astro-ph.HE and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr, EMRI; published published about 4.0 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2015,9 +2015,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 11,
           "summary_bullets": [
-            "Key match: quasinormal mode, QNM, ringdown.",
-            "Primary category: gr-qc.",
-            "Published about 5.6 days ago."
+            "This paper studies Direct Waves in Black-Hole Binary Mergers: Insights from the Backwards One Body Model using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode, QNM, ringdown; published published about 5.6 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2041,9 +2041,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "Key match: Kerr, Teukolsky.",
-            "Primary category: gr-qc.",
-            "Published about 3.5 days ago."
+            "This paper studies Non-linear instability of the Kerr Cauchy horizon near $i_+$ using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr, Teukolsky; published published about 3.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2072,9 +2072,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "Key match: gravitational waves.",
-            "Primary category: hep-ph.",
-            "Published about 5.5 days ago."
+            "This paper studies Crowdsourcing Gravitational Waves from Superradiant Axions using the approach described in the abstract. It is categorized under hep-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: gravitational waves; published published about 5.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2102,9 +2102,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "Key match: quasinormal mode, ringdown.",
-            "Primary category: gr-qc.",
-            "Published about 6.0 days ago."
+            "This paper studies Spectral Bifurcations in Quasinormal Modes of Regular BTZ Black Holes using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode, ringdown; published published about 6.0 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2129,9 +2129,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "Key match: Kerr, Teukolsky, EMRI.",
-            "Primary category: gr-qc.",
-            "Published about 8.5 days ago."
+            "This paper studies A new approach to the calculation of extreme-mass-ratio inspirals with a spinning secondary using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr, Teukolsky, EMRI; published published about 8.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -2164,9 +2164,9 @@ window.ARXIV_DATA = {
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "Key match: gravitational waves, ringdown.",
-            "Primary category: gr-qc.",
-            "Published about 9.6 days ago."
+            "This paper studies Assessing the robustness of amortized simulation-based inference to transient noise in gravitational-wave ringdowns using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: gravitational waves, ringdown; published published about 9.6 days ago."
           ],
           "worth_reading_full": true
         },
@@ -3977,9 +3977,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
-            "Key match: Kerr.",
-            "Primary category: gr-qc.",
-            "Published about 2.6 days ago."
+            "This paper studies GWTC-4.0: Tests of General Relativity. II. Parameterized Tests using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr; published published about 2.6 days ago."
           ],
           "worth_reading_full": true
         },
@@ -4010,13 +4010,13 @@ window.ARXIV_DATA = {
             "gravitational waves"
           ],
           "published": "2026-03-16T11:34:48+00:00",
-          "age_days": 5.7,
+          "age_days": 5.8,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
-            "Key match: gravitational waves.",
-            "Primary category: astro-ph.IM.",
-            "Published about 5.7 days ago."
+            "This paper studies py5vec: a modular Python package for the 5-vector method to search for continuous gravitational waves using the approach described in the abstract. It is categorized under astro-ph.IM and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: gravitational waves; published published about 5.8 days ago."
           ],
           "worth_reading_full": true
         },
@@ -4047,9 +4047,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
-            "Key match: Kerr, EMRI.",
-            "Primary category: gr-qc.",
-            "Published about 9.5 days ago."
+            "This paper studies Shifted-geodesic approximation for spinning-body gravitational wave fluxes using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr, EMRI; published published about 9.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -4076,9 +4076,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: quasinormal mode.",
-            "Primary category: hep-th.",
-            "Published about 2.5 days ago."
+            "This paper studies Quasinormal Modes of Extremal Reissner-Nordstrom Black Holes via Seiberg-Witten Quantization using the approach described in the abstract. It is categorized under hep-th and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode; published published about 2.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -5887,9 +5887,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: ringdown.",
-            "Primary category: gr-qc.",
-            "Published about 2.6 days ago."
+            "This paper studies GWTC-4.0: Tests of General Relativity. I. Overview and General Tests using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: ringdown; published published about 2.6 days ago."
           ],
           "worth_reading_full": true
         },
@@ -5912,9 +5912,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: quasinormal mode.",
-            "Primary category: gr-qc.",
-            "Published about 2.7 days ago."
+            "This paper studies Analytic Expressions for Quasinormal Modes of a Regular Black Hole Sourced by a Dehnen-Type Halo using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: quasinormal mode; published published about 2.7 days ago."
           ],
           "worth_reading_full": true
         },
@@ -5941,9 +5941,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: Kerr.",
-            "Primary category: gr-qc.",
-            "Published about 2.7 days ago."
+            "This paper studies Thermodynamics of Kerr-Bertotti-Robinson black hole using the approach described in the abstract. It is categorized under gr-qc and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr; published published about 2.7 days ago."
           ],
           "worth_reading_full": true
         },
@@ -5972,9 +5972,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: Kerr.",
-            "Primary category: astro-ph.HE.",
-            "Published about 3.5 days ago."
+            "This paper studies Probing Kerr black hole in a uniform Bertotti-Robinson magnetic field through astrophysical quasi-periodic oscillations using the approach described in the abstract. It is categorized under astro-ph.HE and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with gravitational waves, black-hole perturbation theory, quasinormal modes and matches the watchlist focus Gravitational-Wave Physics.",
+            "Key words/topics: Kerr; published published about 3.5 days ago."
           ],
           "worth_reading_full": true
         }
@@ -6029,9 +6029,9 @@ window.ARXIV_DATA = {
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: quantum learning.",
-            "Primary category: quant-ph.",
-            "Published about 3.5 days ago."
+            "This paper studies Towards sample-optimal learning of bosonic Gaussian quantum states using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum learning; published published about 3.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -6053,13 +6053,13 @@ window.ARXIV_DATA = {
             "macroscopic quantum mechanics"
           ],
           "published": "2026-02-25T18:58:03+00:00",
-          "age_days": 24.4,
+          "age_days": 24.5,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
-            "Key match: optomechanics, macroscopic quantum mechanics.",
-            "Primary category: quant-ph.",
-            "Published about 24.4 days ago."
+            "This paper studies Quantum jumps in open cavity optomechanics and Liouvillian versus Hamiltonian exceptional points using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: optomechanics, macroscopic quantum mechanics; published published about 24.5 days ago."
           ],
           "worth_reading_full": true
         },
@@ -6080,13 +6080,13 @@ window.ARXIV_DATA = {
             "quantum measurement"
           ],
           "published": "2026-03-19T11:36:05+00:00",
-          "age_days": 2.7,
+          "age_days": 2.8,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: quantum measurement.",
-            "Primary category: quant-ph.",
-            "Published about 2.7 days ago."
+            "This paper studies If Quantum Measurements Are Secretly Continuous Nonunitary Processes, Weak Measurements Can Detect It using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum measurement; published published about 2.8 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6115,9 +6115,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: quantum measurement.",
-            "Primary category: quant-ph.",
-            "Published about 2.8 days ago."
+            "This paper studies Comment on \"Association between quantum paradoxes based on weak values and a realistic interpretation of quantum measurements\" using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum measurement; published published about 2.8 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6140,9 +6140,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: quantum control.",
-            "Primary category: quant-ph.",
-            "Published about 4.3 days ago."
+            "This paper studies Cache Hierarchy and Vectorization Analysis of Lindblad Master Equation Simulation for Near-Term Quantum Control using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum control; published published about 4.3 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6173,9 +6173,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: quantum noise.",
-            "Primary category: quant-ph.",
-            "Published about 5.5 days ago."
+            "This paper studies Quantum Noise Suppression at Scale with Crosstalk-Robust Gate Sets using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum noise; published published about 5.5 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6208,9 +6208,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: quantum metrology, quantum noise.",
-            "Primary category: quant-ph.",
-            "Published about 10.0 days ago."
+            "This paper studies Surpassing Quantum Noise Limits with Nonlinear Amplification using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum metrology, quantum noise; published published about 10.0 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6240,9 +6240,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
-            "Key match: optomechanics, quantum control.",
-            "Primary category: quant-ph.",
-            "Published about 10.8 days ago."
+            "This paper studies Dressed-State Optomechanics in the Few-Photon Regime using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: optomechanics, quantum control; published published about 10.8 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6269,9 +6269,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum metrology.",
-            "Primary category: quant-ph.",
-            "Published about 2.6 days ago."
+            "This paper studies Multiparameter quantum estimation and Stirling Engine Performance in a Gravitational Cat State System using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum metrology; published published about 2.6 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6304,9 +6304,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum control.",
-            "Primary category: quant-ph.",
-            "Published about 2.6 days ago."
+            "This paper studies XCOM: Full Mesh Network Synchronization and Low-Latency Communication for QICK (Quantum Instrumentation Control Kit) using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum control; published published about 2.6 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6333,9 +6333,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum metrology.",
-            "Primary category: quant-ph.",
-            "Published about 2.7 days ago."
+            "This paper studies Time-Multiplexed Distributed Quantum Sensing using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum metrology; published published about 2.7 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6368,9 +6368,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum noise.",
-            "Primary category: quant-ph.",
-            "Published about 2.9 days ago."
+            "This paper studies End-to-End QGAN-Based Image Synthesis via Neural Noise Encoding and Intensity Calibration using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum noise; published published about 2.9 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6395,9 +6395,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum measurement.",
-            "Primary category: quant-ph.",
-            "Published about 3.3 days ago."
+            "This paper studies Multi-Outcome Circuit Optimization for Enhanced Non-Gaussian State Generation using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum measurement; published published about 3.3 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6426,9 +6426,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum noise.",
-            "Primary category: quant-ph.",
-            "Published about 3.5 days ago."
+            "This paper studies Beyond VQE and QPE: A Noise- and Sampling-Error-Tolerant Quantum Algorithm with Heisenberg-Limited Precision using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum noise; published published about 3.5 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6458,9 +6458,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum control.",
-            "Primary category: quant-ph.",
-            "Published about 3.6 days ago."
+            "This paper studies Zeno and anti-Zeno effects in dark-state dynamics under thermal dephasing using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum control; published published about 3.6 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6490,9 +6490,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum nondemolition.",
-            "Primary category: quant-ph.",
-            "Published about 4.2 days ago."
+            "This paper studies Reinforcement Learning for Fast and Robust Longitudinal Qubit Readout using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum nondemolition; published published about 4.2 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6523,9 +6523,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum metrology.",
-            "Primary category: quant-ph.",
-            "Published about 4.2 days ago."
+            "This paper studies Efficient and flexible preparation of photonic NOON states in a superconducting system using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum metrology; published published about 4.2 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6552,9 +6552,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum noise.",
-            "Primary category: quant-ph.",
-            "Published about 4.6 days ago."
+            "This paper studies Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum noise; published published about 4.6 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6579,9 +6579,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: optomechanics.",
-            "Primary category: quant-ph.",
-            "Published about 4.9 days ago."
+            "This paper studies Tunable Rotation-Associated Slow-to-Fast Light Conversion via Optomagnonic Coupling using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: optomechanics; published published about 4.9 days ago."
           ],
           "worth_reading_full": false
         },
@@ -6611,9 +6611,9 @@ window.ARXIV_DATA = {
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "Key match: quantum control.",
-            "Primary category: quant-ph.",
-            "Published about 4.9 days ago."
+            "This paper studies A Scalable Open-Source QEC System with Sub-Microsecond Decoding-Feedback Latency using the approach described in the abstract. It is categorized under quant-ph and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            "Yanbei may care because it overlaps with Quantum Metrology/Macroscopic Quantum Mechanics and matches the watchlist focus Quantum Metrology/Macroscopic Quantum Mechanics.",
+            "Key words/topics: quantum control; published published about 4.9 days ago."
           ],
           "worth_reading_full": false
         }
