@@ -17,7 +17,7 @@ PREFS = ROOT / "config" / "preferences.json"
 PROFILE = ROOT / "config" / "yanbei_profile.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 DEFAULT_MAX_RESULTS = 80
-DEFAULT_TOP_N = 20
+DEFAULT_TOP_N = 10
 DEFAULT_MAX_AUTHORS = 3
 DEFAULT_RECENT_DAYS = 7
 DEFAULT_PDF_MAX_PAGES = 6
@@ -152,16 +152,14 @@ def published_datetime(entry):
 
 def recency_bonus(published_at, recent_days):
     if not published_at:
-        return 0
+        return None
     now = dt.datetime.now(dt.timezone.utc)
     age = (now - published_at).total_seconds() / 86400.0
-    if age <= recent_days:
+    if age <= 3:
         return 4
-    if age <= 14:
+    if age <= recent_days:
         return 2
-    if age <= 30:
-        return 1
-    return 0
+    return None
 
 
 def age_days(published_at):
@@ -188,10 +186,13 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
         category = primary.attrib.get("term", "") if primary is not None else ""
         raw_score, matched = score_entry(title, abstract, keywords)
         profile_boost, previous_hits, interest_hits = profile_score(title, abstract, profile)
+        published_at = published_datetime(entry)
+        bonus = recency_bonus(published_at, recent_days)
+        if bonus is None:
+            continue
         if raw_score == 0 and profile_boost == 0:
             continue
-        published_at = published_datetime(entry)
-        final_score = raw_score + profile_boost + recency_bonus(published_at, recent_days)
+        final_score = raw_score + profile_boost + bonus
         papers.append(
             {
                 "id": base_id,
@@ -273,7 +274,17 @@ def synthesize_with_openai(paper, watch, profile, pdf_text):
         ],
     )
     text_out = getattr(response, "output_text", "") or ""
-    return json.loads(text_out)
+    try:
+        return json.loads(text_out)
+    except json.JSONDecodeError:
+        start = text_out.find('{')
+        end = text_out.rfind('}')
+        if start != -1 and end != -1 and end > start:
+            try:
+                return json.loads(text_out[start:end+1])
+            except json.JSONDecodeError:
+                return None
+        return None
 
 
 def merge_synthesis(paper, synth, watch, profile):

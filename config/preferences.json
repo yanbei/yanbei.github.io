@@ -1,7 +1,7 @@
 {
   "display": {
     "max_authors": 3,
-    "top_n": 20,
+    "top_n": 10,
     "max_results": 80,
     "recent_days": 7,
     "pdf_max_pages": 6,
