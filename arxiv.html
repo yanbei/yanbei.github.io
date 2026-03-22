@@ -37,7 +37,10 @@
       try {
         const res = await fetch('data/arxiv.json', { cache: 'no-store' });
         const data = await res.json();
-        status.innerHTML = `<strong>Last updated:</strong> ${data.updated || 'unknown'}<br><strong>OpenAI synthesis:</strong> ${data.openai_enabled ? 'enabled' : 'metadata-only fallback'}<br><strong>Papers per watch:</strong> ${data.display?.top_n ?? 'unknown'}<br><strong>Displayed authors:</strong> first ${data.display?.max_authors ?? 'unknown'}`;
+        const display = data.display || {};
+        const papersPerWatch = typeof display.top_n !== 'undefined' ? display.top_n : 'unknown';
+        const maxAuthors = typeof display.max_authors !== 'undefined' ? display.max_authors : 'unknown';
+        status.innerHTML = `<strong>Last updated:</strong> ${data.updated || 'unknown'}<br><strong>OpenAI synthesis:</strong> ${data.openai_enabled ? 'enabled' : 'metadata-only fallback'}<br><strong>Papers per watch:</strong> ${papersPerWatch}<br><strong>Displayed authors:</strong> first ${maxAuthors}`;
         watches.innerHTML = (data.watches || []).map(w => `
           <section>
             <h2>${w.label}</h2>
