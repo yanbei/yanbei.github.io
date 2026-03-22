@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Yanbei Chen research website
+description: Yanbei Chen's Research Website
 ---
 
 <section class="hero">
