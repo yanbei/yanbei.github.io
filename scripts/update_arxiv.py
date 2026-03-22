@@ -17,6 +17,7 @@ NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/ato
 DEFAULT_MAX_RESULTS = 80
 DEFAULT_TOP_N = 20
 DEFAULT_MAX_AUTHORS = 3
+DEFAULT_RECENT_DAYS = 7
 
 
 def load_json(path, default):
@@ -67,9 +68,10 @@ def score_entry(title, summary, keywords):
     score = 0
     matched = []
     for kw in keywords:
-        if kw.lower() in hay:
+        kw_lower = kw.lower()
+        if kw_lower in hay:
             matched.append(kw)
-            score += 3 if kw.lower() in title.lower() else 2
+            score += 3 if kw_lower in title.lower() else 2
     if any(x in hay for x in ["gravitational-wave", "ligo", "virgo", "kagra"]):
         score += 2
     if "black hole" in hay:
@@ -95,7 +97,35 @@ def short_authors(authors, max_authors):
     return authors[:max_authors] + [f"et al. ({len(authors)} authors)"]
 
 
-def parse(xml_bytes, keywords, top_n, max_authors):
+def published_datetime(entry):
+    published = text(entry, "a:published")
+    if not published:
+        return None
+    return dt.datetime.fromisoformat(published.replace("Z", "+00:00"))
+
+
+def recency_bonus(published_at, recent_days):
+    if not published_at:
+        return 0
+    now = dt.datetime.now(dt.timezone.utc)
+    age_days = (now - published_at).total_seconds() / 86400.0
+    if age_days <= recent_days:
+        return 4
+    if age_days <= 14:
+        return 2
+    if age_days <= 30:
+        return 1
+    return 0
+
+
+def age_days(published_at):
+    if not published_at:
+        return None
+    now = dt.datetime.now(dt.timezone.utc)
+    return round((now - published_at).total_seconds() / 86400.0, 1)
+
+
+def parse(xml_bytes, keywords, top_n, max_authors, recent_days):
     root = ET.fromstring(xml_bytes)
     papers = []
     seen = set()
@@ -113,6 +143,8 @@ def parse(xml_bytes, keywords, top_n, max_authors):
         raw_score, matched = score_entry(title, abstract, keywords)
         if raw_score == 0:
             continue
+        published_at = published_datetime(entry)
+        final_score = raw_score + recency_bonus(published_at, recent_days)
         papers.append(
             {
                 "id": base_id,
@@ -122,11 +154,13 @@ def parse(xml_bytes, keywords, top_n, max_authors):
                 "category": category,
                 "abstract": abstract,
                 "matches": matched,
-                "relevance": relevance(raw_score),
-                "base_score": raw_score,
+                "published": published_at.isoformat() if published_at else "",
+                "age_days": age_days(published_at),
+                "relevance": relevance(final_score),
+                "base_score": final_score,
             }
         )
-    papers.sort(key=lambda p: (p["base_score"], p["id"]), reverse=True)
+    papers.sort(key=lambda p: (p["base_score"], p["published"], p["id"]), reverse=True)
     return papers[:top_n]
 
 
@@ -157,6 +191,8 @@ def synthesize_with_openai(paper, watch):
             "arxiv_id": paper["id"],
             "category": paper["category"],
             "abstract": paper["abstract"],
+            "published": paper.get("published", ""),
+            "age_days": paper.get("age_days"),
         },
         "return_schema": {
             "one_sentence_summary": "string",
@@ -179,9 +215,10 @@ def synthesize_with_openai(paper, watch):
 def merge_synthesis(paper, synth):
     if not synth:
         paper["summary"] = paper["abstract"]
+        age_note = f"Published about {paper['age_days']} days ago." if paper.get("age_days") is not None else "Publication date unavailable."
         paper["technical_bullets"] = [
             f"Matched keywords: {', '.join(paper['matches']) or 'none recorded'}.",
-            f"Primary category: {paper['category']}."
+            age_note,
         ]
         paper["worth_reading_full"] = paper["relevance"] >= 4
         return paper
@@ -201,9 +238,10 @@ def process_watch(watch, cache, display):
     max_results = display.get("max_results", DEFAULT_MAX_RESULTS)
     top_n = display.get("top_n", DEFAULT_TOP_N)
     max_authors = display.get("max_authors", DEFAULT_MAX_AUTHORS)
+    recent_days = display.get("recent_days", DEFAULT_RECENT_DAYS)
 
     xml = query_arxiv(categories, keywords, max_results)
-    papers = parse(xml, keywords, top_n, max_authors)
+    papers = parse(xml, keywords, top_n, max_authors, recent_days)
     enriched = []
 
     for paper in papers:
@@ -249,6 +287,7 @@ def main():
             "max_authors": display.get("max_authors", DEFAULT_MAX_AUTHORS),
             "top_n": display.get("top_n", DEFAULT_TOP_N),
             "max_results": display.get("max_results", DEFAULT_MAX_RESULTS),
+            "recent_days": display.get("recent_days", DEFAULT_RECENT_DAYS),
         },
         "watches": watch_results,
     }

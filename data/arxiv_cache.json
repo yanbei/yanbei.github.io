@@ -916,5 +916,158 @@
     ],
     "relevance": 1,
     "worth_reading_full": false
+  },
+  "gw::2603.19168": {
+    "summary": "We study the neutral scalar perturbations of asymptotically flat extremal Reissner-Nordström black holes via the quantum geometry of $\\mathcal{N}=2$ $\\mathrm{SU(2)}$ gauge theory with $N_f=2$ flavors. The master equation, given by a double confluent Heun equation, is mapped to the quantum Seiberg-Witten curve in the Nekrasov-Shatashvili limit. We compute the quasinormal mode frequencies non-perturbatively using the quantization condition derived from the Nekrasov-Shatashvili free energy. Our analytical results accurately reproduce the numerical benchmarks for massless fields, and capture the quasi-resonance behavior of massive probes at the strict extremal limit.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode.",
+      "Published about 2.5 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "gw::2603.19019": {
+    "summary": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
+    "technical_bullets": [
+      "Matched keywords: ringdown.",
+      "Published about 2.6 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "gw::2603.18887": {
+    "summary": "Using an expansion beyond the eikonal regime, we derive relatively compact and accurate analytic expressions for the gravitational quasinormal modes of an asymptotically flat black hole supported by a Dehnen-type dark-matter halo. The spacetime admits a simple analytic metric describing a supermassive black hole embedded in a galactic environment, with the lapse function $f(r)=1-\\frac{2 M r^{2}}{(r+a)^{3}}.$ The parameter $a$ sets the characteristic scale of the surrounding halo and controls the regularization of the central region. The axial gravitational sector splits into two distinct channels, referred to as the \"up\" and \"down\" perturbations, which are not isospectral.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode.",
+      "Published about 2.7 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "gw::2603.18821": {
+    "summary": "We investigate the thermodynamic properties of the Kerr-Bertotti-Robinson black hole, an exact Petrov type D solution of Einstein-Maxwell theory describing a rotating black hole immersed in an external electromagnetic field. While the conserved angular momentum and electric charge can be computed straightforwardly, the conserved mass cannot be obtained through standard integrability methods due to the nontrivial asymptotically uniform external electromagnetic field. To overcome this difficulty, we adopt the Christodoulou-Ruffini mass relation as a thermodynamic definition of the conserved mass, and identify the associated generator, thereby fixing the ambiguity in defining this conserved mass and constructing the thermodynamic potentials. These thermodynamic quantities naturally satisfy the first law of black-hole thermodynamics as well as the Smarr formula.",
+    "technical_bullets": [
+      "Matched keywords: Kerr.",
+      "Published about 2.7 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "gw::2603.18129": {
+    "summary": "In this study, the behavior of high-frequency quasi-periodic oscillations (QPOs) is investigated around a Kerr black hole immersed in a uniform Bertotti-Robinson magnetic field. The motion of the test particle is analyzed by determining the geodesic equations and evaluating the corresponding orbital, radial, and vertical epicyclic frequencies. These fundamental frequencies are used to construct the theoretical framework of QPO models based on parametric and forced resonance mechanisms. Observational data obtained from several black hole X-ray binaries (GRO J1655-40, XTE J1550-564, XTE J1859+226, GRS 1915+105, H1743-322, M82~X-1, and Sgr~A$^{*}$) are used to constrain the black hole parameters through Bayesian inference and Markov Chain Monte Carlo (MCMC) analyses. For the X-ray binaries GRO J1655-40, GRS 1915+105, H1743-322, and M82~X-1, nonzero values of the dimensionless parameter $b=Bm$ are obtained at the $68\\%$ confidence level within the framework of the parametric resonance model, while only upper bounds at the $90\\%$ confidence level are obtained for the remaining sources. In contrast, in the case of the forced resonance model, only an upper bound at the $90\\%$ confidence interval is obtained for the magnetic field parameter for all considered X-ray binary sources. The analysis indicates that the value of the magnetic field parameter is small but not negligible, producing minor modifications to particle dynamics and epicyclic frequencies. The influence of the magnetic field is further examined through the properties of the innermost stable circular orbit and the radiative properties of the thin accretion disk, including the energy flux and temperature profiles, within the allowed parameter range inferred from the MCMC analysis.",
+    "technical_bullets": [
+      "Matched keywords: Kerr.",
+      "Published about 3.5 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "qm::2603.19010": {
+    "summary": "We investigate the multiparameter quantum estimation and quantum thermodynamics properties of a gravitational cat state (gravcat) system composed of two interacting massive particles confined in double-well potentials. The system is described by an effective Hamiltonian involving the energy splitting parameter $ω$ and the gravitational coupling strength $γ$, while the interaction with a thermal environment is modeled through a Gibbs thermal state. Within the framework of quantum parameter estimation theory, we employ the quantum Fisher information matrix (QFIM) to analyze the precision limits for estimating the three fundamental parameters of the model, namely the gravitational coupling $γ$, the energy splitting $ω$, and the temperature $T$. Utilizing the symmetric logarithmic derivative (SLD) formalism within the QFIM framework, we derive the analytical expressions of the estimation bounds and evaluate the corresponding minimal variances associated with the quantum Cramér-Rao bound. Both simultaneous and individual estimation strategies are investigated, and their performances are compared in different parameter regimes. Our results reveal the existence of optimal estimation regions where the precision is significantly enhanced and show that the relative efficiency of the estimation schemes strongly depends on the interaction strength, the energy gap, and the thermal environment. In addition, the thermodynamic behavior of the system is analyzed within the framework of a quantum Stirling cycle. The internal energy, entropy, heat exchanges, and work production are examined, allowing us to evaluate the efficiency of the gravcat-based quantum heat engine. The obtained results highlight the interplay between quantum metrology and quantum thermodynamics.",
+    "technical_bullets": [
+      "Matched keywords: quantum metrology.",
+      "Published about 2.6 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.18977": {
+    "summary": "Quantum computing experiments and testbeds with large qubit counts have until recently been a privilege afforded only to large companies or quantum technologies where scaling to hundreds or thousands of qubits does not require a substantial increase in quantum control hardware (neutral atoms, trapped ions, or spin defects). Superconducting and spin qubit testbeds critically depend on scaling their control systems beyond what a single electronics board can provide. Multi-board control systems combining RF, fast DC control, bias, and readout require precise synchronization and communication across many hardware and firmware components. To address this, we present XCOM, a network that synchronizes QICK boards and the absolute clocks governing quantum program execution to within 100 ps, free of drift and loss of lock. XCOM also provides deterministic, all-to-all simultaneous data communication with latency below 185 ns. Like QICK itself, XCOM is compatible with a broad range of qubit technologies and is designed to scale to large systems.",
+    "technical_bullets": [
+      "Matched keywords: quantum control.",
+      "Published about 2.6 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.18807": {
+    "summary": "Quantum metrology enables parameter estimation beyond classical limits by exploiting nonclassical resources such as squeezing and entanglement. In distributed quantum sensing, Heisenberg scaling has been extended from $1/N^2$ to $1/(NM)^2$ through entanglement across both particles and spatial modes, where $N$ denotes the photon number and $M$ the number of spatially distributed modes. However, the overall sensitivity has remained limited to linear scaling with the number of measurement repetitions $R$. Here, we show that exploiting entanglement across temporal modes via time-domain multiplexing enables a scaling advantage with respect to $R$. As a result, the sensitivity can asymptotically approach simultaneous Heisenberg scaling in photons, spatial modes, and repetitions, yielding an overall sensitivity approaching $Δ^2 φ\\propto 1/(NMR)^2$. Using the Bogoliubov transformation formalism, we prove the optimality of the protocol within the class of Gaussian states and show that the scaling is realizable via homodyne detection and maximum-likelihood estimation. We further show that the advantage persists under optical loss and propose an experimentally feasible loop-based photonic sensing scheme. Our results open a route to incorporating time-multiplexing techniques into quantum metrology.",
+    "technical_bullets": [
+      "Matched keywords: quantum metrology.",
+      "Published about 2.7 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.18554": {
+    "summary": "Quantum Generative Adversarial Networks (QGANs) offer a promising path for learning data distributions on near-term quantum devices. However, existing QGANs for image synthesis avoid direct full-image generation, relying on classical post-processing or patch-based methods. These approaches dilute the quantum generator's role and struggle to capture global image semantics. To address this, we propose ReQGAN, an end-to-end framework that synthesizes an entire N=2^D-pixel image using a single D-qubit quantum circuit. ReQGAN overcomes two fundamental bottlenecks hindering direct pixel generation: (1) the rigid classical-to-quantum noise interface and (2) the output mismatch between normalized quantum statistics and the desired pixel-intensity space. We introduce a learnable Neural Noise Encoder for adaptive state preparation and a differentiable Intensity Calibration module to map measurements to a stable, visually meaningful pixel domain. Experiments on MNIST and Fashion-MNIST demonstrate that ReQGAN achieves stable training and effective image synthesis under stringent qubit budgets, with ablation studies verifying the contribution of each component.",
+    "technical_bullets": [
+      "Matched keywords: quantum noise.",
+      "Published about 2.9 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.18303": {
+    "summary": "Photonic quantum computing has gained significant interest in recent years due to its potential for scaling to large numbers of qubits. A critical requirement for fault-tolerant quantum computation is the reliable generation of non-Gaussian quantum states, typically achieved using Gaussian operations and photon-number-resolving detectors. However, the probabilistic nature of quantum measurement typically results in low success rates for state preparation. Conventionally, these circuits are optimized to herald a single specific target outcome, thereby disregarding the potential utility of alternative measurement patterns generated by the same physical setup. In this work, we propose and demonstrate a multi-outcome optimization strategy that increases the overall acceptance probability by allowing a single circuit to produce useful quantum states across several measurement patterns. To evaluate this approach, we apply the framework to the generation of Gottesman-Kitaev-Preskill core states, Schrodinger cat states, binomial codes, and cubic phase states using both two-mode and three-mode Gaussian circuits. We demonstrate that the success probability can be enhanced through two distinct mechanisms: first, by simultaneously targeting a diverse set of useful resource states, and second, by aggregating degenerate outcomes to maximize the production rate of a single target state.",
+    "technical_bullets": [
+      "Matched keywords: quantum measurement.",
+      "Published about 3.3 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.17953": {
+    "summary": "This paper introduces Witnessed Quantum Time Evolution (WQTE), a novel quantum algorithm for efficiently computing the eigen-energy spectra of arbitrary quantum systems without requiring eigenstate preparation-a key limitation of conventional approaches. By leveraging a single ancillary qubit to control real-time evolution operators and employing Fourier analysis, WQTE enables parallel resolution of multiple eigen-energies. Theoretical analysis demonstrates that the algorithm achieves Heisenberg-limited precision and operates with only a non-zero wavefunction overlap between the reference state and target eigenstates, significantly reducing initialization complexity. Numerical simulations validate the algorithm's effectiveness in molecular systems (e.g., H4 chains) and lattice models (e.g., Heisenberg spin systems), confirming that computational error scales inversely with maximum evolution time while maintaining robustness against sampling errors and quantum noise. Experimental implementation on an NMR quantum processor further verifies its feasibility in real-world noisy environments. Compared to existing quantum algorithms (e.g., VQE, QPE and their variants), WQTE exhibits superior circuit depth efficiency, resource economy, and noise resilience, making it a promising solution for eigen-energy computation on noisy intermediate-scale quantum (NISQ) devices.",
+    "technical_bullets": [
+      "Matched keywords: quantum noise.",
+      "Published about 3.5 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.17892": {
+    "summary": "The quantum Zeno and anti-Zeno effects describe how frequent measurements can either suppress or accelerate quantum dynamics. While extensively studied in various platforms, their manifestation in dark-state dynamics remains largely unexplored. Here we investigate the stability of dark states in a cavity QED system consisting of two atoms coupled to a single-mode cavity, subject to thermal dephasing that models continuous quantum non-demolition monitoring. Using the Tavis--Cummings model within a Lindblad master equation framework, we numerically analyze how measurement-induced dephasing affects dark-state retention and stabilization time. We identify distinct parameter regimes corresponding to Zeno and anti-Zeno behavior: at low dephasing intensities, increasing the measurement strength accelerates the loss of dark-state coherence (anti-Zeno regime), while at higher intensities, it slows down the dynamics and partially recovers dark-state weight (Zeno regime). The transition between these regimes is controlled by the dephasing rates, the cavity photon exchange, and the asymmetry in atom-field couplings. We show that even under strong dephasing, a finite dark-state component persists, demonstrating remarkable robustness. Our results provide insights into the interplay between measurement back-action and decoherence in open quantum systems, with implications for quantum control and information storage.",
+    "technical_bullets": [
+      "Matched keywords: quantum control.",
+      "Published about 3.5 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.18060": {
+    "summary": "Longitudinal coupling offers a compelling pathway for quantum nondemolition (QND) readout, but pulse design is constrained by hardware limitations such as the coupling strength and the photon number required to stay within the linear regime. We develop a reinforcement learning framework to optimize the longitudinal coupling waveform under such constraints. Building upon the theoretical foundation of shortcuts to adiabaticity (STA), we parameterize an auxiliary trajectory with cubic B-splines and reconstruct the physical control. At a fixed short readout time, the optimized pulse converges to a constraint saturating flat-top protocol and yields a approximately $50\\%$ improvement in $\\mathrm{SNR}$ over an STA baseline, while exhibiting enhanced robustness to parameter drifts. Simulation results demonstrate the efficacy of reinforcement learning in optimizing longitudinal readout pulses. The optimized protocol attains substantial performance gains and yields smooth, hardware-compatible waveforms governed by an interpretable ``saturate-and-hold'' mechanism.",
+    "technical_bullets": [
+      "Matched keywords: quantum nondemolition.",
+      "Published about 4.2 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.17253": {
+    "summary": "The NOON states play a critical role as physical resources in quantum information processing and quantum metrology, yet their preparation efficiency and applicability are often constrained by complicated operational procedures or the requirement for nonlinear interactions. In this paper, we propose an efficient protocol to generate the NOON states within two microwave cavities embedded in a superconducting system, assisted by an auxiliary five-level qudit. The state preparation is accomplished in three steps for an arbitrary photon number $N$ by adjusting only external classical fields, while keeping the qudit-cavity coupling strengths and the qudit level spacings fixed. Based on parameters accessible in superconducting systems, numerical simulations show that the protocol achieves relatively high fidelity for the NOON states preparation even in the presence of parameter fluctuations and decoherence effects. Thus, this protocol may provide a practical approach for preparing the NOON states with current technology. Notably, since nonlinear interactions are not required, the protocol is flexible and has the potential to be applied across various physical systems.",
+    "technical_bullets": [
+      "Matched keywords: quantum metrology.",
+      "Published about 4.2 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.16628": {
+    "summary": "We present a quantum dynamical study of pulsed few-photon scattering from a single artificial atom, consisting of a two-level system (TLS) or qubit, in a waveguide QED system, directly comparing and contrasting two different quantum theoretical simulation methods: (i) an input-output scattering approach that uses frequency-dependent scattering matrices, and (ii) a matrix product states (MPS) approach, which uses quantum noise operators in time bins and a tensor network technique to solve the time-dependent waveguide function for the entire system. Beginning with pulsed excitation using one-photon and two-photon Fock state pulses, we first show how to compute time-dependent observables with the scattering matrix approach, in terms of frequency integrals that encode the pulse spectrum, including how to extract the population dynamics of the excited quantum emitter, as well as the linear and nonlinear contributions. We present solutions for both symmetric and chiral TLS coupling. We then show how to compute the qubit and field observables in a more direct way using MPS, and obtain the characteristic bird-like shape for the two-photon correlation function at two times, which has been observed in recent experiments. We compare and contrast both of these methods, for one and two-photon excitation pulses, and show excellent agreement. We also present a study of the linear and nonlinear contributions, which can easily be calculated using scattering theory, and show the important role of pulse duration. Finally, we demonstrate the clear advantages of MPS by easily going to higher N-photon excitations, and show selected example population dynamics of up to eight-photon Fock-state pulses, manifesting in clear nonlinear population oscillations during the pulse interaction, similar to classical Rabi oscillations, but with quantum input fields that have a vanishing electric field expectation value.",
+    "technical_bullets": [
+      "Matched keywords: quantum noise.",
+      "Published about 4.6 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.16246": {
+    "summary": "Cavity optomechanics has enabled slow-to-fast light conversion, but traditional optomechanic systems suffer from limited tunability due to fixed mechanical frequencies. To address this constraint, we introduce a magnon degree of freedom into an optomechanical system, constructing a system that integrates photons, phonons, and magnons. We establish the theoretical model of the optomagnonic-Laguerre-Gaussian rotational system, and present numerical simulations of Fano resonances and group delay. By manipulating the magnon degree of freedom, we not only achieve slow-to-fast light conversion associated with magnons but also successfully realize such conversion effects associated with mechanical rotation-this achievement effectively overcomes the inherent tunability limitations of pure optomechanical systems and expands the frequency coverage of light conversion effects. Notably, we numerically demonstrate bidirectional light speed conversion (slow-to-fast and fast-to-slow) via continuous control field frequency modulation to tune cavity mode detuning. Additionally, our results show that adjusting optomagnonic parameters enables dynamic switching between slow light and fast light at multiple frequencies. This work provides a flexible platform for multi-frequency light speed control, with potential applications in all-optical networks and quantum communications.",
+    "technical_bullets": [
+      "Matched keywords: optomechanics.",
+      "Published about 4.9 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "qm::2603.16203": {
+    "summary": "Quantum error correction (QEC) is essential for realizing large-scale, fault-tolerant quantum computation, yet its practical implementation remains a major engineering challenge. In particular, QEC demands precise real-time control of a large number of qubits and low-latency, high-throughput and accurate decoding of error syndromes. While most prior work has focused primarily on decoder design, the overall performance of any QEC system depends critically on all its subsystems including control, communication, and decoding, as well as their integration. To address this challenge, we present an open-source, fully integrated QEC system built on RISC-Q, a generator for RISC-V-based quantum control architectures. Implemented on RFSoC FPGAs, our system prototype integrates real-time qubit control, a scalable distributed multi-board architecture, and the state-of-the-art hardware QEC decoder within a low-latency, high-throughput decoding pipeline, forming a complete hardware platform ready for deployment with superconducting qubits. Experimental evaluation on a three-board prototype based on AMD ZCU216 RFSoCs demonstrates an end-to-end QEC decoding-feedback latency of 446 ns for a distance-3 surface code, including syndrome aggregation, network communication, syndrome decoding, and error distribution. Extrapolating from measured subsystem performance and state-of-the-art decoder benchmarks, the architecture can achieve sub-microsecond decoding-feedback latency up to a distance-21 surface code ($\\sim$881 physical qubits) when scaled to larger hardware configurations.",
+    "technical_bullets": [
+      "Matched keywords: quantum control.",
+      "Published about 4.9 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
   }
 }

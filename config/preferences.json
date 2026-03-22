@@ -2,7 +2,8 @@
   "display": {
     "max_authors": 3,
     "top_n": 20,
-    "max_results": 80
+    "max_results": 80,
+    "recent_days": 7
   },
   "watches": [
     {
