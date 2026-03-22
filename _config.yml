@@ -1,0 +1,36 @@
+title: Yanbei Chen
+description: Theoretical Physicist
+email: your.email@example.edu
+baseurl: ""
+url: "https://yanbei.github.io"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - .env
+  - .env.example
+  - scripts/
+  - config/
+  - .openclaw/
+  - AGENTS.md
+  - SOUL.md
+  - USER.md
+  - TOOLS.md
+  - BOOTSTRAP.md
+  - HEARTBEAT.md
+  - IDENTITY.md
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Group
+    url: /group/
+  - title: Alumni
+    url: /alumni/
+  - title: Publications
+    url: /publications/
+  - title: arXiv Watch
+    url: /arxiv/
+  - title: Contact
+    url: /contact/
