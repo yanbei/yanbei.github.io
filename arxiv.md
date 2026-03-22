@@ -21,9 +21,8 @@ permalink: /arxiv/
               <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
               <h3>${p.title}</h3>
               <p><strong>Authors:</strong> ${(p.authors_short || p.authors).join(', ')}</p>
-              <p>${p.summary}</p>
               <ul>
-                ${(p.technical_bullets || []).map(b => `<li>${b}</li>`).join('')}
+                ${(p.summary_bullets || []).map(b => `<li>${b}</li>`).join('')}
               </ul>
             </article>
           `).join('')}

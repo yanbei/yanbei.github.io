@@ -108,12 +108,12 @@ def recency_bonus(published_at, recent_days):
     if not published_at:
         return 0
     now = dt.datetime.now(dt.timezone.utc)
-    age_days = (now - published_at).total_seconds() / 86400.0
-    if age_days <= recent_days:
+    age = (now - published_at).total_seconds() / 86400.0
+    if age <= recent_days:
         return 4
-    if age_days <= 14:
+    if age <= 14:
         return 2
-    if age_days <= 30:
+    if age <= 30:
         return 1
     return 0
 
@@ -176,7 +176,7 @@ def synthesize_with_openai(paper, watch):
     client = OpenAI(api_key=api_key)
     system = (
         "You are curating arXiv papers for a researcher. Use only the supplied metadata. "
-        "Be concise and technical. Return strict JSON only."
+        "Return exactly three concise technical bullets in strict JSON."
     )
     user = {
         "watch": {
@@ -195,8 +195,7 @@ def synthesize_with_openai(paper, watch):
             "age_days": paper.get("age_days"),
         },
         "return_schema": {
-            "one_sentence_summary": "string",
-            "technical_bullets": ["string", "string"],
+            "summary_bullets": ["string", "string", "string"],
             "relevance_score": "integer 1-5",
             "worth_reading_full": "boolean"
         }
@@ -214,19 +213,18 @@ def synthesize_with_openai(paper, watch):
 
 def merge_synthesis(paper, synth):
     if not synth:
-        paper["summary"] = paper["abstract"]
         age_note = f"Published about {paper['age_days']} days ago." if paper.get("age_days") is not None else "Publication date unavailable."
-        paper["technical_bullets"] = [
-            f"Matched keywords: {', '.join(paper['matches']) or 'none recorded'}.",
+        paper["summary_bullets"] = [
+            f"Key match: {', '.join(paper['matches']) or 'none recorded'}.",
+            f"Primary category: {paper['category']}.",
             age_note,
         ]
         paper["worth_reading_full"] = paper["relevance"] >= 4
         return paper
-    paper["summary"] = synth.get("one_sentence_summary", paper["abstract"])
-    bullets = synth.get("technical_bullets", [])[:2]
-    while len(bullets) < 2:
+    bullets = synth.get("summary_bullets", [])[:3]
+    while len(bullets) < 3:
         bullets.append("No extra technical note provided.")
-    paper["technical_bullets"] = bullets
+    paper["summary_bullets"] = bullets
     paper["relevance"] = max(1, min(5, int(synth.get("relevance_score", paper["relevance"]))))
     paper["worth_reading_full"] = bool(synth.get("worth_reading_full", paper["relevance"] >= 4))
     return paper
@@ -248,7 +246,7 @@ def process_watch(watch, cache, display):
         cache_key = f"{watch['id']}::{paper['id']}"
         cached = cache.get(cache_key)
         if cached:
-            for key in ["summary", "technical_bullets", "relevance", "worth_reading_full"]:
+            for key in ["summary_bullets", "relevance", "worth_reading_full"]:
                 if key in cached:
                     paper[key] = cached[key]
             enriched.append(paper)
@@ -256,8 +254,7 @@ def process_watch(watch, cache, display):
         synth = synthesize_with_openai(paper, watch)
         paper = merge_synthesis(paper, synth)
         cache[cache_key] = {
-            "summary": paper["summary"],
-            "technical_bullets": paper["technical_bullets"],
+            "summary_bullets": paper["summary_bullets"],
             "relevance": paper["relevance"],
             "worth_reading_full": paper["worth_reading_full"],
         }
