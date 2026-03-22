@@ -24,10 +24,8 @@ navigation:
     url: /
   - title: Research
     url: /research/
-  - title: Group
-    url: /group/
-  - title: Alumni
-    url: /alumni/
+  - title: People
+    url: /people/
   - title: Publications
     url: /publications/
   - title: arXiv Watch

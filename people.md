@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Group
-permalink: /group/
+title: People
+permalink: /people/
 ---
 
 <h2>Current group members</h2>
@@ -14,4 +14,9 @@ permalink: /group/
   <li><strong>Andrew Laeuger</strong> — Graduate Student</li>
   <li><strong>Colin Weller</strong> — Graduate Student</li>
   <li><strong>Jiaxiang Zhu</strong> — Graduate Student</li>
+</ul>
+
+<h2>Alumni</h2>
+<ul class="people-list">
+  <li><strong>Name</strong> — Former position; now at Institution</li>
 </ul>
