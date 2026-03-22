@@ -14,7 +14,7 @@ permalink: /arxiv/
   function renderWatchPanel(w) {
     return `
       <section class="tab-panel" data-watch-panel="${w.id}">
-        <p class="page-intro"><strong>Categories:</strong> ${w.categories.join(', ')}<br><strong>Keywords:</strong> ${w.keywords.join(', ')}</p>
+        <p class="page-intro"><strong>Categories:</strong> ${w.categories.join(', ')}</p>
         <div class="paper-list">
           ${w.papers.map(p => `
             <article class="paper">
