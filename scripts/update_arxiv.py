@@ -361,27 +361,32 @@ def process_watch(watch, cache, display, global_profile):
         cache_key = f"{watch['id']}::{paper['id']}"
         cached = cache.get(cache_key)
         archived = load_archive_entry(paper['id'])
+        openai_available = bool(os.getenv("OPENAI_API_KEY"))
         if cached:
-            for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
-                if key in cached:
-                    paper[key] = cached[key]
-            enriched.append(paper)
-            continue
+            cached_is_fallback = not cached.get("used_openai", False)
+            if not (openai_available and cached_is_fallback):
+                for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
+                    if key in cached:
+                        paper[key] = cached[key]
+                enriched.append(paper)
+                continue
         if archived:
-            paper["featured"] = True
-            for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
-                if key in archived:
-                    paper[key] = archived[key]
-            enriched.append(paper)
-            cache[cache_key] = {
-                "summary_bullets": paper.get("summary_bullets", []),
-                "relevance": paper.get("relevance"),
-                "worth_reading_full": paper.get("worth_reading_full"),
-                "used_openai": paper.get("used_openai", False),
-                "used_pdf_text": paper.get("used_pdf_text", False),
-                "pdf_text_chars": paper.get("pdf_text_chars", 0)
-            }
-            continue
+            archived_is_fallback = not archived.get("used_openai", False)
+            if not (openai_available and archived_is_fallback):
+                paper["featured"] = True
+                for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
+                    if key in archived:
+                        paper[key] = archived[key]
+                enriched.append(paper)
+                cache[cache_key] = {
+                    "summary_bullets": paper.get("summary_bullets", []),
+                    "relevance": paper.get("relevance"),
+                    "worth_reading_full": paper.get("worth_reading_full"),
+                    "used_openai": paper.get("used_openai", False),
+                    "used_pdf_text": paper.get("used_pdf_text", False),
+                    "pdf_text_chars": paper.get("pdf_text_chars", 0)
+                }
+                continue
         pdf_text = extract_pdf_text(paper.get("pdf_url", ""), pdf_max_pages, pdf_max_chars)
         paper["used_pdf_text"] = bool(pdf_text)
         paper["pdf_text_chars"] = len(pdf_text) if pdf_text else 0

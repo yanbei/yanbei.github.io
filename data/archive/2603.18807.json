@@ -1,0 +1,22 @@
+{
+  "id": "2603.18807",
+  "title": "Time-Multiplexed Distributed Quantum Sensing",
+  "authors": [
+    "Hanbom Yoo",
+    "Hyukgun Kwon",
+    "Seongjin Hong"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-19T11:57:38+00:00",
+  "summary_bullets": [
+    "This paper studies Time-Multiplexed Distributed Quantum Sensing using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
+    "Key words/topics: quantum metrology; published about 2.8 days ago."
+  ],
+  "relevance": 3,
+  "worth_reading_full": false,
+  "used_openai": false,
+  "used_pdf_text": false,
+  "pdf_text_chars": 0,
+  "featured": true
+}

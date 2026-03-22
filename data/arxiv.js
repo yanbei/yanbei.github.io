@@ -1,6 +1,6 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T00:59:31-07:00",
-  "openai_enabled": true,
+  "updated": "2026-03-22T01:06:08-07:00",
+  "openai_enabled": false,
   "display": {
     "max_authors": 3,
     "top_n": 15,
@@ -6131,7 +6131,7 @@ window.ARXIV_DATA = {
             "quantum measurement"
           ],
           "published": "2026-03-19T11:36:05+00:00",
-          "age_days": 2.8,
+          "age_days": 2.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": false,
@@ -6143,7 +6143,7 @@ window.ARXIV_DATA = {
           "summary_bullets": [
             "This paper studies If Quantum Measurements Are Secretly Continuous Nonunitary Processes, Weak Measurements Can Detect It using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
             "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-            "Key words/topics: quantum measurement; published about 2.8 days ago."
+            "Key words/topics: quantum measurement; published about 2.9 days ago."
           ],
           "worth_reading_full": false
         },
