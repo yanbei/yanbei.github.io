@@ -15,8 +15,11 @@
       "keywords": [
         "gravitational waves",
         "quasinormal mode",
-        "QNM",
         "ringdown",
+        "inspiral",
+        "merger",
+        "binary black hole",
+        "binary neutron star",
         "black hole perturbation",
         "Kerr",
         "Teukolsky",
@@ -25,20 +28,32 @@
       "previous_work": [
         "post-Newtonian expansion",
         "statistical methods for gravitational-wave data analysis",
+        "template bank",
         "black-hole perturbation theory",
-        "strategies for testing general relativity",
+        "testing general relativity",
         "neutron star tidal interactions",
         "three-body dynamics",
-        "extreme-mass-ratio inspirals"
+        "extreme-mass-ratio inspirals",
+        "gravitational-wave memory"
       ],
       "current_interest": [
-        "astrophysical populations of gravitational-wave sources"
+        "astrophysical populations of gravitational-wave sources",
+        "nature of dark matter",
+        "nature of dark energy",
+        "cosmic evolution",
+        "strong-gravity tests tied to observables",
+        "black holes",
+        "event horizon",
+        "hawking radiation",
+        "black hole information paradox",
+        "gravitational-wave tails",
+        "nonlinear oscillations of black holes",
+        "nonlinear gravitational-wave interactions"
       ],
       "prioritize": [
         "gravitational waves",
         "black-hole perturbation theory",
         "quasinormal modes",
-        "ringdown",
         "Kerr black holes",
         "Teukolsky formalism",
         "EMRIs",
@@ -67,20 +82,39 @@
         "quantum nondemolition",
         "quantum backaction",
         "quantum gravity",
-        "experimental signatures of quantum gravity"
+        "experimental signatures of quantum gravity",
+        "standard quantum limit",
+        "quantum error correction"
       ],
-      "previous_work": [],
+      "previous_work": [
+        "quantum noise in interferometers",
+        "quantum measurement theory",
+        "quantum trajectories",
+        "quantum nondemolition measurements",
+        "back-action evasion",
+        "optomechanics"
+      ],
       "current_interest": [
-        "nature of dark matter and dark energy",
-        "cosmic evolution",
-        "experimental signatures of quantum gravity"
+        "quantum learning",
+        "quantum error correction",
+        "gravity-induced decoherence",
+        "gravity-induced entanglement",
+        "experimental signatures of quantum gravity",
+        "quantum gravity phenomenology",
+        "quantum gravity effects in tabletop experiments",
+        "quantum gravity effects in optomechanical systems",
+        "foundations of quantum mechanics"
       ],
-      "prioritize": [],
+      "prioritize": [
+        "observational signatures",
+        "experimental signatures",
+        "theoretical work that clearly impacts observables"
+      ],
       "deprioritize": [],
       "notes": [
         "Related to research of Yanbei Chen and collaborators.",
         "Observational signature of quantum gravity.",
-        "Theory-only work is fine if it clearly impacts observables."
+        "Application of Quantum Information Science to quantum metrology and macroscopic quantum mechanics."
       ]
     }
   ]
