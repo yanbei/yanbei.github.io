@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import datetime as dt
 import json
-import re
+import os
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -21,10 +21,19 @@ KEYWORDS = [
 ]
 MAX_RESULTS = 40
 TOP_N = 12
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5-mini")
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "arxiv.json"
+CACHE = ROOT / "data" / "arxiv_cache.json"
+PREFS = ROOT / "config" / "preferences.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
+
+
+def load_json(path, default):
+    if not path.exists():
+        return default
+    return json.loads(path.read_text())
 
 
 def query_arxiv():
@@ -103,19 +112,101 @@ def parse(xml_bytes):
                 "title": title,
                 "authors": authors,
                 "category": category,
-                "summary": summary,
+                "abstract": summary,
                 "matches": matched,
                 "relevance": relevance(raw_score),
-                "score": raw_score,
+                "base_score": raw_score,
             }
         )
-    papers.sort(key=lambda p: (p["score"], p["id"]), reverse=True)
+    papers.sort(key=lambda p: (p["base_score"], p["id"]), reverse=True)
     return papers[:TOP_N]
 
 
+def synthesize_with_openai(paper, prefs):
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        return None
+    try:
+        from openai import OpenAI
+    except ImportError:
+        return None
+
+    client = OpenAI(api_key=api_key)
+    system = (
+        "You are curating arXiv papers for a gravitational-wave and black-hole-perturbation researcher. "
+        "Use only the supplied metadata. Do not invent claims. Return strict JSON."
+    )
+    user = {
+        "taste": prefs,
+        "paper": {
+            "title": paper["title"],
+            "authors": paper["authors"],
+            "arxiv_id": paper["id"],
+            "category": paper["category"],
+            "abstract": paper["abstract"],
+        },
+        "return_schema": {
+            "one_sentence_summary": "string",
+            "technical_bullets": ["string", "string"],
+            "relevance_score": "integer 1-5",
+            "worth_reading_full": "boolean"
+        }
+    }
+    response = client.responses.create(
+        model=MODEL,
+        input=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": json.dumps(user, ensure_ascii=False)},
+        ],
+    )
+    text_out = getattr(response, "output_text", "") or ""
+    return json.loads(text_out)
+
+
+def merge_synthesis(paper, synth):
+    if not synth:
+        paper["summary"] = paper["abstract"]
+        paper["technical_bullets"] = [
+            f"Matched keywords: {', '.join(paper['matches']) or 'none recorded'}.",
+            f"Primary category: {paper['category']}."
+        ]
+        paper["worth_reading_full"] = paper["relevance"] >= 4
+        return paper
+    paper["summary"] = synth.get("one_sentence_summary", paper["abstract"])
+    bullets = synth.get("technical_bullets", [])[:2]
+    while len(bullets) < 2:
+        bullets.append("No extra technical note provided.")
+    paper["technical_bullets"] = bullets
+    paper["relevance"] = max(1, min(5, int(synth.get("relevance_score", paper["relevance"]))))
+    paper["worth_reading_full"] = bool(synth.get("worth_reading_full", paper["relevance"] >= 4))
+    return paper
+
+
 def main():
+    prefs = load_json(PREFS, {})
+    cache = load_json(CACHE, {})
     xml = query_arxiv()
     papers = parse(xml)
+
+    enriched = []
+    for paper in papers:
+        cached = cache.get(paper["id"])
+        if cached:
+            for key in ["summary", "technical_bullets", "relevance", "worth_reading_full"]:
+                if key in cached:
+                    paper[key] = cached[key]
+            enriched.append(paper)
+            continue
+        synth = synthesize_with_openai(paper, prefs)
+        paper = merge_synthesis(paper, synth)
+        cache[paper["id"]] = {
+            "summary": paper["summary"],
+            "technical_bullets": paper["technical_bullets"],
+            "relevance": paper["relevance"],
+            "worth_reading_full": paper["worth_reading_full"],
+        }
+        enriched.append(paper)
+
     payload = {
         "updated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
         "categories": CATEGORIES,
@@ -130,11 +221,13 @@ def main():
             "modified gravity",
             "quantum gravity signatures",
         ],
-        "papers": papers,
+        "openai_enabled": bool(os.getenv("OPENAI_API_KEY")),
+        "papers": enriched,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
-    print(f"Wrote {len(papers)} papers to {OUT}")
+    CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
+    print(f"Wrote {len(enriched)} papers to {OUT}")
 
 
 if __name__ == "__main__":

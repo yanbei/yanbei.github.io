@@ -20,13 +20,19 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install openai
+
       - name: Update arXiv data
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-5-mini
         run: python scripts/update_arxiv.py
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/arxiv.json
+          git add data/arxiv.json data/arxiv_cache.json
           git diff --cached --quiet || git commit -m "Update arXiv watch"
           git push

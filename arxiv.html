@@ -25,7 +25,7 @@
 
   <main class="wrap">
     <h2>Relevant new arXiv papers</h2>
-    <p class="page-intro">This page is generated from <code>data/arxiv.json</code> by a GitHub Actions workflow. Edit <code>scripts/update_arxiv.py</code> to change categories, keywords, or ranking rules.</p>
+    <p class="page-intro">This page is generated from <code>data/arxiv.json</code>. The updater can use OpenAI summaries keyed to your research taste when <code>OPENAI_API_KEY</code> is configured in GitHub Actions.</p>
     <div id="status" class="card">Loading papers…</div>
     <div id="papers" class="paper-list"></div>
   </main>
@@ -37,13 +37,16 @@
       try {
         const res = await fetch('data/arxiv.json', { cache: 'no-store' });
         const data = await res.json();
-        status.innerHTML = `<strong>Last updated:</strong> ${data.updated || 'unknown'}<br><strong>Tracked categories:</strong> ${data.categories.join(', ')}<br><strong>Keywords:</strong> ${data.keywords.join(', ')}`;
+        status.innerHTML = `<strong>Last updated:</strong> ${data.updated || 'unknown'}<br><strong>Tracked categories:</strong> ${data.categories.join(', ')}<br><strong>Keywords:</strong> ${data.keywords.join(', ')}<br><strong>OpenAI synthesis:</strong> ${data.openai_enabled ? 'enabled' : 'metadata-only fallback'}`;
         papers.innerHTML = data.papers.map(p => `
           <article class="paper">
-            <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span></div>
+            <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
             <h3>${p.title}</h3>
             <p><strong>Authors:</strong> ${p.authors.join(', ')}</p>
             <p>${p.summary}</p>
+            <ul>
+              ${(p.technical_bullets || []).map(b => `<li>${b}</li>`).join('')}
+            </ul>
           </article>
         `).join('');
       } catch (err) {

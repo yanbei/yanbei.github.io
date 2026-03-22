@@ -1,0 +1,110 @@
+{
+  "2603.19021": {
+    "summary": "This is the third paper of the set recording the results of the suite of tests of general relativity (GR) performed on the signals from the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), where we focus on the remnants of the binary mergers. We examine for the first time 42 events from the first part of the fourth observing run of the LIGO-Virgo-KAGRA detectors, alongside events from the previous observation runs, restricting our analysis to the confident signals, which were measured in at least two detectors and that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. This paper focuses on seven tests of the coalescence remnants. Three of these are tests of the ringdown and its consistency with the expected quasinormal mode spectrum of a Kerr black hole. Specifically, two tests analyze just the ringdown in the time domain, and the third test analyzes the entire signal in the frequency domain. Four tests allow for the existence of possible echoes arriving after the end of the ringdown, which are not expected in GR. We find overall consistency of the remnants with GR. When combining events by multiplying likelihoods (hierarchically), one analysis finds that the GR prediction lies at the boundary of the $98.6^{+1.4}_{-9.4}\\%$ ($99.3^{+0.7}_{-4.5}\\%$) credible region, an increase from $93.8^{+6.1}_{-20.0}\\%$ ($94.9^{+4.4}_{-18.2}\\%$) for GWTC-3.0. Here the ranges of values comes from bootstrapping to account for the finite number of events analyzed and suggest that some of the apparently significant deviation could be attributed to variance due to the finite catalog. Since the significance also decreases to 92.2% (96.2%) when including the more recent very loud event GW250114, there is no strong evidence for a GR deviation. We find no evidence for post-merger echoes in the events that were analyzed. (Abridged)",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode, ringdown, kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "2603.15740": {
+    "summary": "Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode, qnm, ringdown.",
+      "Primary category: astro-ph.HE."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "2603.15979": {
+    "summary": "We derive general formulas for quasi-normal mode (QNM) frequencies of hairy black holes by exploiting the QNM--geodesic correspondence. The black hole hair is treated as an anisotropic fluid perturbatively added to the vacuum black holes (Schwarzschild and Kerr black holes). Under this setting, independent of energy conditions, our formulas offer a systematic method to compute quasi-normal mode frequencies for a broad class of hairy black holes.",
+    "technical_bullets": [
+      "Matched keywords: qnm, ringdown, kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "2603.13637": {
+    "summary": "Extreme Mass Ratio Inspirals (EMRIs) constitute a prime target for future space-based gravitational-wave observatories such as LISA. In this paper, we analytically investigate the long-term phase shift (dephasing) in the gravitational wave signal induced by a first-order quantum chromodynamics (QCD) phase transition within a neutron star orbiting a supermassive Kerr black hole. By modeling the transition from a hadronic phase to a quark core phase, we quantify the sudden change in the tidal deformability ($Λ$) of the secondary object. Utilizing the Teukolsky formalism and Post-Newtonian expansions, we derive a strict analytical scaling law for the accumulated dephasing. We demonstrate that the Kerr spin parameter $a$ and the critical phase transition orbital velocity $v_c$ significantly amplify the dephasing effect. Our analytical framework provides a robust tool for probing the non-perturbative QCD equation of state at high baryon densities using gravitational wave astronomy.",
+    "technical_bullets": [
+      "Matched keywords: teukolsky, kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true
+  },
+  "2603.15474": {
+    "summary": "The merger-ringdown radiation from a black hole binary merger is accurately modeled by a sum of linear quasinormal modes (QNMs). Recently, a non-QNM ``direct wave\" component of the radiation, associated with prompt emission from a plunging perturber, has been identified. Motivated by the behavior of null geodesics perturbed from the remnant light ring, the Backwards One Body (BOB) approach has been shown to model the full merger-ringdown radiation to high accuracy, while using only a minimal number of parameters. In this work, using the Pöschl--Teller potential, we first show how the BOB amplitude evolution can be recovered from the QNM pole contributions. We then apply rational filters to isolate the non-QNM content in BOB and numerical relativity waveforms. We show that BOB naturally captures the direct wave component of the merger radiation, explaining its accuracy near the waveform peak. Finally, we use BOB to show that the direct wave frequency is largely uncorrelated with the horizon frequency, even for high spin remnants, and instead tracks the News frequency at the time of the peak News amplitude.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode, qnm, ringdown.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.17911": {
+    "summary": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author, and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
+    "technical_bullets": [
+      "Matched keywords: teukolsky, kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.14872": {
+    "summary": "We study the quasinormal spectrum of massless scalar fields propagating on a family of regular BTZ black holes arising from an infinite tower of dimensionally regularized Lovelock corrections. These geometries are asymptotically AdS, reduce to the standard BTZ solution in the limit $\\ell \\to 0$, and resolve the central singularity by introducing a smooth core controlled by the new length scale $\\ell$. The scalar quasinormal modes are computed using both Leaver's continued-fraction method and the Horowitz-Hubeny power-series method; the two approaches agree to high accuracy across the parameter space. We find that the regularization preserves linear stability ($ω_I < 0$) while qualitatively reshaping the spectrum: as $\\ell$ increases, BTZ-like complex branches collide with the imaginary axis and undergo a hierarchy of bifurcations into multiple purely imaginary branches, leading to mode switching and a nontrivial reordering of overtones as functions of $\\ell$ and the harmonic index $m$. Our results place regular BTZ black holes within the emerging family of bifurcating quasinormal spectra known from nearly extremal and asymptotically AdS black holes, and highlight these $(2+1)$-dimensional geometries as a controlled arena for exploring geometric mechanisms behind spectral branching and late-time ringdown in regular black hole spacetimes.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode, ringdown.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.13482": {
+    "summary": "Extreme-mass-ratio inspirals (EMRIs) are among the most promising sources for future space-based gravitational-wave (GW) detectors, such as LISA. To fully leverage the scientific potential, the GW templates required for parameter estimation must be modeled with high accuracy for eccentric precessing binary systems with nonzero spins. This work introduces a practical and efficient framework for incorporating the effects of secondary spin in fully generic, eccentric, and offequatorial EMRIs to the first postadiabatic order. We utilize recently found analytic solutions for the trajectories of spinning bodies in Kerr spacetime to significantly simplify the calculation of the corresponding asymptotic GW fluxes. Furthermore, thanks to the recently proven flux-balance laws, we show how to express the rates of change of the constants of motion, including the Carter-Rüdiger constant, using asymptotic Teukolsky amplitudes and purely geodesic functions that are already established in the literature. Finally, we show how this framework performs in the case of nearly-spherical inspirals and demonstrate that the resulting spin-induced phase shifts are gauge independent. A Wolfram Mathematica implementation of the code developed in this work is publicly available in the KerrSpinningFluxes package.",
+    "technical_bullets": [
+      "Matched keywords: teukolsky, kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.12919": {
+    "summary": "In this work, we construct a perturbative black hole (BH) solution motivated by renormalization group (RG) improvement and investigate the quasinormal modes (QNMs) of the BH under scalar field perturbations in both Schwarzschild-de Sitter (SdS) and Schwarzschild-anti-de Sitter (SAdS) backgrounds. To compute the QNMs in the SdS spacetime, we employ the 6th-order Padé-averaged WKB approximation method, while for the SAdS background we utilize the direct shooting method. We examine the dependence of the QNM frequencies on the free parameter of the solution. Furthermore, we analyze the time evolution of a scalar field perturbation around the BH and present the corresponding time-domain profiles. The QNMs are also extracted from the time-domain data using the matrix pencil method. Using the extracted QNM frequencies, we reconstruct the waveform and compare it with the original time-domain profile, finding good agreement between the two. The QNM frequencies obtained from the 6th-order Padé-averaged WKB method and the time-domain analysis in the SdS background, as well as those obtained from the direct shooting method and time-domain analysis in the SAdS spacetime, show very good consistency.",
+    "technical_bullets": [
+      "Matched keywords: quasinormal mode, qnm.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.12032": {
+    "summary": "Gravitational waves (GW) emitted by binary systems allow us to perform precision tests of general relativity in the strong field regime. Ringdown signals allow for probing black hole mass and spin with high precision in GW astronomy. With improvements in current and next-generation GW detectors, developing likelihood-free parameter inference methods is crucial. This is especially important when facing challenges such as non-standard noise, partial data, or incomplete signal models that prevent the use of analytical likelihood functions. In this work, we propose an amortized simulation-based inference strategy to estimate ringdown parameters directly. Specifically, our method is based on amortized neural posterior estimation, which trains a neural density estimator of the posterior for all data segments within the prior range. The results show that our trained amortized network achieves statistically consistent parameter estimates with valid confidence coverage compared to established Markov-chain methods, while offering inference speeds that are orders of magnitude faster. Furthermore, we evaluate the robustness of the method against transient noise contamination. Our analysis reveals that the timing of glitch injection has a decisive impact on estimation bias, particularly during the tail of a signal with sparse information. Glitch strength is positively correlated with estimation error, but has limited effect at low signal-to-noise ratios. Mass and spin parameters are most sensitive to noise. This study not only provides an efficient and accurate inference framework for ringdown analysis but also lays a foundation for developing robust data-processing pipelines for future GW astronomy in realistic noise environments.",
+    "technical_bullets": [
+      "Matched keywords: ringdown.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false
+  },
+  "2603.19020": {
+    "summary": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$ from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to $m_g \\leq 1.92\\times 10^{-23} \\mathrm{eV}/c^2$. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
+    "technical_bullets": [
+      "Matched keywords: kerr.",
+      "Primary category: gr-qc."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false
+  },
+  "2603.18075": {
+    "summary": "Extreme mass-ratio inspirals (EMRIs), comprising a stellar-mass compact object (CO) orbiting a supermassive black hole (BH), are key targets for future space-based gravitational-wave (GW) observatories. Incorporating the spin of the secondary body into waveform models not only enhances measurement precision but also offers insight into the spin distribution of stellar-mass objects. In this work, we construct the flux and waveform for an EMRI with a spinning secondary in a Kerr background under the linear-spin approximation. Using the radiative prescription (half-retarded minus half-advanced field), we derive orbit-averaged evolution equations for the fundamental constants of motion, including the energy, angular momentum, Carter-like constant, and the parallel spin component. This framework provides a tractable route to generating waveforms that incorporate the secondary spin, with the potential for further simplification in future work.",
+    "technical_bullets": [
+      "Matched keywords: kerr.",
+      "Primary category: astro-ph.HE."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false
+  }
+}

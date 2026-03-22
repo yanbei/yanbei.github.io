@@ -23,11 +23,29 @@ This repo is a GitHub Pages starter for a personal research website with an auto
 
 - Edit `index.html` and the other `.html` files with your content
 - Edit `style.css` for the look
-- Edit `scripts/update_arxiv.py` to change categories, keywords, and ranking
+- Edit `config/preferences.json` to encode your taste
+- Edit `scripts/update_arxiv.py` to change categories, keywords, ranking, and synthesis behavior
+
+## OpenAI synthesis
+
+If `OPENAI_API_KEY` is set, the updater will ask OpenAI for:
+- one-sentence summary
+- two technical bullets
+- relevance score
+- worth-reading flag
+
+If no key is present, the script falls back to metadata-only summaries.
+
+For GitHub Actions, add `OPENAI_API_KEY` as a repository secret.
 
 ## Local test
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install openai
+cp .env.example .env  # optional; then export variables from it
+export OPENAI_API_KEY=your_key_here
 python3 scripts/update_arxiv.py
 python3 -m http.server
 ```
