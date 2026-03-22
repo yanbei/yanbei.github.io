@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-22T06:15:42+00:00",
-  "openai_enabled": false,
+  "updated": "2026-03-22T06:20:17+00:00",
+  "openai_enabled": true,
   "display": {
     "max_authors": 3,
     "top_n": 20,
@@ -5979,7 +5979,7 @@
             "Kerr"
           ],
           "published": "2026-03-19T12:18:51+00:00",
-          "age_days": 2.7,
+          "age_days": 2.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 4,
@@ -6190,7 +6190,7 @@
             "quantum control"
           ],
           "published": "2026-03-17T21:53:31+00:00",
-          "age_days": 4.3,
+          "age_days": 4.4,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 3,
@@ -6364,7 +6364,7 @@
             "quantum control"
           ],
           "published": "2026-03-19T14:41:55+00:00",
-          "age_days": 2.6,
+          "age_days": 2.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 3,
@@ -6691,7 +6691,7 @@
             "quantum control"
           ],
           "published": "2026-03-17T07:30:35+00:00",
-          "age_days": 4.9,
+          "age_days": 5.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 3,
