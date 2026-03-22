@@ -69,6 +69,34 @@ section { margin-top: 2rem; }
 }
 footer { color: var(--muted); margin-top: 2rem; }
 code { background: #eef2f8; padding: 0.1rem 0.25rem; border-radius: 4px; }
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+.tab-button {
+  border: 1px solid var(--border);
+  background: white;
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 0.55rem 0.95rem;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.tab-button.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+.tab-panels {
+  margin-top: 1rem;
+}
+.tab-panel {
+  margin-top: 0;
+}
 @media (max-width: 720px) {
   .hero { grid-template-columns: 1fr; }
+  .tabs { gap: 0.5rem; }
 }
