@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import datetime as dt
+import io
 import json
 import os
 import urllib.parse
@@ -19,6 +20,8 @@ DEFAULT_MAX_RESULTS = 80
 DEFAULT_TOP_N = 20
 DEFAULT_MAX_AUTHORS = 3
 DEFAULT_RECENT_DAYS = 7
+DEFAULT_PDF_MAX_PAGES = 6
+DEFAULT_PDF_MAX_CHARS = 30000
 
 
 def load_json(path, default):
@@ -44,6 +47,32 @@ def dedupe_keep_order(items):
         seen.add(key)
         out.append(item)
     return out
+
+
+def pdf_url(arxiv_id):
+    return f"https://arxiv.org/pdf/{arxiv_id}.pdf"
+
+
+def extract_pdf_text(url, max_pages, max_chars):
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        return None
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = resp.read()
+        reader = PdfReader(io.BytesIO(data))
+        chunks = []
+        for page in reader.pages[:max_pages]:
+            chunks.append((page.extract_text() or "").strip())
+            joined = "\n\n".join(chunks)
+            if len(joined) >= max_chars:
+                return joined[:max_chars]
+        joined = "\n\n".join(chunks).strip()
+        return joined[:max_chars] if joined else None
+    except Exception:
+        return None
 
 
 def query_arxiv(categories, keywords, max_results):
@@ -171,6 +200,7 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
                 "authors_short": short_authors(authors, max_authors),
                 "category": category,
                 "abstract": abstract,
+                "pdf_url": pdf_url(base_id),
                 "matches": matched,
                 "published": published_at.isoformat() if published_at else "",
                 "age_days": age_days(published_at),
@@ -184,7 +214,7 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
     return papers[:top_n]
 
 
-def synthesize_with_openai(paper, watch, profile):
+def synthesize_with_openai(paper, watch, profile, pdf_text):
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -195,10 +225,10 @@ def synthesize_with_openai(paper, watch, profile):
 
     client = OpenAI(api_key=api_key)
     system = (
-        "You are curating arXiv papers for Yanbei Chen. Use only the supplied metadata. "
+        "You are curating arXiv papers for Yanbei Chen. Prefer the supplied PDF excerpt over the abstract when available. "
         "Return exactly three bullets in strict JSON. "
-        "Bullet 1 must be exactly three sentences summarizing the scientific content and novelty of the paper, based only on title/abstract metadata. "
-        "Bullet 2 must explain why Yanbei would care, grounding the explanation in his previous work and current interests rather than generic topic overlap. "
+        "Bullet 1 must be exactly three sentences summarizing the scientific content and novelty of the paper, using the PDF excerpt when present. "
+        "Bullet 2 must explain why Yanbei would care, grounding the explanation in his previous work and current interests when relevant. "
         "Bullet 3 must list key words/topics and mention when it was published or how recent it is."
     )
     user = {
@@ -218,6 +248,8 @@ def synthesize_with_openai(paper, watch, profile):
             "arxiv_id": paper["id"],
             "category": paper["category"],
             "abstract": paper["abstract"],
+            "pdf_url": paper.get("pdf_url", ""),
+            "pdf_excerpt": pdf_text or "",
             "published": paper.get("published", ""),
             "age_days": paper.get("age_days"),
             "previous_work_hits": paper.get("previous_work_hits", []),
@@ -248,7 +280,7 @@ def merge_synthesis(paper, synth, watch, profile):
         current = ", ".join(paper.get("current_interest_hits") or profile.get("expertise", [])[:2])
         why_parts = [part for part in [previous, current] if part]
         why_text = "; and also to ".join(why_parts) if why_parts else watch.get("label", "this topic")
-        novelty_hint = "The apparent novelty is inferred only from the abstract and title metadata."
+        novelty_hint = "The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable."
         paper["summary_bullets"] = [
             f"This paper studies {paper['title']} using the methods and problem setup described in the abstract. Its scientific content appears to center on {paper['category']} themes highlighted by the metadata. {novelty_hint}",
             f"Yanbei may care because it connects to his previous work and current interests, especially {why_text}.",
@@ -272,6 +304,8 @@ def process_watch(watch, cache, display, profile):
     top_n = display.get("top_n", DEFAULT_TOP_N)
     max_authors = display.get("max_authors", DEFAULT_MAX_AUTHORS)
     recent_days = display.get("recent_days", DEFAULT_RECENT_DAYS)
+    pdf_max_pages = display.get("pdf_max_pages", DEFAULT_PDF_MAX_PAGES)
+    pdf_max_chars = display.get("pdf_max_chars", DEFAULT_PDF_MAX_CHARS)
 
     xml = query_arxiv(categories, keywords, max_results)
     papers = parse(xml, keywords, top_n, max_authors, recent_days, profile)
@@ -286,7 +320,8 @@ def process_watch(watch, cache, display, profile):
                     paper[key] = cached[key]
             enriched.append(paper)
             continue
-        synth = synthesize_with_openai(paper, watch, profile)
+        pdf_text = extract_pdf_text(paper.get("pdf_url", ""), pdf_max_pages, pdf_max_chars)
+        synth = synthesize_with_openai(paper, watch, profile, pdf_text)
         paper = merge_synthesis(paper, synth, watch, profile)
         cache[cache_key] = {
             "summary_bullets": paper["summary_bullets"],
@@ -321,6 +356,8 @@ def main():
             "top_n": display.get("top_n", DEFAULT_TOP_N),
             "max_results": display.get("max_results", DEFAULT_MAX_RESULTS),
             "recent_days": display.get("recent_days", DEFAULT_RECENT_DAYS),
+            "pdf_max_pages": display.get("pdf_max_pages", DEFAULT_PDF_MAX_PAGES),
+            "pdf_max_chars": display.get("pdf_max_chars", DEFAULT_PDF_MAX_CHARS),
         },
         "watches": watch_results,
     }
