@@ -41,7 +41,7 @@
     },
     {
       "id": "qm",
-      "label": "Quantum Metrology and Macroscopic Quantum Mechanics",
+      "label": "Quantum Metrology/Macroscopic Quantum Mechanics",
       "categories": ["quant-ph"],
       "keywords": [
         "optomechanics",
