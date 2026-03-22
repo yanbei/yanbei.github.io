@@ -1,4 +1,4 @@
-{
+window.ARXIV_DATA = {
   "updated": "2026-03-22T01:03:42+00:00",
   "openai_enabled": false,
   "display": {
@@ -11904,4 +11904,4 @@
       ]
     }
   ]
-}
+};

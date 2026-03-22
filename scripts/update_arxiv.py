@@ -10,6 +10,7 @@ from pathlib import Path
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5-mini")
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "arxiv.json"
+OUT_JS = ROOT / "data" / "arxiv.js"
 CACHE = ROOT / "data" / "arxiv_cache.json"
 PREFS = ROOT / "config" / "preferences.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
@@ -252,7 +253,9 @@ def main():
         "watches": watch_results,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+    json_text = json.dumps(payload, indent=2, ensure_ascii=False)
+    OUT.write_text(json_text + "\n")
+    OUT_JS.write_text("window.ARXIV_DATA = " + json_text + ";\n", encoding="utf-8")
     CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
     print(f"Wrote {sum(len(w['papers']) for w in watch_results)} papers across {len(watch_results)} watches to {OUT}")
 
