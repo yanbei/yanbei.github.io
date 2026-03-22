@@ -1,9 +1,9 @@
 {
-  "updated": "2026-03-22T00:30:14-07:00",
+  "updated": "2026-03-22T00:31:32-07:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
-    "top_n": 10,
+    "top_n": 15,
     "max_results": 80,
     "recent_days": 7,
     "pdf_max_pages": 6,
@@ -5731,6 +5731,185 @@
             "Key words/topics: Kerr; published about 2.8 days ago."
           ],
           "worth_reading_full": true
+        },
+        {
+          "id": "2603.17911",
+          "title": "Non-linear instability of the Kerr Cauchy horizon near $i_+$",
+          "authors": [
+            "Sebastian Gurriaran"
+          ],
+          "authors_short": [
+            "Sebastian Gurriaran"
+          ],
+          "category": "gr-qc",
+          "abstract": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author, and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
+          "pdf_url": "https://arxiv.org/pdf/2603.17911.pdf",
+          "matches": [
+            "Kerr",
+            "Teukolsky"
+          ],
+          "published": "2026-03-18T16:50:10+00:00",
+          "age_days": 3.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 4,
+          "base_score": 8,
+          "summary_bullets": [
+            "This paper studies Non-linear instability of the Kerr Cauchy horizon near $i_+$ using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+            "Key words/topics: Kerr, Teukolsky; published about 3.6 days ago."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.15734",
+          "title": "Crowdsourcing Gravitational Waves from Superradiant Axions",
+          "authors": [
+            "Sebastian A. R. Ellis",
+            "Orion Ning",
+            "Nicholas L. Rodd",
+            "Jan Schütte-Engel"
+          ],
+          "authors_short": [
+            "Sebastian A. R. Ellis",
+            "Orion Ning",
+            "Nicholas L. Rodd",
+            "et al. (4 authors)"
+          ],
+          "category": "hep-ph",
+          "abstract": "Black hole superradiance is a powerful probe of ultralight axions. If nature contains a boson with a mass of order $10^{-12}\\,$eV, $\\textit{mere vacuum fluctuations}$ will lead to its efficient production around spinning stellar mass black holes, forming a gravitational atom that both drains the black hole spin and decays to produce near-monochromatic gravitational waves. Existing superradiance constraints derive primarily from spin measurements of a handful of identified black holes. Here we instead present a detailed study of the population level effect: gravitational waves arising from both the 100 million black holes in the Milky Way and the stochastic signal from axion clouds throughout the universe. We study the impact of a broad range of systematic uncertainties on the black hole properties and compute the projected axion sensitivity for LIGO, as well as the future instruments Einstein Telescope, Cosmic Explorer, and a high-frequency Magnetic Weber Bar. We demonstrate that LIGO can robustly probe axion masses from roughly $10^{-13}\\,$eV to $4 \\times 10^{-12}\\,$eV. If the black hole population extends to masses slightly below $5\\,M_{\\odot}$ - as hinted for by LIGO inspiral observations - LIGO would approach $10^{-11}\\,$eV. Under that same assumption we show that a future high-frequency detector could push considerably higher, potentially beyond $10^{-10}\\,$eV in the most optimistic scenarios, reaching towards the lowest masses within the projected sensitivity of axion dark matter searches.",
+          "pdf_url": "https://arxiv.org/pdf/2603.15734.pdf",
+          "matches": [
+            "gravitational waves"
+          ],
+          "published": "2026-03-16T18:00:01+00:00",
+          "age_days": 5.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 4,
+          "base_score": 8,
+          "summary_bullets": [
+            "This paper studies Crowdsourcing Gravitational Waves from Superradiant Axions using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+            "Key words/topics: gravitational waves; published about 5.6 days ago."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.14872",
+          "title": "Spectral Bifurcations in Quasinormal Modes of Regular BTZ Black Holes",
+          "authors": [
+            "Kartheek Hegde",
+            "Tajron Jurić",
+            "A. Naveena Kumara"
+          ],
+          "authors_short": [
+            "Kartheek Hegde",
+            "Tajron Jurić",
+            "A. Naveena Kumara"
+          ],
+          "category": "gr-qc",
+          "abstract": "We study the quasinormal spectrum of massless scalar fields propagating on a family of regular BTZ black holes arising from an infinite tower of dimensionally regularized Lovelock corrections. These geometries are asymptotically AdS, reduce to the standard BTZ solution in the limit $\\ell \\to 0$, and resolve the central singularity by introducing a smooth core controlled by the new length scale $\\ell$. The scalar quasinormal modes are computed using both Leaver's continued-fraction method and the Horowitz-Hubeny power-series method; the two approaches agree to high accuracy across the parameter space. We find that the regularization preserves linear stability ($ω_I < 0$) while qualitatively reshaping the spectrum: as $\\ell$ increases, BTZ-like complex branches collide with the imaginary axis and undergo a hierarchy of bifurcations into multiple purely imaginary branches, leading to mode switching and a nontrivial reordering of overtones as functions of $\\ell$ and the harmonic index $m$. Our results place regular BTZ black holes within the emerging family of bifurcating quasinormal spectra known from nearly extremal and asymptotically AdS black holes, and highlight these $(2+1)$-dimensional geometries as a controlled arena for exploring geometric mechanisms behind spectral branching and late-time ringdown in regular black hole spacetimes.",
+          "pdf_url": "https://arxiv.org/pdf/2603.14872.pdf",
+          "matches": [
+            "quasinormal mode",
+            "ringdown"
+          ],
+          "published": "2026-03-16T06:17:09+00:00",
+          "age_days": 6.1,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 4,
+          "base_score": 8,
+          "summary_bullets": [
+            "This paper studies Spectral Bifurcations in Quasinormal Modes of Regular BTZ Black Holes using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+            "Key words/topics: quasinormal mode, ringdown; published about 6.1 days ago."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.15703",
+          "title": "py5vec: a modular Python package for the 5-vector method to search for continuous gravitational waves",
+          "authors": [
+            "Luca D'Onofrio",
+            "Federico Muciaccia",
+            "Lorenzo Mirasola",
+            "Matthew Pitkin",
+            "Cristiano Palomba",
+            "Paola Leaci",
+            "Francesco Safai Tehrani",
+            "Francesco Amicucci",
+            "Lorenzo Silvestri",
+            "Lorenzo Pierini"
+          ],
+          "authors_short": [
+            "Luca D'Onofrio",
+            "Federico Muciaccia",
+            "Lorenzo Mirasola",
+            "et al. (10 authors)"
+          ],
+          "category": "astro-ph.IM",
+          "abstract": "We present \\texttt{py5vec}, a Python package for implementing and extending the 5-vector method, used to search for continuous gravitational wave (CW) signals. We also provide a comprehensive theoretical review of the 5-vector method and extend the relative likelihood formalism by marginalizing over the noise variance, resulting in a more robust Student's t-likelihood, and over the initial phase to account for pulsar glitches. \\texttt{py5vec} provides a modular architecture that separates data representation, signal demodulation, and statistical inference into independent abstract stages. It supports multiple input data formats and interoperates with existing Python software, providing a bridge between different approaches. For example, using a \\texttt{bilby}-based interface, \\texttt{py5vec} implements Bayesian parameter estimation within the 5-vector formalism for the first time. The modular design also allows for making exact multi-level and direct comparisons between other software, such as \\texttt{cwinpy} and \\texttt{SNAG} in MATLAB. In \\texttt{py5vec}, we implement a multidetector targeted search for known pulsars, validated using LIGO data from the O4a run and hardware injections, demonstrating consistent reconstruction of signal parameters. This package therefore provides a flexible platform for current targeted searches and for future extensions to other CW search strategies.",
+          "pdf_url": "https://arxiv.org/pdf/2603.15703.pdf",
+          "matches": [
+            "gravitational waves"
+          ],
+          "published": "2026-03-16T11:34:48+00:00",
+          "age_days": 5.8,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 3,
+          "base_score": 7,
+          "summary_bullets": [
+            "This paper studies py5vec: a modular Python package for the 5-vector method to search for continuous gravitational waves using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.IM themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+            "Key words/topics: gravitational waves; published about 5.8 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.19178",
+          "title": "Formation and Decay of Oscillons in Einstein-Cartan Higgs Inflation",
+          "authors": [
+            "Javier Rubio"
+          ],
+          "authors_short": [
+            "Javier Rubio"
+          ],
+          "category": "hep-ph",
+          "abstract": "We review recent progress in the understanding of the preheating stage of Higgs inflation formulated within the Einstein-Cartan framework of gravity. This setup smoothly interpolates between the metric and Palatini formulations of the theory, leading to a distinctive phenomenology in an intermediate regime. Following the end of inflation, the Higgs field undergoes a non-trivial out-of-equilibrium evolution driven by tachyonic instabilities and nonlinear self-interactions, which fragment the inflaton condensate and give rise to well-localized oscillon configurations. While early studies suggested the formation of long-lived oscillons and the possibility of an extended matter-dominated phase, more recent analyses show that self-interactions at small field values render these objects transient, eventually triggering their decay and the onset of radiation domination. We discuss the implications of this dynamics for the thermal history of the Universe, the inflationary observables, and the generation of stochastic gravitational waves.",
+          "pdf_url": "https://arxiv.org/pdf/2603.19178.pdf",
+          "matches": [
+            "gravitational waves"
+          ],
+          "published": "2026-03-19T17:37:27+00:00",
+          "age_days": 2.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 3,
+          "base_score": 6,
+          "summary_bullets": [
+            "This paper studies Formation and Decay of Oscillons in Einstein-Cartan Higgs Inflation using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+            "Key words/topics: gravitational waves; published about 2.6 days ago."
+          ],
+          "worth_reading_full": false
         }
       ]
     },
@@ -6117,6 +6296,193 @@
             "This paper studies Multi-Outcome Circuit Optimization for Enhanced Non-Gaussian State Generation using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
             "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
             "Key words/topics: quantum measurement; published about 3.4 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.17953",
+          "title": "Beyond VQE and QPE: A Noise- and Sampling-Error-Tolerant Quantum Algorithm with Heisenberg-Limited Precision",
+          "authors": [
+            "Qing-Xing Xie",
+            "Zidong Lin",
+            "Yun-Long Liu",
+            "Yan Zhao"
+          ],
+          "authors_short": [
+            "Qing-Xing Xie",
+            "Zidong Lin",
+            "Yun-Long Liu",
+            "et al. (4 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "This paper introduces Witnessed Quantum Time Evolution (WQTE), a novel quantum algorithm for efficiently computing the eigen-energy spectra of arbitrary quantum systems without requiring eigenstate preparation-a key limitation of conventional approaches. By leveraging a single ancillary qubit to control real-time evolution operators and employing Fourier analysis, WQTE enables parallel resolution of multiple eigen-energies. Theoretical analysis demonstrates that the algorithm achieves Heisenberg-limited precision and operates with only a non-zero wavefunction overlap between the reference state and target eigenstates, significantly reducing initialization complexity. Numerical simulations validate the algorithm's effectiveness in molecular systems (e.g., H4 chains) and lattice models (e.g., Heisenberg spin systems), confirming that computational error scales inversely with maximum evolution time while maintaining robustness against sampling errors and quantum noise. Experimental implementation on an NMR quantum processor further verifies its feasibility in real-world noisy environments. Compared to existing quantum algorithms (e.g., VQE, QPE and their variants), WQTE exhibits superior circuit depth efficiency, resource economy, and noise resilience, making it a promising solution for eigen-energy computation on noisy intermediate-scale quantum (NISQ) devices.",
+          "pdf_url": "https://arxiv.org/pdf/2603.17953.pdf",
+          "matches": [
+            "quantum noise"
+          ],
+          "published": "2026-03-18T17:27:07+00:00",
+          "age_days": 3.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 2,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies Beyond VQE and QPE: A Noise- and Sampling-Error-Tolerant Quantum Algorithm with Heisenberg-Limited Precision using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum noise; published about 3.6 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.17892",
+          "title": "Zeno and anti-Zeno effects in dark-state dynamics under thermal dephasing",
+          "authors": [
+            "Ran Chen",
+            "Jiangchuan You",
+            "Alexey Vladimirovich Kulagin",
+            "Hui-hui Miao",
+            "Yuri Igorevich Ozhigov"
+          ],
+          "authors_short": [
+            "Ran Chen",
+            "Jiangchuan You",
+            "Alexey Vladimirovich Kulagin",
+            "et al. (5 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "The quantum Zeno and anti-Zeno effects describe how frequent measurements can either suppress or accelerate quantum dynamics. While extensively studied in various platforms, their manifestation in dark-state dynamics remains largely unexplored. Here we investigate the stability of dark states in a cavity QED system consisting of two atoms coupled to a single-mode cavity, subject to thermal dephasing that models continuous quantum non-demolition monitoring. Using the Tavis--Cummings model within a Lindblad master equation framework, we numerically analyze how measurement-induced dephasing affects dark-state retention and stabilization time. We identify distinct parameter regimes corresponding to Zeno and anti-Zeno behavior: at low dephasing intensities, increasing the measurement strength accelerates the loss of dark-state coherence (anti-Zeno regime), while at higher intensities, it slows down the dynamics and partially recovers dark-state weight (Zeno regime). The transition between these regimes is controlled by the dephasing rates, the cavity photon exchange, and the asymmetry in atom-field couplings. We show that even under strong dephasing, a finite dark-state component persists, demonstrating remarkable robustness. Our results provide insights into the interplay between measurement back-action and decoherence in open quantum systems, with implications for quantum control and information storage.",
+          "pdf_url": "https://arxiv.org/pdf/2603.17892.pdf",
+          "matches": [
+            "quantum control"
+          ],
+          "published": "2026-03-18T16:20:47+00:00",
+          "age_days": 3.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 2,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies Zeno and anti-Zeno effects in dark-state dynamics under thermal dephasing using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum control; published about 3.6 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.18060",
+          "title": "Reinforcement Learning for Fast and Robust Longitudinal Qubit Readout",
+          "authors": [
+            "Yiming Yu",
+            "Yuan Qiu",
+            "Xinyu Zhao",
+            "Ye-Hong Chen",
+            "Yan Xia"
+          ],
+          "authors_short": [
+            "Yiming Yu",
+            "Yuan Qiu",
+            "Xinyu Zhao",
+            "et al. (5 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "Longitudinal coupling offers a compelling pathway for quantum nondemolition (QND) readout, but pulse design is constrained by hardware limitations such as the coupling strength and the photon number required to stay within the linear regime. We develop a reinforcement learning framework to optimize the longitudinal coupling waveform under such constraints. Building upon the theoretical foundation of shortcuts to adiabaticity (STA), we parameterize an auxiliary trajectory with cubic B-splines and reconstruct the physical control. At a fixed short readout time, the optimized pulse converges to a constraint saturating flat-top protocol and yields a approximately $50\\%$ improvement in $\\mathrm{SNR}$ over an STA baseline, while exhibiting enhanced robustness to parameter drifts. Simulation results demonstrate the efficacy of reinforcement learning in optimizing longitudinal readout pulses. The optimized protocol attains substantial performance gains and yields smooth, hardware-compatible waveforms governed by an interpretable ``saturate-and-hold'' mechanism.",
+          "pdf_url": "https://arxiv.org/pdf/2603.18060.pdf",
+          "matches": [
+            "quantum nondemolition"
+          ],
+          "published": "2026-03-18T01:27:09+00:00",
+          "age_days": 4.3,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 2,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies Reinforcement Learning for Fast and Robust Longitudinal Qubit Readout using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum nondemolition; published about 4.3 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.17253",
+          "title": "Efficient and flexible preparation of photonic NOON states in a superconducting system",
+          "authors": [
+            "Dong-Sheng Li",
+            "Yi-Hao Kang",
+            "Zhi-Cheng Shi",
+            "Yang Xiao",
+            "Ye-Hong Chen",
+            "Yan Xia"
+          ],
+          "authors_short": [
+            "Dong-Sheng Li",
+            "Yi-Hao Kang",
+            "Zhi-Cheng Shi",
+            "et al. (6 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "The NOON states play a critical role as physical resources in quantum information processing and quantum metrology, yet their preparation efficiency and applicability are often constrained by complicated operational procedures or the requirement for nonlinear interactions. In this paper, we propose an efficient protocol to generate the NOON states within two microwave cavities embedded in a superconducting system, assisted by an auxiliary five-level qudit. The state preparation is accomplished in three steps for an arbitrary photon number $N$ by adjusting only external classical fields, while keeping the qudit-cavity coupling strengths and the qudit level spacings fixed. Based on parameters accessible in superconducting systems, numerical simulations show that the protocol achieves relatively high fidelity for the NOON states preparation even in the presence of parameter fluctuations and decoherence effects. Thus, this protocol may provide a practical approach for preparing the NOON states with current technology. Notably, since nonlinear interactions are not required, the protocol is flexible and has the potential to be applied across various physical systems.",
+          "pdf_url": "https://arxiv.org/pdf/2603.17253.pdf",
+          "matches": [
+            "quantum metrology"
+          ],
+          "published": "2026-03-18T01:21:37+00:00",
+          "age_days": 4.3,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 2,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies Efficient and flexible preparation of photonic NOON states in a superconducting system using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum metrology; published about 4.3 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.16628",
+          "title": "Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states",
+          "authors": [
+            "Sofia Arranz Regidor",
+            "Matthew Kozma",
+            "Stephen Hughes"
+          ],
+          "authors_short": [
+            "Sofia Arranz Regidor",
+            "Matthew Kozma",
+            "Stephen Hughes"
+          ],
+          "category": "quant-ph",
+          "abstract": "We present a quantum dynamical study of pulsed few-photon scattering from a single artificial atom, consisting of a two-level system (TLS) or qubit, in a waveguide QED system, directly comparing and contrasting two different quantum theoretical simulation methods: (i) an input-output scattering approach that uses frequency-dependent scattering matrices, and (ii) a matrix product states (MPS) approach, which uses quantum noise operators in time bins and a tensor network technique to solve the time-dependent waveguide function for the entire system. Beginning with pulsed excitation using one-photon and two-photon Fock state pulses, we first show how to compute time-dependent observables with the scattering matrix approach, in terms of frequency integrals that encode the pulse spectrum, including how to extract the population dynamics of the excited quantum emitter, as well as the linear and nonlinear contributions. We present solutions for both symmetric and chiral TLS coupling. We then show how to compute the qubit and field observables in a more direct way using MPS, and obtain the characteristic bird-like shape for the two-photon correlation function at two times, which has been observed in recent experiments. We compare and contrast both of these methods, for one and two-photon excitation pulses, and show excellent agreement. We also present a study of the linear and nonlinear contributions, which can easily be calculated using scattering theory, and show the important role of pulse duration. Finally, we demonstrate the clear advantages of MPS by easily going to higher N-photon excitations, and show selected example population dynamics of up to eight-photon Fock-state pulses, manifesting in clear nonlinear population oscillations during the pulse interaction, similar to classical Rabi oscillations, but with quantum input fields that have a vanishing electric field expectation value.",
+          "pdf_url": "https://arxiv.org/pdf/2603.16628.pdf",
+          "matches": [
+            "quantum noise"
+          ],
+          "published": "2026-03-17T15:00:55+00:00",
+          "age_days": 4.7,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 2,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum noise; published about 4.7 days ago."
           ],
           "worth_reading_full": false
         }

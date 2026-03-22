@@ -238,5 +238,125 @@
     "used_openai": false,
     "used_pdf_text": false,
     "pdf_text_chars": 0
+  },
+  "gw::2603.17911": {
+    "summary_bullets": [
+      "This paper studies Non-linear instability of the Kerr Cauchy horizon near $i_+$ using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+      "Key words/topics: Kerr, Teukolsky; published about 3.6 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "gw::2603.15734": {
+    "summary_bullets": [
+      "This paper studies Crowdsourcing Gravitational Waves from Superradiant Axions using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+      "Key words/topics: gravitational waves; published about 5.6 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "gw::2603.14872": {
+    "summary_bullets": [
+      "This paper studies Spectral Bifurcations in Quasinormal Modes of Regular BTZ Black Holes using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+      "Key words/topics: quasinormal mode, ringdown; published about 6.1 days ago."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "gw::2603.15703": {
+    "summary_bullets": [
+      "This paper studies py5vec: a modular Python package for the 5-vector method to search for continuous gravitational waves using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.IM themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+      "Key words/topics: gravitational waves; published about 5.8 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "gw::2603.19178": {
+    "summary_bullets": [
+      "This paper studies Formation and Decay of Oscillons in Einstein-Cartan Higgs Inflation using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources.",
+      "Key words/topics: gravitational waves; published about 2.6 days ago."
+    ],
+    "relevance": 3,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "qm::2603.17953": {
+    "summary_bullets": [
+      "This paper studies Beyond VQE and QPE: A Noise- and Sampling-Error-Tolerant Quantum Algorithm with Heisenberg-Limited Precision using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+      "Key words/topics: quantum noise; published about 3.6 days ago."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "qm::2603.17892": {
+    "summary_bullets": [
+      "This paper studies Zeno and anti-Zeno effects in dark-state dynamics under thermal dephasing using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+      "Key words/topics: quantum control; published about 3.6 days ago."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "qm::2603.18060": {
+    "summary_bullets": [
+      "This paper studies Reinforcement Learning for Fast and Robust Longitudinal Qubit Readout using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+      "Key words/topics: quantum nondemolition; published about 4.3 days ago."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "qm::2603.17253": {
+    "summary_bullets": [
+      "This paper studies Efficient and flexible preparation of photonic NOON states in a superconducting system using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+      "Key words/topics: quantum metrology; published about 4.3 days ago."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
+  },
+  "qm::2603.16628": {
+    "summary_bullets": [
+      "This paper studies Quantum dynamics of few-photon pulsed waveguide-QED with a single artificial atom: frequency-dependent scattering theory and time-dependent matrix product states using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+      "Yanbei may care because it connects to his previous work and current interests, especially nature of dark matter and dark energy, cosmic evolution.",
+      "Key words/topics: quantum noise; published about 4.7 days ago."
+    ],
+    "relevance": 2,
+    "worth_reading_full": false,
+    "used_openai": false,
+    "used_pdf_text": false,
+    "pdf_text_chars": 0
   }
 }
