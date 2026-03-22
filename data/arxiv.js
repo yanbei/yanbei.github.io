@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T00:48:17-07:00",
+  "updated": "2026-03-22T00:51:25-07:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
@@ -1839,6 +1839,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 15,
           "summary_bullets": [
@@ -1876,6 +1877,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 14,
           "summary_bullets": [
@@ -1919,6 +1921,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 14,
           "summary_bullets": [
@@ -1959,6 +1962,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
@@ -1999,6 +2003,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
@@ -3819,6 +3824,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 11,
           "summary_bullets": [
@@ -3856,6 +3862,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -3894,6 +3901,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -3928,6 +3936,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -3969,6 +3978,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -4004,6 +4014,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -4042,6 +4053,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -4084,6 +4096,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
@@ -4123,6 +4136,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
@@ -5940,6 +5954,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6007,6 +6022,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6048,6 +6064,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6086,6 +6103,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6119,6 +6137,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6156,6 +6175,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6198,6 +6218,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6233,6 +6254,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6274,6 +6296,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6309,6 +6332,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6342,6 +6366,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6379,6 +6404,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6432,6 +6458,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6471,6 +6498,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6506,6 +6534,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6541,6 +6570,7 @@ window.ARXIV_DATA = {
           "used_openai": false,
           "used_pdf_text": false,
           "pdf_text_chars": 0,
+          "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [

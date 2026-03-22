@@ -14,6 +14,7 @@ OUT = ROOT / "data" / "arxiv.json"
 OUT_JS = ROOT / "data" / "arxiv.js"
 CACHE = ROOT / "data" / "arxiv_cache.json"
 ARCHIVE_DIR = ROOT / "data" / "archive"
+ARCHIVE_INDEX = ROOT / "data" / "archive_index.json"
 PREFS = ROOT / "config" / "preferences.json"
 PROFILE = ROOT / "config" / "yanbei_profile.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
@@ -237,6 +238,7 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
                 "used_openai": False,
                 "used_pdf_text": False,
                 "pdf_text_chars": 0,
+                "featured": True,
                 "relevance": relevance(final_score),
                 "base_score": final_score,
             }
@@ -366,6 +368,7 @@ def process_watch(watch, cache, display, global_profile):
             enriched.append(paper)
             continue
         if archived:
+            paper["featured"] = True
             for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
                 if key in archived:
                     paper[key] = archived[key]
@@ -403,7 +406,8 @@ def process_watch(watch, cache, display, global_profile):
             "worth_reading_full": paper['worth_reading_full'],
             "used_openai": paper.get("used_openai", False),
             "used_pdf_text": paper.get("used_pdf_text", False),
-            "pdf_text_chars": paper.get("pdf_text_chars", 0)
+            "pdf_text_chars": paper.get("pdf_text_chars", 0),
+            "featured": True
         })
         enriched.append(paper)
 
@@ -414,6 +418,38 @@ def process_watch(watch, cache, display, global_profile):
         "keywords": keywords,
         "papers": enriched,
     }
+
+
+def build_archive_index():
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    grouped = {}
+    for path in sorted(ARCHIVE_DIR.glob('*.json')):
+        try:
+            paper = json.loads(path.read_text())
+        except Exception:
+            continue
+        published = paper.get('published', '')
+        month = 'unknown'
+        if published:
+            month = published[:7]
+        grouped.setdefault(month, []).append({
+            'id': paper.get('id'),
+            'title': paper.get('title'),
+            'authors': paper.get('authors', []),
+            'category': paper.get('category', ''),
+            'published': published,
+            'summary_bullets': paper.get('summary_bullets', []),
+            'relevance': paper.get('relevance'),
+            'worth_reading_full': paper.get('worth_reading_full'),
+            'used_openai': paper.get('used_openai', False),
+            'used_pdf_text': paper.get('used_pdf_text', False),
+            'pdf_text_chars': paper.get('pdf_text_chars', 0)
+        })
+    months = []
+    for month in sorted(grouped.keys(), reverse=True):
+        papers = sorted(grouped[month], key=lambda p: (p.get('published',''), p.get('id','')), reverse=True)
+        months.append({'month': month, 'count': len(papers), 'papers': papers})
+    ARCHIVE_INDEX.write_text(json.dumps({'months': months}, indent=2, ensure_ascii=False) + '\n')
 
 
 def main():
@@ -444,6 +480,7 @@ def main():
     OUT.write_text(json_text + "\n")
     OUT_JS.write_text("window.ARXIV_DATA = " + json_text + ";\n", encoding="utf-8")
     CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
+    build_archive_index()
     print(f"Wrote {sum(len(w['papers']) for w in watch_results)} papers across {len(watch_results)} watches to {OUT}")
 
 
