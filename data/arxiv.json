@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-22T00:51:25-07:00",
-  "openai_enabled": false,
+  "updated": "2026-03-22T00:55:29-07:00",
+  "openai_enabled": true,
   "display": {
     "max_authors": 3,
     "top_n": 15,
