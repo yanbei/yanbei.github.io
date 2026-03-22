@@ -44,6 +44,22 @@ def dedupe_keep_order(items):
     return out
 
 
+def normalize_name(name):
+    return " ".join(name.lower().replace('.', ' ').split())
+
+
+def matched_preferred_authors(authors, preferred_authors):
+    normalized_authors = [(author, normalize_name(author)) for author in authors]
+    matches = []
+    for preferred in preferred_authors:
+        target = normalize_name(preferred)
+        for original, normalized in normalized_authors:
+            if target in normalized or normalized in target:
+                matches.append(preferred)
+                break
+    return matches
+
+
 def query_arxiv(categories, keywords, max_results):
     query = "({}) AND ({})".format(
         " OR ".join(f"cat:{c}" for c in categories),
@@ -95,7 +111,7 @@ def short_authors(authors, max_authors):
     return authors[:max_authors] + [f"et al. ({len(authors)} authors)"]
 
 
-def parse(xml_bytes, keywords, top_n, max_authors):
+def parse(xml_bytes, keywords, top_n, max_authors, preferred_authors):
     root = ET.fromstring(xml_bytes)
     papers = []
     seen = set()
@@ -111,8 +127,10 @@ def parse(xml_bytes, keywords, top_n, max_authors):
         primary = entry.find("arxiv:primary_category", NS)
         category = primary.attrib.get("term", "") if primary is not None else ""
         raw_score, matched = score_entry(title, abstract, keywords)
-        if raw_score == 0:
+        preferred_matches = matched_preferred_authors(authors, preferred_authors)
+        if raw_score == 0 and not preferred_matches:
             continue
+        boosted_score = raw_score + (4 if preferred_matches else 0)
         papers.append(
             {
                 "id": base_id,
@@ -122,8 +140,9 @@ def parse(xml_bytes, keywords, top_n, max_authors):
                 "category": category,
                 "abstract": abstract,
                 "matches": matched,
-                "relevance": relevance(raw_score),
-                "base_score": raw_score,
+                "preferred_author_matches": preferred_matches,
+                "relevance": relevance(boosted_score),
+                "base_score": boosted_score,
             }
         )
     papers.sort(key=lambda p: (p["base_score"], p["id"]), reverse=True)
@@ -149,6 +168,7 @@ def synthesize_with_openai(paper, watch):
             "label": watch["label"],
             "prioritize": watch.get("prioritize", []),
             "deprioritize": watch.get("deprioritize", []),
+            "preferred_authors": watch.get("preferred_authors", []),
             "notes": watch.get("notes", []),
         },
         "paper": {
@@ -157,6 +177,7 @@ def synthesize_with_openai(paper, watch):
             "arxiv_id": paper["id"],
             "category": paper["category"],
             "abstract": paper["abstract"],
+            "preferred_author_matches": paper.get("preferred_author_matches", []),
         },
         "return_schema": {
             "one_sentence_summary": "string",
@@ -179,11 +200,15 @@ def synthesize_with_openai(paper, watch):
 def merge_synthesis(paper, synth):
     if not synth:
         paper["summary"] = paper["abstract"]
-        paper["technical_bullets"] = [
-            f"Matched keywords: {', '.join(paper['matches']) or 'none recorded'}.",
-            f"Primary category: {paper['category']}."
-        ]
-        paper["worth_reading_full"] = paper["relevance"] >= 4
+        bullets = []
+        if paper.get("preferred_author_matches"):
+            bullets.append("Preferred author match: " + ", ".join(paper["preferred_author_matches"]) + ".")
+        bullets.append(f"Matched keywords: {', '.join(paper['matches']) or 'none recorded' }.")
+        bullets.append(f"Primary category: {paper['category']}.")
+        paper["technical_bullets"] = bullets[:2]
+        while len(paper["technical_bullets"]) < 2:
+            paper["technical_bullets"].append("No extra technical note provided.")
+        paper["worth_reading_full"] = paper["relevance"] >= 4 or bool(paper.get("preferred_author_matches"))
         return paper
     paper["summary"] = synth.get("one_sentence_summary", paper["abstract"])
     bullets = synth.get("technical_bullets", [])[:2]
@@ -191,19 +216,22 @@ def merge_synthesis(paper, synth):
         bullets.append("No extra technical note provided.")
     paper["technical_bullets"] = bullets
     paper["relevance"] = max(1, min(5, int(synth.get("relevance_score", paper["relevance"]))))
-    paper["worth_reading_full"] = bool(synth.get("worth_reading_full", paper["relevance"] >= 4))
+    if paper.get("preferred_author_matches"):
+        paper["relevance"] = max(4, paper["relevance"])
+    paper["worth_reading_full"] = bool(synth.get("worth_reading_full", paper["relevance"] >= 4 or bool(paper.get("preferred_author_matches"))))
     return paper
 
 
 def process_watch(watch, cache, display):
     categories = dedupe_keep_order(watch.get("categories", []))
     keywords = dedupe_keep_order(watch.get("keywords", []))
+    preferred_authors = watch.get("preferred_authors", [])
     max_results = display.get("max_results", DEFAULT_MAX_RESULTS)
     top_n = display.get("top_n", DEFAULT_TOP_N)
     max_authors = display.get("max_authors", DEFAULT_MAX_AUTHORS)
 
     xml = query_arxiv(categories, keywords, max_results)
-    papers = parse(xml, keywords, top_n, max_authors)
+    papers = parse(xml, keywords, top_n, max_authors, preferred_authors)
     enriched = []
 
     for paper in papers:
@@ -230,6 +258,7 @@ def process_watch(watch, cache, display):
         "label": watch["label"],
         "categories": categories,
         "keywords": keywords,
+        "preferred_authors": preferred_authors,
         "papers": enriched,
     }
 

@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T01:03:42+00:00",
+  "updated": "2026-03-22T01:14:21+00:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
@@ -26,6 +26,7 @@ window.ARXIV_DATA = {
         "EMRI",
         "waveform"
       ],
+      "preferred_authors": [],
       "papers": [
         {
           "id": "2603.15740",
@@ -51,6 +52,7 @@ window.ARXIV_DATA = {
             "ringdown",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 5,
           "base_score": 11,
           "summary": "Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.",
@@ -80,6 +82,7 @@ window.ARXIV_DATA = {
             "Teukolsky",
             "EMRI"
           ],
+          "preferred_author_matches": [],
           "relevance": 5,
           "base_score": 10,
           "summary": "Extreme Mass Ratio Inspirals (EMRIs) constitute a prime target for future space-based gravitational-wave observatories such as LISA. In this paper, we analytically investigate the long-term phase shift (dephasing) in the gravitational wave signal induced by a first-order quantum chromodynamics (QCD) phase transition within a neutron star orbiting a supermassive Kerr black hole. By modeling the transition from a hadronic phase to a quark core phase, we quantify the sudden change in the tidal deformability ($Λ$) of the secondary object. Utilizing the Teukolsky formalism and Post-Newtonian expansions, we derive a strict analytical scaling law for the accumulated dephasing. We demonstrate that the Kerr spin parameter $a$ and the critical phase transition orbital velocity $v_c$ significantly amplify the dephasing effect. Our analytical framework provides a robust tool for probing the non-perturbative QCD equation of state at high baryon densities using gravitational wave astronomy.",
@@ -1889,6 +1892,7 @@ window.ARXIV_DATA = {
             "ringdown",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 9,
           "summary": "This is the third paper of the set recording the results of the suite of tests of general relativity (GR) performed on the signals from the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), where we focus on the remnants of the binary mergers. We examine for the first time 42 events from the first part of the fourth observing run of the LIGO-Virgo-KAGRA detectors, alongside events from the previous observation runs, restricting our analysis to the confident signals, which were measured in at least two detectors and that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. This paper focuses on seven tests of the coalescence remnants. Three of these are tests of the ringdown and its consistency with the expected quasinormal mode spectrum of a Kerr black hole. Specifically, two tests analyze just the ringdown in the time domain, and the third test analyzes the entire signal in the frequency domain. Four tests allow for the existence of possible echoes arriving after the end of the ringdown, which are not expected in GR. We find overall consistency of the remnants with GR. When combining events by multiplying likelihoods (hierarchically), one analysis finds that the GR prediction lies at the boundary of the $98.6^{+1.4}_{-9.4}\\%$ ($99.3^{+0.7}_{-4.5}\\%$) credible region, an increase from $93.8^{+6.1}_{-20.0}\\%$ ($94.9^{+4.4}_{-18.2}\\%$) for GWTC-3.0. Here the ranges of values comes from bootstrapping to account for the finite number of events analyzed and suggest that some of the apparently significant deviation could be attributed to variance due to the finite catalog. Since the significance also decreases to 92.2% (96.2%) when including the more recent very loud event GW250114, there is no strong evidence for a GR deviation. We find no evidence for post-merger echoes in the events that were analyzed. (Abridged)",
@@ -1916,6 +1920,7 @@ window.ARXIV_DATA = {
             "EMRI",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 9,
           "summary": "Extreme mass-ratio inspirals (EMRIs), comprising a stellar-mass compact object (CO) orbiting a supermassive black hole (BH), are key targets for future space-based gravitational-wave (GW) observatories. Incorporating the spin of the secondary body into waveform models not only enhances measurement precision but also offers insight into the spin distribution of stellar-mass objects. In this work, we construct the flux and waveform for an EMRI with a spinning secondary in a Kerr background under the linear-spin approximation. Using the radiative prescription (half-retarded minus half-advanced field), we derive orbit-averaged evolution equations for the fundamental constants of motion, including the energy, angular momentum, Carter-like constant, and the parallel spin component. This framework provides a tractable route to generating waveforms that incorporate the secondary spin, with the potential for further simplification in future work.",
@@ -1944,6 +1949,7 @@ window.ARXIV_DATA = {
             "ringdown",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 9,
           "summary": "The merger-ringdown radiation from a black hole binary merger is accurately modeled by a sum of linear quasinormal modes (QNMs). Recently, a non-QNM ``direct wave\" component of the radiation, associated with prompt emission from a plunging perturber, has been identified. Motivated by the behavior of null geodesics perturbed from the remnant light ring, the Backwards One Body (BOB) approach has been shown to model the full merger-ringdown radiation to high accuracy, while using only a minimal number of parameters. In this work, using the Pöschl--Teller potential, we first show how the BOB amplitude evolution can be recovered from the QNM pole contributions. We then apply rational filters to isolate the non-QNM content in BOB and numerical relativity waveforms. We show that BOB naturally captures the direct wave component of the merger radiation, explaining its accuracy near the waveform peak. Finally, we use BOB to show that the direct wave frequency is largely uncorrelated with the horizon frequency, even for high spin remnants, and instead tracks the News frequency at the time of the peak News amplitude.",
@@ -1976,6 +1982,7 @@ window.ARXIV_DATA = {
             "ringdown",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 8,
           "summary": "We derive general formulas for quasi-normal mode (QNM) frequencies of hairy black holes by exploiting the QNM--geodesic correspondence. The black hole hair is treated as an anisotropic fluid perturbatively added to the vacuum black holes (Schwarzschild and Kerr black holes). Under this setting, independent of energy conditions, our formulas offer a systematic method to compute quasi-normal mode frequencies for a broad class of hairy black holes.",
@@ -2001,6 +2008,7 @@ window.ARXIV_DATA = {
             "Teukolsky",
             "EMRI"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 8,
           "summary": "Extreme-mass-ratio inspirals (EMRIs) are among the most promising sources for future space-based gravitational-wave (GW) detectors, such as LISA. To fully leverage the scientific potential, the GW templates required for parameter estimation must be modeled with high accuracy for eccentric precessing binary systems with nonzero spins. This work introduces a practical and efficient framework for incorporating the effects of secondary spin in fully generic, eccentric, and offequatorial EMRIs to the first postadiabatic order. We utilize recently found analytic solutions for the trajectories of spinning bodies in Kerr spacetime to significantly simplify the calculation of the corresponding asymptotic GW fluxes. Furthermore, thanks to the recently proven flux-balance laws, we show how to express the rates of change of the constants of motion, including the Carter-Rüdiger constant, using asymptotic Teukolsky amplitudes and purely geodesic functions that are already established in the literature. Finally, we show how this framework performs in the case of nearly-spherical inspirals and demonstrate that the resulting spin-induced phase shifts are gauge independent. A Wolfram Mathematica implementation of the code developed in this work is publicly available in the KerrSpinningFluxes package.",
@@ -2028,6 +2036,7 @@ window.ARXIV_DATA = {
             "QNM",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 8,
           "summary": "In this work, we construct a perturbative black hole (BH) solution motivated by renormalization group (RG) improvement and investigate the quasinormal modes (QNMs) of the BH under scalar field perturbations in both Schwarzschild-de Sitter (SdS) and Schwarzschild-anti-de Sitter (SAdS) backgrounds. To compute the QNMs in the SdS spacetime, we employ the 6th-order Padé-averaged WKB approximation method, while for the SAdS background we utilize the direct shooting method. We examine the dependence of the QNM frequencies on the free parameter of the solution. Furthermore, we analyze the time evolution of a scalar field perturbation around the BH and present the corresponding time-domain profiles. The QNMs are also extracted from the time-domain data using the matrix pencil method. Using the extracted QNM frequencies, we reconstruct the waveform and compare it with the original time-domain profile, finding good agreement between the two. The QNM frequencies obtained from the 6th-order Padé-averaged WKB method and the time-domain analysis in the SdS background, as well as those obtained from the direct shooting method and time-domain analysis in the SAdS spacetime, show very good consistency.",
@@ -2061,6 +2070,7 @@ window.ARXIV_DATA = {
             "gravitational waves",
             "ringdown"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 8,
           "summary": "Gravitational waves (GW) emitted by binary systems allow us to perform precision tests of general relativity in the strong field regime. Ringdown signals allow for probing black hole mass and spin with high precision in GW astronomy. With improvements in current and next-generation GW detectors, developing likelihood-free parameter inference methods is crucial. This is especially important when facing challenges such as non-standard noise, partial data, or incomplete signal models that prevent the use of analytical likelihood functions. In this work, we propose an amortized simulation-based inference strategy to estimate ringdown parameters directly. Specifically, our method is based on amortized neural posterior estimation, which trains a neural density estimator of the posterior for all data segments within the prior range. The results show that our trained amortized network achieves statistically consistent parameter estimates with valid confidence coverage compared to established Markov-chain methods, while offering inference speeds that are orders of magnitude faster. Furthermore, we evaluate the robustness of the method against transient noise contamination. Our analysis reveals that the timing of glitch injection has a decisive impact on estimation bias, particularly during the tail of a signal with sparse information. Glitch strength is positively correlated with estimation error, but has limited effect at low signal-to-noise ratios. Mass and spin parameters are most sensitive to noise. This study not only provides an efficient and accurate inference framework for ringdown analysis but also lays a foundation for developing robust data-processing pipelines for future GW astronomy in realistic noise environments.",
@@ -2092,6 +2102,7 @@ window.ARXIV_DATA = {
             "Kerr",
             "EMRI"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 7,
           "summary": "We present a shifted-geodesic framework for computing gravitational-wave fluxes from spinning test bodies moving on bound orbits of Kerr black holes. The method provides a simple and efficient means of evaluating energy and angular momentum fluxes incorporating the leading effect of the smaller body's spin. Because post-adiabatic corrections, including secondary spin contributions, are subdominant to the leading adiabatic terms, this approximation is well justified. In particular, we find that oscillatory spin terms typically contribute very little to fluxes, but their contribution to the description of orbits is computationally expensive, making such terms a natural target for approximation. In our framework, orbital frequencies and integrals of the motion are perturbed to include spin effects, while the trajectory retains the global structure of geodesic motion. This simplifies the computation of gravitational radiation. The shifted-geodesic approximation is most reliable for orbits with lower eccentricity, lower inclination, and larger semi-latus recta. The approximation becomes less reliable as we approach the separatrix between stable and unstable orbits; fortunately, many inspirals spend less time in this region of parameter space. A diagnostic inspiral evolution shows very small dephasing due to use of the shifted-geodesic approximation ($\\approx10^{-2}$ radians over 1 year), confirming that spin-induced flux corrections can be accurately included using this simple modification to a geodesic trajectory. This approximation provides a rapid and convenient way to compute spinning-body orbits, but is not intended to replace more accurate treatments. We propose it as a pragmatic alternative when speed and simplicity are prioritized, enabling efficient EMRI/IMRI flux calculations and supporting parameter-space studies for LISA. (Abridged)",
@@ -3902,6 +3913,7 @@ window.ARXIV_DATA = {
             "ringdown",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "The worldwide LIGO-Virgo-KAGRA network of gravitational-wave (GW) detectors continues to increase in sensitivity, thus increasing the quantity and quality of the detected GW signals from compact binary coalescences. These signals allow us to perform ever-more sensitive tests of general relativity (GR) in the dynamical and strong-field regime of gravity. This paper is the first of three, where we present the results of a suite of tests of GR using the binary signals included in the fourth GW Transient Catalog (GWTC-4.0), i.e., up to and including the first part of the fourth observing run of the detectors (O4a). We restrict our analysis to the 91 confident signals, henceforth called events, that were measured by at least two detectors, and have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. These include 42 events from O4a. This first paper presents an overview of the methods, selection of events and GR tests, and serves as a guidemap for all three papers. Here we focus on the four general tests of consistency, where we find no evidence for deviations from our models. Specifically, for all the events considered, we find consistency of the residuals with noise. The final mass and final spin as inferred from the low- and high-frequency parts of the waveform are consistent with each other. We also find no evidence for deviations from the GR predictions for the amplitudes of subdominant GW multipole moments, or for non-GR modes of polarization. We thus find that GR, without new physics beyond it, is still consistent with these GW events. The results of the two additional papers in this trio also find overall consistency with vacuum GR, with more than 90% of the events being consistent with GR at the 90% credible level. While one of the ringdown analyses finds the GR value in the tails for its combined results, this may be due in part to catalog variance.",
@@ -3926,6 +3938,7 @@ window.ARXIV_DATA = {
             "Kerr",
             "Teukolsky"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author, and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
@@ -3952,6 +3965,7 @@ window.ARXIV_DATA = {
             "gravitational waves",
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We study the effects of oscillating, ultralight scalar and pseudoscalar fields on the propagation of gravitational waves (GWs). We consider two potential couplings of the (pseudo)scalars to gravity; a parity-even Gauss-Bonnet coupling, and parity-odd Chern-Simons coupling. We find several effects at both the population and individual GW event level, characterized by oscillatory features controlled by the (pseudo)scalar mass. In the parity-even case, this feature can be seen in the observed GW redshift and speed distributions, as well as in the dispersion relation and phase of individual events. We use the observation of the GW170817 multimessenger binary neutron star event to place constraints on the parity-even scalar-graviton coupling. In the parity-odd case, the effects are birefringent, but we find an overall washout of polarization at the population level. Oscillatory features can be seen in the observed GW amplitude and inclination distributions. Finally, we find that continuous, monochromatic GW sources are a promising target to observe these effects. The presence of a (pseudo)scalar field imprints a modulation of the GW waveform in the time domain, which can potentially be observed with space-based detectors such as LISA.",
@@ -3981,6 +3995,7 @@ window.ARXIV_DATA = {
           "matches": [
             "gravitational waves"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "Black hole superradiance is a powerful probe of ultralight axions. If nature contains a boson with a mass of order $10^{-12}\\,$eV, $\\textit{mere vacuum fluctuations}$ will lead to its efficient production around spinning stellar mass black holes, forming a gravitational atom that both drains the black hole spin and decays to produce near-monochromatic gravitational waves. Existing superradiance constraints derive primarily from spin measurements of a handful of identified black holes. Here we instead present a detailed study of the population level effect: gravitational waves arising from both the 100 million black holes in the Milky Way and the stochastic signal from axion clouds throughout the universe. We study the impact of a broad range of systematic uncertainties on the black hole properties and compute the projected axion sensitivity for LIGO, as well as the future instruments Einstein Telescope, Cosmic Explorer, and a high-frequency Magnetic Weber Bar. We demonstrate that LIGO can robustly probe axion masses from roughly $10^{-13}\\,$eV to $4 \\times 10^{-12}\\,$eV. If the black hole population extends to masses slightly below $5\\,M_{\\odot}$ - as hinted for by LIGO inspiral observations - LIGO would approach $10^{-11}\\,$eV. Under that same assumption we show that a future high-frequency detector could push considerably higher, potentially beyond $10^{-10}\\,$eV in the most optimistic scenarios, reaching towards the lowest masses within the projected sensitivity of axion dark matter searches.",
@@ -4009,6 +4024,7 @@ window.ARXIV_DATA = {
             "quasinormal mode",
             "ringdown"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We study the quasinormal spectrum of massless scalar fields propagating on a family of regular BTZ black holes arising from an infinite tower of dimensionally regularized Lovelock corrections. These geometries are asymptotically AdS, reduce to the standard BTZ solution in the limit $\\ell \\to 0$, and resolve the central singularity by introducing a smooth core controlled by the new length scale $\\ell$. The scalar quasinormal modes are computed using both Leaver's continued-fraction method and the Horowitz-Hubeny power-series method; the two approaches agree to high accuracy across the parameter space. We find that the regularization preserves linear stability ($ω_I < 0$) while qualitatively reshaping the spectrum: as $\\ell$ increases, BTZ-like complex branches collide with the imaginary axis and undergo a hierarchy of bifurcations into multiple purely imaginary branches, leading to mode switching and a nontrivial reordering of overtones as functions of $\\ell$ and the harmonic index $m$. Our results place regular BTZ black holes within the emerging family of bifurcating quasinormal spectra known from nearly extremal and asymptotically AdS black holes, and highlight these $(2+1)$-dimensional geometries as a controlled arena for exploring geometric mechanisms behind spectral branching and late-time ringdown in regular black hole spacetimes.",
@@ -4036,6 +4052,7 @@ window.ARXIV_DATA = {
           "matches": [
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "In this paper, we investigate the dynamics of massive particles and the associated gravitational waveforms in the spacetime of a black hole within the framework of Einstein-Bumblebee gravity. Our analysis encompasses both charged and uncharged black hole configurations, with a particular focus on the spontaneous Lorentz symmetry breaking mechanism inherent to this model, which is governed by a dimensionless coupling parameter $l$. We analyze the geodesic equations and the effective potential to determine the allowed parameter space for bound orbits, demonstrating that in the charged case, both the Lorentz-violating parameter $l$ and the electric charge $Q$ significantly enhance the confinement capacity of the potential, thereby broadening the energy and angular momentum windows for bound states. A key focus is placed on the classification and properties of periodic orbits, characterized by rational frequency ratios using the whirl, zoom, and vertex taxonomy. We demonstrate that in the uncharged case ($Q=0$), the radial effective potential and standard innermost stable circular orbit (ISCO) properties are degenerate with those of a Schwarzschild black hole. However, despite this degeneracy in static potential properties, the structure of periodic orbits exhibits qualitative differences, providing a possible observational signature that can break this degeneracy. Finally, we compute the corresponding gravitational waveforms extracted from these periodic orbits using the quadrupole formula. The results reveal that $l$ and $Q$ introduce contrasting phase-shifting effects on the waveforms. This suggests that bumblebee gravity leaves measurable imprints on gravitational-wave signals that could be detected by future space-based gravitational-wave observatories.",
@@ -5890,6 +5907,7 @@ window.ARXIV_DATA = {
           "matches": [
             "gravitational waves"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We present results from an all-sky search for continuous gravitational waves, using three different methods applied to the first eight months of LIGO data from the fourth LIGO-Virgo-KAGRA Collaboration s observing run. We aim at signals potentially emitted by rotating, non-axisymmetric isolated neutron star in the Milky Way. The analysis spans a frequency range from 20 Hz to 2000 Hz and accommodates frequency derivative magnitudes up to $10^{-8}$ Hz/s. No statistically significant periodic gravitational wave signals were detected. We establish 95% confidence-level (CL) frequentist upper limits on the dimensionless strain amplitudes. The most stringent population-averaged strain upper limits reach 9.7 $\\times$ $10^{-26}$ near 290 Hz, matching the best previous constraints from 250 to $\\sim$1700 Hz while extending coverage to a much broader spin-down range. At higher frequencies, the new limits improve upon previous results by factors of approximately $\\sim$1.6. These constraints are applied to three astrophysical scenarios: 1) the distribution of galactic neutron stars as a function of spin frequency and ellipticity; 2) the contribution of millisecond pulsars to the GeV excess near the galactic center; and 3) the possible dark matter fraction composed of nearby inspiraling primordial binary black holes with asteroid-scale masses.",
@@ -7701,6 +7719,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$ from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to $m_g \\leq 1.92\\times 10^{-23} \\mathrm{eV}/c^2$. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
@@ -7728,6 +7747,7 @@ window.ARXIV_DATA = {
           "matches": [
             "waveform"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "Testing general relativity in the strong-field and highly dynamical regime is now possible through current gravitational-wave observations, where even a single high-quality detection can place competitive constraints on deviations from Einstein's theory. The parametrized post-Einsteinian framework provides a theory-agnostic approach to search for such deviations, but it typically assumes that systematic uncertainties in the base waveform model, particularly those arising from calibration to numerical relativity, are negligible. In this work, we investigate how calibration errors in the late-inspiral fitting coefficients of the IMRPhenomD waveform model can lead to spurious detections of departures from general relativity in parametrized tests. We use an uncertainty-aware version of IMRPhenomD, recalibrated to a set of numerical relativity surrogate waveforms and equipped with a probabilistic description of its fitting coefficients, to simulate general-relativity-consistent signals. We inject these signals into an O5 ground-based detector network and recover them with the original IMRPhenomD model augmented with a parametrized post-Einsteinian phase deformation. We find that false violations of general relativity using this model arise for network signal-to-noise ratios as low as 60. When the uncertainty-aware model is used instead, the inferred parametrized post-Einsteinian phase deformation remains consistent with zero even for signals with a signal-to-noise ratio up to 330. These results demonstrate the need to account for numerical relativity calibration uncertainty in order to perform reliable inspiral tests of general relativity. They also illustrate that explicitly incorporating numerical relativity calibration uncertainty into the waveform model preserves our ability to robustly test general relativity.",
@@ -7763,6 +7783,7 @@ window.ARXIV_DATA = {
           "matches": [
             "gravitational waves"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "We present \\texttt{py5vec}, a Python package for implementing and extending the 5-vector method, used to search for continuous gravitational wave (CW) signals. We also provide a comprehensive theoretical review of the 5-vector method and extend the relative likelihood formalism by marginalizing over the noise variance, resulting in a more robust Student's t-likelihood, and over the initial phase to account for pulsar glitches. \\texttt{py5vec} provides a modular architecture that separates data representation, signal demodulation, and statistical inference into independent abstract stages. It supports multiple input data formats and interoperates with existing Python software, providing a bridge between different approaches. For example, using a \\texttt{bilby}-based interface, \\texttt{py5vec} implements Bayesian parameter estimation within the 5-vector formalism for the first time. The modular design also allows for making exact multi-level and direct comparisons between other software, such as \\texttt{cwinpy} and \\texttt{SNAG} in MATLAB. In \\texttt{py5vec}, we implement a multidetector targeted search for known pulsars, validated using LIGO data from the O4a run and hardware injections, demonstrating consistent reconstruction of signal parameters. This package therefore provides a flexible platform for current targeted searches and for future extensions to other CW search strategies.",
@@ -7792,7 +7813,47 @@ window.ARXIV_DATA = {
         "Kerr",
         "black hole perturbation"
       ],
+      "preferred_authors": [
+        "Mark Scheel",
+        "Nicolas Yunes",
+        "Emanuele Berti",
+        "Wenbiao Han",
+        "Scott A. Hughes"
+      ],
       "papers": [
+        {
+          "id": "2603.12189",
+          "title": "Shifted-geodesic approximation for spinning-body gravitational wave fluxes",
+          "authors": [
+            "Lisa V. Drummond",
+            "Scott A. Hughes",
+            "Viktor Skoupý",
+            "Philip Lynch",
+            "Gabriel Andres Piovano"
+          ],
+          "authors_short": [
+            "Lisa V. Drummond",
+            "Scott A. Hughes",
+            "Viktor Skoupý",
+            "et al. (5 authors)"
+          ],
+          "category": "gr-qc",
+          "abstract": "We present a shifted-geodesic framework for computing gravitational-wave fluxes from spinning test bodies moving on bound orbits of Kerr black holes. The method provides a simple and efficient means of evaluating energy and angular momentum fluxes incorporating the leading effect of the smaller body's spin. Because post-adiabatic corrections, including secondary spin contributions, are subdominant to the leading adiabatic terms, this approximation is well justified. In particular, we find that oscillatory spin terms typically contribute very little to fluxes, but their contribution to the description of orbits is computationally expensive, making such terms a natural target for approximation. In our framework, orbital frequencies and integrals of the motion are perturbed to include spin effects, while the trajectory retains the global structure of geodesic motion. This simplifies the computation of gravitational radiation. The shifted-geodesic approximation is most reliable for orbits with lower eccentricity, lower inclination, and larger semi-latus recta. The approximation becomes less reliable as we approach the separatrix between stable and unstable orbits; fortunately, many inspirals spend less time in this region of parameter space. A diagnostic inspiral evolution shows very small dephasing due to use of the shifted-geodesic approximation ($\\approx10^{-2}$ radians over 1 year), confirming that spin-induced flux corrections can be accurately included using this simple modification to a geodesic trajectory. This approximation provides a rapid and convenient way to compute spinning-body orbits, but is not intended to replace more accurate treatments. We propose it as a pragmatic alternative when speed and simplicity are prioritized, enabling efficient EMRI/IMRI flux calculations and supporting parameter-space studies for LISA. (Abridged)",
+          "matches": [
+            "Kerr"
+          ],
+          "preferred_author_matches": [
+            "Scott A. Hughes"
+          ],
+          "relevance": 2,
+          "base_score": 9,
+          "summary": "We present a shifted-geodesic framework for computing gravitational-wave fluxes from spinning test bodies moving on bound orbits of Kerr black holes. The method provides a simple and efficient means of evaluating energy and angular momentum fluxes incorporating the leading effect of the smaller body's spin. Because post-adiabatic corrections, including secondary spin contributions, are subdominant to the leading adiabatic terms, this approximation is well justified. In particular, we find that oscillatory spin terms typically contribute very little to fluxes, but their contribution to the description of orbits is computationally expensive, making such terms a natural target for approximation. In our framework, orbital frequencies and integrals of the motion are perturbed to include spin effects, while the trajectory retains the global structure of geodesic motion. This simplifies the computation of gravitational radiation. The shifted-geodesic approximation is most reliable for orbits with lower eccentricity, lower inclination, and larger semi-latus recta. The approximation becomes less reliable as we approach the separatrix between stable and unstable orbits; fortunately, many inspirals spend less time in this region of parameter space. A diagnostic inspiral evolution shows very small dephasing due to use of the shifted-geodesic approximation ($\\approx10^{-2}$ radians over 1 year), confirming that spin-induced flux corrections can be accurately included using this simple modification to a geodesic trajectory. This approximation provides a rapid and convenient way to compute spinning-body orbits, but is not intended to replace more accurate treatments. We propose it as a pragmatic alternative when speed and simplicity are prioritized, enabling efficient EMRI/IMRI flux calculations and supporting parameter-space studies for LISA. (Abridged)",
+          "technical_bullets": [
+            "Matched keywords: Kerr.",
+            "Primary category: gr-qc."
+          ],
+          "worth_reading_full": false
+        },
         {
           "id": "2603.05182",
           "title": "Accretion Disk Perturbations and Their Effects on Kerr Black Hole Superradiance and Gravitational Atom Evolution",
@@ -7814,6 +7875,7 @@ window.ARXIV_DATA = {
             "superradiance",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 4,
           "base_score": 9,
           "summary": "Kerr black hole (BH) superradiance can form gravitational atoms and produce characteristic gravitational-wave signals, providing a probe of ultralight bosons and dark matter. In realistic systems, accretion-disk gravity can shift energy levels and mix states, modifying the effective superradiant growth. We model the disk as a weak external perturbation via a multipole expansion and derive an effective three-level Hamiltonian for the $n=2$ subspace $\\{\\ket{211},\\ket{210},\\ket{21-1}\\}$ in the weak-coupling regime. The leading disk effect is the quadrupolar ($\\ell_d=2$) tidal field, whose symmetries fix the selection rules: axisymmetry gives only diagonal shifts, equatorial nonaxisymmetry activates $Δm=\\pm2$ mixing ($\\ket{211}\\leftrightarrow\\ket{21-1}$), and breaking equatorial reflection opens $Δm=\\pm1$ couplings involving $\\ket{210}$. As illustrations, a transient equatorial $m=2$ spiral wave drives the resulting two-level system and can suppress or quench superradiance by populating a decaying mode, while a quasi-static warp produces full three-level mixing and can generate narrow ``growth gaps'' near accidental near-degeneracies, with the same static reshuffling also allowing enhancement when weight shifts toward the growing mode. These findings demonstrate that accretion disk perturbations are a crucial environmental factor in determining the dynamics of BH superradiance and the evolution of boson clouds, thereby providing a more reliable theoretical basis for assessing the detectability of ultralight bosons in realistic astrophysical settings.",
@@ -9622,6 +9684,7 @@ window.ARXIV_DATA = {
             "echoes",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 7,
           "summary": "This is the third paper of the set recording the results of the suite of tests of general relativity (GR) performed on the signals from the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), where we focus on the remnants of the binary mergers. We examine for the first time 42 events from the first part of the fourth observing run of the LIGO-Virgo-KAGRA detectors, alongside events from the previous observation runs, restricting our analysis to the confident signals, which were measured in at least two detectors and that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$. This paper focuses on seven tests of the coalescence remnants. Three of these are tests of the ringdown and its consistency with the expected quasinormal mode spectrum of a Kerr black hole. Specifically, two tests analyze just the ringdown in the time domain, and the third test analyzes the entire signal in the frequency domain. Four tests allow for the existence of possible echoes arriving after the end of the ringdown, which are not expected in GR. We find overall consistency of the remnants with GR. When combining events by multiplying likelihoods (hierarchically), one analysis finds that the GR prediction lies at the boundary of the $98.6^{+1.4}_{-9.4}\\%$ ($99.3^{+0.7}_{-4.5}\\%$) credible region, an increase from $93.8^{+6.1}_{-20.0}\\%$ ($94.9^{+4.4}_{-18.2}\\%$) for GWTC-3.0. Here the ranges of values comes from bootstrapping to account for the finite number of events analyzed and suggest that some of the apparently significant deviation could be attributed to variance due to the finite catalog. Since the significance also decreases to 92.2% (96.2%) when including the more recent very loud event GW250114, there is no strong evidence for a GR deviation. We find no evidence for post-merger echoes in the events that were analyzed. (Abridged)",
@@ -9653,6 +9716,7 @@ window.ARXIV_DATA = {
             "hairy black holes",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We derive general formulas for quasi-normal mode (QNM) frequencies of hairy black holes by exploiting the QNM--geodesic correspondence. The black hole hair is treated as an anisotropic fluid perturbatively added to the vacuum black holes (Schwarzschild and Kerr black holes). Under this setting, independent of energy conditions, our formulas offer a systematic method to compute quasi-normal mode frequencies for a broad class of hairy black holes.",
@@ -9680,6 +9744,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "Extreme Mass Ratio Inspirals (EMRIs) constitute a prime target for future space-based gravitational-wave observatories such as LISA. In this paper, we analytically investigate the long-term phase shift (dephasing) in the gravitational wave signal induced by a first-order quantum chromodynamics (QCD) phase transition within a neutron star orbiting a supermassive Kerr black hole. By modeling the transition from a hadronic phase to a quark core phase, we quantify the sudden change in the tidal deformability ($Λ$) of the secondary object. Utilizing the Teukolsky formalism and Post-Newtonian expansions, we derive a strict analytical scaling law for the accumulated dephasing. We demonstrate that the Kerr spin parameter $a$ and the critical phase transition orbital velocity $v_c$ significantly amplify the dephasing effect. Our analytical framework provides a robust tool for probing the non-perturbative QCD equation of state at high baryon densities using gravitational wave astronomy.",
@@ -9705,6 +9770,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "We develop a systematic effective field theory calculation of the quasinormal modes of Kerr black holes valid for arbitrary spin, providing model-independent corrections to their ringdown spectrum directly relevant for gravitational-wave observations. Close to extremality, the effective field theory corrections in the grand-canonical ensemble exhibit an oscillatory dependence on $\\log τ_{H}$, with $τ_H \\equiv T_H/Ω_H$ a dimensionless measure of the black hole temperature. This behaviour signals an underlying discrete-scale-invariant structure.",
@@ -9729,6 +9795,7 @@ window.ARXIV_DATA = {
             "Kerr",
             "black hole perturbation"
           ],
+          "preferred_author_matches": [],
           "relevance": 3,
           "base_score": 6,
           "summary": "This work presents, the first time, analytic solutions for the nearly equatorial, plunging motion of a spinning test-particle in Kerr spacetime. The equations of motion are solved at first-order in the small-body spin for all classes of plunging orbits with energy $E < 1$. The solutions incorporate the small precession of the orbital plane caused by the precession of the particle's spin. Additionally, we present the correction to the radius of the innermost bound circular orbit in closed form, and introduce a novel, Keplerian-like parametrization for generic plunging orbits. Our solutions will be useful in the modelling of inspiral-merger-ringdown waveforms with self-force methods and black hole perturbation theory.",
@@ -11540,6 +11607,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "In this second of three papers on tests of general relativity (GR) applied to the compact binary coalescence signals in the fourth Gravitational-Wave Transient Catalog (GWTC-4.0), we present the results of the parameterized tests of GR and constraints on line-of-sight acceleration. We include events up to and including the first part of the fourth observing run (O4a) of the LIGO Virgo KAGRA detectors. As in the other two papers in this series, we restrict our analysis to the 42 confident signals, measured by at least two detectors, that have false alarm rates $\\le 10^{-3} \\mathrm{yr}^{-1}$ from O4a, in addition to the 49 such events from previous observing runs. This paper focuses on the eight tests that constrain parameterized deviations from the expected GR (or unaccelerated) values. These include modifications of post-Newtonian (PN) parameters, spin-induced quadrupole moments different from those of a binary black hole, and possible dispersive or birefringent propagation effects. Overall, we find no evidence for physics beyond GR, for spin-induced quadrupole moments different from those of a Kerr black hole in GR, or for line of sight acceleration, with more than 90% of the events including the null result (no deviation) within their 90% credible intervals. We discuss possible systematics affecting the other events and tests, even though they are statistically not surprising, given noise. We improve the bounds on deviations from the GR PN coefficients by factors of 1.2-5.5 and provide illustrative translations to constraints on some modified theories. Also, we update the bound on the mass of the graviton, at 90% credibility, to $m_g \\leq 1.92\\times 10^{-23} \\mathrm{eV}/c^2$. Thus, we see that GR holds, and many of the bounds on possible deviations derived from our events are the best to date.",
@@ -11565,6 +11633,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "Extreme mass-ratio inspirals (EMRIs), comprising a stellar-mass compact object (CO) orbiting a supermassive black hole (BH), are key targets for future space-based gravitational-wave (GW) observatories. Incorporating the spin of the secondary body into waveform models not only enhances measurement precision but also offers insight into the spin distribution of stellar-mass objects. In this work, we construct the flux and waveform for an EMRI with a spinning secondary in a Kerr background under the linear-spin approximation. Using the radiative prescription (half-retarded minus half-advanced field), we derive orbit-averaged evolution equations for the fundamental constants of motion, including the energy, angular momentum, Carter-like constant, and the parallel spin component. This framework provides a tractable route to generating waveforms that incorporate the secondary spin, with the potential for further simplification in future work.",
@@ -11594,42 +11663,13 @@ window.ARXIV_DATA = {
           "matches": [
             "superradiance"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "Black hole superradiance is a powerful probe of ultralight axions. If nature contains a boson with a mass of order $10^{-12}\\,$eV, $\\textit{mere vacuum fluctuations}$ will lead to its efficient production around spinning stellar mass black holes, forming a gravitational atom that both drains the black hole spin and decays to produce near-monochromatic gravitational waves. Existing superradiance constraints derive primarily from spin measurements of a handful of identified black holes. Here we instead present a detailed study of the population level effect: gravitational waves arising from both the 100 million black holes in the Milky Way and the stochastic signal from axion clouds throughout the universe. We study the impact of a broad range of systematic uncertainties on the black hole properties and compute the projected axion sensitivity for LIGO, as well as the future instruments Einstein Telescope, Cosmic Explorer, and a high-frequency Magnetic Weber Bar. We demonstrate that LIGO can robustly probe axion masses from roughly $10^{-13}\\,$eV to $4 \\times 10^{-12}\\,$eV. If the black hole population extends to masses slightly below $5\\,M_{\\odot}$ - as hinted for by LIGO inspiral observations - LIGO would approach $10^{-11}\\,$eV. Under that same assumption we show that a future high-frequency detector could push considerably higher, potentially beyond $10^{-10}\\,$eV in the most optimistic scenarios, reaching towards the lowest masses within the projected sensitivity of axion dark matter searches.",
           "technical_bullets": [
             "Matched keywords: superradiance.",
             "Primary category: hep-ph."
-          ],
-          "worth_reading_full": false
-        },
-        {
-          "id": "2603.12189",
-          "title": "Shifted-geodesic approximation for spinning-body gravitational wave fluxes",
-          "authors": [
-            "Lisa V. Drummond",
-            "Scott A. Hughes",
-            "Viktor Skoupý",
-            "Philip Lynch",
-            "Gabriel Andres Piovano"
-          ],
-          "authors_short": [
-            "Lisa V. Drummond",
-            "Scott A. Hughes",
-            "Viktor Skoupý",
-            "et al. (5 authors)"
-          ],
-          "category": "gr-qc",
-          "abstract": "We present a shifted-geodesic framework for computing gravitational-wave fluxes from spinning test bodies moving on bound orbits of Kerr black holes. The method provides a simple and efficient means of evaluating energy and angular momentum fluxes incorporating the leading effect of the smaller body's spin. Because post-adiabatic corrections, including secondary spin contributions, are subdominant to the leading adiabatic terms, this approximation is well justified. In particular, we find that oscillatory spin terms typically contribute very little to fluxes, but their contribution to the description of orbits is computationally expensive, making such terms a natural target for approximation. In our framework, orbital frequencies and integrals of the motion are perturbed to include spin effects, while the trajectory retains the global structure of geodesic motion. This simplifies the computation of gravitational radiation. The shifted-geodesic approximation is most reliable for orbits with lower eccentricity, lower inclination, and larger semi-latus recta. The approximation becomes less reliable as we approach the separatrix between stable and unstable orbits; fortunately, many inspirals spend less time in this region of parameter space. A diagnostic inspiral evolution shows very small dephasing due to use of the shifted-geodesic approximation ($\\approx10^{-2}$ radians over 1 year), confirming that spin-induced flux corrections can be accurately included using this simple modification to a geodesic trajectory. This approximation provides a rapid and convenient way to compute spinning-body orbits, but is not intended to replace more accurate treatments. We propose it as a pragmatic alternative when speed and simplicity are prioritized, enabling efficient EMRI/IMRI flux calculations and supporting parameter-space studies for LISA. (Abridged)",
-          "matches": [
-            "Kerr"
-          ],
-          "relevance": 2,
-          "base_score": 5,
-          "summary": "We present a shifted-geodesic framework for computing gravitational-wave fluxes from spinning test bodies moving on bound orbits of Kerr black holes. The method provides a simple and efficient means of evaluating energy and angular momentum fluxes incorporating the leading effect of the smaller body's spin. Because post-adiabatic corrections, including secondary spin contributions, are subdominant to the leading adiabatic terms, this approximation is well justified. In particular, we find that oscillatory spin terms typically contribute very little to fluxes, but their contribution to the description of orbits is computationally expensive, making such terms a natural target for approximation. In our framework, orbital frequencies and integrals of the motion are perturbed to include spin effects, while the trajectory retains the global structure of geodesic motion. This simplifies the computation of gravitational radiation. The shifted-geodesic approximation is most reliable for orbits with lower eccentricity, lower inclination, and larger semi-latus recta. The approximation becomes less reliable as we approach the separatrix between stable and unstable orbits; fortunately, many inspirals spend less time in this region of parameter space. A diagnostic inspiral evolution shows very small dephasing due to use of the shifted-geodesic approximation ($\\approx10^{-2}$ radians over 1 year), confirming that spin-induced flux corrections can be accurately included using this simple modification to a geodesic trajectory. This approximation provides a rapid and convenient way to compute spinning-body orbits, but is not intended to replace more accurate treatments. We propose it as a pragmatic alternative when speed and simplicity are prioritized, enabling efficient EMRI/IMRI flux calculations and supporting parameter-space studies for LISA. (Abridged)",
-          "technical_bullets": [
-            "Matched keywords: Kerr.",
-            "Primary category: gr-qc."
           ],
           "worth_reading_full": false
         },
@@ -11648,6 +11688,7 @@ window.ARXIV_DATA = {
             "superradiance",
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 5,
           "summary": "We study energy extraction and particle acceleration in the rotating Einstein-Maxwell-Dilaton-Axion (EMDA) black hole, focusing on the impact of dilaton hair $b\\le 0$ on near-horizon energetics relative to Kerr. For the Penrose process we derive analytic expressions for the maximum efficiency and show that negative $b$ can strongly enhance the ideal gain in the extremal regime (e.g., reaching $\\sim 91\\%$ for $b=-0.3$). We then compute the irreducible mass $M_{\\rm irr}$ and the corresponding rotationally extractable energy $\\mathcal{E}_{\\rm rot}\\equiv M-M_{\\rm irr}$, finding that $M_{\\rm irr}$ decreases monotonically as $b$ becomes more negative while $\\mathcal{E}_{\\rm rot}$ increases, indicating a larger spin-energy reservoir; at extremality the extracted share from rotation is $\\mathcal{E}_{\\rm rot}/M\\simeq 0.63$ for EMDA, reducing to the Kerr value $\\simeq 0.29$ at $b=0$. Kinematic constraints relevant to fragment production are quantified via the Wald and Bardeen--Press--Teukolsky bounds, which are progressively relaxed for more negative $b$. For wave superradiance we obtain the flux balance and the amplification window $0<β<kΩ_H$, with $Ω_H$ expressed through $Ξ=r_H^{2}+2br_H+a^{2}$; negative $b$ modifies $Ω_H$ and enlarges the parameter region exhibiting negative horizon flux. Finally, we analyse two-particle collisions and derive $E_{\\rm cm}$, showing that the Bañados--Silk--West divergence persists at the horizon when one particle is tuned to the critical angular momentum $L_c=E/Ω_H$, while $E_{\\rm cm}$ remains finite for generic angular momenta. Overall, dilaton hair in EMDA simultaneously amplifies energy-extraction channels and reshapes the near-horizon thresholds governing high-energy collisions.",
@@ -11673,6 +11714,7 @@ window.ARXIV_DATA = {
           "matches": [
             "superradiance"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "We investigate the phenomenon of black hole superradiance in the presence of torsion within the framework of Poincaré gauge theory. In particular, in contrast to the classical approach of General Relativity, we show that the inclusion of torsion in the space-time geometry enables the energy extraction from rotating black holes by Dirac fermions via chiral asymmetry, while preserving the Pauli exclusion principle.",
@@ -11700,6 +11742,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "We investigate the thermodynamic properties of the Kerr-Bertotti-Robinson black hole, an exact Petrov type D solution of Einstein-Maxwell theory describing a rotating black hole immersed in an external electromagnetic field. While the conserved angular momentum and electric charge can be computed straightforwardly, the conserved mass cannot be obtained through standard integrability methods due to the nontrivial asymptotically uniform external electromagnetic field. To overcome this difficulty, we adopt the Christodoulou-Ruffini mass relation as a thermodynamic definition of the conserved mass, and identify the associated generator, thereby fixing the ambiguity in defining this conserved mass and constructing the thermodynamic potentials. These thermodynamic quantities naturally satisfy the first law of black-hole thermodynamics as well as the Smarr formula.",
@@ -11729,6 +11772,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "In this study, the behavior of high-frequency quasi-periodic oscillations (QPOs) is investigated around a Kerr black hole immersed in a uniform Bertotti-Robinson magnetic field. The motion of the test particle is analyzed by determining the geodesic equations and evaluating the corresponding orbital, radial, and vertical epicyclic frequencies. These fundamental frequencies are used to construct the theoretical framework of QPO models based on parametric and forced resonance mechanisms. Observational data obtained from several black hole X-ray binaries (GRO J1655-40, XTE J1550-564, XTE J1859+226, GRS 1915+105, H1743-322, M82~X-1, and Sgr~A$^{*}$) are used to constrain the black hole parameters through Bayesian inference and Markov Chain Monte Carlo (MCMC) analyses. For the X-ray binaries GRO J1655-40, GRS 1915+105, H1743-322, and M82~X-1, nonzero values of the dimensionless parameter $b=Bm$ are obtained at the $68\\%$ confidence level within the framework of the parametric resonance model, while only upper bounds at the $90\\%$ confidence level are obtained for the remaining sources. In contrast, in the case of the forced resonance model, only an upper bound at the $90\\%$ confidence interval is obtained for the magnetic field parameter for all considered X-ray binary sources. The analysis indicates that the value of the magnetic field parameter is small but not negligible, producing minor modifications to particle dynamics and epicyclic frequencies. The influence of the magnetic field is further examined through the properties of the innermost stable circular orbit and the radiative properties of the thin accretion disk, including the energy flux and temperature profiles, within the allowed parameter range inferred from the MCMC analysis.",
@@ -11752,6 +11796,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author, and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
@@ -11779,6 +11824,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "This paper investigates the repetitive Penrose process in Konoplya-Zhidenko rotating non-Kerr black hole, exploring the influence of the deformation parameter on the repetitive Penrose process. After a brief review of the Konoplya-Zhidenko rotating non-Kerr black hole, we study the fundamental equations of the Penrose process in this spacetime, examine the iterative stopping conditions required for the repetitive Penrose process, and obtain the corresponding numerical results. It is concluded that, in addition to previously observed phenomena, under the same decay radius, a larger initial dimensionless deformation parameter $\\hatη$ leads to greater values of the energy return on investment and energy utilization efficiency, particularly at higher decay radii. Furthermore, a smaller initial $\\hatη$ results in a larger maximum value of the energy return on investment. For energy utilization efficiency, the initial $\\hatη$ should take an intermediate value to maximize its peak. Additionally, we find that a larger initial $\\hatη$ corresponds to a smaller maximum value of the extracted energy.",
@@ -11802,6 +11848,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "Extreme-mass-ratio inspirals (EMRIs) are among the most promising sources for future space-based gravitational-wave (GW) detectors, such as LISA. To fully leverage the scientific potential, the GW templates required for parameter estimation must be modeled with high accuracy for eccentric precessing binary systems with nonzero spins. This work introduces a practical and efficient framework for incorporating the effects of secondary spin in fully generic, eccentric, and offequatorial EMRIs to the first postadiabatic order. We utilize recently found analytic solutions for the trajectories of spinning bodies in Kerr spacetime to significantly simplify the calculation of the corresponding asymptotic GW fluxes. Furthermore, thanks to the recently proven flux-balance laws, we show how to express the rates of change of the constants of motion, including the Carter-Rüdiger constant, using asymptotic Teukolsky amplitudes and purely geodesic functions that are already established in the literature. Finally, we show how this framework performs in the case of nearly-spherical inspirals and demonstrate that the resulting spin-induced phase shifts are gauge independent. A Wolfram Mathematica implementation of the code developed in this work is publicly available in the KerrSpinningFluxes package.",
@@ -11831,6 +11878,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "In this paper, we investigate the quantum gravity effects on the tunneling of particles and gravity's rainbow across the event horizon of Kerr-Newman black hole (KNBH) surrounded by the quintessence. The aspect of quantum gravity has been introduced by applying the Generalized Uncertainty Principle (GUP) to the Klein-Gordon equation and the Dirac equation of scalar and fermion particles. By solving the Generalized Klein-Gordon and Dirac equations obeyed by scalar and fermion particles, corrections to the Hawking temperature of the KNBH in the presence of quintessence is discussed. The tunneling of fermions is also examined using the modified Hamilton-Jacobi equation also known as modified Rarita-Schwinger equation, and the corrected Hawking temperature is determined. The corrected Hawking temperature of the KNBH surrounded by quintessence is found to be dependent not only on the properties of the black hole but also on the quantum numbers of the emitted particles and quintessence. Then, we explored the KNBH surrounded by quintessence within the framework of gravity rainbow using rainbow functions. In the context of rainbow functions in loop quantum gravity, we derive the Hawking temperature, heat capacity, equation of state parameters, and entropy for the KNBH surrounded by quintessence. It is found that these quantities are influenced by both the quintessence and the rainbow gravity.",
@@ -11861,6 +11909,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "In this paper, we study the effect of the modified dispersion relation (MDR) on the thermodynamics of the Kerr-Newman black hole surrounded by quintessence and a cloud of string. The thermodynamic properties of the Kerr-Newman black hole are shown to rely not only on the black hole's properties but also on the parameters associated with the modified dispersion relation, quintessence, and the cloud string. Additionally, the equation of state is impacted by these parameters. The remnant and the stability of the black hole are also discussed under the correction of MDR, quintessence, and a cloud of string. In addition, the null geodesic structure of the spacetime is studied using the Hamilton--Jacobi formalism. The effective potential for photon motion is obtained, and the radii of the prograde and retrograde circular photon orbits are determined. The instability of these circular photon orbits is further characterized by the Lyapunov exponent.",
@@ -11892,6 +11941,7 @@ window.ARXIV_DATA = {
           "matches": [
             "Kerr"
           ],
+          "preferred_author_matches": [],
           "relevance": 2,
           "base_score": 4,
           "summary": "Plasma, as a medium around the black hole for light propagation, is known to visibly alter the shape of its shadow and the observables, which could impact the interpretation of the Event Horizon Telescope results. In this study, we examine how dark matter and non-magnetized, pressureless plasma influence the shadow of a Kerr-like black hole. We analyze the null-geodesics in the presence of both homogeneous and inhomogeneous plasma profiles and show how their influence on photon orbits affects the resulting black hole shadow. Our findings indicate that increasing the black hole's spin generally enlarges both the shadow radius and deformation. Additionally, the viewing angle decreases the shadow radius while reducing deformation as the observer moves farther from the equatorial plane. For this model, astrophysically reasonable amounts of dark matter show no significant impact on the photon trajectories. However, we observe that increasing plasma density increases both the shadow radius and deformation for homogeneous plasma, while it decreases them for inhomogeneous plasma. The emission rate also depends significantly on the model of plasma chosen, with homogeneous plasma causing significantly more emission as plasma strength increases. We also study the constraints obtained from comparing theoretical shadow radii with EHT observations of M87* and Sgr A*, which allows us to infer reasonable plasma distribution properties and frequencies in our theoretical model.",
