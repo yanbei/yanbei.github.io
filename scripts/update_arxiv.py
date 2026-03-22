@@ -49,6 +49,13 @@ def dedupe_keep_order(items):
     return out
 
 
+def effective_profile(watch, global_profile):
+    return {
+        "previous_work": watch.get("previous_work", global_profile.get("previous_work", [])),
+        "current_interest": watch.get("current_interest", global_profile.get("expertise", [])),
+    }
+
+
 def pdf_url(arxiv_id):
     return f"https://arxiv.org/pdf/{arxiv_id}.pdf"
 
@@ -118,7 +125,7 @@ def profile_score(title, summary, profile):
         if item.lower() in hay:
             previous_hits.append(item)
             score += 2
-    for item in profile.get("expertise", []):
+    for item in profile.get("current_interest", []):
         if item.lower() in hay:
             interest_hits.append(item)
             score += 2
@@ -244,7 +251,7 @@ def synthesize_with_openai(paper, watch, profile, pdf_text):
         },
         "yanbei_profile": {
             "previous_work": profile.get("previous_work", []),
-            "current_interest": profile.get("expertise", []),
+            "current_interest": profile.get("current_interest", []),
         },
         "paper": {
             "title": paper["title"],
@@ -291,7 +298,7 @@ def merge_synthesis(paper, synth, watch, profile):
     if not synth:
         age_note = f"published about {paper['age_days']} days ago" if paper.get("age_days") is not None else "publication date unavailable"
         previous = ", ".join(paper.get("previous_work_hits") or profile.get("previous_work", [])[:2])
-        current = ", ".join(paper.get("current_interest_hits") or profile.get("expertise", [])[:2])
+        current = ", ".join(paper.get("current_interest_hits") or profile.get("current_interest", [])[:2])
         why_parts = [part for part in [previous, current] if part]
         why_text = "; and also to ".join(why_parts) if why_parts else watch.get("label", "this topic")
         novelty_hint = "The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable."
@@ -313,9 +320,10 @@ def merge_synthesis(paper, synth, watch, profile):
     return paper
 
 
-def process_watch(watch, cache, display, profile):
+def process_watch(watch, cache, display, global_profile):
     categories = dedupe_keep_order(watch.get("categories", []))
     keywords = dedupe_keep_order(watch.get("keywords", []))
+    profile = effective_profile(watch, global_profile)
     max_results = display.get("max_results", DEFAULT_MAX_RESULTS)
     top_n = display.get("top_n", DEFAULT_TOP_N)
     max_authors = display.get("max_authors", DEFAULT_MAX_AUTHORS)
@@ -362,12 +370,12 @@ def process_watch(watch, cache, display, profile):
 
 def main():
     prefs = load_json(PREFS, {})
-    profile = load_json(PROFILE, {})
+    global_profile = load_json(PROFILE, {})
     cache = load_json(CACHE, {})
     display = prefs.get("display", {})
     watches = prefs.get("watches", [])
 
-    watch_results = [process_watch(watch, cache, display, profile) for watch in watches]
+    watch_results = [process_watch(watch, cache, display, global_profile) for watch in watches]
 
     pacific = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=-7)))
     payload = {

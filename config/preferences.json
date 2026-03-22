@@ -22,6 +22,18 @@
         "Teukolsky",
         "EMRI"
       ],
+      "previous_work": [
+        "post-Newtonian expansion",
+        "statistical methods for gravitational-wave data analysis",
+        "black-hole perturbation theory",
+        "strategies for testing general relativity",
+        "neutron star tidal interactions",
+        "three-body dynamics",
+        "extreme-mass-ratio inspirals"
+      ],
+      "current_interest": [
+        "astrophysical populations of gravitational-wave sources"
+      ],
       "prioritize": [
         "gravitational waves",
         "black-hole perturbation theory",
@@ -33,8 +45,7 @@
         "waveform modeling",
         "strong-gravity tests tied to observables"
       ],
-      "deprioritize": [
-      ],
+      "deprioritize": [],
       "notes": [
         "Related to research of Yanbei Chen and collaborators.",
         "Prefer concise technical summaries.",
@@ -58,10 +69,14 @@
         "quantum gravity",
         "experimental signatures of quantum gravity"
       ],
-      "prioritize": [
+      "previous_work": [],
+      "current_interest": [
+        "nature of dark matter and dark energy",
+        "cosmic evolution",
+        "experimental signatures of quantum gravity"
       ],
-      "deprioritize": [
-      ],
+      "prioritize": [],
+      "deprioritize": [],
       "notes": [
         "Related to research of Yanbei Chen and collaborators.",
         "Observational signature of quantum gravity.",
