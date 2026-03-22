@@ -206,6 +206,9 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
                 "age_days": age_days(published_at),
                 "previous_work_hits": previous_hits,
                 "current_interest_hits": interest_hits,
+                "used_openai": False,
+                "used_pdf_text": False,
+                "pdf_text_chars": 0,
                 "relevance": relevance(final_score),
                 "base_score": final_score,
             }
@@ -286,12 +289,14 @@ def merge_synthesis(paper, synth, watch, profile):
             f"Yanbei may care because it connects to his previous work and current interests, especially {why_text}.",
             f"Key words/topics: {', '.join(paper['matches']) or 'none recorded'}; {age_note}."
         ]
+        paper["used_openai"] = False
         paper["worth_reading_full"] = paper["relevance"] >= 4
         return paper
     bullets = synth.get("summary_bullets", [])[:3]
     while len(bullets) < 3:
         bullets.append("No extra technical note provided.")
     paper["summary_bullets"] = bullets
+    paper["used_openai"] = True
     paper["relevance"] = max(1, min(5, int(synth.get("relevance_score", paper["relevance"]))))
     paper["worth_reading_full"] = bool(synth.get("worth_reading_full", paper["relevance"] >= 4))
     return paper
@@ -315,18 +320,23 @@ def process_watch(watch, cache, display, profile):
         cache_key = f"{watch['id']}::{paper['id']}"
         cached = cache.get(cache_key)
         if cached:
-            for key in ["summary_bullets", "relevance", "worth_reading_full"]:
+            for key in ["summary_bullets", "relevance", "worth_reading_full", "used_openai", "used_pdf_text", "pdf_text_chars"]:
                 if key in cached:
                     paper[key] = cached[key]
             enriched.append(paper)
             continue
         pdf_text = extract_pdf_text(paper.get("pdf_url", ""), pdf_max_pages, pdf_max_chars)
+        paper["used_pdf_text"] = bool(pdf_text)
+        paper["pdf_text_chars"] = len(pdf_text) if pdf_text else 0
         synth = synthesize_with_openai(paper, watch, profile, pdf_text)
         paper = merge_synthesis(paper, synth, watch, profile)
         cache[cache_key] = {
             "summary_bullets": paper["summary_bullets"],
             "relevance": paper["relevance"],
             "worth_reading_full": paper["worth_reading_full"],
+            "used_openai": paper.get("used_openai", False),
+            "used_pdf_text": paper.get("used_pdf_text", False),
+            "pdf_text_chars": paper.get("pdf_text_chars", 0),
         }
         enriched.append(paper)
 

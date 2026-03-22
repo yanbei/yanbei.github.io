@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-22T06:39:14+00:00",
-  "openai_enabled": true,
+  "updated": "2026-03-22T06:48:32+00:00",
+  "openai_enabled": false,
   "display": {
     "max_authors": 3,
     "top_n": 20,
@@ -54,6 +54,9 @@
             "post-Newtonian expansion"
           ],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 14,
           "summary_bullets": [
@@ -1868,6 +1871,9 @@
           "age_days": 2.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
@@ -1901,6 +1907,9 @@
             "extreme-mass-ratio inspirals"
           ],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
@@ -1938,6 +1947,9 @@
           "age_days": 5.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
@@ -1970,6 +1982,9 @@
           "age_days": 11.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 13,
           "summary_bullets": [
@@ -2007,6 +2022,9 @@
           "age_days": 5.3,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
@@ -2039,6 +2057,9 @@
             "extreme-mass-ratio inspirals"
           ],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 12,
           "summary_bullets": [
@@ -2071,6 +2092,9 @@
           "age_days": 5.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 11,
           "summary_bullets": [
@@ -2100,6 +2124,9 @@
           "age_days": 3.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -2134,6 +2161,9 @@
           "age_days": 5.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -2167,6 +2197,9 @@
           "age_days": 6.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -2202,9 +2235,12 @@
             "ringdown"
           ],
           "published": "2026-03-12T15:10:53+00:00",
-          "age_days": 9.6,
+          "age_days": 9.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
@@ -4021,6 +4057,9 @@
           "age_days": 2.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
@@ -4061,6 +4100,9 @@
           "age_days": 5.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
@@ -4097,6 +4139,9 @@
           "age_days": 9.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
@@ -4129,6 +4174,9 @@
           "age_days": 2.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -5943,6 +5991,9 @@
           "age_days": 2.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -5971,6 +6022,9 @@
           "age_days": 2.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6003,6 +6057,9 @@
           "age_days": 2.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6037,6 +6094,9 @@
           "age_days": 3.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6097,6 +6157,9 @@
           "age_days": 3.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6128,6 +6191,9 @@
           "age_days": 24.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 4,
           "base_score": 8,
           "summary_bullets": [
@@ -6158,6 +6224,9 @@
           "age_days": 2.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6192,6 +6261,9 @@
           "age_days": 2.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6220,6 +6292,9 @@
           "age_days": 4.4,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6256,6 +6331,9 @@
           "age_days": 5.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6294,6 +6372,9 @@
           "age_days": 10.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6329,6 +6410,9 @@
           "age_days": 10.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 7,
           "summary_bullets": [
@@ -6361,6 +6445,9 @@
           "age_days": 2.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6399,6 +6486,9 @@
           "age_days": 2.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6431,6 +6521,9 @@
           "age_days": 2.8,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6469,6 +6562,9 @@
           "age_days": 3.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6499,6 +6595,9 @@
           "age_days": 3.4,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6533,6 +6632,9 @@
           "age_days": 3.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6568,6 +6670,9 @@
           "age_days": 3.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6603,6 +6708,9 @@
           "age_days": 4.2,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6639,6 +6747,9 @@
           "age_days": 4.2,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6671,6 +6782,9 @@
           "age_days": 4.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6701,6 +6815,9 @@
           "age_days": 4.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
@@ -6736,6 +6853,9 @@
           "age_days": 5.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
