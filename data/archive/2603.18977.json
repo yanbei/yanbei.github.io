@@ -14,14 +14,14 @@
   "category": "quant-ph",
   "published": "2026-03-19T14:41:55+00:00",
   "summary_bullets": [
-    "This paper studies XCOM: Full Mesh Network Synchronization and Low-Latency Communication for QICK (Quantum Instrumentation Control Kit) using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-    "Key words/topics: quantum control; published about 2.7 days ago."
+    "XCOM is a full‑mesh synchronization and low‑latency communication network for QICK boards that aligns absolute experiment clocks across multiple RFSoC-based modules to within 100 ps (demonstrated sub-100 ps, ~20 ps skew) while providing deterministic all‑to‑all data exchange with 186 ns per 32‑bit word latency (can be reduced to ~62 ns at higher fabric clocks). The prototype combines per-board Tx data/clk LVDS pairs and a fanout hub with firmware IP integrated into each board’s tProc, and leverages nested zero‑delay PLL locking and FPGA multi‑tile synchronization to achieve drift‑free, simultaneous start/stop of absolute clocks and sub‑picosecond phase alignment. Novel contributions are the parallel full‑mesh Tx/listen architecture that avoids central bottlenecks, embedding deterministic messaging at the experiment absolute‑time domain (tProc) for conditional jumps and feed‑forward, and a practical hardware/firmware path to scale multi‑board control for large qubit systems and low‑level QEC or AI‑assisted calibration.",
+    "You would care because precise cross‑module timing and deterministic, fabric‑level latencies directly enable the kinds of measurement and control experiments central to your work (quantum noise in interferometers, quantum measurement theory, quantum trajectories, QND/back‑action evasion, and optomechanics): sub‑100 ps alignment and <200 ns deterministic messaging make synchronous pulse timing, real‑time feed‑forward, and low‑latency syndrome extraction feasible across multiple control boards. XCOM’s integration with tProc and support for conditional jumps/embedded commands is especially relevant for experiments requiring tight real‑time control (fast feedback, hardware decoders, or distributed entanglement tests) and for scaling tabletop tests of macroscopic quantum behavior or gravity‑induced entanglement across many control modules, matching several of your current interests in quantum learning, QEC, and quantum gravity phenomenology.",
+    "Keywords/topics: quantum control, synchronization, low‑latency communication, QICK, RFSoC/FPGA, full‑mesh network, deterministic latency, cross‑board timing, superconducting and spin qubit control, real‑time feedback and QEC; published on arXiv 19 March 2026 (very recent)."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 27993,
   "featured": true
 }

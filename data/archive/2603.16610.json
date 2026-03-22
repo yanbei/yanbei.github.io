@@ -10,14 +10,14 @@
   "category": "gr-qc",
   "published": "2026-03-17T14:51:36+00:00",
   "summary_bullets": [
-    "This paper studies Testing general relativity with binary black holes: a study on the sensitivity requirements for future space-based detectors using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially testing general relativity; and also to black holes.",
-    "Key words/topics: ringdown, merger, binary black hole; published about 4.7 days ago."
+    "This paper quantifies the sensitivity improvements required for future space‑based detectors to detect beyond‑GR signatures from massive black‑hole binary mergers, focusing on three targets: the second‑order (2,2,0)×(2,2,0) quadratic ringdown, displacement memory, and a putative emergent‑gravity motivated induced EMRI (iEMRI). Using TianQin, LISA and µAres as baseline designs and varying the two core noise parameters (one‑way displacement noise S_x and residual acceleration noise S_a), the authors compute optimal (S_a,S_x) choices for detectability across three MBHB population models (Q3d, Q3nd, pop III) and adopt ρ_th=8 as the detection threshold. They find that required improvements depend strongly on target signal and population model — Q3d is least demanding, pop III most — and that in the most challenging scenarios (iEMRI or pop III) one may need ~4–9 orders of magnitude improvement in S_a and/or S_x, highlighting severe technological challenges for these science goals.",
+    "Why you would care: this work connects directly to your prior research on black‑hole perturbation theory, nonlinear ringdown modes, GW memory, and EMRIs by translating theoretical nonlinear observables into concrete detector requirements and population‑dependent detection forecasts. The paper assesses detectability of second‑order QNMs and memory (both central to tests of GR in the nonlinear regime) and proposes an observational signature (iEMRI) tied to an emergent‑gravity/FBH model, so it informs which strong‑gravity effects are realistically accessible with space missions and where to concentrate waveform modeling and data‑analysis efforts.",
+    "Keywords/topics: nonlinear ringdown (quadratic QNMs, (2,2,0)×(2,2,0)); displacement memory; induced EMRI (iEMRI) from a Fluid Black Hole emergent‑gravity model; space‑based detectors (TianQin, LISA, µAres); detector noise parameters S_a and S_x; MBHB population models (Q3d, Q3nd, pop III); SNR/detectability and waveform implications. Published on arXiv / dated March 17–18, 2026 (very recent)."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 26703,
   "featured": true
 }

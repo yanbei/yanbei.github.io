@@ -1788,14 +1788,14 @@
   "category": "gr-qc",
   "published": "2026-03-19T15:22:28+00:00",
   "summary_bullets": [
-    "This paper studies GWTC-4.0: Tests of General Relativity. III. Tests of the Remnants using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: quasinormal mode, ringdown, merger, Kerr; published about 2.7 days ago."
+    "This paper performs seven tests of binary-coalescence remnants across 42 confident events from GWTC-4.0 (O4a) and previous runs, focusing on three ringdown analyses and four echo searches. The ringdown work uses two time-domain methods (PYRING and QNMRF) and a frequency-domain whole-signal analysis (pSEOBNR), with hierarchical combination of events and careful start-time choices to extract quasinormal-mode frequencies and damping times, while the echo searches use two modeled families (ADA, BHP) and two minimally modeled coherent-power searches (BAYESWAVE, CWB). The results show overall consistency with Kerr GR: a tight single-event bound on the (2,2,0) damping time for GW231226, no evidence for post-merger echoes, and a hierarchical combination that places GR near the edge of a ~98.6% credible region but with bootstrapped uncertainties and decreased significance after including GW250114, so no strong evidence for a GR deviation.",
+    "You would care because the paper applies observational black-hole spectroscopy and hierarchical Bayesian inference to constrain QNM frequencies and damping times using real catalogs, directly connecting to your prior work on black-hole perturbation theory, quasinormal modes, and tests of GR. Their explicit discussion of early post-merger transients, amplitude time-dependence, and nonlinear contributions (and how analysis start time affects bias) speaks to your interests in nonlinear oscillations, gravitational-wave tails, and improving theoretical models for the post-merger regime. The echo searches and null bounds also touch your interests in event-horizon signatures and observational probes of exotic compact objects or beyond-GR physics.",
+    "Keywords/topics: ringdown, quasinormal modes, black-hole spectroscopy, Kerr black holes, PYRING, pSEOBNR, QNMRF, echoes (ADA, BHP), BAYESWAVE, CWB, hierarchical Bayesian inference, bootstrapping, GWTC-4.0; Published on arXiv Mar 19, 2026 (arXiv:2603.19021) — very recent."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 29288,
   "featured": true
 }

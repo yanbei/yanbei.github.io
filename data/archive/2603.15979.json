@@ -11,14 +11,14 @@
   "category": "gr-qc",
   "published": "2026-03-16T22:48:07+00:00",
   "summary_bullets": [
-    "This paper studies Ringdown waves from hairy black holes using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: ringdown, Kerr; published about 5.4 days ago."
+    "The paper derives general analytic formulas for quasinormal-mode (QNM) frequencies of hairy black holes by exploiting the QNM–geodesic (unstable circular photon orbit, UCOP) correspondence, treating the hair as a perturbative anisotropic fluid added to Schwarzschild and Kerr backgrounds.",
+    "It gives explicit expressions for the orbital frequency Ω and Lyapunov exponent λ (so that ωQNM ≃ Ωℓ − i(n+1/2)λ), then linearizes the shifts δΩ and δλ in terms of the fluid state parameters wr, wθ and the density ρ(r) (relating δf(r) to integrals of ρ), and extends the analysis to rotating equatorial (ℓ=|m|) modes.",
+    "The authors connect QNM modifications to energy conditions (e.g. sign constraints on δλ/λ − δΩ/Ω for regular matter), provide worked examples (Bardeen, Hayward, Kiselev), and propose simple observational discriminants between vacuum and dark‑hair scenarios."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 15053,
   "featured": true
 }

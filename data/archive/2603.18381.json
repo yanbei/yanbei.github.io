@@ -7,14 +7,14 @@
   "category": "quant-ph",
   "published": "2026-03-19T00:59:11+00:00",
   "summary_bullets": [
-    "This paper studies Observable-Conditioned Backaction in Dynamic Circuits: A Higher-Order Context-Conditioned Kernel for Local Dynamics using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 3.3 days ago."
+    "This paper introduces a higher-order context-conditioned kernel Γ_eff[Y,O]=Γ_loc[O]+Γ_proxy[O]+Γ_rel[Y,O] to capture mid-circuit measurement backaction that is invisible to standard low-order proxies (T1, T2, readout error, pairwise crosstalk).",
+    "The author implements a synthetic A6 hardware harness on IBM boston that programs a pure higher-order parity context (Y = C0⊕C1⊕C2) which is by construction invisible to all 1- and 2-body summaries, and shows empirically that the local probe EX,mean nevertheless exhibits a dose-dependent suppression ∝(1−cosθ) consistent with the Γ_rel term. The work further demonstrates coherent controllability via an A6.2 quantum-eraser (MARK/ERASE) where marker conditioning restores fringes, and it operationalizes Möbius-type weights on classical measurement outcomes to quantify the residual context dependence without invoking impossible operator-algebraic decompositions.",
+    "No extra technical note provided."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 23468,
   "featured": true
 }

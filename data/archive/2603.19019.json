@@ -1790,14 +1790,14 @@
   "category": "gr-qc",
   "published": "2026-03-19T15:22:26+00:00",
   "summary_bullets": [
-    "This paper studies GWTC-4.0: Tests of General Relativity. I. Overview and General Tests using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: ringdown; published about 2.7 days ago."
+    "Using 91 confident compact-binary signals (including 42 new O4a events) from GWTC-4.0, the LVK present an ensemble of 19 tests of general relativity split across three companion papers and give an overview here.",
+    "This Paper I implements four general consistency checks—residuals, inspiral–merger–ringdown (IMR) consistency, subdominant-multipole amplitude (SMA) tests, and polarization content—and finds no evidence for deviations from GR: residuals are consistent with noise, low- and high-frequency inferences of the remnant mass and spin agree, and amplitudes of subdominant multipoles and polarization content match GR expectations.",
+    "Many new analyses and methodological improvements are introduced (for example SMA, PCA, updated TIGER, LOSA, SSB, PYRING, QNMRF and echo searches), and the expanded O4a catalog tightens constraints on post-Newtonian coefficients, modified-dispersion bounds, and ringdown frequencies and damping times, with some individual O4a events (notably GW230518 and GW231226) providing particularly strong bounds."
   ],
-  "relevance": 4,
+  "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25867,
   "featured": true
 }

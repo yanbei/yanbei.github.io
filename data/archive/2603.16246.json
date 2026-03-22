@@ -8,14 +8,14 @@
   "category": "quant-ph",
   "published": "2026-03-17T08:30:26+00:00",
   "summary_bullets": [
-    "This paper studies Tunable Rotation-Associated Slow-to-Fast Light Conversion via Optomagnonic Coupling using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially optomechanics; and also to quantum learning, quantum error correction.",
-    "Key words/topics: optomechanics; published about 5.0 days ago."
+    "The paper constructs a theoretical model of an optomagnonic–Laguerre–Gaussian rotational hybrid that couples cavity photons, a rotating mirror (optorotational phonon mode) and magnons in a YIG sphere, and derives the linearized Heisenberg–Langevin equations including optorotational and optomagnonic interactions. Numerical simulations show that adding magnons produces additional transparency windows and asymmetric Fano resonances, and enables tunable, bidirectional slow-to-fast (and fast-to-slow) light conversion at both the magnon and mechanical rotation frequencies by varying control-field detuning/intensity, external magnetic field, or optomagnonic coupling. The novelty is that magnon tunability via an external magnetic field overcomes fixed mechanical-frequency limits of traditional optomechanics, enabling multi-frequency, dynamically switchable group-delay control in an LG rotational cavity and mapping stable/unstable parameter regimes for experimental implementation.",
+    "Why Yanbei would care: this work sits squarely on the optomechanics/quantum measurement axis of his prior research — it extends OMIT-style phase dispersion and group-delay control to a photon–phonon–magnon hybrid, providing a new, magnetically controlled knob for dynamically tailoring probe phase and delay. That magnetic tunability and the integration with rotational (OAM) degrees of freedom could be useful for quantum-limited timing, buffer/storage protocols, or back-action–aware measurement schemes in optomechanical platforms, and the paper’s stability analysis and parameter maps help assess experimental feasibility for macroscopic-quantum tests and precision sensing.",
+    "Keywords/topics: optomagnonics, cavity optomechanics, Laguerre–Gaussian rotational cavity, magnons (YIG), optorotational coupling, slow/fast light, OMIT, Fano resonances, group delay tuning, hybrid photon–phonon–magnon systems. Posted on arXiv 2026-03-17 (very recent; ~5 days old)."
   ],
   "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 26426,
   "featured": true
 }

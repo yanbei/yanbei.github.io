@@ -9,14 +9,14 @@
   "category": "gr-qc",
   "published": "2026-03-16T06:17:09+00:00",
   "summary_bullets": [
-    "This paper studies Spectral Bifurcations in Quasinormal Modes of Regular BTZ Black Holes using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: quasinormal mode, ringdown; published about 6.1 days ago."
+    "The paper computes massless scalar quasinormal modes on a family of regular (non‑singular) BTZ black holes obtained from an infinite, dimensionally‑regularized Lovelock tower that introduces a short‑scale parameter ℓ and a smooth core while preserving asymptotically AdS behavior. Using both Leaver’s continued‑fraction method and the Horowitz–Hubeny power‑series method the authors find excellent agreement and demonstrate linear stability (ω_I < 0) across the explored parameter space. As ℓ increases, BTZ‑like complex branches collide with the imaginary axis and undergo a hierarchy of bifurcations into multiple purely imaginary branches, producing mode‑switching and a nontrivial reordering of overtones controlled by ℓ and the azimuthal index m.",
+    "Why you would care: this work supplies a controlled (2+1) example that links a geometric regularization (infinite higher‑curvature/Lovelock tower → Horndeski scalar profile) to concrete, numerically robust QNM phenomenology; that directly touches your interests in black‑hole perturbation theory, ringdown/quasinormal spectra, and strong‑gravity tests. The demonstrated spectral bifurcations and overtone relabeling are directly relevant to issues you’ve studied—overtone identification, late‑time tails and nonlinear mode structure—and the numerical techniques (reduction of an eight‑term recurrence to a three‑term Leaver form, cross‑check with Horowitz–Hubeny) may be reusable when probing modified‑gravity signatures in waveform modeling.",
+    "Keywords/topics: quasinormal modes, regular BTZ black holes, infinite Lovelock (dimensionally regularized) corrections, Horndeski scalar‑tensor realization, spectral bifurcations / mode branching, overtone reordering, Leaver continued fraction, Horowitz–Hubeny method, AdS ringdown, scalar perturbations. Published: arXiv:2603.14872v1 (gr‑qc), posted 16 March 2026 — very recent."
   ],
-  "relevance": 5,
+  "relevance": 4,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25264,
   "featured": true
 }

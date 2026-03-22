@@ -24,14 +24,14 @@
   "category": "quant-ph",
   "published": "2026-03-17T13:21:34+00:00",
   "summary_bullets": [
-    "This paper studies Distinguishing types of correlated errors in superconducting qubits using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 4.8 days ago."
+    "This experimental study identifies and distinguishes two classes of temporally and spatially correlated errors in 10-qubit transmon arrays: quasiparticle bursts from ionizing radiation and low-frequency pulse-tube-induced vibration events, using temporal, spatial and frequency-domain diagnostics and accelerometer data. The authors apply matched filtering and exponential-decay fitting to extract event lifetimes, define a simple spatial-asymmetry metric A to compare localization, and show the vibration-induced population appears at the pulse-tube fundamental (~1.4 Hz) while radiation events have ≈5 ms decay tails. They further demonstrate that gap-engineered devices (ΔJJ > fq) suppress both radiation- and vibration-induced correlated errors and that turning the pulse tube off removes the vibration-induced population and yields an estimated T1 improvement.",
+    "Yanbei should care because correlated multi-qubit errors directly challenge the independent-noise assumptions underlying the quantum error correction and quantum measurement analyses he has worked on; this paper supplies concrete, experimentally validated diagnostics and mitigation levers (gap engineering, pulse-tube control, vibration isolation, use of auxiliary accelerometer channels) that can be incorporated into realistic error models and QEC threshold studies. It is also relevant to his interests in macroscopic-environment-induced decoherence and optomechanics since it shows how classical mechanical vibrations produce long-lived, structured multi-qubit error bursts and how auxiliary sensing can be used to separate environmental from particle-induced decoherence mechanisms.",
+    "Keywords/topics: superconducting transmons, correlated errors, quasiparticles, cosmic/terrestrial radiation, pulse-tube vibrations, gap engineering, matched filtering, accelerometer-based noise vetoes, quantum error correction, decoherence. Published on arXiv Mar 17–18, 2026 (very recent)."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28395,
   "featured": true
 }

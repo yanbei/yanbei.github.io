@@ -8,14 +8,14 @@
   "category": "astro-ph.HE",
   "published": "2026-03-18T06:06:30+00:00",
   "summary_bullets": [
-    "This paper studies Fluxes of Generic Extreme-Mass-Ratio Inspirals with a Spinning Secondary using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.HE themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially extreme-mass-ratio inspirals; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: inspiral, Kerr, EMRI; published about 4.1 days ago."
+    "This paper constructs fluxes and leading-order waveforms for generic EMRIs with a spinning secondary in a Kerr background under the linear‑spin approximation, using the radiative (half‑retarded minus half‑advanced) prescription. They derive orbit‑averaged evolution equations for the constants of motion — energy, axial angular momentum, a Carter‑like constant, and the parallel spin component — by computing the Teukolsky source from an MPD worldline and performing a 3‑dimensional Fourier decomposition that includes the spin‑precession frequency. The novelty is a practical pipeline (numerical computation of spin‑weighted spheroidal harmonics and homogeneous radial functions via the Jiang‑Han Rust implementation, construction of asymptotic amplitudes Z^∞/H and fluxes) that yields flux data for generic spin‑aligned MPD orbits and provides a tractable route toward incorporating secondary spin into adiabatic/first‑post‑adiabatic EMRI waveform models.",
+    "This is directly relevant to your EMRI and black‑hole perturbation interests because it connects MPD dynamics for a spinning secondary to Teukolsky‑based flux calculations, delivering the dissipative spin contributions needed for more accurate templates and parameter estimation. Including linear secondary spin is an essential step for meeting Lindblom‑level accuracy at 1PA and for measuring secondary‑spin signatures that can distinguish astrophysical formation channels or compact‑object types — topics you have worked on (EMRIs, self‑force/perturbation theory, waveform templates and strong‑gravity observables). The methods (orbit‑averaging, radiative field, explicit Fourier expansion including precession) produce codeable ingredients that can be folded into template banks and tests of GR for space‑based detectors.",
+    "Keywords/topics: EMRI, Kerr spacetime, Mathisson‑Papapetrou‑Dixon (MPD) equations, spinning secondary (linear‑spin/dipole), Teukolsky formalism, spin‑weighted spheroidal harmonics, radiative prescription, orbit‑averaged fluxes, Carter constant evolution, waveform modeling for LISA. arXiv:2603.18075 (v1 posted 18 Mar 2026; PDF dated 20 Mar 2026) — very recent."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 22541,
   "featured": true
 }

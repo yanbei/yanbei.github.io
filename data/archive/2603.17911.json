@@ -7,14 +7,14 @@
   "category": "gr-qc",
   "published": "2026-03-18T16:50:10+00:00",
   "summary_bullets": [
-    "This paper studies Non-linear instability of the Kerr Cauchy horizon near $i_+$ using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: Kerr, Teukolsky; published about 3.6 days ago."
+    "The paper proves that for vacuum evolutions from smooth initial data placed slightly inside a dynamical black hole that settle to a subextremal Kerr and obey a precise non-linear Price’s‑law type decay, the maximal globally hyperbolic development contains a nontrivial portion of the future Cauchy horizon emanating from timelike infinity i+ which exhibits a curvature blow‑up. It further shows the spacetime metric is Lipschitz‑inextendible across that piece of the Cauchy horizon, yielding a Lipschitz version of Strong Cosmic Censorship for Kerr near i+ under the decay assumption. The argument decomposes the interior into several regions, develops stability and instability estimates for a non‑linear analogue of the Teukolsky equation using the non‑integrable formalism and principal temporal gauge (building on Dafermos–Luk C0 stability and the author’s linear interior Teukolsky analysis), and finally applies Sbierski’s criterion to obtain inextendibility.",
+    "Why Yanbei would care: this work ties rigorous non‑linear black‑hole interior dynamics to precise decay (Price’s law) of radiative fields and analyzes a non‑linear Teukolsky system inside Kerr, directly intersecting Yanbei’s interests in black‑hole perturbation theory, Teukolsky methods, gravitational‑wave tails and nonlinear GW interactions; it converts decay/tail assumptions into a statement about horizon regularity and SCC, which has consequences for the mathematical underpinnings of ringdown/tail modelling and for conceptual issues about horizons and determinism that inform strong‑gravity tests.",
+    "Keywords/topics: Kerr black hole, Cauchy horizon, Strong Cosmic Censorship (Lipschitz inextendibility), non‑linear Price’s law, Teukolsky equation (non‑linear analysis), Dafermos–Luk stability, non‑integrable formalism, curvature blow‑up, black hole interior. Published on arXiv as arXiv:2603.17911 (posted 18–19 Mar 2026; very recent)."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24097,
   "featured": true
 }

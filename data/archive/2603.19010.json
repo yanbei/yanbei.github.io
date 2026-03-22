@@ -16,7 +16,7 @@
   "relevance": 3,
   "worth_reading_full": false,
   "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_pdf_text": true,
+  "pdf_text_chars": 19488,
   "featured": true
 }

@@ -8,14 +8,14 @@
   "category": "quant-ph",
   "published": "2026-03-16T18:00:24+00:00",
   "summary_bullets": [
-    "This paper studies A fault-tolerant encoding for qubit-controlled collective spins using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 5.6 days ago."
+    "The paper introduces spin-N-Cat codes that encode logical qubits as superpositions of spin-coherent states in modular subspaces of permutationally symmetric spin ensembles, extending bosonic cat-code ideas to collective-spin Hilbert spaces. The code is shown to correct collective and individual dephasing, excitation and decay errors and admits an efficient, hardware-native implementation in central-spin platforms (e.g., quantum dots) using only first-order interactions, with a universal, fault-tolerant, bias-preserving gate set built from native gates. Numerical simulations report high logical fidelity under realistic dephasing and excitation–decay noise, feasible full QEC cycles with experimental parameters, and passive coherence extension up to ~15× over naive Dicke encodings.",
+    "Why Yanbei would care: this work ties directly to his interests in quantum error correction and hardware-efficient protection of macroscopic quantum degrees of freedom — it maps collective-spin ensembles (large I, Holstein–Primakoff limit) to oscillator-like protected encodings analogous to bosonic cats while requiring only first-order central-spin couplings, which lowers experimental overhead. That combination is relevant to his background in quantum measurement theory, back-action evasion and optomechanics (because collective modes behave like large oscillators) and to his current interests in QEC, gravity-related decoherence/entanglement tests and tabletop implementations: a scalable, bias-preserving collective-spin code could extend coherence for macroscopic-superposition experiments and make fault-tolerant control more experimentally accessible.",
+    "Keywords/topics: spin-N-Cat codes, collective-spin QEC, central-spin systems, quantum dots, bias-preserving logical gates, fault-tolerance, modular subspaces, collective dephasing/excitation/decay, Holstein–Primakoff analogy, experimental implementation. Published: March 2026 (arXiv:2603.15760), very recent."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28872,
   "featured": true
 }

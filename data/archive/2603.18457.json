@@ -13,14 +13,14 @@
   "category": "quant-ph",
   "published": "2026-03-19T03:39:43+00:00",
   "summary_bullets": [
-    "This paper studies Simulating Quantum Error Correction beyond Pauli Stochastic Errors using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 3.2 days ago."
+    "The paper develops a perturbative, EEG‑basis method to map arbitrary small Markovian circuit‑level errors — including coherent and non‑Pauli errors — onto detector error models (DEMs), enabling efficient Monte Carlo simulation of fault‑tolerant quantum computing (FTQC) gadgets. It uses propagation of elementary error generators through Clifford circuits with mid‑circuit measurements and a Zassenhaus expansion to decompose the circuit error generator into DEM events, producing a compact, scalable DEM whose event rates can be analytically related to physical noise parameters. Applying this tool to surface and bivariate bicycle codes and to magic‑state cultivation, the authors show coherent errors can shift fault‑tolerance thresholds, increase the space–time cost of magic‑state production, and raise logical error rates by up to an order of magnitude versus equivalent Pauli stochastic errors.",
+    "You would care because the paper directly links microscopic coherent/non‑Pauli noise models to observable detection histories and logical error rates — providing a hardware‑tailored, interpretable bridge from physical noise generators to experimentally measurable QEC outcomes; this complements your expertise in quantum measurement, back‑action and optomechanics and is useful for evaluating how non‑Pauli decoherence (including possible gravity‑induced coherent effects) would show up in syndrome data, decoder design, and metrology‑scale experiments.",
+    "Keywords/topics: quantum error correction, coherent/non‑Pauli errors, detector error model (DEM), elementary error generator (EEG), Zassenhaus expansion, surface code, color/bicycle codes, magic‑state cultivation/distillation, Pauli twirling, noise‑adapted decoding, Monte Carlo simulation, fault‑tolerance thresholds; arXiv:2603.18457 (quant‑ph), posted 19 Mar 2026 — very recent."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

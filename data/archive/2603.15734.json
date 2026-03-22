@@ -10,14 +10,14 @@
   "category": "hep-ph",
   "published": "2026-03-16T18:00:01+00:00",
   "summary_bullets": [
-    "This paper studies Crowdsourcing Gravitational Waves from Superradiant Axions using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: gravitational waves, inspiral; published about 5.6 days ago."
+    "This paper presents a comprehensive population-level forecast for gravitational-wave signals from axion-induced black-hole superradiance, computing both narrow-band coherent signals from the ∼100 million Milky Way stellar-mass black holes and the stochastic extragalactic background. Using a wide range of astrophysical-systematic variations and focusing on well-controlled theory (primarily the dominant 211 mode while neglecting axion self-interactions), the authors project LIGO O5 sensitivity roughly from µ ≃ 10^{-13} eV up to ≃4×10^{-12} eV and show that including lighter black holes or extended high-frequency sensitivity could push the reach toward ∼10^{-11}–10^{-10} eV for future or dedicated detectors. They quantify cloud growth and decay timescales, delineate when coherent (galactic) versus incoherent (extragalactic) search strategies are appropriate, and compare/contrast GW searches with spin-down constraints from X-ray and LIGO spin measurements while assessing key modeling uncertainties.",
+    "Yanbei should care because the paper directly connects black-hole perturbation physics and observable continuous/stochastic GW signatures to population modeling and detector forecasts—topics that overlap his work on black-hole perturbation theory, waveform modeling, strong-field tests, and population-level inference; the study also highlights theoretical systematics (mode selection, self-interactions, nonlinear/cloud mixing) that tie into his interests in nonlinear gravitational dynamics and how they map onto data analysis strategies. The concrete forecasts for LIGO/ET/CE and the discussion of extending interferometer sensitivity to higher frequencies (and dedicated high-frequency concepts) make this immediately useful for planning observational tests of ultralight bosons and for designing targeted continuous-wave searches and population-based null tests of general relativity.",
+    "Keywords/topics: axion superradiance, gravitational-atom, continuous GWs (galactic narrow-band), stochastic extragalactic background, 211 (dominant) mode, cloud growth/decay timescales, population modeling and systematics, LIGO O5 / Einstein Telescope / Cosmic Explorer, high-frequency detectors (Magnetic Weber Bar), complementarity with spin-down constraints; published on arXiv 16 March 2026 (very recent)."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

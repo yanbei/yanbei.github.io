@@ -9,14 +9,14 @@
   "category": "quant-ph",
   "published": "2026-03-16T14:36:31+00:00",
   "summary_bullets": [
-    "This paper studies Error semitransparent universal control of a bosonic logical qubit using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum control, quantum error correction; published about 5.7 days ago."
+    "The paper introduces a dynamic encoding‑subspace framework that uses only linear drives on an oscillator and ancilla to realize universal logical gates that are error semi‑transparent (EsT) to bosonic photon‑loss, avoiding the experimentally demanding nonlinear drives required for exact error‑transparent (ET) gates. Experimentally, using a binomial “kitten” code in a superconducting cavity dispersively coupled to a transmon and GRAPE‑optimized pulses (X,H: 1 μs; T: 0.6 μs), they implement an EsT gate set {X,H,T}, report a five‑fold reduction in logical infidelity conditioned on a photon loss during gates, and observe large improvements in error‑space fidelity and after AQEC recovery. The scheme also demonstrates digital composition (they build a composite non‑Clifford from eight gates), is compatible with detectable ancilla errors and standard control toolkits, and trades formal exactness for a practical, experimentally scalable error‑mitigating universal control approach for bosonic logical qubits.",
+    "You would care because this work directly addresses fault‑tolerant logical manipulation of bosonic oscillators—closely related to your expertise in quantum measurement, back‑action evasion and oscillator control—by providing an experimentally practical route to reduce the observable impact of the dominant dissipation channel (photon loss) during gates; the linear‑drive EsT paradigm and demonstrated AQEC compatibility are immediately relevant to oscillator‑based platforms you study (including cavity and optomechanical implementations), and the methods for designing control that preserves observable coherence under loss could inform proposals and experiments probing gravity‑induced decoherence/entanglement and other macroscopic quantum signatures.",
+    "Keywords/topics: bosonic codes, binomial (“kitten”) code, error‑semitransparent (EsT) gates, photon‑loss transparency, GRAPE quantum control, superconducting cavity + transmon, AQEC, universal logical set {X,H,T}, non‑Clifford composite; arXiv:2603.15356 (v2) — posted 16–17 March 2026 (very recent)."
   ],
-  "relevance": 4,
+  "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 29302,
   "featured": true
 }

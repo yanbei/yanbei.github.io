@@ -10,14 +10,14 @@
   "category": "quant-ph",
   "published": "2026-03-17T11:20:37+00:00",
   "summary_bullets": [
-    "This paper studies Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 4.9 days ago."
+    "Why Yanbei would care: Chipmunq directly addresses practical deployment of QEC on modular, noisy hardware—an enabling layer for experiments that require long coherence or distributed control, which ties to Yanbei’s interests in quantum error correction, macroscopic quantum systems, and building robust measurement chains. Preserving QEC patch geometry and minimizing noisy inter-chiplet communication helps maintain error-suppression needed for delicate macroscopic superpositions or long-duration entangled states (relevant to gravity-induced decoherence/entanglement tests), while the compiler’s noise-aware strategies and Stim-based LER evaluation provide quantitative, experimentally-relevant metrics rather than purely theoretical constructs. Although this is a systems/compilation paper (not a new gravity model), it supplies infrastructure that could materially lower logical error floors for tabletop or modular optomechanical experiments Yanbei might design or analyze.",
+    "Keywords/topics: quantum error correction, surface code & lattice surgery, chiplet/modular quantum architectures, hardware-aware compilation, partitioning & routing, noise-aware interconnects, SWAP reduction, logical error-rate suppression, Qiskit/Stim integration. Published March 2026 on arXiv (arXiv:2603.16389), very recent.",
+    "No extra technical note provided."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

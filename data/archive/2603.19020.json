@@ -1792,14 +1792,14 @@
   "category": "gr-qc",
   "published": "2026-03-19T15:22:27+00:00",
   "summary_bullets": [
-    "This paper studies GWTC-4.0: Tests of General Relativity. II. Parameterized Tests using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: binary black hole, Kerr; published about 2.7 days ago."
+    "This LVK paper applies eight parameterized tests of GR to the GWTC‑4.0 compact‑binary sample (42 new O4a events plus 49 earlier events), constraining deviations in waveform generation (individual PN coefficients and post‑inspiral calibration terms), spin‑induced multipoles, line‑of‑sight acceleration (LOSA), and propagation effects (dispersion/birefringence) using two complementary analysis frameworks (FTI and TIGER).",
+    "They find no evidence for physics beyond GR: over 90% of events include the null (no‑deviation) value within their 90% credible intervals and apparent tensions are traced to noise or waveform/data‑quality systematics rather than genuine departures from GR.",
+    "The work tightens bounds on deviations in PN coefficients by factors of ≈1.2–5.5, updates the 90%‑credibility graviton‑mass limit to mg ≤ 1.92e‑23 eV/c^2, and emphasizes waveform‑systematics and prior‑effect checks in translating event‑by‑event results into catalog‑level constraints."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

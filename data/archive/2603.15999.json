@@ -10,14 +10,14 @@
   "category": "astro-ph.CO",
   "published": "2026-03-16T23:21:55+00:00",
   "summary_bullets": [
-    "This paper studies Cosmological prospects for multiband detection of intermediate-mass binary black holes with Taiji and ground-based detectors using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.CO themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: merger, binary black hole; published about 5.4 days ago."
+    "The authors simulate gravitational-wave signals from intermediate-mass binary black holes (IMBBHs) under two population models and evaluate detectability with the Taiji space mission alone and a multiband network combining Taiji with third‑generation ground detectors (ET+CE).",
+    "Using IMRPhenomD waveforms, Fisher‑matrix parameter estimation, and a mock galaxy catalog/dark‑siren Bayesian pipeline they quantify detection efficiency, sky localization and luminosity‑distance errors, showing multiband observations substantially increase the number of high‑SNR, well‑localized IMBBH events across a wide mass and mass‑ratio range.",
+    "Propagating these measurement improvements to cosmology, they find the Taiji+ET2CE multiband network tightens H0 precision (≈36.5% improvement versus Taiji alone in their fiducial run) and reduces Ωm uncertainty, and they map how H0 precision scales with the number of detected events."
   ],
-  "relevance": 5,
+  "relevance": 4,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25033,
   "featured": true
 }

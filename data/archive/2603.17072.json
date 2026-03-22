@@ -13,14 +13,14 @@
   "category": "astro-ph.IM",
   "published": "2026-03-17T19:00:00+00:00",
   "summary_bullets": [
-    "This paper studies Quantifying the Scientific Potential of Intermediate and Extreme Mass Ratio Inspirals with the Laser Interferometer Space Antenna using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.IM themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: inspiral, Kerr, EMRI; published about 4.5 days ago."
+    "Using a fully relativistic EMRI/IMRI pipeline based on FastEMRIWaveform and Kerr eccentric equatorial flux models, the authors map LISA instrumental performance (sensitivity degradation and mission duration) across a grid of primary masses m1 ∈ [5×10^4, 10^7] M⊙ and secondary masses m2 ∈ [1, 10^4] M⊙ to detection horizons and Fisher-matrix parameter precisions. They introduce a quantitative “degradation framework” and compute SNRs and Fisher matrices (A and E TDI channels, realistic PSD plus galactic confusion, and duty-cycle considerations) to show that high-m1, low-m2 EMRIs are most vulnerable to sensitivity loss while IMRIs are robust in detection but more fragile in parameter estimation because of fewer cycles in band. Key novel results include sub-percent and even σa/a ≲ 10⁻³ spin measurements within months, order-of-magnitude improvements in sky localization for a 4.5-year mission, projected constraints on scalar dipole emission and Kerr quadrupole deviations that beat current ground-based bounds by 1–2 orders of magnitude, and the release of a GPU-optimized pipeline and interactive website to enable community studies.",
+    "Why Yanbei would care: this paper directly connects fully relativistic EMRI waveform modeling and black-hole perturbation technology to concrete LISA figures-of-merit for strong-field tests and astrophysical inference, which aligns with his past work on waveform modeling, black-hole perturbation theory, EMRIs, and tests of GR; the quantitative sensitivity to mission duration and instrumental degradation (e.g. which systems lose horizon or spin precision) informs the observational requirements needed to pursue precision measurements he cares about (spin at ∼10⁻³, multipole deviations, environmental torques), and the public pipeline/website provides a practical tool he or his collaborators could use to produce templates, forecasting studies, or to assess nonlinear/environmental effects in observable signals.",
+    "Keywords/topics: LISA, EMRI, IMRI, Kerr black holes, FastEMRIWaveform (FEW), Fisher-matrix, SNR, TDI A/E channels, instrumental degradation, mission duration, spin measurement, scalar dipole emission, Kerr multipole/quadrupole tests, environmental effects, GPU pipeline, software + interactive website. Published: 17 March 2026 (arXiv:2603.17072) — very recent."
   ],
-  "relevance": 4,
+  "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28957,
   "featured": true
 }

@@ -9,14 +9,14 @@
   "category": "quant-ph",
   "published": "2026-03-19T11:57:38+00:00",
   "summary_bullets": [
-    "This paper studies Time-Multiplexed Distributed Quantum Sensing using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-    "Key words/topics: quantum metrology; published about 2.8 days ago."
+    "The paper introduces a time-multiplexed distributed quantum sensing protocol that exploits entanglement across temporal modes to asymptotically realize simultaneous Heisenberg scaling in photons (N), spatial modes (M), and measurement repetitions (R), yielding Δ^2ϕ ∝ 1/(N M R)^2 in the large-R limit. Using a Bogoliubov-transformation analysis of multimode Gaussian probes the authors prove optimality within the class of Gaussian states, derive the quantum Fisher information / QCRB for the protocol, and identify homodyne detection plus maximum-likelihood estimation as an implementable, QCRB‑saturating measurement. They further analyze the effect of optical loss (giving closed-form lossy QFIM results), show the advantage survives realistic loss regimes, and propose a loop-based photonic implementation compatible with existing time-domain multiplexing technology.",
+    "This is directly relevant to Yanbei’s expertise in quantum measurement theory and optomechanics because it offers a route to improve sensitivity by harnessing temporal-mode entanglement rather than increasing instantaneous optical power—useful for experiments constrained by quantum back-action or photodamage and for distributed/weak signals (e.g., gravity‑coupled effects) where repeated low‑power probes are standard. The Gaussian/Bogoliubov formalism and QFIM/QCRB analysis align with his prior work on quantum noise, QND/back‑action‑evading strategies, and continuous‑variable networks, and the homodyne + MLE readout and loop‑based photonic architecture suggest concrete paths to integrate with interferometric or optomechanical platforms probing gravity‑induced decoherence or entanglement.",
+    "Keywords/topics: time-multiplexed distributed quantum sensing, temporal‑mode entanglement, Heisenberg scaling in repetitions, Gaussian probes, Bogoliubov transformation, QFIM/QCRB, homodyne detection, loss robustness, loop‑based photonic implementation; Published on arXiv (v1) 19–20 March 2026 — very recent."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

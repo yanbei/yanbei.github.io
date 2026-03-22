@@ -11,14 +11,14 @@
   "category": "quant-ph",
   "published": "2026-03-17T07:30:35+00:00",
   "summary_bullets": [
-    "This paper studies A Scalable Open-Source QEC System with Sub-Microsecond Decoding-Feedback Latency using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum control, quantum error correction; published about 5.0 days ago."
+    "The authors present an open-source, fully integrated RISC‑V–based QEC control system implemented on RFSoC FPGAs that co-designs real‑time qubit control, low‑latency fiber communication, and a hardware QEC decoder to perform end‑to‑end syndrome processing in hardware. A three‑board prototype (AMD ZCU216 RFSoCs) measures a decoding–feedback latency of 446 ns for a distance‑3 surface code with three syndrome rounds, and the modular architecture extrapolates to sub‑microsecond latency up to a distance‑21 code (~881 physical qubits). The novelty is the full hardware integration (pulse generation, readout decoding, syndrome aggregation, decoding and feedback) with a distributed multi‑core/multi‑board design, deterministic local memories for cycle‑level timing, and an open RISC‑Q toolchain that makes the platform deployable and scalable for superconducting‑qubit QEC experiments.",
+    "You would care because low‑latency, deterministic classical control and mid‑circuit feedback are central to many topics in your work (quantum measurement theory, quantum trajectories, back‑action evasion, and practical realization of quantum nondemolition protocols), and this paper demonstrates a concrete, scalable hardware path to meet those timing requirements. The system’s sub‑microsecond decoding‑feedback capability directly impacts feasibility of measurement‑based and feedback‑stabilized experiments (including real‑time state estimation and adaptive metrology) and could be adapted for optomechanical or tabletop tests that require tight timing to probe macroscopic quantum phenomena or gravity‑induced decoherence/entanglement. The open‑source, RISC‑V approach also makes it easier to integrate custom control/estimation algorithms you or collaborators might develop.",
+    "Keywords/topics: quantum error correction, low‑latency decoding, real‑time qubit control, RISC‑V/RISC‑Q, RFSoC FPGA, distributed multi‑board architecture, surface code, hardware decoder, superconducting qubits, open‑source. Published: 17 Mar 2026 (very recent)."
   ],
   "relevance": 4,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
   "featured": true
 }

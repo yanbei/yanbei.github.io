@@ -11,14 +11,14 @@
   "category": "astro-ph.HE",
   "published": "2026-03-16T18:00:02+00:00",
   "summary_bullets": [
-    "This paper studies Hankel low-rank matrix approximation for gravitational-wave data analysis using the methods and problem setup described in the abstract. Its scientific content appears to center on astro-ph.HE themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: quasinormal mode, ringdown; published about 5.6 days ago."
+    "This paper develops and benchmarks denoising and spectral-extraction techniques that embed gravitational-wave time series into Hankel matrices, using the fact that a superposition of n (damped) sinusoids corresponds to a Hankel matrix of rank 2n. They implement and compare three algorithms—ESPRIT for direct frequency extraction, iterative Cadzow projections for alternating Hankel/rank constraints, and iteratively reweighted least squares (IRLS) for a smooth rank-penalized fit—on synthetic GW-like datasets (monochromatic signals, multiple overlapping components, close-frequency resolution) and on a numerical-relativity ringdown to recover quasinormal-mode (QNM) complex frequencies. All three methods reach near–Fisher-matrix optimal performance (mismatch ∝ SNR^−2) and the authors demonstrate a proof-of-concept extraction of QNM frequencies from NR waveforms, arguing that Hankel low-rank approximation is a transparent and computationally efficient preprocessing route for disentangling overlapping signals expected in next-generation detectors like LISA.",
+    "You would care because the paper addresses tasks central to your work—robustly extracting QNM frequencies from noisy ringdown data, resolving overlapping narrowband sources in the LISA band (the global-fit/cocktail-party problem), and providing preprocessing that preserves Fisher-limited parameter information for downstream inference and strong-gravity tests. The methods are complementary to waveform- and perturbation-theory approaches you have worked on (black-hole perturbation theory, QNMs, EMRIs, waveform modeling and tests of GR) and could be integrated into pipelines for black-hole spectroscopy, mode identification (including searches for nonlinear or beyond-GR mode content), and for reducing the dimensionality/complexity of global-fit analyses.",
+    "Keywords/topics: Hankel matrix, structured low-rank approximation, ESPRIT, Cadzow iterations, IRLS, denoising, spectral estimation, quasinormal modes, ringdown, global-fit (LISA), signal separation, black-hole spectroscopy. Published on arXiv 2026-03-16 (arXiv:2603.15740), very recent (Mar 2026)."
   ],
-  "relevance": 4,
+  "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28603,
   "featured": true
 }

@@ -8,14 +8,14 @@
   "category": "gr-qc",
   "published": "2026-03-16T16:07:13+00:00",
   "summary_bullets": [
-    "This paper studies Direct Waves in Black-Hole Binary Mergers: Insights from the Backwards One Body Model using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: quasinormal mode, ringdown, merger; published about 5.7 days ago."
+    "Using the Pöschl–Teller potential and the Sasaki–Nakamura formalism, the paper derives analytically that the Backwards One Body (BOB) amplitude evolution can be recovered from a resummation of quasinormal‑mode (QNM) pole contributions, yielding a hyperbolic‑secant News envelope. The authors apply rational (frequency‑domain) filters to both BOB and SXS numerical‑relativity News to isolate the non‑QNM “direct wave” associated with prompt plunge emission, and show that BOB naturally captures this component across a wide range of mass ratios and remnant spins. They further find the direct‑wave quasi‑stable frequency is largely uncorrelated with the remnant horizon frequency and instead tracks the instantaneous News frequency at peak amplitude, explaining why horizon‑based models sometimes succeed only incidentally.",
+    "Yanbei should care because this work gives an analytic bridge between QNM sums and the empirically successful, low‑parameter BOB model, clarifying the physical origin of the non‑QNM direct wave that affects pre‑peak and peak merger signals; that directly intersects his interests in black‑hole perturbation theory, QNM/overtone excitation, EMRI/plunge physics, and strong‑field observables and provides a compact, physically motivated waveform model useful for testing GR and for interpreting plunge/merger data with minimal parameters.",
+    "Keywords/topics: quasinormal modes, ringdown, direct wave (non‑QNM), Backwards One Body (BOB), Pöschl–Teller potential, rational filters, News vs strain, overtones/eikonal limit, numerical relativity (SXS), waveform modeling, plunge/EMRI physics. Posted on arXiv 16 March 2026 (pdf dated 17 March 2026)."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25540,
   "featured": true
 }

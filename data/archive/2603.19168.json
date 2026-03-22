@@ -9,14 +9,14 @@
   "category": "hep-th",
   "published": "2026-03-19T17:24:47+00:00",
   "summary_bullets": [
-    "This paper studies Quasinormal Modes of Extremal Reissner-Nordstrom Black Holes via Seiberg-Witten Quantization using the methods and problem setup described in the abstract. Its scientific content appears to center on hep-th themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to black holes.",
-    "Key words/topics: quasinormal mode; published about 2.6 days ago."
+    "The paper constructs an exact dictionary mapping neutral scalar perturbations of asymptotically flat extremal Reissner–Nordström black holes to the quantum Seiberg–Witten curve of SU(2) N_f=2, showing the radial equation reduces to a double-confluent Heun (DCHE) form.",
+    "Using the Nekrasov–Shatashvili free energy and its exact quantization condition the authors compute quasinormal-mode frequencies non-perturbatively (instanton expansion carried to high order) and specify a branch-selection rule that enforces ingoing-horizon / outgoing-infinity QNM boundary conditions.",
+    "Their analytic spectra reproduce high-precision numerical benchmarks for neutral massless scalars and resolve the coalescing-singularity difficulty at the strict extremal limit, allowing smooth tracking of quasi-resonances for massive probes."
   ],
-  "relevance": 5,
+  "relevance": 4,
   "worth_reading_full": true,
-  "used_openai": false,
-  "used_pdf_text": false,
-  "pdf_text_chars": 0,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 13801,
   "featured": true
 }
