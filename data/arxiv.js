@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T05:30:55+00:00",
+  "updated": "2026-03-22T05:34:27+00:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
@@ -1827,8 +1827,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-19T15:22:28+00:00",
           "age_days": 2.6,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 13,
+          "summary_bullets": [
+            "Key match: quasinormal mode, ringdown, Kerr.",
+            "Primary category: gr-qc.",
+            "Published about 2.6 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -1856,8 +1861,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T18:00:02+00:00",
           "age_days": 5.5,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 13,
+          "summary_bullets": [
+            "Key match: quasinormal mode, QNM, ringdown.",
+            "Primary category: astro-ph.HE.",
+            "Published about 5.5 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -1882,6 +1892,11 @@ window.ARXIV_DATA = {
           "age_days": 11.5,
           "relevance": 5,
           "base_score": 13,
+          "summary_bullets": [
+            "Key match: quasinormal mode, ringdown, Kerr.",
+            "Primary category: gr-qc.",
+            "Published about 11.5 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -1909,8 +1924,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T22:48:07+00:00",
           "age_days": 5.3,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 12,
+          "summary_bullets": [
+            "Key match: QNM, ringdown, Kerr.",
+            "Primary category: gr-qc.",
+            "Published about 5.3 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -1937,6 +1957,11 @@ window.ARXIV_DATA = {
           "age_days": 8.3,
           "relevance": 5,
           "base_score": 12,
+          "summary_bullets": [
+            "Key match: Kerr, Teukolsky, EMRI.",
+            "Primary category: gr-qc.",
+            "Published about 8.3 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -1958,9 +1983,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-18T06:06:30+00:00",
           "age_days": 4.0,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 11,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: Kerr, EMRI.",
+            "Primary category: astro-ph.HE.",
+            "Published about 4.0 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.15474",
@@ -1982,9 +2012,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T16:07:13+00:00",
           "age_days": 5.6,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 11,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: quasinormal mode, QNM, ringdown.",
+            "Primary category: gr-qc.",
+            "Published about 5.6 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.17911",
@@ -2003,9 +2038,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-18T16:50:10+00:00",
           "age_days": 3.5,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 10,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: Kerr, Teukolsky.",
+            "Primary category: gr-qc.",
+            "Published about 3.5 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.15734",
@@ -2029,9 +2069,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T18:00:01+00:00",
           "age_days": 5.5,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 10,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: gravitational waves.",
+            "Primary category: hep-ph.",
+            "Published about 5.5 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.14872",
@@ -2054,9 +2099,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T06:17:09+00:00",
           "age_days": 6.0,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 10,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: quasinormal mode, ringdown.",
+            "Primary category: gr-qc.",
+            "Published about 6.0 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.13482",
@@ -2076,8 +2126,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-13T18:00:58+00:00",
           "age_days": 8.5,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 10,
+          "summary_bullets": [
+            "Key match: Kerr, Teukolsky, EMRI.",
+            "Primary category: gr-qc.",
+            "Published about 8.5 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -2106,8 +2161,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-12T15:10:53+00:00",
           "age_days": 9.6,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 10,
+          "summary_bullets": [
+            "Key match: gravitational waves, ringdown.",
+            "Primary category: gr-qc.",
+            "Published about 9.6 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -3914,9 +3974,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-19T15:22:27+00:00",
           "age_days": 2.6,
-          "relevance": 2,
+          "relevance": 4,
           "base_score": 9,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: Kerr.",
+            "Primary category: gr-qc.",
+            "Published about 2.6 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.15703",
@@ -3946,9 +4011,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T11:34:48+00:00",
           "age_days": 5.7,
-          "relevance": 2,
+          "relevance": 4,
           "base_score": 9,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: gravitational waves.",
+            "Primary category: astro-ph.IM.",
+            "Published about 5.7 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.12189",
@@ -3974,9 +4044,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-12T17:20:07+00:00",
           "age_days": 9.5,
-          "relevance": 3,
+          "relevance": 4,
           "base_score": 9,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: Kerr, EMRI.",
+            "Primary category: gr-qc.",
+            "Published about 9.5 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.19168",
@@ -4000,6 +4075,11 @@ window.ARXIV_DATA = {
           "age_days": 2.5,
           "relevance": 4,
           "base_score": 8,
+          "summary_bullets": [
+            "Key match: quasinormal mode.",
+            "Primary category: hep-th.",
+            "Published about 2.5 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -5806,6 +5886,11 @@ window.ARXIV_DATA = {
           "age_days": 2.6,
           "relevance": 4,
           "base_score": 8,
+          "summary_bullets": [
+            "Key match: ringdown.",
+            "Primary category: gr-qc.",
+            "Published about 2.6 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -5826,6 +5911,11 @@ window.ARXIV_DATA = {
           "age_days": 2.7,
           "relevance": 4,
           "base_score": 8,
+          "summary_bullets": [
+            "Key match: quasinormal mode.",
+            "Primary category: gr-qc.",
+            "Published about 2.7 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -5850,6 +5940,11 @@ window.ARXIV_DATA = {
           "age_days": 2.7,
           "relevance": 4,
           "base_score": 8,
+          "summary_bullets": [
+            "Key match: Kerr.",
+            "Primary category: gr-qc.",
+            "Published about 2.7 days ago."
+          ],
           "worth_reading_full": true
         },
         {
@@ -5876,6 +5971,11 @@ window.ARXIV_DATA = {
           "age_days": 3.5,
           "relevance": 4,
           "base_score": 8,
+          "summary_bullets": [
+            "Key match: Kerr.",
+            "Primary category: astro-ph.HE.",
+            "Published about 3.5 days ago."
+          ],
           "worth_reading_full": true
         }
       ]
@@ -5926,9 +6026,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-18T18:00:00+00:00",
           "age_days": 3.5,
-          "relevance": 2,
+          "relevance": 4,
           "base_score": 8,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: quantum learning.",
+            "Primary category: quant-ph.",
+            "Published about 3.5 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2602.22205",
@@ -5949,9 +6054,14 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-02-25T18:58:03+00:00",
           "age_days": 24.4,
-          "relevance": 3,
+          "relevance": 4,
           "base_score": 8,
-          "worth_reading_full": false
+          "summary_bullets": [
+            "Key match: optomechanics, macroscopic quantum mechanics.",
+            "Primary category: quant-ph.",
+            "Published about 24.4 days ago."
+          ],
+          "worth_reading_full": true
         },
         {
           "id": "2603.18787",
@@ -5971,8 +6081,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-19T11:36:05+00:00",
           "age_days": 2.7,
-          "relevance": 1,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: quantum measurement.",
+            "Primary category: quant-ph.",
+            "Published about 2.7 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -5997,8 +6112,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-19T10:11:46+00:00",
           "age_days": 2.8,
-          "relevance": 1,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: quantum measurement.",
+            "Primary category: quant-ph.",
+            "Published about 2.8 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6017,8 +6137,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-17T21:53:31+00:00",
           "age_days": 4.3,
-          "relevance": 1,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: quantum control.",
+            "Primary category: quant-ph.",
+            "Published about 4.3 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6045,8 +6170,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-16T18:00:23+00:00",
           "age_days": 5.5,
-          "relevance": 1,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: quantum noise.",
+            "Primary category: quant-ph.",
+            "Published about 5.5 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6075,8 +6205,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-12T05:59:24+00:00",
           "age_days": 10.0,
-          "relevance": 2,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: quantum metrology, quantum noise.",
+            "Primary category: quant-ph.",
+            "Published about 10.0 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6102,8 +6237,13 @@ window.ARXIV_DATA = {
           ],
           "published": "2026-03-11T11:26:54+00:00",
           "age_days": 10.8,
-          "relevance": 2,
+          "relevance": 3,
           "base_score": 7,
+          "summary_bullets": [
+            "Key match: optomechanics, quantum control.",
+            "Primary category: quant-ph.",
+            "Published about 10.8 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6128,6 +6268,11 @@ window.ARXIV_DATA = {
           "age_days": 2.6,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum metrology.",
+            "Primary category: quant-ph.",
+            "Published about 2.6 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6158,6 +6303,11 @@ window.ARXIV_DATA = {
           "age_days": 2.6,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum control.",
+            "Primary category: quant-ph.",
+            "Published about 2.6 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6182,6 +6332,11 @@ window.ARXIV_DATA = {
           "age_days": 2.7,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum metrology.",
+            "Primary category: quant-ph.",
+            "Published about 2.7 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6212,6 +6367,11 @@ window.ARXIV_DATA = {
           "age_days": 2.9,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum noise.",
+            "Primary category: quant-ph.",
+            "Published about 2.9 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6234,6 +6394,11 @@ window.ARXIV_DATA = {
           "age_days": 3.3,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum measurement.",
+            "Primary category: quant-ph.",
+            "Published about 3.3 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6260,6 +6425,11 @@ window.ARXIV_DATA = {
           "age_days": 3.5,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum noise.",
+            "Primary category: quant-ph.",
+            "Published about 3.5 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6284,9 +6454,14 @@ window.ARXIV_DATA = {
             "quantum control"
           ],
           "published": "2026-03-18T16:20:47+00:00",
-          "age_days": 3.5,
+          "age_days": 3.6,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum control.",
+            "Primary category: quant-ph.",
+            "Published about 3.6 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6314,6 +6489,11 @@ window.ARXIV_DATA = {
           "age_days": 4.2,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum nondemolition.",
+            "Primary category: quant-ph.",
+            "Published about 4.2 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6342,6 +6522,11 @@ window.ARXIV_DATA = {
           "age_days": 4.2,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum metrology.",
+            "Primary category: quant-ph.",
+            "Published about 4.2 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6366,6 +6551,11 @@ window.ARXIV_DATA = {
           "age_days": 4.6,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum noise.",
+            "Primary category: quant-ph.",
+            "Published about 4.6 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6388,6 +6578,11 @@ window.ARXIV_DATA = {
           "age_days": 4.9,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: optomechanics.",
+            "Primary category: quant-ph.",
+            "Published about 4.9 days ago."
+          ],
           "worth_reading_full": false
         },
         {
@@ -6415,6 +6610,11 @@ window.ARXIV_DATA = {
           "age_days": 4.9,
           "relevance": 3,
           "base_score": 6,
+          "summary_bullets": [
+            "Key match: quantum control.",
+            "Primary category: quant-ph.",
+            "Published about 4.9 days ago."
+          ],
           "worth_reading_full": false
         }
       ]
