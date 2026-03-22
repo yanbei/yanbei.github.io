@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>arXiv Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Your Name</h1>
+      <p class="tagline">arXiv Watch</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="group.html">Group</a>
+        <a href="alumni.html">Alumni</a>
+        <a href="publications.html">Publications</a>
+        <a href="arxiv.html">arXiv Watch</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h2>Relevant new arXiv papers</h2>
+    <p class="page-intro">This page is generated from <code>data/arxiv.json</code> by a GitHub Actions workflow. Edit <code>scripts/update_arxiv.py</code> to change categories, keywords, or ranking rules.</p>
+    <div id="status" class="card">Loading papers…</div>
+    <div id="papers" class="paper-list"></div>
+  </main>
+
+  <script>
+    async function loadPapers() {
+      const status = document.getElementById('status');
+      const papers = document.getElementById('papers');
+      try {
+        const res = await fetch('data/arxiv.json', { cache: 'no-store' });
+        const data = await res.json();
+        status.innerHTML = `<strong>Last updated:</strong> ${data.updated || 'unknown'}<br><strong>Tracked categories:</strong> ${data.categories.join(', ')}<br><strong>Keywords:</strong> ${data.keywords.join(', ')}`;
+        papers.innerHTML = data.papers.map(p => `
+          <article class="paper">
+            <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span></div>
+            <h3>${p.title}</h3>
+            <p><strong>Authors:</strong> ${p.authors.join(', ')}</p>
+            <p>${p.summary}</p>
+          </article>
+        `).join('');
+      } catch (err) {
+        status.textContent = 'Could not load arXiv data yet. Run the updater locally or via GitHub Actions after publishing the repo.';
+      }
+    }
+    loadPapers();
+  </script>
+</body>
+</html>

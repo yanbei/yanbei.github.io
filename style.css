@@ -1,0 +1,74 @@
+:root {
+  --bg: #f7f8fb;
+  --text: #1f2430;
+  --muted: #5b6475;
+  --accent: #244a7c;
+  --card: #ffffff;
+  --border: #d9dfeb;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+.wrap {
+  width: min(980px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+.site-header {
+  background: white;
+  border-bottom: 1px solid var(--border);
+  padding: 1.25rem 0;
+}
+.site-header h1 { margin: 0; }
+.tagline { color: var(--muted); margin: 0.25rem 0 0.75rem; }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+nav a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+main { padding: 2rem 0 3rem; }
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.card, .paper {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.1rem;
+}
+section { margin-top: 2rem; }
+.page-intro { color: var(--muted); max-width: 60ch; }
+.people-list, .pub-list, .paper-list { list-style: none; padding: 0; }
+.people-list li, .pub-list li { margin-bottom: 0.9rem; }
+.paper-meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+.score {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: #e8eef8;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+footer { color: var(--muted); margin-top: 2rem; }
+code { background: #eef2f8; padding: 0.1rem 0.25rem; border-radius: 4px; }
+@media (max-width: 720px) {
+  .hero { grid-template-columns: 1fr; }
+}
