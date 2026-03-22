@@ -6,9 +6,9 @@
   },
   "watches": [
     {
-      "id": "gw-bh-perturbation",
-      "label": "GW / Black-hole perturbation",
-      "categories": ["gr-qc", "astro-ph.HE", "hep-th"],
+      "id": "gw",
+      "label": "Gravitational-Wave Physics",
+      "categories": ["gr-qc"],
       "keywords": [
         "gravitational waves",
         "quasinormal mode",
@@ -18,7 +18,6 @@
         "Kerr",
         "Teukolsky",
         "EMRI",
-        "waveform"
       ],
       "prioritize": [
         "gravitational waves",
@@ -32,9 +31,6 @@
         "strong-gravity tests tied to observables"
       ],
       "deprioritize": [
-        "generic black-hole thermodynamics without perturbation or observational consequences",
-        "formal theory papers with no black-hole, gravitational-wave, or observational hook",
-        "cosmology papers unrelated to strong gravity or gravitational waves"
       ],
       "notes": [
         "Prefer concise technical summaries.",
@@ -42,31 +38,29 @@
       ]
     },
     {
-      "id": "beyond-gr-kerr",
-      "label": "Beyond GR / quantum signatures",
-      "categories": ["gr-qc", "hep-th", "astro-ph.HE"],
+      "id": "qm",
+      "label": "Quantum Metrology and Macroscopic Quantum Mechanics",
+      "categories": ["quant-ph"],
       "keywords": [
-        "modified gravity",
-        "quantum gravity signatures",
-        "gravitational-wave memory",
-        "echoes",
-        "hairy black holes",
-        "superradiance",
-        "Kerr",
-        "black hole perturbation"
+        "optomechanics",
+        "quantum metrology",
+        "quantum learning",
+        "macroscopic quantum mechanics",
+        "quantum noise",
+        "quantum measurement",
+        "quantum control",
+        "quantum nondemolition",
+        "quantum backaction",
+        "quantum gravity",
+        "experimental sigantures of quantum gravity"
       ],
       "prioritize": [
-        "modified gravity with observable consequences",
-        "quantum signatures in black-hole ringdown or inspiral",
-        "echoes, hair, superradiance, or beyond-Kerr phenomenology",
-        "connections to gravitational-wave data analysis"
       ],
       "deprioritize": [
-        "formal model building with no measurable signal",
-        "generic cosmology not tied to compact objects or waves"
       ],
       "notes": [
-        "Prefer papers that change spectra, waveforms, or detection prospects.",
+        "Related to research of Yanbei Chen and collaborators.",
+        "Observational signature of quantum gravity.",
         "Theory-only work is fine if it clearly impacts observables."
       ]
     }
