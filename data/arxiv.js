@@ -1,6 +1,6 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T00:09:11-07:00",
-  "openai_enabled": false,
+  "updated": "2026-03-22T00:10:47-07:00",
+  "openai_enabled": true,
   "display": {
     "max_authors": 3,
     "top_n": 10,
@@ -5936,47 +5936,6 @@ window.ARXIV_DATA = {
           "worth_reading_full": false
         },
         {
-          "id": "2603.18554",
-          "title": "End-to-End QGAN-Based Image Synthesis via Neural Noise Encoding and Intensity Calibration",
-          "authors": [
-            "Xue Yang",
-            "Rigui Zhou",
-            "Shizheng Jia",
-            "Dax Enshan Koh",
-            "Siong Thye Goh",
-            "Yaochong Li",
-            "Hongyu Chen",
-            "Fuhui Xiong"
-          ],
-          "authors_short": [
-            "Xue Yang",
-            "Rigui Zhou",
-            "Shizheng Jia",
-            "et al. (8 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Quantum Generative Adversarial Networks (QGANs) offer a promising path for learning data distributions on near-term quantum devices. However, existing QGANs for image synthesis avoid direct full-image generation, relying on classical post-processing or patch-based methods. These approaches dilute the quantum generator's role and struggle to capture global image semantics. To address this, we propose ReQGAN, an end-to-end framework that synthesizes an entire N=2^D-pixel image using a single D-qubit quantum circuit. ReQGAN overcomes two fundamental bottlenecks hindering direct pixel generation: (1) the rigid classical-to-quantum noise interface and (2) the output mismatch between normalized quantum statistics and the desired pixel-intensity space. We introduce a learnable Neural Noise Encoder for adaptive state preparation and a differentiable Intensity Calibration module to map measurements to a stable, visually meaningful pixel domain. Experiments on MNIST and Fashion-MNIST demonstrate that ReQGAN achieves stable training and effective image synthesis under stringent qubit budgets, with ablation studies verifying the contribution of each component.",
-          "pdf_url": "https://arxiv.org/pdf/2603.18554.pdf",
-          "matches": [
-            "quantum noise"
-          ],
-          "published": "2026-03-19T07:09:24+00:00",
-          "age_days": 3.0,
-          "previous_work_hits": [],
-          "current_interest_hits": [],
-          "used_openai": false,
-          "used_pdf_text": false,
-          "pdf_text_chars": 0,
-          "relevance": 3,
-          "base_score": 6,
-          "summary_bullets": [
-            "This paper studies End-to-End QGAN-Based Image Synthesis via Neural Noise Encoding and Intensity Calibration using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to nature of dark matter and dark energy, cosmic evolution.",
-            "Key words/topics: quantum noise; published about 3.0 days ago."
-          ],
-          "worth_reading_full": false
-        },
-        {
           "id": "2603.18136",
           "title": "Towards sample-optimal learning of bosonic Gaussian quantum states",
           "authors": [
@@ -6084,6 +6043,47 @@ window.ARXIV_DATA = {
             "This paper studies Quantum Noise Suppression at Scale with Crosstalk-Robust Gate Sets using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
             "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to nature of dark matter and dark energy, cosmic evolution.",
             "Key words/topics: quantum noise; published about 5.5 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.18554",
+          "title": "End-to-End QGAN-Based Image Synthesis via Neural Noise Encoding and Intensity Calibration",
+          "authors": [
+            "Xue Yang",
+            "Rigui Zhou",
+            "Shizheng Jia",
+            "Dax Enshan Koh",
+            "Siong Thye Goh",
+            "Yaochong Li",
+            "Hongyu Chen",
+            "Fuhui Xiong"
+          ],
+          "authors_short": [
+            "Xue Yang",
+            "Rigui Zhou",
+            "Shizheng Jia",
+            "et al. (8 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "Quantum Generative Adversarial Networks (QGANs) offer a promising path for learning data distributions on near-term quantum devices. However, existing QGANs for image synthesis avoid direct full-image generation, relying on classical post-processing or patch-based methods. These approaches dilute the quantum generator's role and struggle to capture global image semantics. To address this, we propose ReQGAN, an end-to-end framework that synthesizes an entire N=2^D-pixel image using a single D-qubit quantum circuit. ReQGAN overcomes two fundamental bottlenecks hindering direct pixel generation: (1) the rigid classical-to-quantum noise interface and (2) the output mismatch between normalized quantum statistics and the desired pixel-intensity space. We introduce a learnable Neural Noise Encoder for adaptive state preparation and a differentiable Intensity Calibration module to map measurements to a stable, visually meaningful pixel domain. Experiments on MNIST and Fashion-MNIST demonstrate that ReQGAN achieves stable training and effective image synthesis under stringent qubit budgets, with ablation studies verifying the contribution of each component.",
+          "pdf_url": "https://arxiv.org/pdf/2603.18554.pdf",
+          "matches": [
+            "quantum noise"
+          ],
+          "published": "2026-03-19T07:09:24+00:00",
+          "age_days": 3.0,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": false,
+          "pdf_text_chars": 0,
+          "relevance": 3,
+          "base_score": 4,
+          "summary_bullets": [
+            "This paper studies End-to-End QGAN-Based Image Synthesis via Neural Noise Encoding and Intensity Calibration using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to nature of dark matter and dark energy, cosmic evolution.",
+            "Key words/topics: quantum noise; published about 3.0 days ago."
           ],
           "worth_reading_full": false
         },
