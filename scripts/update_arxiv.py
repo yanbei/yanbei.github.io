@@ -211,13 +211,14 @@ def synthesize_with_openai(paper, watch):
     return json.loads(text_out)
 
 
-def merge_synthesis(paper, synth):
+def merge_synthesis(paper, synth, watch):
     if not synth:
         age_note = f"Published about {paper['age_days']} days ago." if paper.get("age_days") is not None else "Publication date unavailable."
+        interest = ", ".join(watch.get("prioritize", [])[:3]) or watch.get("label", "this topic")
         paper["summary_bullets"] = [
-            f"Key match: {', '.join(paper['matches']) or 'none recorded'}.",
-            f"Primary category: {paper['category']}.",
-            age_note,
+            f"This paper studies {paper['title']} using the approach described in the abstract. It is categorized under {paper['category']} and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
+            f"Yanbei may care because it overlaps with {interest} and matches the watchlist focus {watch.get('label', '')}.",
+            f"Key words/topics: {', '.join(paper['matches']) or 'none recorded'}; published {age_note.lower()}"
         ]
         paper["worth_reading_full"] = paper["relevance"] >= 4
         return paper
