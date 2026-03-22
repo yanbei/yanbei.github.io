@@ -1,6 +1,6 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T06:50:23+00:00",
-  "openai_enabled": true,
+  "updated": "2026-03-21T23:52:38-07:00",
+  "openai_enabled": false,
   "display": {
     "max_authors": 3,
     "top_n": 20,

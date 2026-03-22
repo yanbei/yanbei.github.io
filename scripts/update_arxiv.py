@@ -358,8 +358,9 @@ def main():
 
     watch_results = [process_watch(watch, cache, display, profile) for watch in watches]
 
+    pacific = dt.datetime.now(dt.timezone.utc).astimezone(dt.timezone(dt.timedelta(hours=-7)))
     payload = {
-        "updated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
+        "updated": pacific.replace(microsecond=0).isoformat(),
         "openai_enabled": bool(os.getenv("OPENAI_API_KEY")),
         "display": {
             "max_authors": display.get("max_authors", DEFAULT_MAX_AUTHORS),
