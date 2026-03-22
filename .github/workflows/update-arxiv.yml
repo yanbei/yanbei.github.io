@@ -3,7 +3,7 @@ name: Update arXiv watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 15 * * 1-5'
 
 permissions:
   contents: write
