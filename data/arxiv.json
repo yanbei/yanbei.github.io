@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-22T00:39:23+00:00",
+  "updated": "2026-03-22T00:53:38+00:00",
   "categories": [
     "gr-qc",
     "hep-th",
@@ -16,7 +16,7 @@
     "modified gravity",
     "quantum gravity signatures"
   ],
-  "openai_enabled": false,
+  "openai_enabled": true,
   "papers": [
     {
       "id": "2603.19021",
