@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-22T06:03:58+00:00",
+  "updated": "2026-03-22T06:07:16+00:00",
   "openai_enabled": false,
   "display": {
     "max_authors": 3,
@@ -6461,7 +6461,7 @@ window.ARXIV_DATA = {
             "quantum measurement"
           ],
           "published": "2026-03-18T21:40:34+00:00",
-          "age_days": 3.3,
+          "age_days": 3.4,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 3,
