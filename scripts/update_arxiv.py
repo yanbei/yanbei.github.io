@@ -13,6 +13,7 @@ OUT = ROOT / "data" / "arxiv.json"
 OUT_JS = ROOT / "data" / "arxiv.js"
 CACHE = ROOT / "data" / "arxiv_cache.json"
 PREFS = ROOT / "config" / "preferences.json"
+PROFILE = ROOT / "config" / "yanbei_profile.json"
 NS = {"a": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
 DEFAULT_MAX_RESULTS = 80
 DEFAULT_TOP_N = 20
@@ -79,6 +80,22 @@ def score_entry(title, summary, keywords):
     return score, matched
 
 
+def profile_score(title, summary, profile):
+    hay = f"{title} {summary}".lower()
+    score = 0
+    previous_hits = []
+    interest_hits = []
+    for item in profile.get("previous_work", []):
+        if item.lower() in hay:
+            previous_hits.append(item)
+            score += 2
+    for item in profile.get("expertise", []):
+        if item.lower() in hay:
+            interest_hits.append(item)
+            score += 2
+    return score, previous_hits, interest_hits
+
+
 def relevance(score):
     if score >= 10:
         return 5
@@ -125,7 +142,7 @@ def age_days(published_at):
     return round((now - published_at).total_seconds() / 86400.0, 1)
 
 
-def parse(xml_bytes, keywords, top_n, max_authors, recent_days):
+def parse(xml_bytes, keywords, top_n, max_authors, recent_days, profile):
     root = ET.fromstring(xml_bytes)
     papers = []
     seen = set()
@@ -141,10 +158,11 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days):
         primary = entry.find("arxiv:primary_category", NS)
         category = primary.attrib.get("term", "") if primary is not None else ""
         raw_score, matched = score_entry(title, abstract, keywords)
-        if raw_score == 0:
+        profile_boost, previous_hits, interest_hits = profile_score(title, abstract, profile)
+        if raw_score == 0 and profile_boost == 0:
             continue
         published_at = published_datetime(entry)
-        final_score = raw_score + recency_bonus(published_at, recent_days)
+        final_score = raw_score + profile_boost + recency_bonus(published_at, recent_days)
         papers.append(
             {
                 "id": base_id,
@@ -156,6 +174,8 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days):
                 "matches": matched,
                 "published": published_at.isoformat() if published_at else "",
                 "age_days": age_days(published_at),
+                "previous_work_hits": previous_hits,
+                "current_interest_hits": interest_hits,
                 "relevance": relevance(final_score),
                 "base_score": final_score,
             }
@@ -164,7 +184,7 @@ def parse(xml_bytes, keywords, top_n, max_authors, recent_days):
     return papers[:top_n]
 
 
-def synthesize_with_openai(paper, watch):
+def synthesize_with_openai(paper, watch, profile):
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         return None
@@ -175,8 +195,11 @@ def synthesize_with_openai(paper, watch):
 
     client = OpenAI(api_key=api_key)
     system = (
-        "You are curating arXiv papers for a researcher. Use only the supplied metadata. "
-        "Return exactly three concise technical bullets in strict JSON."
+        "You are curating arXiv papers for Yanbei Chen. Use only the supplied metadata. "
+        "Return exactly three bullets in strict JSON. "
+        "Bullet 1 must be a three-sentence summary of the paper's content. "
+        "Bullet 2 must explain why Yanbei would be interested in it, connecting to his previous work and current interests when relevant. "
+        "Bullet 3 must list key words/topics and mention when it was published or how recent it is."
     )
     user = {
         "watch": {
@@ -184,6 +207,10 @@ def synthesize_with_openai(paper, watch):
             "prioritize": watch.get("prioritize", []),
             "deprioritize": watch.get("deprioritize", []),
             "notes": watch.get("notes", []),
+        },
+        "yanbei_profile": {
+            "previous_work": profile.get("previous_work", []),
+            "current_interest": profile.get("expertise", []),
         },
         "paper": {
             "title": paper["title"],
@@ -193,6 +220,9 @@ def synthesize_with_openai(paper, watch):
             "abstract": paper["abstract"],
             "published": paper.get("published", ""),
             "age_days": paper.get("age_days"),
+            "previous_work_hits": paper.get("previous_work_hits", []),
+            "current_interest_hits": paper.get("current_interest_hits", []),
+            "keyword_hits": paper.get("matches", []),
         },
         "return_schema": {
             "summary_bullets": ["string", "string", "string"],
@@ -211,14 +241,17 @@ def synthesize_with_openai(paper, watch):
     return json.loads(text_out)
 
 
-def merge_synthesis(paper, synth, watch):
+def merge_synthesis(paper, synth, watch, profile):
     if not synth:
-        age_note = f"Published about {paper['age_days']} days ago." if paper.get("age_days") is not None else "Publication date unavailable."
-        interest = ", ".join(watch.get("prioritize", [])[:3]) or watch.get("label", "this topic")
+        age_note = f"published about {paper['age_days']} days ago" if paper.get("age_days") is not None else "publication date unavailable"
+        previous = ", ".join(paper.get("previous_work_hits") or profile.get("previous_work", [])[:2])
+        current = ", ".join(paper.get("current_interest_hits") or profile.get("expertise", [])[:2])
+        why_parts = [part for part in [previous, current] if part]
+        why_text = "; and also to ".join(why_parts) if why_parts else watch.get("label", "this topic")
         paper["summary_bullets"] = [
             f"This paper studies {paper['title']} using the approach described in the abstract. It is categorized under {paper['category']} and focuses on themes visible in the title and abstract. Based on metadata alone, it appears to be a relevant contribution in this area.",
-            f"Yanbei may care because it overlaps with {interest} and matches the watchlist focus {watch.get('label', '')}.",
-            f"Key words/topics: {', '.join(paper['matches']) or 'none recorded'}; published {age_note.lower()}"
+            f"Yanbei may care because it connects to his previous work and current interests, especially {why_text}.",
+            f"Key words/topics: {', '.join(paper['matches']) or 'none recorded'}; {age_note}."
         ]
         paper["worth_reading_full"] = paper["relevance"] >= 4
         return paper
@@ -231,7 +264,7 @@ def merge_synthesis(paper, synth, watch):
     return paper
 
 
-def process_watch(watch, cache, display):
+def process_watch(watch, cache, display, profile):
     categories = dedupe_keep_order(watch.get("categories", []))
     keywords = dedupe_keep_order(watch.get("keywords", []))
     max_results = display.get("max_results", DEFAULT_MAX_RESULTS)
@@ -240,7 +273,7 @@ def process_watch(watch, cache, display):
     recent_days = display.get("recent_days", DEFAULT_RECENT_DAYS)
 
     xml = query_arxiv(categories, keywords, max_results)
-    papers = parse(xml, keywords, top_n, max_authors, recent_days)
+    papers = parse(xml, keywords, top_n, max_authors, recent_days, profile)
     enriched = []
 
     for paper in papers:
@@ -252,8 +285,8 @@ def process_watch(watch, cache, display):
                     paper[key] = cached[key]
             enriched.append(paper)
             continue
-        synth = synthesize_with_openai(paper, watch)
-        paper = merge_synthesis(paper, synth, watch)
+        synth = synthesize_with_openai(paper, watch, profile)
+        paper = merge_synthesis(paper, synth, watch, profile)
         cache[cache_key] = {
             "summary_bullets": paper["summary_bullets"],
             "relevance": paper["relevance"],
@@ -272,11 +305,12 @@ def process_watch(watch, cache, display):
 
 def main():
     prefs = load_json(PREFS, {})
+    profile = load_json(PROFILE, {})
     cache = load_json(CACHE, {})
     display = prefs.get("display", {})
     watches = prefs.get("watches", [])
 
-    watch_results = [process_watch(watch, cache, display) for watch in watches]
+    watch_results = [process_watch(watch, cache, display, profile) for watch in watches]
 
     payload = {
         "updated": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
