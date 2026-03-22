@@ -1,6 +1,6 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-21T23:52:38-07:00",
-  "openai_enabled": false,
+  "updated": "2026-03-21T23:54:32-07:00",
+  "openai_enabled": true,
   "display": {
     "max_authors": 3,
     "top_n": 20,
@@ -6442,7 +6442,7 @@ window.ARXIV_DATA = {
             "quantum metrology"
           ],
           "published": "2026-03-19T15:17:35+00:00",
-          "age_days": 2.6,
+          "age_days": 2.7,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": false,
