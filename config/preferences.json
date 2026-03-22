@@ -17,7 +17,7 @@
         "black hole perturbation",
         "Kerr",
         "Teukolsky",
-        "EMRI",
+        "EMRI"
       ],
       "prioritize": [
         "gravitational waves",
@@ -33,6 +33,7 @@
       "deprioritize": [
       ],
       "notes": [
+        "Related to research of Yanbei Chen and collaborators.",
         "Prefer concise technical summaries.",
         "Reward papers that connect formal calculations to signals, waveforms, or data analysis."
       ]
@@ -52,7 +53,7 @@
         "quantum nondemolition",
         "quantum backaction",
         "quantum gravity",
-        "experimental sigantures of quantum gravity"
+        "experimental signatures of quantum gravity"
       ],
       "prioritize": [
       ],
