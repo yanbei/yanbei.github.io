@@ -26,7 +26,7 @@ permalink: /arxiv-archive/
               <article class="paper">
                 <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.used_openai ? ' · <span class="mini-badge badge-openai">OpenAI</span>' : ' · <span class="mini-badge badge-fallback">Metadata fallback</span>'}${p.used_pdf_text ? ' · <span class="mini-badge badge-pdf">PDF-read</span>' : ''}${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
                 <h4>${p.title}</h4>
-                <p><strong>Authors:</strong> ${p.authors.join(', ')}</p>
+                <p><strong>Authors:</strong> ${(p.authors || []).slice(0, 3).join(', ')}${(p.authors || []).length > 3 ? `, et al. (${p.authors.length} authors)` : ''}</p>
                 <ul>
                   ${(p.summary_bullets || []).map(b => `<li>${b}</li>`).join('')}
                 </ul>
