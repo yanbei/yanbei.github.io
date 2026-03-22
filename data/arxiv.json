@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-22T06:31:37+00:00",
-  "openai_enabled": false,
+  "updated": "2026-03-22T06:33:22+00:00",
+  "openai_enabled": true,
   "display": {
     "max_authors": 3,
     "top_n": 20,
@@ -4094,7 +4094,7 @@
             "EMRI"
           ],
           "published": "2026-03-12T17:20:07+00:00",
-          "age_days": 9.5,
+          "age_days": 9.6,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "relevance": 4,
