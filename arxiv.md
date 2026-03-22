@@ -18,7 +18,7 @@ permalink: /arxiv/
         <div class="paper-list">
           ${w.papers.map(p => `
             <article class="paper">
-              <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
+              <div class="paper-meta">${p.category} · <a href="https://arxiv.org/abs/${p.id}" target="_blank" rel="noopener">${p.id}</a> · <span class="score">Relevance ${p.relevance}/5</span>${p.used_openai ? ' · <span class="mini-badge badge-openai">OpenAI</span>' : ' · <span class="mini-badge badge-fallback">Metadata fallback</span>'}${p.used_pdf_text ? ' · <span class="mini-badge badge-pdf">PDF-read</span>' : ''}${p.worth_reading_full ? ' · <strong>Worth reading in full</strong>' : ''}</div>
               <h3>${p.title}</h3>
               <p><strong>Authors:</strong> ${(p.authors_short || p.authors).join(', ')}</p>
               <ul>

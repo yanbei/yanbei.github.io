@@ -67,6 +67,25 @@ section { margin-top: 2rem; }
   font-size: 0.85rem;
   font-weight: 700;
 }
+.mini-badge {
+  display: inline-block;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.badge-openai {
+  background: #e7f7ee;
+  color: #196c3a;
+}
+.badge-pdf {
+  background: #fce8e6;
+  color: #a03222;
+}
+.badge-fallback {
+  background: #f1f3f4;
+  color: #55606d;
+}
 footer { color: var(--muted); margin-top: 2rem; }
 code { background: #eef2f8; padding: 0.1rem 0.25rem; border-radius: 4px; }
 .tabs {
