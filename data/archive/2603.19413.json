@@ -1,0 +1,22 @@
+{
+  "id": "2603.19413",
+  "title": "Ringdown modeling for effective-one-body waveforms in the test-mass limit for eccentric equatorial orbits around a Kerr black hole",
+  "authors": [
+    "Simone Albanesi",
+    "Sebastiano Bernuzzi",
+    "Alessandro Nagar"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-19T19:13:46+00:00",
+  "summary_bullets": [
+    "This paper studies Ringdown modeling for effective-one-body waveforms in the test-mass limit for eccentric equatorial orbits around a Kerr black hole using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
+    "Key words/topics: ringdown, inspiral, merger, Kerr, Teukolsky; published about 3.9 days ago."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": false,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2603.20167",
+  "title": "Quantum inference on a classically trained quantum extreme learning machine",
+  "authors": [
+    "Emanuele Brusaschi",
+    "Marco Clementi",
+    "Marco Liscidini",
+    "Daniele Bajoni",
+    "Matteo Galli",
+    "Massimo Borghi"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-20T17:44:40+00:00",
+  "summary_bullets": [
+    "The authors introduce a paradigm for training quantum extreme learning machines (QELMs) using intense classical fields by exploiting the correspondence between stimulated and spontaneous parametric processes, so training is performed with stimulated four-wave mixing while inference operates on spontaneous quantum biphoton inputs. They implement this on a frequency-bin encoded photonic platform (the first reported frequency-bin QELM) where electro-optic modulators realize the reservoir and stimulated output intensities are shown to be proportional to coincidence probabilities, enabling transfer of learned linear readout weights to quantum inference. Experimentally they demonstrate entanglement witnessing with ≈93±4% accuracy, multidimensional entanglement detection, and Hamiltonian learning with ≈96±4% fidelity, while reducing training times by orders of magnitude and substantially improving signal-to-noise ratio compared to coincidence-based training.",
+    "This should interest Yanbei because it provides a practical method to map macroscopic, high‑SNR classical observables onto nonclassical quantum correlations, directly addressing the repeated-measurement/finite-sampling bottleneck central to quantum metrology and macroscopic-quantum experiments—areas tied to his expertise in quantum measurement theory, back-action evasion, and optomechanics. The transfer-learning/classical-training strategy could be adapted to speed up entanglement or decoherence detection in optomechanical and tabletop gravity-phenomenology tests, and the fast linear readout layer is naturally relevant to his current interests in quantum learning and quantum-error-correction–inspired sensing protocols.",
+    "Keywords/topics: quantum extreme learning machine (QELM), quantum reservoir computing, stimulated vs spontaneous emission, four-wave mixing, frequency-bin encoding, entanglement witnessing, Hamiltonian learning, transfer learning, measurement SNR, experimental quantum machine learning; Published on arXiv in March 2026 (arXiv:2603.20167, dated March 23, 2026) — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

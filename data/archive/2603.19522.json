@@ -1,0 +1,23 @@
+{
+  "id": "2603.19522",
+  "title": "Preserving MWPM-Decodability in Fault-Equivalent Rewrites",
+  "authors": [
+    "Maximilian Schweikart",
+    "Linnea Grans-Samuelsson",
+    "Aleks Kissinger",
+    "Benjamin Rodatz"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-19T23:23:28+00:00",
+  "summary_bullets": [
+    "This paper formalises how ZX-calculus rewrites change the decoding problem by introducing detector-aware rewrites that track local detecting Pauli webs and their boundary actions. It defines matchability-preserving rewrites which guarantee that minimum-weight perfect matching (MWPM) decodability is retained, and proves any phase-free ZX diagram can be fault-equivalently extracted into a quantum circuit while preserving matchability. Using these constructions the authors build efficiently decodable, fault-tolerant syndrome-extraction circuits for matchable codes (e.g. surface-code-like spacetime codes).",
+    "Yanbei would care because his interests in quantum measurement, quantum noise and quantum error correction intersect where circuit-level noise propagation and real-time decoders meet experiment: preserving MWPM-decodability during circuit synthesis directly impacts the design of implementable syndrome-extraction and readout circuits that require low-latency, reliable classical decoding. The detector-aware, fault-equivalent rewrite framework gives a principled way to generate circuits whose noise-behaviour and decoder complexity are predictable, which is valuable for tabletop and optomechanical experiments (and any application where QND/back-action considerations and fast decoding are critical) and complements his interest in scalable QEC and experimental signatures that depend on preserving quantum coherence under realistic operations.",
+    "Keywords/topics: ZX calculus, detector-aware rewrites, matchability, MWPM decoding, fault-equivalent rewrites, Pauli webs, syndrome extraction, surface code, stabiliser codes, efficient classical decoding. Published on arXiv 19 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 18423,
+  "featured": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2603.20069",
+  "title": "$Δ_T$ Noise, Quantum Shot Noise, and Thermoelectric Clues to the Pairing Puzzle in Iron Pnictides",
+  "authors": [
+    "A Rajmohan Dora",
+    "Sachiraj Mishra",
+    "Colin Benjamin"
+  ],
+  "category": "cond-mat.supr-con",
+  "published": "2026-03-20T15:53:11+00:00",
+  "summary_bullets": [
+    "Using a scattering-matrix BTK approach for a normal-metal–insulator–iron-pnictide (N–I–IP) junction, the authors compute conductance, finite- and zero-temperature quantum shot noise, thermovoltage, Seebeck coefficient, and introduce ΔT noise as a probe of pairing symmetry. They show that while conductance displays only magnitude differences between S++ and S+− states, ΔT noise and both zero- and finite-temperature shot noise exhibit qualitatively distinct signatures — a twin-peak structure for S++ and a single-peak profile for S+− — and that thermovoltage and the Seebeck coefficient reverse sign between the two symmetries. The novelty is promoting ΔT noise (temperature-gradient-driven shot noise measured at zero average current) as a phase-sensitive, experimentally accessible discriminator of multiband S++ vs S+− pairing in iron pnictides.",
+    "This should interest Yanbei because it leverages quantum noise as an information-rich observable—an area closely aligned with his work on quantum noise, quantum measurement, and quantum-limited sensing—showing how higher moments (shot/ΔT noise) reveal phase information hidden from conductance; the scattering-matrix and noise-analysis techniques are directly relevant to designing noise-based metrology or phase-sensitive probes in mesoscopic/optomechanical platforms. Moreover, the paper’s emphasis on experimentally measurable thermoelectric and noise signatures connects to his interest in extracting subtle quantum effects from observables and could inspire analogous protocols for testing decoherence or entanglement mechanisms (including gravity-related phenomenology) in tabletop systems.",
+    "Keywords/topics: ΔT noise, quantum shot noise, thermoelectricity, Seebeck coefficient, thermovoltage, multiband superconductivity, S++ vs S+− pairing, N–I–IP junction, BTK/scattering-matrix transport, noise spectroscopy; arXiv:2603.20069 (cond-mat.supr-con), posted 20 Mar 2026 — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25574,
+  "featured": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2603.19913",
+  "title": "Modeling the merger-ringdown of an eccentric test-mass inspiral into a Kerr black hole using the effective-one-body framework",
+  "authors": [
+    "Guglielmo Faggioli",
+    "Alessandra Buonanno",
+    "Maarten van de Meent",
+    "Gaurav Khanna"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-20T12:52:12+00:00",
+  "summary_bullets": [
+    "The authors generate time-domain Teukolsky waveforms sourced by effective-one-body (EOB) inspiral-plunge trajectories for a small mass plunging into a Kerr black hole, spanning spins a ∈ [−0.9,0.9], eccentricity at the last stable orbit e_LSO ∈ [0,0.9], and relativistic anomaly ξ_LSO ∈ [0,2π], and analyze modes (ℓ,m) ∈ {(2,2),(3,3),(4,4),(5,5),(2,1),(3,2),(4,3)}. They find that residual eccentricity primarily alters the morphology and timing of the last waveform peak while having a subdominant effect on the subsequent ringdown, and that the relativistic anomaly can modify the last peak only in a restricted parameter region but does not affect the ringdown. Building on these results they present a phenomenological merger–ringdown model for SEOB-TMLE in the test-mass limit that includes quasinormal-mode mixing and provides fitted coefficients intended to extend EOB merger–ringdown descriptions toward eccentric, spin-aligned binaries and inform comparable-mass models.",
+    "Why Yanbei would care: this paper sits at the intersection of EOB waveform modeling, black-hole perturbation theory, and QNM excitation—areas Yanbei has contributed to—by providing BHPT-calibrated merger–ringdown phenomenology for eccentric inspirals that can be grafted onto EOB templates; the results supply concrete QNM-mixing/excitation information and last-peak behavior that matter for accurate templates, parameter estimation, and strong-gravity tests (including LISA/ET/CE regimes and EMRI-like limits) which align with his interests in waveform systematics, EMRIs, and observables for testing GR.",
+    "Keywords/topics: gravitational waves, Kerr, effective-one-body (EOB), Teukolsky (time-domain), eccentric inspiral, merger–ringdown, quasinormal modes, mode mixing, test-mass limit, waveform modeling, SEOB-TMLE. Published: 20 March 2026 on arXiv (arXiv:2603.19913) — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28535,
+  "featured": true
+}

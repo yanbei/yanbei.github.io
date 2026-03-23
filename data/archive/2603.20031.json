@@ -1,0 +1,22 @@
+{
+  "id": "2603.20031",
+  "title": "Analytical Solution of Spinning, Eccentric Binary Black Hole Dynamics at the Second Post-Newtonian Order",
+  "authors": [
+    "Tom Colin",
+    "Sashwat Tanay",
+    "Laura Bernard"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-20T15:17:21+00:00",
+  "summary_bullets": [
+    "This paper constructs an analytical, nearly 2PN solution for the time evolution of the relative separation vector, the two black-hole spin vectors, and the orbital angular momentum for arbitrary-spin, eccentric binary black holes, building on the existing 1.5PN solution. The authors hybridize the 1.5PN unaveraged solution (which captures orbital-timescale oscillations) with a 2PN orbit-averaged solution using the ADM Hamiltonian and the Newton–Wigner–Pryce spin-supplementary condition, thereby capturing both the secular precession/nutation envelope and the fast orbital oscillations. The final 'nearly 2PN' solution—missing only subdominant 2PN orbital-timescale spin oscillations—gives about an order-of-magnitude improvement over the earlier 1.5PN solution and provides explicit expressions R(t), S1(t), S2(t), and L(t) that can be used for first-principles waveform construction.",
+    "Yanbei should care because this work directly extends the post-Newtonian analytical toolkit he has used and developed for waveform modeling and strong-field tests: it supplies a first-principles, fast-evaluable description of precession + eccentricity dynamics that can reduce spin–eccentricity degeneracies, feed into EOB/Phenom or template banks for LISA/ET/ground detectors, and provide baseline predictions for how 2PN spin–spin effects shift precession and nutation rates relevant to precision tests of general relativity and parameter estimation for EMRIs and comparable-mass binaries.",
+    "Keywords/topics: spinning eccentric BBHs, 2PN post-Newtonian dynamics, spin-orbit and spin-spin couplings, quasi-Keplerian parametrization, ADM Hamiltonian, Newton–Wigner–Pryce SSC, orbit-averaging, hybrid analytical solution, waveform modeling, precession, periastron advance; arXiv v1 posted 20 Mar 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24108,
+  "featured": true
+}

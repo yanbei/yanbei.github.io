@@ -1,0 +1,22 @@
+{
+  "id": "2603.20127",
+  "title": "Analyzing Decoders for Quantum Error Correction",
+  "authors": [
+    "Abtin Molavi",
+    "Feras Saad",
+    "Aws Albarghouthi"
+  ],
+  "category": "cs.PL",
+  "published": "2026-03-20T16:50:00+00:00",
+  "summary_bullets": [
+    "The paper introduces a formal semantics for a core Stim circuit language and formulates decoder accuracy and robustness as polynomial functions of symbolic physical error rates. It evaluates decoders by systematic enumeration of the error space combined with a constrained polynomial-optimization kernel, including a practical \"partial derivative pruning\" technique to reduce search, yielding sound bounds on logical error rates and worst-case robustness over hyperrectangles of error parameters. Empirically the method outperforms Monte Carlo simulation in low-error regimes and can produce precise logical-error bounds with far fewer shots, demonstrated on rotated surface codes and several state-of-the-art decoders.",
+    "Yanbei should care because this work directly improves how decoder performance and robustness are quantified—an essential ingredient for assessing fault-tolerant operation thresholds that underlie any precision quantum experiment (including platforms tied to his interests such as high-coherence interferometry and optomechanics). The combination of formal Stim semantics and analytic robustness bounds reduces reliance on costly sampling and gives principled worst-case guarantees under drift, which is valuable for designing and certifying decoders for experiments, for connecting QEC performance to observable error floors, and for integrating classical decoder design with quantum control/measurement strategies he studies.",
+    "Keywords/topics: quantum error correction, decoder verification, Stim circuit formal semantics, enumerative error-space search, constrained polynomial optimization, partial derivative pruning, robustness to drift, rotated surface codes, low logical-error-rate estimation. Published on arXiv 20 March 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 21770,
+  "featured": true
+}
