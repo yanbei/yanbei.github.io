@@ -1,0 +1,24 @@
+{
+  "id": "2603.22149",
+  "title": "Low Latency GNN Accelerator for Quantum Error Correction",
+  "authors": [
+    "Alessio Cicero",
+    "Luigi Altamura",
+    "Moritz Lange",
+    "Mats Granath",
+    "Pedro Trancoso"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-23T16:14:52+00:00",
+  "summary_bullets": [
+    "Using a hardware-aware co-design, the authors implement a graph-neural-network (GNN) surface-code decoder on FPGA and demonstrate single-inference latency below the 1 μs superconducting-qubit budget for code distances up to d=7. They combine pruning-aware retraining, input-graph size bounding, post-training quantization, and a three-stage pipelined multiplier/adder architecture to reduce parameters by ≈9× and fit the model to available DSP/BRAM resources. The FPGA decoder achieves a logical error rate of 1.47×10−5—about 13% lower than MWPM in their comparison—while meeting the real-time latency constraint.",
+    "This directly intersects Yanbei’s interests in quantum error correction and quantum learning: the paper shows how a high-accuracy ML decoder (GNN) can be pushed into the sub-μs regime required for superconducting hardware via architectural and training-level optimizations. The low-latency, hardware-co-designed approach is relevant to any experiment or control scheme that needs real-time conditional operations (e.g., active feedback, back-action evasion, or fast syndrome-based control) and demonstrates practical pathways to extend usable circuit depth for experiments and simulators he cares about.",
+    "Keywords/topics: GNN-based QEC decoder, FPGA accelerator, surface code (d≤7), low-latency decoding (<1 μs), pruning-aware training, post-training quantization, hardware–software co-design, superconducting qubits, logical error rate (1.47×10−5), single-inference real-time decoding. Published on arXiv (v1) 23 Mar 2026 — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

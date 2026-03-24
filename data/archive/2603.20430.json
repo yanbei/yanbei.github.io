@@ -1,0 +1,27 @@
+{
+  "id": "2603.20430",
+  "title": "Isolated or Dynamical? Tracing Black Hole Binary Formation through the Population of Gravitational-Wave Sources",
+  "authors": [
+    "Manuel Arca Sedda",
+    "Lavinia Paiella",
+    "Cristiano Ugolini",
+    "Filippo Santoliquido",
+    "Benedetta Mestichelli",
+    "Ilaria Usai",
+    "Filippo Simonato",
+    "Marica Branchesi"
+  ],
+  "category": "astro-ph.GA",
+  "published": "2026-03-20T19:00:00+00:00",
+  "summary_bullets": [
+    "Using the semi-analytic B-pop code the authors forward-model a cosmological population of binary black hole (BBH) mergers that mixes isolated binary evolution and dynamical assembly in young, globular, and nuclear clusters while self-consistently including star-formation history, redshift-dependent metallicity, updated single/binary stellar evolution, and cluster dynamical evolution. The models add treatments for stellar-collision products, hierarchical (multi-generation) mergers and IMBH formation, explore variations in common-envelope efficiency, primordial-binary fraction, natal-spin prescriptions and cluster SFRs, and produce merger-rate densities and mass/spin distributions broadly consistent with LVK (local R = 17.5–24.1 Gpc^-3 yr^-1) but with distinctive predictions such as dynamical dominance at primary mass m1 ≳ 45 M⊙, a nearly flat mass-ratio distribution for the highest-mass mergers, and measurable fractions of mergers involving IMBHs. They quantify how astrophysical parameters map onto observable quantities (masses, q, χ_eff, redshift evolution) and emphasize that degeneracies in model assumptions limit definitive channel assignment for individual GW events.",
+    "This paper is directly relevant to Yanbei because it delivers population-level predictions that bear on several of his interests: cosmic evolution of sources (redshift-dependent merger rates), the demographics of high-mass and hierarchical mergers that produce strong-field ringdown signals (relevant for black-hole perturbation theory and nonlinear oscillation studies), and spin/alignment distributions that affect χ_eff and precession—quantities important for waveform modeling, template banks, and tests of general relativity. The explicit predictions for IMBH-involving mergers and the mass/ spin signatures of dynamical versus isolated channels help prioritize which events are most useful for strong-gravity probes (e.g., multiple-mode ringdown, nonlinear effects, or horizon tests) and inform expected event rates for targeted searches and parameter-estimation systematics that Yanbei has worked on.",
+    "Keywords/topics: BBH population synthesis, isolated vs dynamical channels, B-pop semi-analytic code, hierarchical mergers, IMBH/VMS seeds, upper mass gap, natal spins & alignment, common-envelope (α_CE), merger-rate density, mass and spin distributions, redshift evolution, comparison to LVK; Published: March 2026 (paper dated March 24, 2026)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 26961,
+  "featured": true
+}

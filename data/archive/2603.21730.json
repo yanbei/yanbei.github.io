@@ -1,0 +1,21 @@
+{
+  "id": "2603.21730",
+  "title": "Neural Belief-Matching Decoding for Topological Quantum Error Correction Codes",
+  "authors": [
+    "Luca Menti",
+    "Francisco Lázaro"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-23T09:15:48+00:00",
+  "summary_bullets": [
+    "The paper introduces a two-stage 'neural belief-matching' decoder for toric (topological) quantum codes that replaces the initial quaternary belief-propagation (BP) stage with a trainable neural BP (NBP) and uses MWPM only when needed. It further proposes a convolutional NBP architecture that exploits the toric lattice's translational symmetry to enforce weight-sharing, enabling weights trained on small code distances to be tiled and reused for much larger lattices, dramatically cutting training cost. Numerical Monte Carlo tests under a phenomenological depolarizing noise model (d = 4,6,8,10) show comparable or improved logical error rates versus prior neural-BP and belief-matching schemes while reducing MWPM calls (and average decoding complexity) by up to four orders of magnitude.",
+    "You would care because this work sits at the intersection of quantum error correction and machine learning—areas you have expressed interest in—by reducing the classical decoding overhead that often limits scalable or real-time fault-tolerant experiments. The convolutional weight-reuse idea directly addresses a practical bottleneck (training/transferability of learned decoders) relevant to implementing topological QEC on hardware platforms (e.g., superconducting qubits) and to integrating ML-based decoding into resource-limited experimental setups, which could influence experiments or classical-control requirements for macroscopic quantum systems and fault-tolerant sensors.",
+    "Keywords/topics: neural belief-propagation, toric code, topological quantum error correction, belief-matching + MWPM, convolutional weight-sharing, transfer/weight reuse, decoding complexity, depolarizing noise. Published/submitted: arXiv:2603.21730 (v1) — 23 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

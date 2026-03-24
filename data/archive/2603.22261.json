@@ -1,0 +1,24 @@
+{
+  "id": "2603.22261",
+  "title": "Exceptional Points in Quasinormal Spectra of Hairy Black Holes",
+  "authors": [
+    "Lang Cheng",
+    "Xiaobo Guo",
+    "Yuhan Li",
+    "Jun Tao",
+    "Peng Wang"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-23T17:48:31+00:00",
+  "summary_bullets": [
+    "The authors identify an exceptional point (EP) in the scalar quasinormal-mode (QNM) spectrum of static, spherically symmetric hairy black holes in the Einstein–Maxwell–scalar (EMS) theory by scanning the two-dimensional parameter space (coupling α and charge-to-mass q) and computing QNMs with frequency-domain spectral methods. They show that near this EP the usual superposition of independent damped exponentials is inadequate and that an EP ansatz—which includes a resonant contribution containing a term linear in time—provides a more robust description of the time-domain ringdown. The paper demonstrates extraction of this resonant contribution from time-domain waveforms and highlights that spectral coalescence at an EP materially alters ringdown modeling and parameter extraction for scalarized (hairy) black holes.",
+    "Yanbei would care because this work connects non-Hermitian spectral structure directly to time-domain waveform extraction and thus to BH spectroscopy and strong-gravity tests—areas central to his prior work on black-hole perturbation theory, QNMs, waveform modeling, and statistical GW inference; EPs can bias mode identification and hence parameter estimation and null tests of GR. The paper also studies scalarized (EMS) solutions, which probe departures from no-hair theorems, and proposes a concrete modified fitting ansatz that could be incorporated into template/model development and hypothesis testing (e.g., to avoid misinterpreting EP-induced features as new physics or noise).",
+    "Keywords/topics: exceptional points; quasinormal modes; ringdown; hairy (scalarized) black holes; Einstein–Maxwell–scalar theory; non-Hermitian spectral degeneracy; waveform extraction and fitting; scalar QNMs; spectral methods. arXiv:2603.22261 (v1), posted 23 March 2026 — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 11432,
+  "featured": true
+}

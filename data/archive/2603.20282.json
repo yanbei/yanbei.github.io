@@ -1,0 +1,23 @@
+{
+  "id": "2603.20282",
+  "title": "Degeneracy in Accretion Disk Spectra from Naked Singularities and Kerr Black Holes: Application to the AGN MCG-06-30-15",
+  "authors": [
+    "Vishva Patel",
+    "Sayantan Bhattacharya",
+    "Sudip Bhattacharyya",
+    "Pankaj S. Joshi"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-18T04:35:07+00:00",
+  "summary_bullets": [
+    "The authors construct an additive XSPEC table model for thin accretion disks in the Joshi–Malafarina–Narayan (JMN‑1) naked singularity interior matched to a Schwarzschild exterior and derive modified Novikov–Thorne flux and luminosity expressions that account for the matching boundary. They fit this NaSJMN model (plus relativistic reflection relxill) to NuSTAR spectra of the AGN MCG‑06‑30‑15 and find that a non‑spinning JMN‑1 naked singularity can reproduce the observed X‑ray spectrum as well as a high‑spin Kerr black hole, while both fit significantly better than a Schwarzschild black hole. The paper emphasizes a degeneracy that can bias electromagnetic spin measurements and recommends breaking it with independent spin determinations, noting potential consequences for comparing spin distributions from X‑ray and gravitational‑wave observations.",
+    "This should interest Yanbei because it directly bears on strong‑gravity tests from observables and on apparent tensions between spin measurements from electromagnetic probes and from gravitational waves — topics he has worked on (spin distributions, tests of GR, black‑hole phenomenology and EMRI science). The paper supplies a concrete, publicly loadable spectral model (NaSJMN.fits) and analytic expressions for boundary‑matched fluxes, giving a practical tool to test horizonless alternatives whose inspiral and ringdown (QNMs, tidal effects) would also affect GW templates and interpretations that Yanbei studies; thus the work links EM spectral systematics to potential GW signatures and to the cosmic‑censorship question he cares about.",
+    "Keywords/topics: JMN‑1 naked singularity, Kerr black hole, accretion disk spectra, Novikov–Thorne, XSPEC table model (NaSJMN.fits), NuSTAR, MCG‑06‑30‑15, spin measurement degeneracy, horizonless compact objects, strong‑field tests, cosmic censorship. Published: 18 March 2026 (arXiv:2603.20282, astro‑ph.HE) — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 18256,
+  "featured": true
+}

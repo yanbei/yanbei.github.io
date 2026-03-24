@@ -1,0 +1,20 @@
+{
+  "id": "2603.21769",
+  "title": "Materials Beyond Hamiltonian Limits -- Quantum Measurement as a Resource for Material Design",
+  "authors": [
+    "Jochen Mannhart"
+  ],
+  "category": "cond-mat.stat-mech",
+  "published": "2026-03-23T10:06:49+00:00",
+  "summary_bullets": [
+    "Mannhart proposes a framework for 'unitary–projective' electron dynamics in which Hamiltonian evolution is intermittently interleaved with intrinsic quantum measurement (projection) events, producing nonunitary, stochastic state updates that lie outside conventional electronic-structure theory. Using phenomenological models the paper shows that such dynamics can break detailed balance and reciprocity, yielding passive mesoscopic devices with intrinsic nonreciprocal single-electron transmission, a novel form of measurement-driven magnetism, and proposals for thermoelectric energy conversion that can nominally exceed Carnot bounds under reduced-dynamics assumptions. The work emphasizes design principles for materials that harness measurement as a resource, while noting the absence of a fully microscopic first-principles theory and presenting the results as mechanism-driven proposals for non-equilibrium steady states.",
+    "Yanbei should care because the paper places quantum measurement and projection dynamics at the heart of material functionality, directly connecting to his expertise in quantum measurement theory, back-action engineering, and optomechanics; the idea that measurement-induced dynamics can be engineered to produce observable nonreciprocity or macroscopic quantum effects aligns with his interest in experimental signatures of fundamental quantum processes and in using measurement as a control/resource. Moreover, the thermodynamic and information-theoretic aspects (Maxwell-demon-like operation, breakdown of detailed balance) could inform tests discriminating decoherence vs. intrinsic collapse models and suggest new tabletop platforms—mesoscopic or optomechanical—for probing foundational physics relevant to his current interests in gravity-related decoherence and quantum sensing.",
+    "Keywords/topics: unitary–projective dynamics, measurement-induced nonreciprocity, non-equilibrium steady states, nonreciprocal single-electron transmission, measurement-driven magnetism, Maxwell demon, quantum thermodynamics, open quantum systems, limits of Hamiltonian electronic-structure theory; arXiv:2603.21769 (cond-mat.stat-mech), posted 23 Mar 2026 — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 17174,
+  "featured": true
+}

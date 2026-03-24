@@ -1,0 +1,23 @@
+{
+  "id": "2603.21598",
+  "title": "Systematic construction of digital autonomous quantum error correction for state preparation and error suppression via conditional Gaussian operations",
+  "authors": [
+    "Keitaro Anai",
+    "Suguru Endo",
+    "Shuntaro Takeda",
+    "Tomohiro Shitara"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-23T05:47:59+00:00",
+  "summary_bullets": [
+    "The paper constructs a nullifier‑based digital autonomous quantum error‑correction (QEC) scheme for continuous‑variable systems by designing jump operators for target nullifiers and compiling the resulting Lindbladian into a Trotterized sequence of elementary conditional Gaussian operations.",
+    "They demonstrate two concrete use cases—deterministic preparation of non‑Gaussian resource states (finitely squeezed cubic‑phase states and approximate trisqueezed states) and autonomous suppression of dephasing errors for cat and squeezed‑cat codes—provide explicit gate decompositions for the necessary conditional Gaussian primitives, and evaluate performance under realistic imperfections such as bosonic photon loss and ancilla‑qubit decoherence.",
+    "The work quantifies resource trade‑offs (circuit depth, timestep choices, available conditional Gaussian set), gives analytical scaling estimates for required depth (e.g. N ≃ (ΓΔt)^{-2} log(⟨˜n⟩/ε) for state preparation) and validates regimes via numerical simulation."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24453,
+  "featured": true
+}

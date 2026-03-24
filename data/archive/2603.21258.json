@@ -1,0 +1,20 @@
+{
+  "id": "2603.21258",
+  "title": "Quasi-local thermodynamics of Kerr-Newman black holes: Pressure, volume, and shear work",
+  "authors": [
+    "Thiago Campos"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-22T14:29:16+00:00",
+  "summary_bullets": [
+    "This paper constructs a quasi-local thermodynamic framework for Kerr–Newman black holes by introducing a geometric eccentricity parameter Y and its conjugate thermodynamic shear tension X, so that the first law acquires an extra shear work term X dY. It derives generalized first laws and Smarr (Euler) relations in both internal-energy and enthalpy representations, shows the need for an “off-shell” treatment in the internal-energy picture (because geometric volume depends on entropy and Y), and produces closed-form state functions (T, X, V) with explicit Reissner–Nordström and Kerr limits. The novelty is treating horizon oblateness as a genuine thermodynamic degree of freedom (shear work), giving compact enthalpy expressions (e.g. X = −Y/(1+Y^2) H) and isolating rotational energy via Legendre transforms to incorporate rotation into quasi-local black-hole chemistry.",
+    "Yanbei would care because this work connects horizon geometry and local energy bookkeeping—topics relevant to his interests in black-hole perturbation theory, nonlinear horizon dynamics, and strong-gravity observables; the shear-tension X and eccentricity Y provide a formal way to parametrize horizon deformations that could couple to perturbations, quasinormal-mode dynamics, and energy/angular-momentum fluxes, thus affecting interpretations of near-horizon physics in GW generation and tests of GR. The paper’s clear enthalpy/internal-energy separation and off-shell→on-shell prescription could also be useful when relating quasi-local horizon quantities to asymptotic observables (important for EMRI and waveform modeling) or when exploring nontrivial matter stresses near the horizon in alternative-gravity or dark-matter scenarios.",
+    "Keywords/topics: quasi-local thermodynamics, Kerr–Newman, black-hole chemistry, shear work (X dY), geometric eccentricity Y, Smarr relations, enthalpy vs internal energy, horizon deformation, Reissner–Nordström/Kerr limits; arXiv:2603.21258 — submitted 22 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 17471,
+  "featured": true
+}

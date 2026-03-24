@@ -1,0 +1,21 @@
+{
+  "id": "2603.20379",
+  "title": "Nonlinear tails in the Kerr black hole ringdown",
+  "authors": [
+    "Siyang Ling",
+    "Sam S. C. Wong"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-20T18:00:08+00:00",
+  "summary_bullets": [
+    "The paper extends analytical and numerical studies of \"sourced\" (nonlinear) late-time power-law tails in black-hole ringdowns from Schwarzschild to Kerr by solving the Teukolsky equation in a spin-weighted spherical-harmonic basis. Using a far-field approximation to the radial Green's function, the authors derive an analytic tail law t^{-ℓ-β-s} for spin-weight s ≠ 0 for an outgoing source with spatial decay r^{-β}, and they numerically confirm the result for β = 0, 1. Time-domain simulations for a massless scalar around Kerr show dynamical formation of these tails and that Kerr nonlinear tails share the same power laws as Schwarzschild, consistent with tails being sourced in the Minkowski-like far field.",
+    "Yanbei should care because this paper directly connects black-hole perturbation theory and Teukolsky-based calculations to observable late-time ringdown features that probe GR nonlinearity; these nonlinear tails affect ringdown modelling, tests of strong-field gravity, and interpretation of residual late-time power laws—topics closely tied to his work on perturbation theory, EMRIs, nonlinear oscillations, and strong-gravity observables. The analytic far-field Green's function approach and numerical confirmation provide a concrete framework for incorporating sourced tails into waveform templates and for assessing whether late-time data can constrain GR nonlinear effects or exotic physics.",
+    "Keywords/topics: nonlinear (sourced) tails, Kerr ringdown, Teukolsky formalism, spin-weighted spherical harmonics, far-field Green's function, power-law tail t^{-ℓ-β-s}, numerical time-domain simulations (β=0,1), scalar-field test; arXiv:2603.20379, posted 20 Mar 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 10344,
+  "featured": true
+}

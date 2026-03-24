@@ -1,0 +1,21 @@
+{
+  "id": "2603.20594",
+  "title": "Branch-dependent ringdown in black-bounce spacetimes: imprints of matter-source ambiguity on quasinormal modes",
+  "authors": [
+    "Hao Yang",
+    "Chen Lan"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-21T01:44:09+00:00",
+  "summary_bullets": [
+    "Using the Simpson–Visser black-bounce metric, the authors derive exact axial perturbation master equations for structurally different matter-source interpretations (anisotropic fluid and nonlinear electrodynamics coupled to a scalar) and perform time-domain numerical evolutions with Prony fitting to extract quasinormal modes (QNMs).",
+    "They demonstrate a pronounced branch-dependent ringdown: in the black-hole branch (a ≤ 2M) the NED interpretation yields faster QNM damping due to enhanced energy leakage through a coupled electromagnetic channel plus horizon absorption, while in the wormhole branch (a > 2M) the NED-coupled system produces longer-lived fundamental modes because subradiant-like interference suppresses radiative losses to the two asymptotically flat regions. ",
+    "Framing the coupled perturbations as an open non-Hermitian radiative system, they identify decay‑width redistribution between eigenmodes and argue that gravitational-wave spectroscopy can, in principle, break the degeneracy of matter-source interpretations for the same background geometry."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 14250,
+  "featured": true
+}

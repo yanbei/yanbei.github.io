@@ -1,0 +1,25 @@
+{
+  "id": "2603.21643",
+  "title": "Gate-based Readout and Cooling of Neutral Atoms",
+  "authors": [
+    "Richard Bing-Shiun Tsai",
+    "Lewis R. B. Picard",
+    "Xiangkai Sun",
+    "Yuan Le",
+    "Kon H. Leung",
+    "Manuel Endres"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-23T07:24:26+00:00",
+  "summary_bullets": [
+    "The authors demonstrate an ancilla-based toolbox for optical-tweezer 88Sr arrays that enables repeated mid-circuit ancilla readout, coherence-preserving atom-loss detection via motional-state transduction, and a circuit-based algorithmic cooling that deterministically transfers motional entropy onto ancilla electronic states.",
+    "They report that repeated ancilla readout raises detection fidelity from ~0.90 to near 0.99 with negligible heating of data atoms, implement a single-entangling-gate motional shelving protocol that preserves data-qubit coherence (measured detection fidelity ~0.88), and realize the first experimental algorithmic cooling in neutral-atom arrays with a measurable increase in motional ground-state occupation despite finite single-qubit errors.",
+    "The work integrates high-fidelity Rydberg entangling gates, dynamical array reconfiguration, and motional Fock-state control to provide mid-circuit loss monitoring, low-disturbance QND-like measurements, and a pathway toward continuous operation of tweezer clocks and loss-aware quantum processors."
+  ],
+  "relevance": 3,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

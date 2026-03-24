@@ -1,0 +1,25 @@
+{
+  "id": "2603.21057",
+  "title": "Robust Quantum Sensing via Prethermal Spin Orbits",
+  "authors": [
+    "Enrico Daniel Richter",
+    "Ryan J. Smith",
+    "Brayden Glockzin",
+    "Emanuel Druga",
+    "Thomas Schenkel",
+    "Ashok Ajoy"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-22T04:51:40+00:00",
+  "summary_bullets": [
+    "This paper introduces PRISM, an interaction-protected magnetometry protocol that uses periodic Floquet driving to steer a dense, interacting spin ensemble onto two long-lived prethermal Floquet “orbit” axes; rapid toggling between these axes encodes target magnetic fields as a differential signal while common-mode background and prethermal transients are strongly rejected (reported suppression >10^3).",
+    "The authors present an experimental proof-of-principle using a dense ensemble of 13C nuclear spins in single-crystal diamond (broadband 0–1 kHz magnetometry) demonstrating extended prethermal lifetimes (T2' ≈ 56–98 s), robustness across millions of pulses with large pulse-angle and detuning errors, large bias-field drifts (>50 μT), temperature swings >150 K, and mechanical vibration tolerance, and they show transient-free reconstruction of rapidly varying audio-band signals without predictive filtering.",
+    "The novelty is in exploiting Floquet prethermalization as a metrological resource—realizing time-domain gradiometry, intrinsic calibration, and broadband, transient-free sensing that avoids the narrowband and pulse-error sensitivities of conventional dynamical-decoupling approaches."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 27537,
+  "featured": true
+}

@@ -1,5 +1,5 @@
 window.ARXIV_DATA = {
-  "updated": "2026-03-23T08:42:11-07:00",
+  "updated": "2026-03-24T08:48:52-07:00",
   "openai_enabled": true,
   "display": {
     "max_authors": 3,
@@ -59,7 +59,7 @@ window.ARXIV_DATA = {
             "Teukolsky"
           ],
           "published": "2026-03-20T12:52:12+00:00",
-          "age_days": 3.1,
+          "age_days": 4.1,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -101,19 +101,19 @@ window.ARXIV_DATA = {
             "Teukolsky"
           ],
           "published": "2026-03-19T19:13:46+00:00",
-          "age_days": 3.9,
+          "age_days": 4.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
-          "used_openai": false,
+          "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 30000,
           "featured": true,
           "relevance": 5,
           "base_score": 15,
           "summary_bullets": [
-            "This paper studies Ringdown modeling for effective-one-body waveforms in the test-mass limit for eccentric equatorial orbits around a Kerr black hole using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-            "Key words/topics: ringdown, inspiral, merger, Kerr, Teukolsky; published about 3.9 days ago."
+            "This paper computes inspiral–plunge–merger–ringdown waveforms for a non-spinning test particle on eccentric equatorial orbits around a Kerr black hole by evolving EOB-driven dynamics with a 2+1 time-domain Teukolsky solver (Teukode) to obtain multipolar Ψ4 and reconstruct hℓm.",
+            "The authors build closed-form phenomenological merger–ringdown ansätze anchored to a time closely related to the light-ring crossing (rather than the amplitude peak), model multipoles up to ℓ=4 (m≥1) plus selected ℓ=5 and the (2,0) mode, include spherical–spheroidal mode-mixing and beating between co- and counter-rotating QNMs, and show the model is robust at high spin, high eccentricity and for dynamical-capture scenarios.",
+            "They attach the post-merger model to an EOB inspiral–plunge to produce complete IMR waveforms in the test-mass limit and argue the LR-based anchoring can be generalized to comparable-mass models by using the (2,2) frequency inflection point as the ringdown anchor."
           ],
           "worth_reading_full": true
         },
@@ -137,7 +137,7 @@ window.ARXIV_DATA = {
             "EMRI"
           ],
           "published": "2026-03-18T06:06:30+00:00",
-          "age_days": 5.4,
+          "age_days": 6.4,
           "previous_work_hits": [
             "extreme-mass-ratio inspirals"
           ],
@@ -156,46 +156,123 @@ window.ARXIV_DATA = {
           "worth_reading_full": true
         },
         {
-          "id": "2603.16610",
-          "title": "Testing general relativity with binary black holes: a study on the sensitivity requirements for future space-based detectors",
+          "id": "2603.20594",
+          "title": "Branch-dependent ringdown in black-bounce spacetimes: imprints of matter-source ambiguity on quasinormal modes",
           "authors": [
-            "Tangchao Zhan",
-            "Changfu Shi",
-            "Shuo Sun",
-            "Jianwei Mei"
+            "Hao Yang",
+            "Chen Lan"
           ],
           "authors_short": [
-            "Tangchao Zhan",
-            "Changfu Shi",
-            "Shuo Sun",
-            "et al. (4 authors)"
+            "Hao Yang",
+            "Chen Lan"
           ],
           "category": "gr-qc",
-          "abstract": "We study the sensitivity required for a future space-based detector to search for beyond general relativity effect in gravitational wave detection. To do this, we use the current design of TianQin, LISA, and $μ$Ares as starting points, and study how their key noise parameters should be improved to adequately detect some target signals, for which we choose a nonlinear ringdown mode, displacement memory, and a putative beyond general relativity signal, all from the merger of massive black hole binaries. We find that the required improvements are strongly dependent on the choice of the target signals and the population model of massive black hole binaries, and $4-9$ orders of magnitude improvement will be needed in the most demanding detection scenarios.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16610.pdf",
+          "abstract": "Regular black holes and black-bounce spacetimes frequently emerge in theoretical frameworks beyond general relativity, as well as in general relativity coupled to non-linear sources. A profound complication in these frameworks is source ambiguity: a single spacetime metric can often be supported by multiple, inequivalent matter-source interpretations, such as an anisotropic fluid or nonlinear electrodynamics (NED) coupled to a scalar field. We investigate how this fundamental degeneracy dynamically imprints on axial gravitational perturbations within the Simpson-Visser spacetime, which smoothly transitions from a regular black hole (BH) to a traversable wormhole (WH) at a critical bounce parameter $a=2M$. By deriving the exact master equations for each interpretation, we perform time-domain numerical evolutions to extract the quasinormal modes (QNMs) via Prony fitting. In the BH branch ($a\\le2M$), the NED interpretation exhibits faster QNM damping than the fluid model, driven by enhanced energy leakage through the coupled electromagnetic channel alongside horizon absorption. Conversely, in the WH branch ($a>2M$), the NED coupled system produces longer-lived fundamental modes. This reduced damping is governed by subradiant-like interference that actively suppresses radiative losses to the two asymptotically flat regions. This branch-dependent dynamics, analogous to decay-width redistribution in open non-Hermitian quantum systems, demonstrates that matter-source ambiguity leaves distinct, observable signatures in ringdown waveforms. Our findings establish that gravitational-wave spectroscopy can systematically break the degeneracy of source interpretations, providing a novel empirical pathway to probe the physical nature of exotic compact objects.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20594.pdf",
           "matches": [
-            "ringdown",
-            "merger",
-            "binary black hole"
+            "quasinormal mode",
+            "ringdown"
           ],
-          "published": "2026-03-17T14:51:36+00:00",
-          "age_days": 6.0,
-          "previous_work_hits": [
-            "testing general relativity"
-          ],
+          "published": "2026-03-21T01:44:09+00:00",
+          "age_days": 3.6,
+          "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 26703,
+          "pdf_text_chars": 14250,
           "featured": true,
           "relevance": 5,
-          "base_score": 14,
+          "base_score": 13,
           "summary_bullets": [
-            "This paper quantifies the sensitivity improvements required for future space‑based detectors to detect beyond‑GR signatures from massive black‑hole binary mergers, focusing on three targets: the second‑order (2,2,0)×(2,2,0) quadratic ringdown, displacement memory, and a putative emergent‑gravity motivated induced EMRI (iEMRI). Using TianQin, LISA and µAres as baseline designs and varying the two core noise parameters (one‑way displacement noise S_x and residual acceleration noise S_a), the authors compute optimal (S_a,S_x) choices for detectability across three MBHB population models (Q3d, Q3nd, pop III) and adopt ρ_th=8 as the detection threshold. They find that required improvements depend strongly on target signal and population model — Q3d is least demanding, pop III most — and that in the most challenging scenarios (iEMRI or pop III) one may need ~4–9 orders of magnitude improvement in S_a and/or S_x, highlighting severe technological challenges for these science goals.",
-            "Why you would care: this work connects directly to your prior research on black‑hole perturbation theory, nonlinear ringdown modes, GW memory, and EMRIs by translating theoretical nonlinear observables into concrete detector requirements and population‑dependent detection forecasts. The paper assesses detectability of second‑order QNMs and memory (both central to tests of GR in the nonlinear regime) and proposes an observational signature (iEMRI) tied to an emergent‑gravity/FBH model, so it informs which strong‑gravity effects are realistically accessible with space missions and where to concentrate waveform modeling and data‑analysis efforts.",
-            "Keywords/topics: nonlinear ringdown (quadratic QNMs, (2,2,0)×(2,2,0)); displacement memory; induced EMRI (iEMRI) from a Fluid Black Hole emergent‑gravity model; space‑based detectors (TianQin, LISA, µAres); detector noise parameters S_a and S_x; MBHB population models (Q3d, Q3nd, pop III); SNR/detectability and waveform implications. Published on arXiv / dated March 17–18, 2026 (very recent)."
+            "Using the Simpson–Visser black-bounce metric, the authors derive exact axial perturbation master equations for structurally different matter-source interpretations (anisotropic fluid and nonlinear electrodynamics coupled to a scalar) and perform time-domain numerical evolutions with Prony fitting to extract quasinormal modes (QNMs).",
+            "They demonstrate a pronounced branch-dependent ringdown: in the black-hole branch (a ≤ 2M) the NED interpretation yields faster QNM damping due to enhanced energy leakage through a coupled electromagnetic channel plus horizon absorption, while in the wormhole branch (a > 2M) the NED-coupled system produces longer-lived fundamental modes because subradiant-like interference suppresses radiative losses to the two asymptotically flat regions. ",
+            "Framing the coupled perturbations as an open non-Hermitian radiative system, they identify decay‑width redistribution between eigenmodes and argue that gravitational-wave spectroscopy can, in principle, break the degeneracy of matter-source interpretations for the same background geometry."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.20430",
+          "title": "Isolated or Dynamical? Tracing Black Hole Binary Formation through the Population of Gravitational-Wave Sources",
+          "authors": [
+            "Manuel Arca Sedda",
+            "Lavinia Paiella",
+            "Cristiano Ugolini",
+            "Filippo Santoliquido",
+            "Benedetta Mestichelli",
+            "Ilaria Usai",
+            "Filippo Simonato",
+            "Marica Branchesi"
+          ],
+          "authors_short": [
+            "Manuel Arca Sedda",
+            "Lavinia Paiella",
+            "Cristiano Ugolini",
+            "et al. (8 authors)"
+          ],
+          "category": "astro-ph.GA",
+          "abstract": "The population of binary black hole (BBH) mergers observed by the LIGO-Virgo-KAGRA (LVK) collaboration offers a window into the cosmic evolution of compact binaries and their formation. We employ the semi-analytic population-synthesis code B-POP to model BBHs assembled through isolated binary evolution and dynamical interactions in young, globular, and nuclear star clusters. Our framework incorporates star formation history, metallicity evolution, and single and binary stellar evolution to quantify their impact on the observable properties of the BBH population and on the relative contribution of distinct formation channels. Our models are characterized by a merger rate, $\\mathcal{R} = 17.5-24.1\\mathrm{Gpc}^{-3}\\mathrm{yr}^{-1}$, broadly consistent with LVK constraints. Moreover, the predicted distributions of primary mass, mass ratio, and effective inspiral spin parameter are compatible with those inferred from current LVK observations. Our primary-mass distribution is dominated by isolated binaries at $m_1 < 20$ M$_\\odot$, while dynamically assembled first- and higher-generation mergers dominate at larger masses. As a consequence, the sub-population of mergers with $m_1 > 45$ M$_\\odot$ exhibits a nearly flat mass-ratio distribution and distinctive spin properties. We leverage our models to explore how: (i) the fraction of stars in isolated binaries and the fraction of stellar mass bound in clusters regulate the merger rate; (ii) common-envelope physics shapes the primary-mass distribution and its redshift evolution; (iii) the inclusion of stellar-collision products enhances the formation of higher-generation mergers; and (iv) the natal spin distribution influences the effective spin. Using our models to assess possible origins of selected GW events, we illustrate how the complexity of the underlying astrophysical processes can hinder the possibility to draw definitive conclusions.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20430.pdf",
+          "matches": [
+            "inspiral",
+            "merger",
+            "binary black hole"
+          ],
+          "published": "2026-03-20T19:00:00+00:00",
+          "age_days": 3.9,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "cosmic evolution"
+          ],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 26961,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 13,
+          "summary_bullets": [
+            "Using the semi-analytic B-pop code the authors forward-model a cosmological population of binary black hole (BBH) mergers that mixes isolated binary evolution and dynamical assembly in young, globular, and nuclear clusters while self-consistently including star-formation history, redshift-dependent metallicity, updated single/binary stellar evolution, and cluster dynamical evolution. The models add treatments for stellar-collision products, hierarchical (multi-generation) mergers and IMBH formation, explore variations in common-envelope efficiency, primordial-binary fraction, natal-spin prescriptions and cluster SFRs, and produce merger-rate densities and mass/spin distributions broadly consistent with LVK (local R = 17.5–24.1 Gpc^-3 yr^-1) but with distinctive predictions such as dynamical dominance at primary mass m1 ≳ 45 M⊙, a nearly flat mass-ratio distribution for the highest-mass mergers, and measurable fractions of mergers involving IMBHs. They quantify how astrophysical parameters map onto observable quantities (masses, q, χ_eff, redshift evolution) and emphasize that degeneracies in model assumptions limit definitive channel assignment for individual GW events.",
+            "This paper is directly relevant to Yanbei because it delivers population-level predictions that bear on several of his interests: cosmic evolution of sources (redshift-dependent merger rates), the demographics of high-mass and hierarchical mergers that produce strong-field ringdown signals (relevant for black-hole perturbation theory and nonlinear oscillation studies), and spin/alignment distributions that affect χ_eff and precession—quantities important for waveform modeling, template banks, and tests of general relativity. The explicit predictions for IMBH-involving mergers and the mass/ spin signatures of dynamical versus isolated channels help prioritize which events are most useful for strong-gravity probes (e.g., multiple-mode ringdown, nonlinear effects, or horizon tests) and inform expected event rates for targeted searches and parameter-estimation systematics that Yanbei has worked on.",
+            "Keywords/topics: BBH population synthesis, isolated vs dynamical channels, B-pop semi-analytic code, hierarchical mergers, IMBH/VMS seeds, upper mass gap, natal spins & alignment, common-envelope (α_CE), merger-rate density, mass and spin distributions, redshift evolution, comparison to LVK; Published: March 2026 (paper dated March 24, 2026)."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.20379",
+          "title": "Nonlinear tails in the Kerr black hole ringdown",
+          "authors": [
+            "Siyang Ling",
+            "Sam S. C. Wong"
+          ],
+          "authors_short": [
+            "Siyang Ling",
+            "Sam S. C. Wong"
+          ],
+          "category": "gr-qc",
+          "abstract": "Power law tails induced by nonlinearities of General Relativity (``sourced'' or ``nonlinear'' tails) were recently shown to dominate the late time waveform of Schwarzschild black hole ringdowns. We extend the analytical results regarding such nonlinear tails from Schwarzschild to Kerr black holes by studying the Teukolsky equation. Using a far field approximation to the radial Green's function, we analytically derived the tail power law to be $t^{-\\ell-β-s}$ for spin-weight $s \\neq 0$, harmonic mode $(\\ell m)$ and source decay $r^{-β}$. We numerically confirmed these results for $β= 0, 1$. We also demonstrate the dynamical formation of such nonlinear tails for a massless scalar by numerically solving the Teukolsky equation. In all numerical results, Kerr black hole nonlinear tails have the same power laws as that for Schwarzschild black holes, as expected from the Minkowski nature of the spacetime in the far field region.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20379.pdf",
+          "matches": [
+            "ringdown",
+            "Kerr",
+            "Teukolsky"
+          ],
+          "published": "2026-03-20T18:00:08+00:00",
+          "age_days": 3.9,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "black holes"
+          ],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 10344,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 13,
+          "summary_bullets": [
+            "The paper extends analytical and numerical studies of \"sourced\" (nonlinear) late-time power-law tails in black-hole ringdowns from Schwarzschild to Kerr by solving the Teukolsky equation in a spin-weighted spherical-harmonic basis. Using a far-field approximation to the radial Green's function, the authors derive an analytic tail law t^{-ℓ-β-s} for spin-weight s ≠ 0 for an outgoing source with spatial decay r^{-β}, and they numerically confirm the result for β = 0, 1. Time-domain simulations for a massless scalar around Kerr show dynamical formation of these tails and that Kerr nonlinear tails share the same power laws as Schwarzschild, consistent with tails being sourced in the Minkowski-like far field.",
+            "Yanbei should care because this paper directly connects black-hole perturbation theory and Teukolsky-based calculations to observable late-time ringdown features that probe GR nonlinearity; these nonlinear tails affect ringdown modelling, tests of strong-field gravity, and interpretation of residual late-time power laws—topics closely tied to his work on perturbation theory, EMRIs, nonlinear oscillations, and strong-gravity observables. The analytic far-field Green's function approach and numerical confirmation provide a concrete framework for incorporating sourced tails into waveform templates and for assessing whether late-time data can constrain GR nonlinear effects or exotic physics.",
+            "Keywords/topics: nonlinear (sourced) tails, Kerr ringdown, Teukolsky formalism, spin-weighted spherical harmonics, far-field Green's function, power-law tail t^{-ℓ-β-s}, numerical time-domain simulations (β=0,1), scalar-field test; arXiv:2603.20379, posted 20 Mar 2026 (very recent)."
           ],
           "worth_reading_full": true
         },
@@ -2002,7 +2079,7 @@ window.ARXIV_DATA = {
             "Kerr"
           ],
           "published": "2026-03-19T15:22:28+00:00",
-          "age_days": 4.0,
+          "age_days": 5.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -2019,84 +2096,78 @@ window.ARXIV_DATA = {
           "worth_reading_full": true
         },
         {
-          "id": "2603.15999",
-          "title": "Cosmological prospects for multiband detection of intermediate-mass binary black holes with Taiji and ground-based detectors",
+          "id": "2603.22261",
+          "title": "Exceptional Points in Quasinormal Spectra of Hairy Black Holes",
           "authors": [
-            "Yue-Yan Dong",
-            "Ji-Yu Song",
-            "Jing-Fei Zhang",
-            "Xin Zhang"
+            "Lang Cheng",
+            "Xiaobo Guo",
+            "Yuhan Li",
+            "Jun Tao",
+            "Peng Wang"
           ],
           "authors_short": [
-            "Yue-Yan Dong",
-            "Ji-Yu Song",
-            "Jing-Fei Zhang",
-            "et al. (4 authors)"
+            "Lang Cheng",
+            "Xiaobo Guo",
+            "Yuhan Li",
+            "et al. (5 authors)"
           ],
-          "category": "astro-ph.CO",
-          "abstract": "Intermediate-mass black holes (IMBHs) bridge the gap between stellar-mass and supermassive black holes, but remain challenging to detect electromagnetically. Gravitational-wave observations provide a direct means of detecting IMBHs and their mergers. We simulate the gravitational-wave signals of IMBH binaries under different population models and assess their detectability with the space-based detector Taiji alone and in a multiband network combining Taiji with third-generation ground-based detectors. Taiji performs well in detecting high-mass IMBH binaries, while ground-based detectors compensate for its reduced sensitivity to lower-mass systems. Their combination expands the accessible parameter space and improves the constraints on cosmological parameters. In particular, multiband observations improve the constraint accuracy on $H_0$ by $36.5\\%$ and $31.0\\%$ compared with Taiji and ET2CE alone, respectively. We further examine the dependence of parameter accuracy on the number of simulated events, finding that improvements are most pronounced for small samples and gradually saturate as the number of events increases. We conclude that multiband observations enhance the detectability of IMBH binaries and reinforce their role as probes of precision cosmology.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15999.pdf",
+          "category": "gr-qc",
+          "abstract": "Exceptional points (EPs) in quasinormal mode (QNM) spectra are non-Hermitian degeneracies at which both the eigenvalues and eigenfunctions coalesce. In this paper, we identify an EP in the scalar QNM spectrum of hairy black holes in the Einstein-Maxwell-scalar theory by scanning the parameter space. We then investigate its implications for ringdown signals by extracting QNMs from time-domain waveforms. Our results show that an EP ansatz, which includes a resonant contribution containing a term linear in time, provides a more robust description of ringdown at the EP than the standard ansatz based on a superposition of independent damped modes. In particular, it captures the resonant contribution associated with spectral coalescence more naturally and enables a more reliable extraction from the ringdown signal.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22261.pdf",
           "matches": [
-            "merger",
-            "binary black hole"
+            "quasinormal mode",
+            "ringdown"
           ],
-          "published": "2026-03-16T23:21:55+00:00",
-          "age_days": 6.7,
+          "published": "2026-03-23T17:48:31+00:00",
+          "age_days": 0.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 25033,
+          "pdf_text_chars": 11432,
           "featured": true,
-          "relevance": 4,
-          "base_score": 12,
+          "relevance": 5,
+          "base_score": 11,
           "summary_bullets": [
-            "The authors simulate gravitational-wave signals from intermediate-mass binary black holes (IMBBHs) under two population models and evaluate detectability with the Taiji space mission alone and a multiband network combining Taiji with third‑generation ground detectors (ET+CE).",
-            "Using IMRPhenomD waveforms, Fisher‑matrix parameter estimation, and a mock galaxy catalog/dark‑siren Bayesian pipeline they quantify detection efficiency, sky localization and luminosity‑distance errors, showing multiband observations substantially increase the number of high‑SNR, well‑localized IMBBH events across a wide mass and mass‑ratio range.",
-            "Propagating these measurement improvements to cosmology, they find the Taiji+ET2CE multiband network tightens H0 precision (≈36.5% improvement versus Taiji alone in their fiducial run) and reduces Ωm uncertainty, and they map how H0 precision scales with the number of detected events."
+            "The authors identify an exceptional point (EP) in the scalar quasinormal-mode (QNM) spectrum of static, spherically symmetric hairy black holes in the Einstein–Maxwell–scalar (EMS) theory by scanning the two-dimensional parameter space (coupling α and charge-to-mass q) and computing QNMs with frequency-domain spectral methods. They show that near this EP the usual superposition of independent damped exponentials is inadequate and that an EP ansatz—which includes a resonant contribution containing a term linear in time—provides a more robust description of the time-domain ringdown. The paper demonstrates extraction of this resonant contribution from time-domain waveforms and highlights that spectral coalescence at an EP materially alters ringdown modeling and parameter extraction for scalarized (hairy) black holes.",
+            "Yanbei would care because this work connects non-Hermitian spectral structure directly to time-domain waveform extraction and thus to BH spectroscopy and strong-gravity tests—areas central to his prior work on black-hole perturbation theory, QNMs, waveform modeling, and statistical GW inference; EPs can bias mode identification and hence parameter estimation and null tests of GR. The paper also studies scalarized (EMS) solutions, which probe departures from no-hair theorems, and proposes a concrete modified fitting ansatz that could be incorporated into template/model development and hypothesis testing (e.g., to avoid misinterpreting EP-induced features as new physics or noise).",
+            "Keywords/topics: exceptional points; quasinormal modes; ringdown; hairy (scalarized) black holes; Einstein–Maxwell–scalar theory; non-Hermitian spectral degeneracy; waveform extraction and fitting; scalar QNMs; spectral methods. arXiv:2603.22261 (v1), posted 23 March 2026 — very recent."
           ],
           "worth_reading_full": true
         },
         {
-          "id": "2603.15734",
-          "title": "Crowdsourcing Gravitational Waves from Superradiant Axions",
+          "id": "2603.21258",
+          "title": "Quasi-local thermodynamics of Kerr-Newman black holes: Pressure, volume, and shear work",
           "authors": [
-            "Sebastian A. R. Ellis",
-            "Orion Ning",
-            "Nicholas L. Rodd",
-            "Jan Schütte-Engel"
+            "Thiago Campos"
           ],
           "authors_short": [
-            "Sebastian A. R. Ellis",
-            "Orion Ning",
-            "Nicholas L. Rodd",
-            "et al. (4 authors)"
+            "Thiago Campos"
           ],
-          "category": "hep-ph",
-          "abstract": "Black hole superradiance is a powerful probe of ultralight axions. If nature contains a boson with a mass of order $10^{-12}\\,$eV, $\\textit{mere vacuum fluctuations}$ will lead to its efficient production around spinning stellar mass black holes, forming a gravitational atom that both drains the black hole spin and decays to produce near-monochromatic gravitational waves. Existing superradiance constraints derive primarily from spin measurements of a handful of identified black holes. Here we instead present a detailed study of the population level effect: gravitational waves arising from both the 100 million black holes in the Milky Way and the stochastic signal from axion clouds throughout the universe. We study the impact of a broad range of systematic uncertainties on the black hole properties and compute the projected axion sensitivity for LIGO, as well as the future instruments Einstein Telescope, Cosmic Explorer, and a high-frequency Magnetic Weber Bar. We demonstrate that LIGO can robustly probe axion masses from roughly $10^{-13}\\,$eV to $4 \\times 10^{-12}\\,$eV. If the black hole population extends to masses slightly below $5\\,M_{\\odot}$ - as hinted for by LIGO inspiral observations - LIGO would approach $10^{-11}\\,$eV. Under that same assumption we show that a future high-frequency detector could push considerably higher, potentially beyond $10^{-10}\\,$eV in the most optimistic scenarios, reaching towards the lowest masses within the projected sensitivity of axion dark matter searches.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15734.pdf",
+          "category": "gr-qc",
+          "abstract": "While the quasi-local thermodynamics of spherically symmetric black holes is well described by pressure and volume, extending this framework to rotating spacetimes poses a significant challenge. Rotation induces an oblate deformation of the horizon, breaking the direct functional dependence between geometric volume and area. In this work, we resolve this difficulty by establishing a quasi-local thermodynamic framework for Kerr-Newman black holes. We demonstrate that accommodating this kinematic deformation requires extending the thermodynamic phase space to include a geometric eccentricity parameter $Y$ and its conjugate, a thermodynamic shear tension $X$. Consequently, the rotational contribution is incorporated into the first law with a shear work term $X dY$. We derive the generalized first laws and Smarr formulas (Euler relations) for both the internal energy and enthalpy representations, showing that these thermodynamic potentials can be obtained through Legendre transformations that isolate the quasi-local energy from the rotational energy. Thus, this framework provides a novel perspective on the thermodynamics of rotating black holes, integrating the geometric deformation of the horizon into a quasi-local description.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21258.pdf",
           "matches": [
-            "gravitational waves",
-            "inspiral"
+            "Kerr"
           ],
-          "published": "2026-03-16T18:00:01+00:00",
-          "age_days": 6.9,
+          "published": "2026-03-22T14:29:16+00:00",
+          "age_days": 2.1,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 30000,
+          "pdf_text_chars": 17471,
           "featured": true,
-          "relevance": 5,
-          "base_score": 12,
+          "relevance": 4,
+          "base_score": 10,
           "summary_bullets": [
-            "This paper presents a comprehensive population-level forecast for gravitational-wave signals from axion-induced black-hole superradiance, computing both narrow-band coherent signals from the ∼100 million Milky Way stellar-mass black holes and the stochastic extragalactic background. Using a wide range of astrophysical-systematic variations and focusing on well-controlled theory (primarily the dominant 211 mode while neglecting axion self-interactions), the authors project LIGO O5 sensitivity roughly from µ ≃ 10^{-13} eV up to ≃4×10^{-12} eV and show that including lighter black holes or extended high-frequency sensitivity could push the reach toward ∼10^{-11}–10^{-10} eV for future or dedicated detectors. They quantify cloud growth and decay timescales, delineate when coherent (galactic) versus incoherent (extragalactic) search strategies are appropriate, and compare/contrast GW searches with spin-down constraints from X-ray and LIGO spin measurements while assessing key modeling uncertainties.",
-            "Yanbei should care because the paper directly connects black-hole perturbation physics and observable continuous/stochastic GW signatures to population modeling and detector forecasts—topics that overlap his work on black-hole perturbation theory, waveform modeling, strong-field tests, and population-level inference; the study also highlights theoretical systematics (mode selection, self-interactions, nonlinear/cloud mixing) that tie into his interests in nonlinear gravitational dynamics and how they map onto data analysis strategies. The concrete forecasts for LIGO/ET/CE and the discussion of extending interferometer sensitivity to higher frequencies (and dedicated high-frequency concepts) make this immediately useful for planning observational tests of ultralight bosons and for designing targeted continuous-wave searches and population-based null tests of general relativity.",
-            "Keywords/topics: axion superradiance, gravitational-atom, continuous GWs (galactic narrow-band), stochastic extragalactic background, 211 (dominant) mode, cloud growth/decay timescales, population modeling and systematics, LIGO O5 / Einstein Telescope / Cosmic Explorer, high-frequency detectors (Magnetic Weber Bar), complementarity with spin-down constraints; published on arXiv 16 March 2026 (very recent)."
+            "This paper constructs a quasi-local thermodynamic framework for Kerr–Newman black holes by introducing a geometric eccentricity parameter Y and its conjugate thermodynamic shear tension X, so that the first law acquires an extra shear work term X dY. It derives generalized first laws and Smarr (Euler) relations in both internal-energy and enthalpy representations, shows the need for an “off-shell” treatment in the internal-energy picture (because geometric volume depends on entropy and Y), and produces closed-form state functions (T, X, V) with explicit Reissner–Nordström and Kerr limits. The novelty is treating horizon oblateness as a genuine thermodynamic degree of freedom (shear work), giving compact enthalpy expressions (e.g. X = −Y/(1+Y^2) H) and isolating rotational energy via Legendre transforms to incorporate rotation into quasi-local black-hole chemistry.",
+            "Yanbei would care because this work connects horizon geometry and local energy bookkeeping—topics relevant to his interests in black-hole perturbation theory, nonlinear horizon dynamics, and strong-gravity observables; the shear-tension X and eccentricity Y provide a formal way to parametrize horizon deformations that could couple to perturbations, quasinormal-mode dynamics, and energy/angular-momentum fluxes, thus affecting interpretations of near-horizon physics in GW generation and tests of GR. The paper’s clear enthalpy/internal-energy separation and off-shell→on-shell prescription could also be useful when relating quasi-local horizon quantities to asymptotic observables (important for EMRI and waveform modeling) or when exploring nontrivial matter stresses near the horizon in alternative-gravity or dark-matter scenarios.",
+            "Keywords/topics: quasi-local thermodynamics, Kerr–Newman, black-hole chemistry, shear work (X dY), geometric eccentricity Y, Smarr relations, enthalpy vs internal energy, horizon deformation, Reissner–Nordström/Kerr limits; arXiv:2603.21258 — submitted 22 Mar 2026 (very recent)."
           ],
           "worth_reading_full": true
         },
@@ -2123,7 +2194,7 @@ window.ARXIV_DATA = {
             "binary black hole"
           ],
           "published": "2026-03-18T17:49:14+00:00",
-          "age_days": 4.9,
+          "age_days": 5.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -2149,14 +2220,14 @@ window.ARXIV_DATA = {
             "Sebastian Gurriaran"
           ],
           "category": "gr-qc",
-          "abstract": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author, and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
+          "abstract": "We consider solutions of the Einstein vacuum equations which arise from smooth initial data on a hypersurface slightly inside a dynamical black hole settling down to a subextremal Kerr black hole, and satisfying a precise non-linear Price's law-type estimate (which we expect to hold generically). We prove that the corresponding maximal globally hyperbolic development admits a non-trivial piece of future null boundary - the Cauchy horizon - emanating from timelike infinity $i_+$, which exhibits a kind of curvature blow-up, and across which the spacetime metric is Lipschitz-inextendible. Our results thus imply a Lipschitz version of Strong Cosmic Censorship for Kerr spacetimes near timelike infinity under this Price's law-type assumption. The analysis relies on the proof of the $C^0$ stability of the Kerr Cauchy horizon by Dafermos and Luk, on the non-integrable formalism of Giorgi-Klainerman-Szeftel and principal temporal gauge of Klainerman and Szeftel used in the proof of the exterior stability of slowly rotating Kerr black holes, on the linearized analysis for the Teukolsky equation inside subextremal Kerr black holes by the author (following an earlier paper on the scalar wave equation by Ma and Zhang), and on Sbierski's criterion for Lipschitz inextendibility. More precisely, we proceed by decomposing the black hole interior into different regions equipped with appropriate gauges, allowing for a proof of stability estimates and a thorough analysis of the non-linear analog of the Teukolsky equation, from which we infer our instability results.",
           "pdf_url": "https://arxiv.org/pdf/2603.17911.pdf",
           "matches": [
             "Kerr",
             "Teukolsky"
           ],
           "published": "2026-03-18T16:50:10+00:00",
-          "age_days": 5.0,
+          "age_days": 6.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -2175,80 +2246,81 @@ window.ARXIV_DATA = {
           "worth_reading_full": true
         },
         {
-          "id": "2603.15979",
-          "title": "Ringdown waves from hairy black holes",
+          "id": "2603.20282",
+          "title": "Degeneracy in Accretion Disk Spectra from Naked Singularities and Kerr Black Holes: Application to the AGN MCG-06-30-15",
           "authors": [
-            "Ariadna Uxue Palomino Ylla",
-            "Kosuke Makino",
-            "Akane Tanaka",
-            "Akihiro Ishibashi",
-            "Chul-Moon Yoo"
+            "Vishva Patel",
+            "Sayantan Bhattacharya",
+            "Sudip Bhattacharyya",
+            "Pankaj S. Joshi"
           ],
           "authors_short": [
-            "Ariadna Uxue Palomino Ylla",
-            "Kosuke Makino",
-            "Akane Tanaka",
-            "et al. (5 authors)"
+            "Vishva Patel",
+            "Sayantan Bhattacharya",
+            "Sudip Bhattacharyya",
+            "et al. (4 authors)"
           ],
-          "category": "gr-qc",
-          "abstract": "We derive general formulas for quasi-normal mode (QNM) frequencies of hairy black holes by exploiting the QNM--geodesic correspondence. The black hole hair is treated as an anisotropic fluid perturbatively added to the vacuum black holes (Schwarzschild and Kerr black holes). Under this setting, independent of energy conditions, our formulas offer a systematic method to compute quasi-normal mode frequencies for a broad class of hairy black holes.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15979.pdf",
+          "category": "astro-ph.HE",
+          "abstract": "Theoretical studies suggest that gravitational collapse can form either a black hole or a visible (naked) singularity. Identifying observational signatures that distinguish these two types of collapsed objects is a holy grail of physics. Here, we examine whether relativistic accretion disk spectra can provide such a test. We construct an additive table model for a thin accretion disk in the Joshi-Malafarina-Narayan (JMN-1) naked singularity geometry matched to a Schwarzschild exterior and fit it to NuSTAR X-ray data from the AGN MCG-06-30-15. Our results are compared with standard Kerr and Schwarzschild black hole models. We also include the relativistic reflection spectral component relxill. Despite their different underlying geometries, the spinning (Kerr) black hole and the non-spinning JMN-1 naked singularity provide similar spectral fits, which are significantly better fits than the Schwarzschild black hole. This degeneracy between the naked singularity and the Kerr black hole could lead to incorrect spin measurements of collapsed objects using disk spectra. The degeneracy could be broken with an independent spin measurement, which could also help identify a naked singularity. Our results could also have a role in different spin distributions of collapsed objects measured from gravitational-wave sources and X-ray binaries.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20282.pdf",
           "matches": [
-            "ringdown",
             "Kerr"
           ],
-          "published": "2026-03-16T22:48:07+00:00",
-          "age_days": 6.7,
+          "published": "2026-03-18T04:35:07+00:00",
+          "age_days": 6.5,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 15053,
+          "pdf_text_chars": 18256,
           "featured": true,
-          "relevance": 5,
+          "relevance": 4,
           "base_score": 10,
           "summary_bullets": [
-            "The paper derives general analytic formulas for quasinormal-mode (QNM) frequencies of hairy black holes by exploiting the QNM–geodesic (unstable circular photon orbit, UCOP) correspondence, treating the hair as a perturbative anisotropic fluid added to Schwarzschild and Kerr backgrounds.",
-            "It gives explicit expressions for the orbital frequency Ω and Lyapunov exponent λ (so that ωQNM ≃ Ωℓ − i(n+1/2)λ), then linearizes the shifts δΩ and δλ in terms of the fluid state parameters wr, wθ and the density ρ(r) (relating δf(r) to integrals of ρ), and extends the analysis to rotating equatorial (ℓ=|m|) modes.",
-            "The authors connect QNM modifications to energy conditions (e.g. sign constraints on δλ/λ − δΩ/Ω for regular matter), provide worked examples (Bardeen, Hayward, Kiselev), and propose simple observational discriminants between vacuum and dark‑hair scenarios."
+            "The authors construct an additive XSPEC table model for thin accretion disks in the Joshi–Malafarina–Narayan (JMN‑1) naked singularity interior matched to a Schwarzschild exterior and derive modified Novikov–Thorne flux and luminosity expressions that account for the matching boundary. They fit this NaSJMN model (plus relativistic reflection relxill) to NuSTAR spectra of the AGN MCG‑06‑30‑15 and find that a non‑spinning JMN‑1 naked singularity can reproduce the observed X‑ray spectrum as well as a high‑spin Kerr black hole, while both fit significantly better than a Schwarzschild black hole. The paper emphasizes a degeneracy that can bias electromagnetic spin measurements and recommends breaking it with independent spin determinations, noting potential consequences for comparing spin distributions from X‑ray and gravitational‑wave observations.",
+            "This should interest Yanbei because it directly bears on strong‑gravity tests from observables and on apparent tensions between spin measurements from electromagnetic probes and from gravitational waves — topics he has worked on (spin distributions, tests of GR, black‑hole phenomenology and EMRI science). The paper supplies a concrete, publicly loadable spectral model (NaSJMN.fits) and analytic expressions for boundary‑matched fluxes, giving a practical tool to test horizonless alternatives whose inspiral and ringdown (QNMs, tidal effects) would also affect GW templates and interpretations that Yanbei studies; thus the work links EM spectral systematics to potential GW signatures and to the cosmic‑censorship question he cares about.",
+            "Keywords/topics: JMN‑1 naked singularity, Kerr black hole, accretion disk spectra, Novikov–Thorne, XSPEC table model (NaSJMN.fits), NuSTAR, MCG‑06‑30‑15, spin measurement degeneracy, horizonless compact objects, strong‑field tests, cosmic censorship. Published: 18 March 2026 (arXiv:2603.20282, astro‑ph.HE) — very recent."
           ],
           "worth_reading_full": true
         },
         {
-          "id": "2603.15474",
-          "title": "Direct Waves in Black-Hole Binary Mergers: Insights from the Backwards One Body Model",
+          "id": "2603.20596",
+          "title": "Breaking the degeneracy among regular black holes with gravitational lensing",
           "authors": [
-            "Anuj Kankani",
-            "Sean T. McWilliams"
+            "Hong Liu",
+            "Xiaolong Liao",
+            "Yi Zhang"
           ],
           "authors_short": [
-            "Anuj Kankani",
-            "Sean T. McWilliams"
+            "Hong Liu",
+            "Xiaolong Liao",
+            "Yi Zhang"
           ],
           "category": "gr-qc",
-          "abstract": "The merger-ringdown radiation from a black hole binary merger is accurately modeled by a sum of linear quasinormal modes (QNMs). Recently, a non-QNM ``direct wave\" component of the radiation, associated with prompt emission from a plunging perturber, has been identified. Motivated by the behavior of null geodesics perturbed from the remnant light ring, the Backwards One Body (BOB) approach has been shown to model the full merger-ringdown radiation to high accuracy, while using only a minimal number of parameters. In this work, using the Pöschl--Teller potential, we first show how the BOB amplitude evolution can be recovered from the QNM pole contributions. We then apply rational filters to isolate the non-QNM content in BOB and numerical relativity waveforms. We show that BOB naturally captures the direct wave component of the merger radiation, explaining its accuracy near the waveform peak. Finally, we use BOB to show that the direct wave frequency is largely uncorrelated with the horizon frequency, even for high spin remnants, and instead tracks the News frequency at the time of the peak News amplitude.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15474.pdf",
+          "abstract": "We examine parameter degeneracies in Culetu, Bardeen and Hayward regular black holes across lensing, shadow and quasinormal mode regimes. Our analysis reveals that while Einstein ring data yield extremely loose constraints, with the regularization parameter $q$ exceeding $\\mathcal{O}(10^3)$, they fail to improve the parameter estimation when combined with strong lensing observables. In contrast, the Event Horizon Telescope observations provide remarkably tight limits: $0 \\leq q < 0.0466 <0.0847$ for Culetu, $0 \\leq q < 0.5115 <0.6682$ for Bardeen and $0 \\leq q < 1.0258 <1.1881$ for Hayward, which shows that the strong field regime alone dominates the available parameter space. Despite these bounds, leading order geometric observables remain highly degenerate, which masks the microscopic details of non-singular cores. To break this ``macroscopic universality,'' we identify high order signatures, such as the Lyapunov exponent and subleading time delays, as sensitive probes of near horizon curvature. Crucially, we discover that the brightness hierarchy of accretion induced intensity profiles undergoes a fundamental inversion when transitioning from lensing dominated static flows to dynamics dominated infalling flows. These results demonstrate that high resolution temporal and intensity profiles are essential for distinguishing between regular black hole geometries.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20596.pdf",
           "matches": [
-            "quasinormal mode",
-            "ringdown",
-            "merger"
+            "quasinormal mode"
           ],
-          "published": "2026-03-16T16:07:13+00:00",
-          "age_days": 7.0,
+          "published": "2026-03-21T01:50:05+00:00",
+          "age_days": 3.6,
           "previous_work_hits": [],
-          "current_interest_hits": [],
+          "current_interest_hits": [
+            "black holes",
+            "event horizon"
+          ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 25540,
+          "pdf_text_chars": 25560,
           "featured": true,
-          "relevance": 5,
-          "base_score": 10,
+          "relevance": 4,
+          "base_score": 9,
           "summary_bullets": [
-            "Using the Pöschl–Teller potential and the Sasaki–Nakamura formalism, the paper derives analytically that the Backwards One Body (BOB) amplitude evolution can be recovered from a resummation of quasinormal‑mode (QNM) pole contributions, yielding a hyperbolic‑secant News envelope. The authors apply rational (frequency‑domain) filters to both BOB and SXS numerical‑relativity News to isolate the non‑QNM “direct wave” associated with prompt plunge emission, and show that BOB naturally captures this component across a wide range of mass ratios and remnant spins. They further find the direct‑wave quasi‑stable frequency is largely uncorrelated with the remnant horizon frequency and instead tracks the instantaneous News frequency at peak amplitude, explaining why horizon‑based models sometimes succeed only incidentally.",
-            "Yanbei should care because this work gives an analytic bridge between QNM sums and the empirically successful, low‑parameter BOB model, clarifying the physical origin of the non‑QNM direct wave that affects pre‑peak and peak merger signals; that directly intersects his interests in black‑hole perturbation theory, QNM/overtone excitation, EMRI/plunge physics, and strong‑field observables and provides a compact, physically motivated waveform model useful for testing GR and for interpreting plunge/merger data with minimal parameters.",
-            "Keywords/topics: quasinormal modes, ringdown, direct wave (non‑QNM), Backwards One Body (BOB), Pöschl–Teller potential, rational filters, News vs strain, overtones/eikonal limit, numerical relativity (SXS), waveform modeling, plunge/EMRI physics. Posted on arXiv 16 March 2026 (pdf dated 17 March 2026)."
+            "The paper analyzes parameter degeneracies among Culetu, Bardeen and Hayward regular black holes by computing weak- and strong-field gravitational lensing, shadow radii, and quasinormal-mode–related quantities within a Fan–Wang unified metric.",
+            "They find that Einstein-ring (weak-field) data give extremely loose constraints while Event Horizon Telescope shadow measurements force tight bounds on the regularization parameter q (for example q ≲ 0.0466 for Culetu), yet leading-order geometric observables tied to the critical impact parameter b_m remain highly degenerate across models.",
+            "To break this macroscopic universality they identify higher-order probes such as the Lyapunov exponent/QNM frequency and subleading time delays, and predict a qualitative inversion of accretion-intensity brightness between lensing-dominated static flows and dynamics-dominated infalling flows, arguing that high-resolution temporal and intensity profiling with next-generation EHT capabilities can distinguish regular cores."
           ],
           "worth_reading_full": true
         },
@@ -4057,7 +4129,7 @@ window.ARXIV_DATA = {
             "Kerr"
           ],
           "published": "2026-03-19T15:22:27+00:00",
-          "age_days": 4.0,
+          "age_days": 5.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -4100,7 +4172,7 @@ window.ARXIV_DATA = {
             "EMRI"
           ],
           "published": "2026-03-17T19:00:00+00:00",
-          "age_days": 5.9,
+          "age_days": 6.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -4113,84 +4185,6 @@ window.ARXIV_DATA = {
             "Using a fully relativistic EMRI/IMRI pipeline based on FastEMRIWaveform and Kerr eccentric equatorial flux models, the authors map LISA instrumental performance (sensitivity degradation and mission duration) across a grid of primary masses m1 ∈ [5×10^4, 10^7] M⊙ and secondary masses m2 ∈ [1, 10^4] M⊙ to detection horizons and Fisher-matrix parameter precisions. They introduce a quantitative “degradation framework” and compute SNRs and Fisher matrices (A and E TDI channels, realistic PSD plus galactic confusion, and duty-cycle considerations) to show that high-m1, low-m2 EMRIs are most vulnerable to sensitivity loss while IMRIs are robust in detection but more fragile in parameter estimation because of fewer cycles in band. Key novel results include sub-percent and even σa/a ≲ 10⁻³ spin measurements within months, order-of-magnitude improvements in sky localization for a 4.5-year mission, projected constraints on scalar dipole emission and Kerr quadrupole deviations that beat current ground-based bounds by 1–2 orders of magnitude, and the release of a GPU-optimized pipeline and interactive website to enable community studies.",
             "Why Yanbei would care: this paper directly connects fully relativistic EMRI waveform modeling and black-hole perturbation technology to concrete LISA figures-of-merit for strong-field tests and astrophysical inference, which aligns with his past work on waveform modeling, black-hole perturbation theory, EMRIs, and tests of GR; the quantitative sensitivity to mission duration and instrumental degradation (e.g. which systems lose horizon or spin precision) informs the observational requirements needed to pursue precision measurements he cares about (spin at ∼10⁻³, multipole deviations, environmental torques), and the public pipeline/website provides a practical tool he or his collaborators could use to produce templates, forecasting studies, or to assess nonlinear/environmental effects in observable signals.",
             "Keywords/topics: LISA, EMRI, IMRI, Kerr black holes, FastEMRIWaveform (FEW), Fisher-matrix, SNR, TDI A/E channels, instrumental degradation, mission duration, spin measurement, scalar dipole emission, Kerr multipole/quadrupole tests, environmental effects, GPU pipeline, software + interactive website. Published: 17 March 2026 (arXiv:2603.17072) — very recent."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.15740",
-          "title": "Hankel low-rank matrix approximation for gravitational-wave data analysis",
-          "authors": [
-            "Nicholas Geissler",
-            "Vladimir Strokov",
-            "Christian Kümmerle",
-            "Sergey Kushnarev",
-            "Emanuele Berti"
-          ],
-          "authors_short": [
-            "Nicholas Geissler",
-            "Vladimir Strokov",
-            "Christian Kümmerle",
-            "et al. (5 authors)"
-          ],
-          "category": "astro-ph.HE",
-          "abstract": "Next-generation gravitational-wave (GW) detectors, such as the Laser Interferometer Space Antenna (LISA), will observe vast numbers of overlapping signals. Disentangling these signals from instrumental noise and from one another constitutes a significant data analysis challenge. We explore a denoising technique based on embedding time series into Hankel matrices: a superposition of $n$ (damped) sinusoids corresponds to a matrix of rank $2n$. Thus, the problem of signal extraction is reduced to a structured low-rank approximation problem. Using synthetic data tailored to GW applications, we benchmark three Hankel-based algorithms: ESPRIT, Cadzow iterations, and iteratively reweighted least squares (IRLS). Our test scenarios include isolated and multi-component monochromatic signals, the resolution of sources with closely spaced frequencies, and the recovery of black hole quasinormal modes (QNM). All three algorithms achieve near-optimal performance consistent with Fisher matrix bounds, evidenced by an inverse-square scaling of the mismatch with the signal-to-noise ratio. Furthermore, a proof-of-concept application to numerical relativity waveforms validates the ability of these algorithms to extract QNM frequencies from ringdown signals. Hankel low-rank approximation therefore offers a transparent, computationally efficient avenue for preprocessing GW time series.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15740.pdf",
-          "matches": [
-            "quasinormal mode",
-            "ringdown"
-          ],
-          "published": "2026-03-16T18:00:02+00:00",
-          "age_days": 6.9,
-          "previous_work_hits": [],
-          "current_interest_hits": [],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 28603,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 9,
-          "summary_bullets": [
-            "This paper develops and benchmarks denoising and spectral-extraction techniques that embed gravitational-wave time series into Hankel matrices, using the fact that a superposition of n (damped) sinusoids corresponds to a Hankel matrix of rank 2n. They implement and compare three algorithms—ESPRIT for direct frequency extraction, iterative Cadzow projections for alternating Hankel/rank constraints, and iteratively reweighted least squares (IRLS) for a smooth rank-penalized fit—on synthetic GW-like datasets (monochromatic signals, multiple overlapping components, close-frequency resolution) and on a numerical-relativity ringdown to recover quasinormal-mode (QNM) complex frequencies. All three methods reach near–Fisher-matrix optimal performance (mismatch ∝ SNR^−2) and the authors demonstrate a proof-of-concept extraction of QNM frequencies from NR waveforms, arguing that Hankel low-rank approximation is a transparent and computationally efficient preprocessing route for disentangling overlapping signals expected in next-generation detectors like LISA.",
-            "You would care because the paper addresses tasks central to your work—robustly extracting QNM frequencies from noisy ringdown data, resolving overlapping narrowband sources in the LISA band (the global-fit/cocktail-party problem), and providing preprocessing that preserves Fisher-limited parameter information for downstream inference and strong-gravity tests. The methods are complementary to waveform- and perturbation-theory approaches you have worked on (black-hole perturbation theory, QNMs, EMRIs, waveform modeling and tests of GR) and could be integrated into pipelines for black-hole spectroscopy, mode identification (including searches for nonlinear or beyond-GR mode content), and for reducing the dimensionality/complexity of global-fit analyses.",
-            "Keywords/topics: Hankel matrix, structured low-rank approximation, ESPRIT, Cadzow iterations, IRLS, denoising, spectral estimation, quasinormal modes, ringdown, global-fit (LISA), signal separation, black-hole spectroscopy. Published on arXiv 2026-03-16 (arXiv:2603.15740), very recent (Mar 2026)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.20031",
-          "title": "Analytical Solution of Spinning, Eccentric Binary Black Hole Dynamics at the Second Post-Newtonian Order",
-          "authors": [
-            "Tom Colin",
-            "Sashwat Tanay",
-            "Laura Bernard"
-          ],
-          "authors_short": [
-            "Tom Colin",
-            "Sashwat Tanay",
-            "Laura Bernard"
-          ],
-          "category": "gr-qc",
-          "abstract": "Recent gravitational wave (GW) detections showing signatures of eccentricity and spin precession underscore the need to model binary black holes (BBHs) possessing these features simultaneously. Most efforts over the past fifteen years to model spinning BBHs and their corresponding GWs have relied on heuristically twisting waveforms from non-precessing systems. This approach is based on empirical observations rather than first principles. This article aims to model the GWs from spinning and eccentric BBHs from a first-principles approach within general relativity and post-Newtonian (PN) approximation. Building on the already-existing 1.5 PN solution, we construct an analytical solution for the time evolution of the relative separation vector, the individual black hole spin vectors, and the orbital angular momentum vector at 2PN order for BBHs with arbitrary spins and eccentricity. Such a solution is not fully 2PN accurate in that the tiny orbital timescale fluctuations in the solutions for the spins are only leading 1.5PN order accurate, instead of 2PN. However, it is shown that our new 2PN solution is still an order of magnitude improvement over the earlier 1.5PN solution, underlining the sub-dominant nature of the neglected next-to-leading-order oscillations in the spin solutions.",
-          "pdf_url": "https://arxiv.org/pdf/2603.20031.pdf",
-          "matches": [
-            "binary black hole"
-          ],
-          "published": "2026-03-20T15:17:21+00:00",
-          "age_days": 3.0,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "black holes"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 24108,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 8,
-          "summary_bullets": [
-            "This paper constructs an analytical, nearly 2PN solution for the time evolution of the relative separation vector, the two black-hole spin vectors, and the orbital angular momentum for arbitrary-spin, eccentric binary black holes, building on the existing 1.5PN solution. The authors hybridize the 1.5PN unaveraged solution (which captures orbital-timescale oscillations) with a 2PN orbit-averaged solution using the ADM Hamiltonian and the Newton–Wigner–Pryce spin-supplementary condition, thereby capturing both the secular precession/nutation envelope and the fast orbital oscillations. The final 'nearly 2PN' solution—missing only subdominant 2PN orbital-timescale spin oscillations—gives about an order-of-magnitude improvement over the earlier 1.5PN solution and provides explicit expressions R(t), S1(t), S2(t), and L(t) that can be used for first-principles waveform construction.",
-            "Yanbei should care because this work directly extends the post-Newtonian analytical toolkit he has used and developed for waveform modeling and strong-field tests: it supplies a first-principles, fast-evaluable description of precession + eccentricity dynamics that can reduce spin–eccentricity degeneracies, feed into EOB/Phenom or template banks for LISA/ET/ground detectors, and provide baseline predictions for how 2PN spin–spin effects shift precession and nutation rates relevant to precision tests of general relativity and parameter estimation for EMRIs and comparable-mass binaries.",
-            "Keywords/topics: spinning eccentric BBHs, 2PN post-Newtonian dynamics, spin-orbit and spin-spin couplings, quasi-Keplerian parametrization, ADM Hamiltonian, Newton–Wigner–Pryce SSC, orbit-averaging, hybrid analytical solution, waveform modeling, precession, periastron advance; arXiv v1 posted 20 Mar 2026 (very recent)."
           ],
           "worth_reading_full": true
         }
@@ -4219,40 +4213,160 @@ window.ARXIV_DATA = {
       ],
       "papers": [
         {
-          "id": "2603.20127",
-          "title": "Analyzing Decoders for Quantum Error Correction",
+          "id": "2603.22149",
+          "title": "Low Latency GNN Accelerator for Quantum Error Correction",
           "authors": [
-            "Abtin Molavi",
-            "Feras Saad",
-            "Aws Albarghouthi"
+            "Alessio Cicero",
+            "Luigi Altamura",
+            "Moritz Lange",
+            "Mats Granath",
+            "Pedro Trancoso"
           ],
           "authors_short": [
-            "Abtin Molavi",
-            "Feras Saad",
-            "Aws Albarghouthi"
+            "Alessio Cicero",
+            "Luigi Altamura",
+            "Moritz Lange",
+            "et al. (5 authors)"
           ],
-          "category": "cs.PL",
-          "abstract": "Quantum error correction (QEC) enables reliable computation on noisy hardware by encoding logical information across many physical qubits and periodically measuring parities to detect errors. A decoder is the classical algorithm that uses these measurements to infer which error most likely occurred, so that the system can correct it. The decoder's accuracy-how rarely it makes the wrong guess-directly determines the scale of quantum computation that can be reliably executed. With a wealth of competing decoding algorithms, a QEC system designer needs reliable methods to evaluate them. Today, the dominant approach is to evaluate decoders using Monte Carlo simulation. However, simulation has several drawbacks such as requiring many samples to produce low variance estimates. In this work, we develop a new systematic analysis for evaluating decoders. We introduce a novel formal semantics of a core language for QEC programs that captures the de facto standard Stim circuit format, providing a principled theoretical foundation for the emerging space of fault-tolerant quantum systems design. Given a QEC program and a decoder, our verifier can quantify both the decoder accuracy and the decoder robustness to drift in physical error rate. Our approach has two key components: (i) a structured search over the space of possible errors; and (ii) a constrained polynomial optimization kernel. A thorough empirical evaluation of our approach suggests that it can outperform simulation, especially in low error rate regimes, and that it can be deployed to quantify decoder robustness over an interval of physical error rates.",
-          "pdf_url": "https://arxiv.org/pdf/2603.20127.pdf",
+          "category": "quant-ph",
+          "abstract": "Quantum computers have the potential to solve certain complex problems in a much more efficient way than classical computers. Nevertheless, current quantum computer implementations are limited by high physical error rates. This issue is addressed by Quantum Error Correction (QEC) codes, which use multiple physical qubits to form a logical qubit to achieve a lower logical error rate, with the surface code being one of the most commonly used. The most time-critical step in this process is interpreting the measurements of the physical qubits to determine which errors have most likely occurred - a task called decoding. Consequently, the main challenge for QEC is to achieve error correction with high accuracy within the tight $1μs$ decoding time budget imposed by superconducting qubits. State-of-the-art QEC approaches trade accuracy for latency. In this work, we propose an FPGA accelerator for a Neural Network based decoder as a way to achieve a lower logical error rate than current methods within the tight time constraint, for code distance up to d=7. We achieved this goal by applying different hardware-aware optimizations to a high-accuracy GNN-based decoder. In addition, we propose several accelerator optimizations leading to the FPGA-based decoder achieving a latency smaller than $1μs$, with a lower error rate compared to the state-of-the-art.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22149.pdf",
           "matches": [
             "quantum error correction"
           ],
-          "published": "2026-03-20T16:50:00+00:00",
-          "age_days": 3.0,
+          "published": "2026-03-23T16:14:52+00:00",
+          "age_days": 1.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 21770,
+          "pdf_text_chars": 30000,
+          "featured": true,
+          "relevance": 4,
+          "base_score": 9,
+          "summary_bullets": [
+            "Using a hardware-aware co-design, the authors implement a graph-neural-network (GNN) surface-code decoder on FPGA and demonstrate single-inference latency below the 1 μs superconducting-qubit budget for code distances up to d=7. They combine pruning-aware retraining, input-graph size bounding, post-training quantization, and a three-stage pipelined multiplier/adder architecture to reduce parameters by ≈9× and fit the model to available DSP/BRAM resources. The FPGA decoder achieves a logical error rate of 1.47×10−5—about 13% lower than MWPM in their comparison—while meeting the real-time latency constraint.",
+            "This directly intersects Yanbei’s interests in quantum error correction and quantum learning: the paper shows how a high-accuracy ML decoder (GNN) can be pushed into the sub-μs regime required for superconducting hardware via architectural and training-level optimizations. The low-latency, hardware-co-designed approach is relevant to any experiment or control scheme that needs real-time conditional operations (e.g., active feedback, back-action evasion, or fast syndrome-based control) and demonstrates practical pathways to extend usable circuit depth for experiments and simulators he cares about.",
+            "Keywords/topics: GNN-based QEC decoder, FPGA accelerator, surface code (d≤7), low-latency decoding (<1 μs), pruning-aware training, post-training quantization, hardware–software co-design, superconducting qubits, logical error rate (1.47×10−5), single-inference real-time decoding. Published on arXiv (v1) 23 Mar 2026 — very recent."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.21730",
+          "title": "Neural Belief-Matching Decoding for Topological Quantum Error Correction Codes",
+          "authors": [
+            "Luca Menti",
+            "Francisco Lázaro"
+          ],
+          "authors_short": [
+            "Luca Menti",
+            "Francisco Lázaro"
+          ],
+          "category": "quant-ph",
+          "abstract": "Quantum error correction (QEC) is critical for scalable fault-tolerant quantum computing. Topological codes, such as the toric code, offer hardware-efficient architectures but their Tanner graphs contain many girth-4 cycles that degrade the performance of belief-propagation (BP) decoding. For this reason, BP decoding is typically followed by a more complex second stage decoder such as minimum-weight perfect matching. These combined decoders achieve a remarkable performance, albeit at the cost of increased complexity. In this paper we propose two key improvements for the decoding of toric code. The first one is replacing the BP decoder by a neural BP decoder, giving rise to the neural belief-matching decoder which substantially decreases the average decoding complexity. The main drawback of this approach is the high cost associated with the training of the neural BP decoder. To address this issue, we impose a convolutional architecture on the neural BP decoder, enabling weight sharing across the spatially homogeneous structure of the code's factor graph. This design allows a model trained on a modest-size topological code to be directly transferred to much larger instances, preserving decoding quality while dramatically lowering the training burden. Our numerical experiments on toric-code lattices of various sizes demonstrate that this technique does not result in a noticeable loss in performance.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21730.pdf",
+          "matches": [
+            "quantum error correction"
+          ],
+          "published": "2026-03-23T09:15:48+00:00",
+          "age_days": 1.3,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "quantum error correction"
+          ],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000,
+          "featured": true,
+          "relevance": 4,
+          "base_score": 9,
+          "summary_bullets": [
+            "The paper introduces a two-stage 'neural belief-matching' decoder for toric (topological) quantum codes that replaces the initial quaternary belief-propagation (BP) stage with a trainable neural BP (NBP) and uses MWPM only when needed. It further proposes a convolutional NBP architecture that exploits the toric lattice's translational symmetry to enforce weight-sharing, enabling weights trained on small code distances to be tiled and reused for much larger lattices, dramatically cutting training cost. Numerical Monte Carlo tests under a phenomenological depolarizing noise model (d = 4,6,8,10) show comparable or improved logical error rates versus prior neural-BP and belief-matching schemes while reducing MWPM calls (and average decoding complexity) by up to four orders of magnitude.",
+            "You would care because this work sits at the intersection of quantum error correction and machine learning—areas you have expressed interest in—by reducing the classical decoding overhead that often limits scalable or real-time fault-tolerant experiments. The convolutional weight-reuse idea directly addresses a practical bottleneck (training/transferability of learned decoders) relevant to implementing topological QEC on hardware platforms (e.g., superconducting qubits) and to integrating ML-based decoding into resource-limited experimental setups, which could influence experiments or classical-control requirements for macroscopic quantum systems and fault-tolerant sensors.",
+            "Keywords/topics: neural belief-propagation, toric code, topological quantum error correction, belief-matching + MWPM, convolutional weight-sharing, transfer/weight reuse, decoding complexity, depolarizing noise. Published/submitted: arXiv:2603.21730 (v1) — 23 Mar 2026 (very recent)."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.21721",
+          "title": "All-optical quantum memory using bosonic quantum error correction codes",
+          "authors": [
+            "Kaustav Chatterjee",
+            "Niklas Budinger",
+            "Kian Latifi Yaghin",
+            "Lucas Borg Clausen",
+            "Ulrik Lund Andersen"
+          ],
+          "authors_short": [
+            "Kaustav Chatterjee",
+            "Niklas Budinger",
+            "Kian Latifi Yaghin",
+            "et al. (5 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "Reliable quantum memory is essential for scalable quantum networks and fault-tolerant photonic quantum computing. We present a quantitative analysis of an all-optical quantum memory architecture in which a Gottesman-Kitaev-Preskill (GKP) encoded qubit is stored in a fibre loop and periodically stabilized using teleportation-based error correction. By modelling fibre propagation as a pure-loss channel and representing each correction round as an effective logical map acting on the Bloch vector, we obtain a compact description of the full multi-round memory channel. We show that syndrome decoder optimization plays a crucial role in the experimentally relevant finite-squeezing regime. The optimal decoder deviates from standard square-grid GKP decoder in both tile-size and tile-shape, leading to significant improved logical performance. Using this optimized decoding strategy, we identify a squeezing-dependent optimal spacing between correction nodes that maximizes the memory lifetime. Remarkably, this optimal segment length is largely independent of the desired storage time, providing a simple and practical design rule for fibre-loop quantum memory. We further find a squeezing threshold of approximately 6.7 dB below which intermediate error correction becomes counterproductive, while above threshold the achievable storage time increases approximately exponentially with squeezing. For example, at 17 dB squeezing, storage times exceeding 400 ms can be achieved with logical infidelity below 1%. These results establish clear performance benchmarks and reveal the fundamental trade-off between photon loss, squeezing, and correction frequency in continuous-variable architectures. Our findings provide actionable design principles for near-term photonic quantum memory and clarify the path toward scalable all-optical fault-tolerant quantum storage.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21721.pdf",
+          "matches": [
+            "quantum error correction"
+          ],
+          "published": "2026-03-23T09:07:12+00:00",
+          "age_days": 1.3,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "quantum error correction"
+          ],
+          "used_openai": false,
+          "used_pdf_text": true,
+          "pdf_text_chars": 25802,
+          "featured": true,
+          "relevance": 4,
+          "base_score": 9,
+          "summary_bullets": [
+            "This paper studies All-optical quantum memory using bosonic quantum error correction codes using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
+            "Key words/topics: quantum error correction; published about 1.3 days ago."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.21598",
+          "title": "Systematic construction of digital autonomous quantum error correction for state preparation and error suppression via conditional Gaussian operations",
+          "authors": [
+            "Keitaro Anai",
+            "Suguru Endo",
+            "Shuntaro Takeda",
+            "Tomohiro Shitara"
+          ],
+          "authors_short": [
+            "Keitaro Anai",
+            "Suguru Endo",
+            "Shuntaro Takeda",
+            "et al. (4 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "In continuous-variable quantum computing, autonomous quantum error correction (QEC) can dissipatively steer a noisy quantum state into a target state or manifold, enabling robust quantum information processing without explicit syndrome measurements and feedback. Here, we propose a nullifier-based digital autonomous QEC enabled by conditional Gaussian operations. By designing jump operators for target nullifiers and compiling the resulting Lindbladian into a Trotterized sequence of elementary conditional Gaussian operations, we demonstrate two use cases: (i) deterministic preparation of non-Gaussian resource states for universal computation, including finitely squeezed cubic phase states and approximate trisqueezed states, and (ii) autonomous suppression of dephasing error for cat and squeezed cat states. We provide explicit gate decompositions for the required conditional Gaussian operations and numerically evaluate the performance under realistic imperfections, including photon loss in the bosonic mode and ancillary-qubit decoherence. Our results clarify the resource requirements and trade-offs, such as circuit depth, time-step choices, and the required set of conditional Gaussian operations, for scalable, gate-level implementations of autonomous state preparation and error suppression.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21598.pdf",
+          "matches": [
+            "quantum error correction"
+          ],
+          "published": "2026-03-23T05:47:59+00:00",
+          "age_days": 1.4,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "quantum error correction"
+          ],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 24453,
           "featured": true,
           "relevance": 5,
           "base_score": 9,
           "summary_bullets": [
-            "The paper introduces a formal semantics for a core Stim circuit language and formulates decoder accuracy and robustness as polynomial functions of symbolic physical error rates. It evaluates decoders by systematic enumeration of the error space combined with a constrained polynomial-optimization kernel, including a practical \"partial derivative pruning\" technique to reduce search, yielding sound bounds on logical error rates and worst-case robustness over hyperrectangles of error parameters. Empirically the method outperforms Monte Carlo simulation in low-error regimes and can produce precise logical-error bounds with far fewer shots, demonstrated on rotated surface codes and several state-of-the-art decoders.",
-            "Yanbei should care because this work directly improves how decoder performance and robustness are quantified—an essential ingredient for assessing fault-tolerant operation thresholds that underlie any precision quantum experiment (including platforms tied to his interests such as high-coherence interferometry and optomechanics). The combination of formal Stim semantics and analytic robustness bounds reduces reliance on costly sampling and gives principled worst-case guarantees under drift, which is valuable for designing and certifying decoders for experiments, for connecting QEC performance to observable error floors, and for integrating classical decoder design with quantum control/measurement strategies he studies.",
-            "Keywords/topics: quantum error correction, decoder verification, Stim circuit formal semantics, enumerative error-space search, constrained polynomial optimization, partial derivative pruning, robustness to drift, rotated surface codes, low logical-error-rate estimation. Published on arXiv 20 March 2026 (very recent)."
+            "The paper constructs a nullifier‑based digital autonomous quantum error‑correction (QEC) scheme for continuous‑variable systems by designing jump operators for target nullifiers and compiling the resulting Lindbladian into a Trotterized sequence of elementary conditional Gaussian operations.",
+            "They demonstrate two concrete use cases—deterministic preparation of non‑Gaussian resource states (finitely squeezed cubic‑phase states and approximate trisqueezed states) and autonomous suppression of dephasing errors for cat and squeezed‑cat codes—provide explicit gate decompositions for the necessary conditional Gaussian primitives, and evaluate performance under realistic imperfections such as bosonic photon loss and ancilla‑qubit decoherence.",
+            "The work quantifies resource trade‑offs (circuit depth, timestep choices, available conditional Gaussian set), gives analytical scaling estimates for required depth (e.g. N ≃ (ΓΔt)^{-2} log(⟨˜n⟩/ε) for state preparation) and validates regimes via numerical simulation."
           ],
           "worth_reading_full": true
         },
@@ -4282,7 +4396,7 @@ window.ARXIV_DATA = {
             "quantum learning"
           ],
           "published": "2026-03-18T18:00:00+00:00",
-          "age_days": 4.9,
+          "age_days": 5.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum learning"
@@ -4301,88 +4415,72 @@ window.ARXIV_DATA = {
           "worth_reading_full": true
         },
         {
-          "id": "2603.16203",
-          "title": "A Scalable Open-Source QEC System with Sub-Microsecond Decoding-Feedback Latency",
+          "id": "2603.21769",
+          "title": "Materials Beyond Hamiltonian Limits -- Quantum Measurement as a Resource for Material Design",
           "authors": [
-            "Junyi Liu",
-            "Yi Lee",
-            "Yilun Xu",
-            "Gang Huang",
-            "Xiaodi Wu"
+            "Jochen Mannhart"
           ],
           "authors_short": [
-            "Junyi Liu",
-            "Yi Lee",
-            "Yilun Xu",
-            "et al. (5 authors)"
+            "Jochen Mannhart"
           ],
-          "category": "quant-ph",
-          "abstract": "Quantum error correction (QEC) is essential for realizing large-scale, fault-tolerant quantum computation, yet its practical implementation remains a major engineering challenge. In particular, QEC demands precise real-time control of a large number of qubits and low-latency, high-throughput and accurate decoding of error syndromes. While most prior work has focused primarily on decoder design, the overall performance of any QEC system depends critically on all its subsystems including control, communication, and decoding, as well as their integration. To address this challenge, we present an open-source, fully integrated QEC system built on RISC-Q, a generator for RISC-V-based quantum control architectures. Implemented on RFSoC FPGAs, our system prototype integrates real-time qubit control, a scalable distributed multi-board architecture, and the state-of-the-art hardware QEC decoder within a low-latency, high-throughput decoding pipeline, forming a complete hardware platform ready for deployment with superconducting qubits. Experimental evaluation on a three-board prototype based on AMD ZCU216 RFSoCs demonstrates an end-to-end QEC decoding-feedback latency of 446 ns for a distance-3 surface code, including syndrome aggregation, network communication, syndrome decoding, and error distribution. Extrapolating from measured subsystem performance and state-of-the-art decoder benchmarks, the architecture can achieve sub-microsecond decoding-feedback latency up to a distance-21 surface code ($\\sim$881 physical qubits) when scaled to larger hardware configurations.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16203.pdf",
+          "category": "cond-mat.stat-mech",
+          "abstract": "Recent studies have identified materials and devices whose behavior lies beyond the scope of conventional electronic-structure theory. Such theories are formulated entirely in terms of Hamiltonian evolution and therefore describe only unitary dynamics and thus only a restricted class of quantum systems. In contrast, electron systems that incorporate quantum measurement as an intrinsic dynamical element undergo Hamiltonian evolution interleaved with projection-induced state updates. This unitary-projective dynamics breaks constraints imposed by purely unitary evolution and permits stochastic population transfer between symmetry-related transport channels, thereby enabling fundamentally new material functionalities. This insight motivates the deliberate design of materials and devices that harness unitary-projective dynamics. This article explores the foundations of unitary-projective electron dynamics and charts the resulting landscape of quantum materials and their functionalities. Model calculations demonstrate passive mesoscopic structures with intrinsic nonreciprocal single-electron transmission, materials exhibiting a novel category of magnetism, and possible platforms for energy harvesting and conversion with efficiencies that exceed the standard Carnot limit.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21769.pdf",
           "matches": [
-            "quantum control",
+            "quantum measurement"
+          ],
+          "published": "2026-03-23T10:06:49+00:00",
+          "age_days": 1.2,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 17174,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 7,
+          "summary_bullets": [
+            "Mannhart proposes a framework for 'unitary–projective' electron dynamics in which Hamiltonian evolution is intermittently interleaved with intrinsic quantum measurement (projection) events, producing nonunitary, stochastic state updates that lie outside conventional electronic-structure theory. Using phenomenological models the paper shows that such dynamics can break detailed balance and reciprocity, yielding passive mesoscopic devices with intrinsic nonreciprocal single-electron transmission, a novel form of measurement-driven magnetism, and proposals for thermoelectric energy conversion that can nominally exceed Carnot bounds under reduced-dynamics assumptions. The work emphasizes design principles for materials that harness measurement as a resource, while noting the absence of a fully microscopic first-principles theory and presenting the results as mechanism-driven proposals for non-equilibrium steady states.",
+            "Yanbei should care because the paper places quantum measurement and projection dynamics at the heart of material functionality, directly connecting to his expertise in quantum measurement theory, back-action engineering, and optomechanics; the idea that measurement-induced dynamics can be engineered to produce observable nonreciprocity or macroscopic quantum effects aligns with his interest in experimental signatures of fundamental quantum processes and in using measurement as a control/resource. Moreover, the thermodynamic and information-theoretic aspects (Maxwell-demon-like operation, breakdown of detailed balance) could inform tests discriminating decoherence vs. intrinsic collapse models and suggest new tabletop platforms—mesoscopic or optomechanical—for probing foundational physics relevant to his current interests in gravity-related decoherence and quantum sensing.",
+            "Keywords/topics: unitary–projective dynamics, measurement-induced nonreciprocity, non-equilibrium steady states, nonreciprocal single-electron transmission, measurement-driven magnetism, Maxwell demon, quantum thermodynamics, open quantum systems, limits of Hamiltonian electronic-structure theory; arXiv:2603.21769 (cond-mat.stat-mech), posted 23 Mar 2026 — very recent."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.20127",
+          "title": "Analyzing Decoders for Quantum Error Correction",
+          "authors": [
+            "Abtin Molavi",
+            "Feras Saad",
+            "Aws Albarghouthi"
+          ],
+          "authors_short": [
+            "Abtin Molavi",
+            "Feras Saad",
+            "Aws Albarghouthi"
+          ],
+          "category": "cs.PL",
+          "abstract": "Quantum error correction (QEC) enables reliable computation on noisy hardware by encoding logical information across many physical qubits and periodically measuring parities to detect errors. A decoder is the classical algorithm that uses these measurements to infer which error most likely occurred, so that the system can correct it. The decoder's accuracy-how rarely it makes the wrong guess-directly determines the scale of quantum computation that can be reliably executed. With a wealth of competing decoding algorithms, a QEC system designer needs reliable methods to evaluate them. Today, the dominant approach is to evaluate decoders using Monte Carlo simulation. However, simulation has several drawbacks such as requiring many samples to produce low variance estimates. In this work, we develop a new systematic analysis for evaluating decoders. We introduce a novel formal semantics of a core language for QEC programs that captures the de facto standard Stim circuit format, providing a principled theoretical foundation for the emerging space of fault-tolerant quantum systems design. Given a QEC program and a decoder, our verifier can quantify both the decoder accuracy and the decoder robustness to drift in physical error rate. Our approach has two key components: (i) a structured search over the space of possible errors; and (ii) a constrained polynomial optimization kernel. A thorough empirical evaluation of our approach suggests that it can outperform simulation, especially in low error rate regimes, and that it can be deployed to quantify decoder robustness over an interval of physical error rates.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20127.pdf",
+          "matches": [
             "quantum error correction"
           ],
-          "published": "2026-03-17T07:30:35+00:00",
-          "age_days": 6.3,
+          "published": "2026-03-20T16:50:00+00:00",
+          "age_days": 4.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 30000,
+          "pdf_text_chars": 21770,
           "featured": true,
-          "relevance": 4,
-          "base_score": 8,
-          "summary_bullets": [
-            "The authors present an open-source, fully integrated RISC‑V–based QEC control system implemented on RFSoC FPGAs that co-designs real‑time qubit control, low‑latency fiber communication, and a hardware QEC decoder to perform end‑to‑end syndrome processing in hardware. A three‑board prototype (AMD ZCU216 RFSoCs) measures a decoding–feedback latency of 446 ns for a distance‑3 surface code with three syndrome rounds, and the modular architecture extrapolates to sub‑microsecond latency up to a distance‑21 code (~881 physical qubits). The novelty is the full hardware integration (pulse generation, readout decoding, syndrome aggregation, decoding and feedback) with a distributed multi‑core/multi‑board design, deterministic local memories for cycle‑level timing, and an open RISC‑Q toolchain that makes the platform deployable and scalable for superconducting‑qubit QEC experiments.",
-            "You would care because low‑latency, deterministic classical control and mid‑circuit feedback are central to many topics in your work (quantum measurement theory, quantum trajectories, back‑action evasion, and practical realization of quantum nondemolition protocols), and this paper demonstrates a concrete, scalable hardware path to meet those timing requirements. The system’s sub‑microsecond decoding‑feedback capability directly impacts feasibility of measurement‑based and feedback‑stabilized experiments (including real‑time state estimation and adaptive metrology) and could be adapted for optomechanical or tabletop tests that require tight timing to probe macroscopic quantum phenomena or gravity‑induced decoherence/entanglement. The open‑source, RISC‑V approach also makes it easier to integrate custom control/estimation algorithms you or collaborators might develop.",
-            "Keywords/topics: quantum error correction, low‑latency decoding, real‑time qubit control, RISC‑V/RISC‑Q, RFSoC FPGA, distributed multi‑board architecture, surface code, hardware decoder, superconducting qubits, open‑source. Published: 17 Mar 2026 (very recent)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.20085",
-          "title": "A single programmable photonic circuit for universal quantum measurements",
-          "authors": [
-            "Wen-Zhe Yan",
-            "Lan-Tian Feng",
-            "Zhibo Hou",
-            "Yuan-Yuan Zhao",
-            "Carles Roch i Carceller",
-            "Armin Tavakoli",
-            "Huangjun Zhu",
-            "Guang-Can Guo",
-            "Xi-Feng Ren",
-            "Guo-Yong Xiang"
-          ],
-          "authors_short": [
-            "Wen-Zhe Yan",
-            "Lan-Tian Feng",
-            "Zhibo Hou",
-            "et al. (10 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Programmable photonic quantum processors face a critical challenge: despite significant advances in quantum state preparation and manipulation, measurements remain limited to projective techniques. Here, we demonstrate a programmable measurement processor that overcomes this limitation by enabling arbitrary quantum measurements within a scalable circuit framework. Our large-scale integrated photonic architecture achieves precise coherent control of ancillary quantum systems, realizing a universal four-dimensional quantum measurement device. We benchmark the processor by performing measurement tomography on 100 randomly selected measurements, achieving an average fidelity of 97.7%. The processor's performance exceeds the theoretical limits of projective measurements in three key quantum information tasks: state discrimination (with 23 times lower error), state estimation (with 10.6% higher fidelity), and randomness generation (with 37% more randomness yield), demonstrating its high operational quality. This work establishes a fully programmable quantum measurement processor, advancing the development of universal quantum operations for photonic quantum information processing by providing the key missing component.",
-          "pdf_url": "https://arxiv.org/pdf/2603.20085.pdf",
-          "matches": [
-            "quantum measurement"
-          ],
-          "published": "2026-03-20T16:07:13+00:00",
-          "age_days": 3.0,
-          "previous_work_hits": [],
-          "current_interest_hits": [],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 25495,
-          "featured": true,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 7,
           "summary_bullets": [
-            "The authors demonstrate a large-scale integrated photonic processor that programmably implements arbitrary four-dimensional quantum measurements (general POVMs) by coherent control of ancilla modes, realized on a chip with >700 components and 96 thermo-optic phase shifters. They tomographically reconstruct 100 random measurements with average fidelity 97.7% and benchmark the device on unambiguous state discrimination, two-copy state estimation, and measurement-device-independent randomness generation, outperforming the projective-measurement limits (23× lower error, 10.6% higher estimation fidelity, 37% more randomness yield). The architecture is intrinsically scalable (better asymptotic circuit complexity than standard Naimark dilation), supports adaptive/self-learning measurement strategies, and can be extended to multi-photon/high-dimensional encodings via quantum joining for on-chip universal measurement functionality.",
-            "Why Yanbei would care: the work provides a high-fidelity, programmable platform for realizing arbitrary POVMs and collective measurements—capabilities that sit at the core of quantum measurement theory and optimal metrology, areas central to Yanbei's past work on quantum noise in interferometers, quantum nondemolition/back-action-evading techniques, and optomechanics. Such a processor enables implementation and rapid prototyping of optimal (non-projective) measurement strategies needed for state discrimination, tomography, and certified randomness, and could be adapted to test foundational questions (e.g., gravity-induced decoherence/entanglement) or to realize adaptive/learning-based readout and error-mitigation routines relevant to quantum sensing and quantum error correction. Even though the demonstration is photonic, the control paradigms (system–ancilla engineering, programmable tomography of measurements, and calibration of phase errors) are directly translatable to designing and certifying complex measurements in optomechanical or tabletop quantum-gravity-probing experiments.",
-            "Keywords/topics: programmable photonic circuits, universal quantum measurements (POVMs), integrated optics, measurement tomography, SIC-POVM, unambiguous state discrimination, collective state estimation, measurement-device-independent randomness, ancilla-assisted measurements, scalable high-dimensional POVMs. Publication/recency: arXiv submission Dated March 23, 2026 (arXiv:2603.20085, ~3 days old)."
+            "The paper introduces a formal semantics for a core Stim circuit language and formulates decoder accuracy and robustness as polynomial functions of symbolic physical error rates. It evaluates decoders by systematic enumeration of the error space combined with a constrained polynomial-optimization kernel, including a practical \"partial derivative pruning\" technique to reduce search, yielding sound bounds on logical error rates and worst-case robustness over hyperrectangles of error parameters. Empirically the method outperforms Monte Carlo simulation in low-error regimes and can produce precise logical-error bounds with far fewer shots, demonstrated on rotated surface codes and several state-of-the-art decoders.",
+            "Yanbei should care because this work directly improves how decoder performance and robustness are quantified—an essential ingredient for assessing fault-tolerant operation thresholds that underlie any precision quantum experiment (including platforms tied to his interests such as high-coherence interferometry and optomechanics). The combination of formal Stim semantics and analytic robustness bounds reduces reliance on costly sampling and gives principled worst-case guarantees under drift, which is valuable for designing and certifying decoders for experiments, for connecting QEC performance to observable error floors, and for integrating classical decoder design with quantum control/measurement strategies he studies.",
+            "Keywords/topics: quantum error correction, decoder verification, Stim circuit formal semantics, enumerative error-space search, constrained polynomial optimization, partial derivative pruning, robustness to drift, rotated surface codes, low logical-error-rate estimation. Published on arXiv 20 March 2026 (very recent)."
           ],
           "worth_reading_full": true
         },
@@ -4411,7 +4509,7 @@ window.ARXIV_DATA = {
             "quantum error correction"
           ],
           "published": "2026-03-19T03:39:43+00:00",
-          "age_days": 4.5,
+          "age_days": 5.5,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4430,78 +4528,166 @@ window.ARXIV_DATA = {
           "worth_reading_full": true
         },
         {
-          "id": "2603.20167",
-          "title": "Quantum inference on a classically trained quantum extreme learning machine",
+          "id": "2603.21751",
+          "title": "Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects",
           "authors": [
-            "Emanuele Brusaschi",
-            "Marco Clementi",
-            "Marco Liscidini",
-            "Daniele Bajoni",
-            "Matteo Galli",
-            "Massimo Borghi"
+            "Yongchan Park",
+            "Yong Soo Lee",
+            "Hansol Kim",
+            "Jaepil Park",
+            "Junhyung Lee",
+            "Hye-yoon Jeon",
+            "Jinil Lee",
+            "Yong-gwon Kim",
+            "Yeeun Choi",
+            "Min-Kyo Seo",
+            "Dae-Hwan Ahn",
+            "Hojoong Jung",
+            "Dongyeon Daniel Kang",
+            "Hyounghan Kwon"
           ],
           "authors_short": [
-            "Emanuele Brusaschi",
-            "Marco Clementi",
-            "Marco Liscidini",
+            "Yongchan Park",
+            "Yong Soo Lee",
+            "Hansol Kim",
+            "et al. (14 authors)"
+          ],
+          "category": "physics.optics",
+          "abstract": "Integrated visible photonic engines for solid-state quantum defects provide a foundation for scalable quantum networks. While miniaturization is advancing, active manipulation remains limited by the difficulty of achieving simultaneous milliwatt-scale visible light generation and high-contrast modulation. Despite extensive efforts, the concurrent chip-scale realization of nonlinear frequency conversion and fast temporal gating for high-fidelity quantum control has remained elusive. Here, we demonstrate a monolithic thin-film lithium niobate (TFLN) platform integrating periodically poled frequency conversion with GHz-bandwidth electro-optic (EO) switching. The device delivers off-chip green-light power exceeding 1 mW with an extinction ratio (ER) of 42.2 dB, enabling coherent spin control and time-resolved lifetime measurements of individual nitrogen-vacancy (NV) centers in diamond through nanosecond gating. System performance is validated through pulsed optically detected magnetic resonance (ODMR), Rabi oscillations, and Ramsey interference, supported by time-tagged photon counting with nanosecond resolution. By unifying sufficient nonlinear light generation with high-speed active manipulation, this platform establishes a scalable framework for the realization of high-rate quantum communication nodes.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21751.pdf",
+          "matches": [
+            "quantum control"
+          ],
+          "published": "2026-03-23T09:45:28+00:00",
+          "age_days": 1.2,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": false,
+          "used_pdf_text": true,
+          "pdf_text_chars": 11146,
+          "featured": true,
+          "relevance": 3,
+          "base_score": 6,
+          "summary_bullets": [
+            "This paper studies Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.optics themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
+            "Key words/topics: quantum control; published about 1.2 days ago."
+          ],
+          "worth_reading_full": false
+        },
+        {
+          "id": "2603.21643",
+          "title": "Gate-based Readout and Cooling of Neutral Atoms",
+          "authors": [
+            "Richard Bing-Shiun Tsai",
+            "Lewis R. B. Picard",
+            "Xiangkai Sun",
+            "Yuan Le",
+            "Kon H. Leung",
+            "Manuel Endres"
+          ],
+          "authors_short": [
+            "Richard Bing-Shiun Tsai",
+            "Lewis R. B. Picard",
+            "Xiangkai Sun",
             "et al. (6 authors)"
           ],
           "category": "quant-ph",
-          "abstract": "Quantum extreme learning machines (QELMs) are unconventional computing architectures that bear remarkable promise in both classical and quantum machine-learning tasks, such as the estimate of quantum state properties. However, the probabilistic nature of quantum measurements demands extensive repetitions for training to precisely estimate expectation values, imposing stringent trade-offs among experimental resources, acquisition time, and signal-to-noise ratio, particularly for large datasets. Here we introduce a paradigm shift by harnessing the correspondence between stimulated and spontaneous emission. The QELM is trained exclusively with intense classical fields, yet it performs inference directly on previously unseen quantum input states to predict their quantum properties. This strategy dramatically reduces acquisition times while substantially enhancing the signal-to-noise ratio. Using frequency-bin-encoded biphoton states, implemented here for the first time in a quantum machine-learning architecture, we demonstrate entanglement witnessing of two-qubit states with (93 +- 4)% accuracy, multi-dimensional entanglement detection, and learning of the Hamiltonian governing photon-pair generation with a fidelity of (96 +- 4)%. By establishing classical training as a scalable route to quantum feature extraction, our results bridge macroscopic observables and nonclassical correlations, opening a new pathway toward faster and more robust quantum neural networks",
-          "pdf_url": "https://arxiv.org/pdf/2603.20167.pdf",
+          "abstract": "Neutral atom arrays have seen tremendous progress in quantum simulation, quantum metrology, and fault-tolerant quantum computing. However, hardware constraints such as atom loss and heating remain significant challenges. In this work, we introduce a comprehensive ancilla-based toolbox for optical tweezer experiments that utilizes high-fidelity Rydberg entangling gates and ancilla atoms to mitigate these physical limitations. First, we demonstrate repeated ancilla-based atom readout, achieving improved detection fidelity over multiple rounds with minimal perturbation to data atoms. Second, leveraging the quantized motional states in tweezer-trapped strontium atoms, we transduce quantum information from the electronic to the motional manifold. This enables us to perform mid-circuit ancilla-based atom loss detection in a coherence-preserving fashion. Finally, we demonstrate algorithmic cooling, a circuit-based sequence that deterministically cools data atoms by transferring their motional entropy to the electronic states of ancilla atoms. We observe a marked reduction in the atomic temperature of data atoms. These tools offer a pathway to continuous operation in tweezer clocks and complement recent developments in continuous reloading experiments.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21643.pdf",
           "matches": [
-            "quantum measurement"
+            "quantum metrology"
           ],
-          "published": "2026-03-20T17:44:40+00:00",
-          "age_days": 2.9,
+          "published": "2026-03-23T07:24:26+00:00",
+          "age_days": 1.3,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 30000,
           "featured": true,
-          "relevance": 4,
+          "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "The authors introduce a paradigm for training quantum extreme learning machines (QELMs) using intense classical fields by exploiting the correspondence between stimulated and spontaneous parametric processes, so training is performed with stimulated four-wave mixing while inference operates on spontaneous quantum biphoton inputs. They implement this on a frequency-bin encoded photonic platform (the first reported frequency-bin QELM) where electro-optic modulators realize the reservoir and stimulated output intensities are shown to be proportional to coincidence probabilities, enabling transfer of learned linear readout weights to quantum inference. Experimentally they demonstrate entanglement witnessing with ≈93±4% accuracy, multidimensional entanglement detection, and Hamiltonian learning with ≈96±4% fidelity, while reducing training times by orders of magnitude and substantially improving signal-to-noise ratio compared to coincidence-based training.",
-            "This should interest Yanbei because it provides a practical method to map macroscopic, high‑SNR classical observables onto nonclassical quantum correlations, directly addressing the repeated-measurement/finite-sampling bottleneck central to quantum metrology and macroscopic-quantum experiments—areas tied to his expertise in quantum measurement theory, back-action evasion, and optomechanics. The transfer-learning/classical-training strategy could be adapted to speed up entanglement or decoherence detection in optomechanical and tabletop gravity-phenomenology tests, and the fast linear readout layer is naturally relevant to his current interests in quantum learning and quantum-error-correction–inspired sensing protocols.",
-            "Keywords/topics: quantum extreme learning machine (QELM), quantum reservoir computing, stimulated vs spontaneous emission, four-wave mixing, frequency-bin encoding, entanglement witnessing, Hamiltonian learning, transfer learning, measurement SNR, experimental quantum machine learning; Published on arXiv in March 2026 (arXiv:2603.20167, dated March 23, 2026) — very recent."
+            "The authors demonstrate an ancilla-based toolbox for optical-tweezer 88Sr arrays that enables repeated mid-circuit ancilla readout, coherence-preserving atom-loss detection via motional-state transduction, and a circuit-based algorithmic cooling that deterministically transfers motional entropy onto ancilla electronic states.",
+            "They report that repeated ancilla readout raises detection fidelity from ~0.90 to near 0.99 with negligible heating of data atoms, implement a single-entangling-gate motional shelving protocol that preserves data-qubit coherence (measured detection fidelity ~0.88), and realize the first experimental algorithmic cooling in neutral-atom arrays with a measurable increase in motional ground-state occupation despite finite single-qubit errors.",
+            "The work integrates high-fidelity Rydberg entangling gates, dynamical array reconfiguration, and motional Fock-state control to provide mid-circuit loss monitoring, low-disturbance QND-like measurements, and a pathway toward continuous operation of tweezer clocks and loss-aware quantum processors."
           ],
           "worth_reading_full": true
         },
         {
-          "id": "2603.20069",
-          "title": "$Δ_T$ Noise, Quantum Shot Noise, and Thermoelectric Clues to the Pairing Puzzle in Iron Pnictides",
+          "id": "2603.21057",
+          "title": "Robust Quantum Sensing via Prethermal Spin Orbits",
           "authors": [
-            "A Rajmohan Dora",
-            "Sachiraj Mishra",
-            "Colin Benjamin"
+            "Enrico Daniel Richter",
+            "Ryan J. Smith",
+            "Brayden Glockzin",
+            "Emanuel Druga",
+            "Thomas Schenkel",
+            "Ashok Ajoy"
           ],
           "authors_short": [
-            "A Rajmohan Dora",
-            "Sachiraj Mishra",
-            "Colin Benjamin"
+            "Enrico Daniel Richter",
+            "Ryan J. Smith",
+            "Brayden Glockzin",
+            "et al. (6 authors)"
           ],
-          "category": "cond-mat.supr-con",
-          "abstract": "Quantum noise has long served as a powerful probe of quantum transport in mesoscopic junctions. Recently, temperature-driven noise, or $Δ_T$ noise, has attracted growing interest due to its presence even in the absence of average charge current. In this work, we investigate a normal metal-insulator-iron-pnictide junction and demonstrate how thermovoltage, Seebeck coefficient, zero temperature quantum shot noise, finite temperature quantum noise, and $Δ_T$ noise can discriminate between $S_{++}$ and $S_{+-}$ pairing symmetries, which are relevant to iron-based superconductors. We introduce $Δ_T$ noise as a novel probe for distinguishing between the two pairing symmetries. In contrast to conductance, which exhibits a single peak for both $S_{++}$ and $S_{+-}$ states with only a difference in magnitude, the $Δ_T$ noise reveals qualitatively distinct features: a twin-peak structure for the $S_{++}$ pairing symmetry and a single-peak profile for the $S_{+-}$ state. A similar symmetry-dependent contrast is observed in both zero temperature quantum shot noise and finite temperature quantum noise, where the $S_{++}$ state consistently exhibits a twin-peak structure, while the $S_{+-}$ state shows a single-peak response. Furthermore, both the thermovoltage and the Seebeck coefficient display sign reversals for the two pairing symmetries, with opposite trends in the $S_{++}$ and $S_{+-}$ cases. Our results demonstrate that noise-based measurements, together with Seebeck coefficient and thermovoltage, form a mutually reinforcing set of probes that enables reliable identification of superconducting gap symmetry in Iron Pnictide superconductors.",
-          "pdf_url": "https://arxiv.org/pdf/2603.20069.pdf",
+          "category": "quant-ph",
+          "abstract": "Practical performance of quantum sensors is often curtailed by uncontrolled environmental drift (bias-field instability, temperature fluctuations, mechanical vibration), background fields, and imperfect control pulses. This motivates developing physical mechanisms that intrinsically compensate for such perturbations while retaining high sensitivity to target fields. We introduce an interaction-protected magnetometry scheme where periodic driving steers the collective magnetization onto two long-lived, prethermal Floquet \"orbit\" axes well-separated on the Bloch sphere. Rapid toggling between these axes encodes target fields as a differential signal, whereas background fields appear as common-mode motion that is strongly rejected, achieving >1000-fold suppression while canceling prethermal transients. This enables accurate reconstruction of rapidly varying audio-band magnetic signals without predictive filtering or spectral tuning. We provide an experimental proof-of-principle using a dense ensemble of coupled nuclear spins, operated here as a broadband (0-1 kHz) magnetometer. The protocol is remarkably tolerant to imperfections, operating robustly across millions of pulses under pulse-angle (~10°) and pulse frequency (>1 kHz) errors, large bias-field drifts (>50 $\\mathrmμ$T), temperature variations over 150 K, and harsh mechanical vibrations. These results establish Floquet prethermalization as a resource for robust quantum sensors that combines broadband magnetic-field sensitivity with intrinsic immunity to diverse environmental and control perturbations, opening a path toward stable quantum metrology beyond controlled laboratory conditions.",
+          "pdf_url": "https://arxiv.org/pdf/2603.21057.pdf",
           "matches": [
-            "quantum noise"
+            "quantum metrology"
           ],
-          "published": "2026-03-20T15:53:11+00:00",
-          "age_days": 3.0,
+          "published": "2026-03-22T04:51:40+00:00",
+          "age_days": 2.5,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 25574,
+          "pdf_text_chars": 27537,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 6,
+          "summary_bullets": [
+            "This paper introduces PRISM, an interaction-protected magnetometry protocol that uses periodic Floquet driving to steer a dense, interacting spin ensemble onto two long-lived prethermal Floquet “orbit” axes; rapid toggling between these axes encodes target magnetic fields as a differential signal while common-mode background and prethermal transients are strongly rejected (reported suppression >10^3).",
+            "The authors present an experimental proof-of-principle using a dense ensemble of 13C nuclear spins in single-crystal diamond (broadband 0–1 kHz magnetometry) demonstrating extended prethermal lifetimes (T2' ≈ 56–98 s), robustness across millions of pulses with large pulse-angle and detuning errors, large bias-field drifts (>50 μT), temperature swings >150 K, and mechanical vibration tolerance, and they show transient-free reconstruction of rapidly varying audio-band signals without predictive filtering.",
+            "The novelty is in exploiting Floquet prethermalization as a metrological resource—realizing time-domain gradiometry, intrinsic calibration, and broadband, transient-free sensing that avoids the narrowband and pulse-error sensitivities of conventional dynamical-decoupling approaches."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.20792",
+          "title": "A Phase-Space Geometric Measure of Magic in Qubit Systems",
+          "authors": [
+            "Soumyojyoti Dutta",
+            "Tushar"
+          ],
+          "authors_short": [
+            "Soumyojyoti Dutta",
+            "Tushar"
+          ],
+          "category": "quant-ph",
+          "abstract": "Characterizing quantum magic -- the resource enabling computational advantage beyond stabilizer circuits -- is subtle in qubit systems because established measures can give conflicting information about the same state. We introduce C(rho), the l1 distance from a state's discrete Wigner function to the convex hull of stabilizer Wigner functions, and study its relationship to the stabilizer extent Gamma(rho) via the tightness ratio kappa(rho) := (Gamma(rho)-1)/C(rho). For three two-qubit families in the repetition-code subspace span{|00>,|11>}, we prove kappa takes exact integer values constant over each family: kappa=1 for the R_y and Bell+R_z families, kappa=2 for the R_x family. The factor-of-2 gap arises because imaginary coherence concentrates Wigner negativity at 2 of 16 phase-space points rather than 4, leaving Gamma unchanged. The optimal dual witnesses are logical Pauli operators of the repetition code, revealing that C is a fault-tolerant observable invariant under correctable errors -- an unexpected connection between phase-space geometry and quantum error correction. We prove a sharp bound Gamma >= 1 + C/M_n, establish a hemispheric dichotomy in tensor-product behavior where superadditivity of C fails for northern-hemisphere states with deficit approximately 0.335 C(rho), and show C is not a magic monotone under the full Clifford group, so asymptotic distillation rates require Gamma.",
+          "pdf_url": "https://arxiv.org/pdf/2603.20792.pdf",
+          "matches": [
+            "quantum error correction"
+          ],
+          "published": "2026-03-21T12:33:13+00:00",
+          "age_days": 3.1,
+          "previous_work_hits": [],
+          "current_interest_hits": [
+            "quantum error correction"
+          ],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 17944,
           "featured": true,
           "relevance": 4,
           "base_score": 6,
           "summary_bullets": [
-            "Using a scattering-matrix BTK approach for a normal-metal–insulator–iron-pnictide (N–I–IP) junction, the authors compute conductance, finite- and zero-temperature quantum shot noise, thermovoltage, Seebeck coefficient, and introduce ΔT noise as a probe of pairing symmetry. They show that while conductance displays only magnitude differences between S++ and S+− states, ΔT noise and both zero- and finite-temperature shot noise exhibit qualitatively distinct signatures — a twin-peak structure for S++ and a single-peak profile for S+− — and that thermovoltage and the Seebeck coefficient reverse sign between the two symmetries. The novelty is promoting ΔT noise (temperature-gradient-driven shot noise measured at zero average current) as a phase-sensitive, experimentally accessible discriminator of multiband S++ vs S+− pairing in iron pnictides.",
-            "This should interest Yanbei because it leverages quantum noise as an information-rich observable—an area closely aligned with his work on quantum noise, quantum measurement, and quantum-limited sensing—showing how higher moments (shot/ΔT noise) reveal phase information hidden from conductance; the scattering-matrix and noise-analysis techniques are directly relevant to designing noise-based metrology or phase-sensitive probes in mesoscopic/optomechanical platforms. Moreover, the paper’s emphasis on experimentally measurable thermoelectric and noise signatures connects to his interest in extracting subtle quantum effects from observables and could inspire analogous protocols for testing decoherence or entanglement mechanisms (including gravity-related phenomenology) in tabletop systems.",
-            "Keywords/topics: ΔT noise, quantum shot noise, thermoelectricity, Seebeck coefficient, thermovoltage, multiband superconductivity, S++ vs S+− pairing, N–I–IP junction, BTK/scattering-matrix transport, noise spectroscopy; arXiv:2603.20069 (cond-mat.supr-con), posted 20 Mar 2026 — very recent."
+            "The paper defines C(ρ) as the ℓ1 distance from an n‑qubit discrete Wigner function to the convex hull of stabilizer Wigner functions and relates it to the stabilizer extent Γ(ρ) via the tightness ratio κ := (Γ−1)/C. For three two‑qubit families in the repetition‑code subspace span{|00>,|11>} they prove κ takes exact integer values (κ=1 for the R_y and Bell+R_z families, κ=2 for the R_x family), explain the factor‑of‑2 by concentration of Wigner negativity at fewer phase‑space points, and derive a sharp bound Γ ≥ 1 + C/M_n. They further show the dual witness H* are logical Pauli operators (making C a fault‑tolerant observable invariant under correctable errors), establish a hemispheric dichotomy in tensor‑product behavior, and demonstrate C is not a magic monotone under the full Clifford group so asymptotic distillation rates require Γ.",
+            "You would care because the work explicitly links phase‑space (Wigner) geometry to quantum error correction: the optimal dual witnesses are logical Pauli operators in a repetition‑code subspace, meaning the magic witness is a measurable, fault‑tolerant observable—this dovetails with your interests in measurement theory, QND/back‑action evasion and quantum error correction for making robust, experimentally accessible signatures. The fact that the witness reduces to Pauli expectations and that analytic closed forms exist for code subspaces suggests concrete diagnostics one could adapt to noisy or macroscopic platforms (including optomechanical/tabletop setups) when probing nonclassicality, resourcefulness, or decoherence mechanisms relevant to gravity‑induced effects.",
+            "Keywords/topics: discrete Wigner function, magic/resource theory, stabilizer extent Γ, Wigner distance C(ρ), tightness ratio κ, logical Pauli witnesses, quantum error correction, tensor‑product/hemispheric dichotomy, classical simulation bounds; published 2026‑03‑21 (very recent, ≈3 days)."
           ],
           "worth_reading_full": true
         },
@@ -4527,23 +4713,23 @@ window.ARXIV_DATA = {
             "quantum error correction"
           ],
           "published": "2026-03-20T11:36:52+00:00",
-          "age_days": 3.2,
+          "age_days": 4.2,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
           ],
-          "used_openai": false,
+          "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 22384,
           "featured": true,
-          "relevance": 3,
+          "relevance": 5,
           "base_score": 6,
           "summary_bullets": [
-            "This paper studies Linear-optical generation of hybrid GKP entanglement from small-amplitude cat states using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-            "Key words/topics: quantum error correction; published about 3.2 days ago."
+            "The paper proposes a linear-optical protocol to generate hybrid entanglement between a GKP-encoded qubit and a photon-number state using only small-amplitude cat states, beam splitters, a displacement, and homodyne postselection. It adds a cat-breeding stage that interferes multiple small cats and conditions on homodyne outcomes to progressively enhance non-Gaussianity, and reports fidelity/success-probability trade-offs (optimal amplitude α≈0.455 with fidelity up to ≈0.964 and practical success rates up to ≈40% for relaxed acceptance windows). The scheme is resource-efficient, avoids the need for large-amplitude cats or extreme squeezing, demonstrates extensibility to qudits (qutrit example), and notes that the current analysis does not yet include photon loss or detector inefficiency.",
+            "You would care because this directly addresses the resource bottleneck for producing bosonic-code resources (GKP and hybrid encodings) that underpin fault-tolerant optical quantum information—an area closely connected to your interests in quantum measurement, quantum noise in interferometers, and quantum error correction; the approach may also translate into more accessible nonclassical resource preparation for optomechanical transduction or tabletop tests that need robust hybrid entanglement. The protocol’s focus on back-action-friendly linear optics and homodyne conditioning ties to your background in measurement-based back-action evasion and could inform implementations where limited squeezing or loss-prone channels currently prevent realizing logical GKP operations or entanglement-distribution experiments relevant to gravity-induced-decoherence/entanglement scenarios.",
+            "Keywords/topics: GKP code, hybrid bosonic codes, small-amplitude cat states, cat breeding (non-Gaussianity enhancement), linear optics, homodyne postselection, resource-efficient state generation, hybrid qudit/qutrit extension, fidelity vs. success-probability trade-off; Published: arXiv v1 20 Mar 2026 (very recent)."
           ],
-          "worth_reading_full": false
+          "worth_reading_full": true
         },
         {
           "id": "2603.19522",
@@ -4567,7 +4753,7 @@ window.ARXIV_DATA = {
             "quantum error correction"
           ],
           "published": "2026-03-19T23:23:28+00:00",
-          "age_days": 3.7,
+          "age_days": 4.7,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4601,7 +4787,7 @@ window.ARXIV_DATA = {
             "quantum error correction"
           ],
           "published": "2026-03-19T00:59:11+00:00",
-          "age_days": 4.6,
+          "age_days": 5.6,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4616,210 +4802,6 @@ window.ARXIV_DATA = {
             "This paper introduces a higher-order context-conditioned kernel Γ_eff[Y,O]=Γ_loc[O]+Γ_proxy[O]+Γ_rel[Y,O] to capture mid-circuit measurement backaction that is invisible to standard low-order proxies (T1, T2, readout error, pairwise crosstalk).",
             "The author implements a synthetic A6 hardware harness on IBM boston that programs a pure higher-order parity context (Y = C0⊕C1⊕C2) which is by construction invisible to all 1- and 2-body summaries, and shows empirically that the local probe EX,mean nevertheless exhibits a dose-dependent suppression ∝(1−cosθ) consistent with the Γ_rel term. The work further demonstrates coherent controllability via an A6.2 quantum-eraser (MARK/ERASE) where marker conditioning restores fringes, and it operationalizes Möbius-type weights on classical measurement outcomes to quantify the residual context dependence without invoking impossible operator-algebraic decompositions.",
             "No extra technical note provided."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.16502",
-          "title": "High Fidelity Single-NV Qubit Quantum State Tomography by Photoelectric Readout",
-          "authors": [
-            "Boo Carmans",
-            "Michael Petrov",
-            "Milos Nesladek"
-          ],
-          "authors_short": [
-            "Boo Carmans",
-            "Michael Petrov",
-            "Milos Nesladek"
-          ],
-          "category": "quant-ph",
-          "abstract": "Quantum computing is a rapidly developing field. However, the most commonly used qubits require cryogenic conditions to operate, which increases the costs and puts constraints on the up-scaling. Ambient solid-state qubits provide an alternative with potential for large-scale application. The nitrogen-vacancy (NV) center in diamond is one of the main candidates for solid-state computing architectures at room temperature and has proven to be competitive in terms of gate fidelity, quantum error correction, couplings, etc. Each NV center has an associated electronic spin that is conventionally read out by photoluminescence. However, regarding the creation of small, ambient NV-based quantum processors, the optical readout introduces limitations on the collection efficiency and resolution of the readout as well as the size of the final device and its integration into standard semiconductor architectures. In this work, we investigate the competitiveness of the photoelectric readout versus the traditional optical readout. In particular, we report on using photoelectrical detection to perform quantum state tomography measurements on a single NV center. We achieve the fidelity $0.995 \\pm 0.0062$ for state reconstruction, comparable to optical measurements, demonstrating that the fidelity does not suffer from the adapted readout, highlighting the value of photoelectric detection for NV-based quantum processors.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16502.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-17T13:27:25+00:00",
-          "age_days": 6.1,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 19356,
-          "featured": true,
-          "relevance": 4,
-          "base_score": 6,
-          "summary_bullets": [
-            "This paper demonstrates photoelectric detection of a single NV center electron spin to perform Rabi-phase quantum state tomography (PC-RPQST) at room temperature, reporting an average fidelity 0.995 ± 0.0062 across 21 measurements and individual fidelities up to ≈0.9998. It shows that photoelectric detection via PDMR yields tomography fidelity comparable to conventional photoluminescence (PL) readout while offering improved spatial resolution, compactness, and on-chip electronic integration. The work extends PDMR to a phase-sensitive RPQST protocol, analyzes random vs systematic errors, and argues that further hardware improvements could push optimized fidelities to ≈0.998, supporting scalable NV-based processors.",
-            "Why Yanbei would care: the paper addresses high-fidelity, room-temperature qubit readout and on-chip integration—issues directly relevant to fault-tolerant architectures and quantum error correction thresholds that he follows; the photoelectric measurement converts spin information into charge currents, presenting a distinct measurement back-action channel and experimental handle that connects to his interests in quantum measurement theory, back-action evasion, and macroscopic quantum readout strategies. Moreover, compact electrical readout of NVs can enable hybrid platforms (spin–mechanical or spin–optical) and scalable tabletop experiments probing decoherence/quantum-classical limits, which aligns with his work on quantum noise, optomechanics, and experimental signatures of fundamental physics.",
-            "Keywords/topics: NV center, photoelectric detection (PDMR), Rabi-phase quantum state tomography (RPQST), single-spin tomography, room-temperature solid-state qubits, on-chip readout, quantum error correction relevance, measurement back-action, experimental methods; arXiv:2603.16502, posted 17 March 2026 (very recent)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.16494",
-          "title": "Distinguishing types of correlated errors in superconducting qubits",
-          "authors": [
-            "Hannah P. Binney",
-            "H. Douglas Pinckney",
-            "Kate Azar",
-            "Patrick M. Harrington",
-            "Shantanu Jha",
-            "Mingyu Li",
-            "Jiatong Yang",
-            "Felipe Contipelli",
-            "Renée DePencier Piñero",
-            "Michael Gingras",
-            "Bethany M. Niedzielski",
-            "Hannah Stickler",
-            "Mollie E. Schwartz",
-            "Jeffrey A. Grover",
-            "Max Hays",
-            "Kyle Serniak",
-            "Joseph A. Formaggio",
-            "William D. Oliver"
-          ],
-          "authors_short": [
-            "Hannah P. Binney",
-            "H. Douglas Pinckney",
-            "Kate Azar",
-            "et al. (18 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Errors in superconducting qubits that are correlated in time and space can pose problems for quantum error correction codes. Radiation from cosmic and terrestrial sources can increase the quasiparticle (QP) density in a superconducting qubit device, resulting in an increased rate of QPs tunneling across proximal Josephson junctions (JJs) and causing correlated errors. Mechanical vibrations, such as those induced by the pulse tube in a dry dilution refrigerator, are also a known source of correlated errors. We present a method for distinguishing these two types of errors by their temporal, spatial, and frequency domain features, enabling physically motivated error-mitigation strategies. We also present accelerometer data to study the correlation between dilution refrigerator vibrations and the errors. We measure arrays of transmon qubits where the difference in superconducting gap across the JJ is less than the qubit energy, as well as those where the gap is greater than the qubit energy, which has been shown to mitigate radiation-induced errors. We show that these latter devices are also protected against vibration-induced errors.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16494.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-17T13:21:34+00:00",
-          "age_days": 6.1,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 28395,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 6,
-          "summary_bullets": [
-            "This experimental study identifies and distinguishes two classes of temporally and spatially correlated errors in 10-qubit transmon arrays: quasiparticle bursts from ionizing radiation and low-frequency pulse-tube-induced vibration events, using temporal, spatial and frequency-domain diagnostics and accelerometer data. The authors apply matched filtering and exponential-decay fitting to extract event lifetimes, define a simple spatial-asymmetry metric A to compare localization, and show the vibration-induced population appears at the pulse-tube fundamental (~1.4 Hz) while radiation events have ≈5 ms decay tails. They further demonstrate that gap-engineered devices (ΔJJ > fq) suppress both radiation- and vibration-induced correlated errors and that turning the pulse tube off removes the vibration-induced population and yields an estimated T1 improvement.",
-            "Yanbei should care because correlated multi-qubit errors directly challenge the independent-noise assumptions underlying the quantum error correction and quantum measurement analyses he has worked on; this paper supplies concrete, experimentally validated diagnostics and mitigation levers (gap engineering, pulse-tube control, vibration isolation, use of auxiliary accelerometer channels) that can be incorporated into realistic error models and QEC threshold studies. It is also relevant to his interests in macroscopic-environment-induced decoherence and optomechanics since it shows how classical mechanical vibrations produce long-lived, structured multi-qubit error bursts and how auxiliary sensing can be used to separate environmental from particle-induced decoherence mechanisms.",
-            "Keywords/topics: superconducting transmons, correlated errors, quasiparticles, cosmic/terrestrial radiation, pulse-tube vibrations, gap engineering, matched filtering, accelerometer-based noise vetoes, quantum error correction, decoherence. Published on arXiv Mar 17–18, 2026 (very recent)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.16389",
-          "title": "Chipmunq: A Fault-Tolerant Compiler for Chiplet Quantum Architectures",
-          "authors": [
-            "Peter Wegmann",
-            "Aleksandra Świerkowska",
-            "Emmanouil Giortamis",
-            "Pramod Bhatotia"
-          ],
-          "authors_short": [
-            "Peter Wegmann",
-            "Aleksandra Świerkowska",
-            "Emmanouil Giortamis",
-            "et al. (4 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "As quantum computing advances toward fault-tolerance through quantum error correction, modular chiplet architectures have emerged to provide the massive qubit counts required while overcoming fabrication limits of monolithic chips. However, this transition introduces a critical compilation gap: existing frameworks cannot handle the scale of fault-tolerant quantum circuits while managing the noisy, sparse interconnects of chiplet backends. We present Chipmunq, the first hardware-aware compiler for mapping and routing fault-tolerant circuits onto modular architectures. Chipmunq employs a quantum-error-correction-aware partitioning strategy that preserves the integrity of logical qubit patches, preventing prohibitive gate overheads common in general-purpose compilers. Our evaluation demonstrates that Chipmunq achieves a 13.5x speedup in compilation time compared to state-of-the-art tools. By incorporating chiplet constraints and defective qubits, it reduces circuit depth by 86.4% and SWAP gate counts by 91.4% across varying code distances. Crucially, Chipmunq overcomes heterogeneous inter-chiplet links, improving logical error rates by up to two orders of magnitude.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16389.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-17T11:20:37+00:00",
-          "age_days": 6.2,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 30000,
-          "featured": true,
-          "relevance": 4,
-          "base_score": 6,
-          "summary_bullets": [
-            "Why Yanbei would care: Chipmunq directly addresses practical deployment of QEC on modular, noisy hardware—an enabling layer for experiments that require long coherence or distributed control, which ties to Yanbei’s interests in quantum error correction, macroscopic quantum systems, and building robust measurement chains. Preserving QEC patch geometry and minimizing noisy inter-chiplet communication helps maintain error-suppression needed for delicate macroscopic superpositions or long-duration entangled states (relevant to gravity-induced decoherence/entanglement tests), while the compiler’s noise-aware strategies and Stim-based LER evaluation provide quantitative, experimentally-relevant metrics rather than purely theoretical constructs. Although this is a systems/compilation paper (not a new gravity model), it supplies infrastructure that could materially lower logical error floors for tabletop or modular optomechanical experiments Yanbei might design or analyze.",
-            "Keywords/topics: quantum error correction, surface code & lattice surgery, chiplet/modular quantum architectures, hardware-aware compilation, partitioning & routing, noise-aware interconnects, SWAP reduction, logical error-rate suppression, Qiskit/Stim integration. Published March 2026 on arXiv (arXiv:2603.16389), very recent.",
-            "No extra technical note provided."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.16246",
-          "title": "Tunable Rotation-Associated Slow-to-Fast Light Conversion via Optomagnonic Coupling",
-          "authors": [
-            "Jingyu Liu",
-            "Shirong Lin"
-          ],
-          "authors_short": [
-            "Jingyu Liu",
-            "Shirong Lin"
-          ],
-          "category": "quant-ph",
-          "abstract": "Cavity optomechanics has enabled slow-to-fast light conversion, but traditional optomechanic systems suffer from limited tunability due to fixed mechanical frequencies. To address this constraint, we introduce a magnon degree of freedom into an optomechanical system, constructing a system that integrates photons, phonons, and magnons. We establish the theoretical model of the optomagnonic-Laguerre-Gaussian rotational system, and present numerical simulations of Fano resonances and group delay. By manipulating the magnon degree of freedom, we not only achieve slow-to-fast light conversion associated with magnons but also successfully realize such conversion effects associated with mechanical rotation-this achievement effectively overcomes the inherent tunability limitations of pure optomechanical systems and expands the frequency coverage of light conversion effects. Notably, we numerically demonstrate bidirectional light speed conversion (slow-to-fast and fast-to-slow) via continuous control field frequency modulation to tune cavity mode detuning. Additionally, our results show that adjusting optomagnonic parameters enables dynamic switching between slow light and fast light at multiple frequencies. This work provides a flexible platform for multi-frequency light speed control, with potential applications in all-optical networks and quantum communications.",
-          "pdf_url": "https://arxiv.org/pdf/2603.16246.pdf",
-          "matches": [
-            "optomechanics"
-          ],
-          "published": "2026-03-17T08:30:26+00:00",
-          "age_days": 6.3,
-          "previous_work_hits": [
-            "optomechanics"
-          ],
-          "current_interest_hits": [],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 26426,
-          "featured": true,
-          "relevance": 3,
-          "base_score": 6,
-          "summary_bullets": [
-            "The paper constructs a theoretical model of an optomagnonic–Laguerre–Gaussian rotational hybrid that couples cavity photons, a rotating mirror (optorotational phonon mode) and magnons in a YIG sphere, and derives the linearized Heisenberg–Langevin equations including optorotational and optomagnonic interactions. Numerical simulations show that adding magnons produces additional transparency windows and asymmetric Fano resonances, and enables tunable, bidirectional slow-to-fast (and fast-to-slow) light conversion at both the magnon and mechanical rotation frequencies by varying control-field detuning/intensity, external magnetic field, or optomagnonic coupling. The novelty is that magnon tunability via an external magnetic field overcomes fixed mechanical-frequency limits of traditional optomechanics, enabling multi-frequency, dynamically switchable group-delay control in an LG rotational cavity and mapping stable/unstable parameter regimes for experimental implementation.",
-            "Why Yanbei would care: this work sits squarely on the optomechanics/quantum measurement axis of his prior research — it extends OMIT-style phase dispersion and group-delay control to a photon–phonon–magnon hybrid, providing a new, magnetically controlled knob for dynamically tailoring probe phase and delay. That magnetic tunability and the integration with rotational (OAM) degrees of freedom could be useful for quantum-limited timing, buffer/storage protocols, or back-action–aware measurement schemes in optomechanical platforms, and the paper’s stability analysis and parameter maps help assess experimental feasibility for macroscopic-quantum tests and precision sensing.",
-            "Keywords/topics: optomagnonics, cavity optomechanics, Laguerre–Gaussian rotational cavity, magnons (YIG), optorotational coupling, slow/fast light, OMIT, Fano resonances, group delay tuning, hybrid photon–phonon–magnon systems. Posted on arXiv 2026-03-17 (very recent; ~5 days old)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.15760",
-          "title": "A fault-tolerant encoding for qubit-controlled collective spins",
-          "authors": [
-            "Charlotte Franke",
-            "Dorian A. Gangloff"
-          ],
-          "authors_short": [
-            "Charlotte Franke",
-            "Dorian A. Gangloff"
-          ],
-          "category": "quant-ph",
-          "abstract": "Quantum error correction (QEC) is indispensable for scalable quantum computing, but implementing it with minimal hardware overhead remains a central challenge. Large spin systems with collective degrees of freedom offer a promising route to reducing the control complexity of qubit architectures while retaining a large Hilbert space for fault-tolerant encoding. However, existing proposals for logical gates and QEC in spin ensembles generally rely on inefficient higher-order interactions. Here we introduce spin-N-Cat codes, which encode logical qubits in superpositions of spin-coherent states and generalize bosonic Cat codes to the modular subspaces of permutationally symmetric spin ensembles. The code corrects collective and individual dephasing, excitation, and decay errors. We also present an efficient physical realization in central-spin systems, such as a quantum dot, where encoding, decoding, and a universal, fault-tolerant, and bias-preserving gate set are implemented using only first-order interactions. Numerical simulations demonstrate high logical fidelity under dephasing and excitation-decay noise, independent of noise bias, and that full QEC cycles are feasible with realistic microscopic parameters. For the large collective spins available in quantum dots, this translates into a substantial extension of coherence time. Our results establish spin-N-Cat codes as a scalable, hardware-efficient approach to QEC in spin-based quantum architectures.",
-          "pdf_url": "https://arxiv.org/pdf/2603.15760.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-16T18:00:24+00:00",
-          "age_days": 6.9,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 28872,
-          "featured": true,
-          "relevance": 4,
-          "base_score": 6,
-          "summary_bullets": [
-            "The paper introduces spin-N-Cat codes that encode logical qubits as superpositions of spin-coherent states in modular subspaces of permutationally symmetric spin ensembles, extending bosonic cat-code ideas to collective-spin Hilbert spaces. The code is shown to correct collective and individual dephasing, excitation and decay errors and admits an efficient, hardware-native implementation in central-spin platforms (e.g., quantum dots) using only first-order interactions, with a universal, fault-tolerant, bias-preserving gate set built from native gates. Numerical simulations report high logical fidelity under realistic dephasing and excitation–decay noise, feasible full QEC cycles with experimental parameters, and passive coherence extension up to ~15× over naive Dicke encodings.",
-            "Why Yanbei would care: this work ties directly to his interests in quantum error correction and hardware-efficient protection of macroscopic quantum degrees of freedom — it maps collective-spin ensembles (large I, Holstein–Primakoff limit) to oscillator-like protected encodings analogous to bosonic cats while requiring only first-order central-spin couplings, which lowers experimental overhead. That combination is relevant to his background in quantum measurement theory, back-action evasion and optomechanics (because collective modes behave like large oscillators) and to his current interests in QEC, gravity-related decoherence/entanglement tests and tabletop implementations: a scalable, bias-preserving collective-spin code could extend coherence for macroscopic-superposition experiments and make fault-tolerant control more experimentally accessible.",
-            "Keywords/topics: spin-N-Cat codes, collective-spin QEC, central-spin systems, quantum dots, bias-preserving logical gates, fault-tolerance, modular subspaces, collective dephasing/excitation/decay, Holstein–Primakoff analogy, experimental implementation. Published: March 2026 (arXiv:2603.15760), very recent."
           ],
           "worth_reading_full": true
         }

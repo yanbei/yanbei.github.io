@@ -1,0 +1,21 @@
+{
+  "id": "2603.20792",
+  "title": "A Phase-Space Geometric Measure of Magic in Qubit Systems",
+  "authors": [
+    "Soumyojyoti Dutta",
+    "Tushar"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-21T12:33:13+00:00",
+  "summary_bullets": [
+    "The paper defines C(ρ) as the ℓ1 distance from an n‑qubit discrete Wigner function to the convex hull of stabilizer Wigner functions and relates it to the stabilizer extent Γ(ρ) via the tightness ratio κ := (Γ−1)/C. For three two‑qubit families in the repetition‑code subspace span{|00>,|11>} they prove κ takes exact integer values (κ=1 for the R_y and Bell+R_z families, κ=2 for the R_x family), explain the factor‑of‑2 by concentration of Wigner negativity at fewer phase‑space points, and derive a sharp bound Γ ≥ 1 + C/M_n. They further show the dual witness H* are logical Pauli operators (making C a fault‑tolerant observable invariant under correctable errors), establish a hemispheric dichotomy in tensor‑product behavior, and demonstrate C is not a magic monotone under the full Clifford group so asymptotic distillation rates require Γ.",
+    "You would care because the work explicitly links phase‑space (Wigner) geometry to quantum error correction: the optimal dual witnesses are logical Pauli operators in a repetition‑code subspace, meaning the magic witness is a measurable, fault‑tolerant observable—this dovetails with your interests in measurement theory, QND/back‑action evasion and quantum error correction for making robust, experimentally accessible signatures. The fact that the witness reduces to Pauli expectations and that analytic closed forms exist for code subspaces suggests concrete diagnostics one could adapt to noisy or macroscopic platforms (including optomechanical/tabletop setups) when probing nonclassicality, resourcefulness, or decoherence mechanisms relevant to gravity‑induced effects.",
+    "Keywords/topics: discrete Wigner function, magic/resource theory, stabilizer extent Γ, Wigner distance C(ρ), tightness ratio κ, logical Pauli witnesses, quantum error correction, tensor‑product/hemispheric dichotomy, classical simulation bounds; published 2026‑03‑21 (very recent, ≈3 days)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 17944,
+  "featured": true
+}

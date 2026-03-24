@@ -1,0 +1,22 @@
+{
+  "id": "2603.20596",
+  "title": "Breaking the degeneracy among regular black holes with gravitational lensing",
+  "authors": [
+    "Hong Liu",
+    "Xiaolong Liao",
+    "Yi Zhang"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-21T01:50:05+00:00",
+  "summary_bullets": [
+    "The paper analyzes parameter degeneracies among Culetu, Bardeen and Hayward regular black holes by computing weak- and strong-field gravitational lensing, shadow radii, and quasinormal-mode–related quantities within a Fan–Wang unified metric.",
+    "They find that Einstein-ring (weak-field) data give extremely loose constraints while Event Horizon Telescope shadow measurements force tight bounds on the regularization parameter q (for example q ≲ 0.0466 for Culetu), yet leading-order geometric observables tied to the critical impact parameter b_m remain highly degenerate across models.",
+    "To break this macroscopic universality they identify higher-order probes such as the Lyapunov exponent/QNM frequency and subleading time delays, and predict a qualitative inversion of accretion-intensity brightness between lensing-dominated static flows and dynamics-dominated infalling flows, arguing that high-resolution temporal and intensity profiling with next-generation EHT capabilities can distinguish regular cores."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25560,
+  "featured": true
+}

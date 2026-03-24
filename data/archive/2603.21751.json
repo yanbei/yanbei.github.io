@@ -1,0 +1,33 @@
+{
+  "id": "2603.21751",
+  "title": "Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects",
+  "authors": [
+    "Yongchan Park",
+    "Yong Soo Lee",
+    "Hansol Kim",
+    "Jaepil Park",
+    "Junhyung Lee",
+    "Hye-yoon Jeon",
+    "Jinil Lee",
+    "Yong-gwon Kim",
+    "Yeeun Choi",
+    "Min-Kyo Seo",
+    "Dae-Hwan Ahn",
+    "Hojoong Jung",
+    "Dongyeon Daniel Kang",
+    "Hyounghan Kwon"
+  ],
+  "category": "physics.optics",
+  "published": "2026-03-23T09:45:28+00:00",
+  "summary_bullets": [
+    "This paper studies Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.optics themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
+    "Key words/topics: quantum control; published about 1.2 days ago."
+  ],
+  "relevance": 3,
+  "worth_reading_full": false,
+  "used_openai": false,
+  "used_pdf_text": true,
+  "pdf_text_chars": 11146,
+  "featured": true
+}

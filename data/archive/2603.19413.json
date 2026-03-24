@@ -9,13 +9,13 @@
   "category": "gr-qc",
   "published": "2026-03-19T19:13:46+00:00",
   "summary_bullets": [
-    "This paper studies Ringdown modeling for effective-one-body waveforms in the test-mass limit for eccentric equatorial orbits around a Kerr black hole using the methods and problem setup described in the abstract. Its scientific content appears to center on gr-qc themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially post-Newtonian expansion, statistical methods for gravitational-wave data analysis; and also to astrophysical populations of gravitational-wave sources, nature of dark matter.",
-    "Key words/topics: ringdown, inspiral, merger, Kerr, Teukolsky; published about 3.9 days ago."
+    "This paper computes inspiral–plunge–merger–ringdown waveforms for a non-spinning test particle on eccentric equatorial orbits around a Kerr black hole by evolving EOB-driven dynamics with a 2+1 time-domain Teukolsky solver (Teukode) to obtain multipolar Ψ4 and reconstruct hℓm.",
+    "The authors build closed-form phenomenological merger–ringdown ansätze anchored to a time closely related to the light-ring crossing (rather than the amplitude peak), model multipoles up to ℓ=4 (m≥1) plus selected ℓ=5 and the (2,0) mode, include spherical–spheroidal mode-mixing and beating between co- and counter-rotating QNMs, and show the model is robust at high spin, high eccentricity and for dynamical-capture scenarios.",
+    "They attach the post-merger model to an EOB inspiral–plunge to produce complete IMR waveforms in the test-mass limit and argue the LR-based anchoring can be generalized to comparable-mass models by using the (2,2) frequency inflection point as the ringdown anchor."
   ],
   "relevance": 5,
   "worth_reading_full": true,
-  "used_openai": false,
+  "used_openai": true,
   "used_pdf_text": true,
   "pdf_text_chars": 30000,
   "featured": true
