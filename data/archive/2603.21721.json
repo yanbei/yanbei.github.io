@@ -11,13 +11,13 @@
   "category": "quant-ph",
   "published": "2026-03-23T09:07:12+00:00",
   "summary_bullets": [
-    "This paper studies All-optical quantum memory using bosonic quantum error correction codes using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-    "Key words/topics: quantum error correction; published about 1.3 days ago."
+    "The paper proposes and quantitatively analyzes an all‑optical quantum‑memory architecture in which a Gottesman–Kitaev–Preskill (GKP) encoded qubit is stored in a fibre loop and periodically stabilized using teleportation‑based error correction; fibre propagation is modelled as a pure‑loss channel and each correction round is represented as an effective logical map acting on the Bloch vector. ",
+    "They introduce a fidelity‑optimized syndrome decoder (which departs from the standard square‑grid GKP rule in both tile size and tile shape), derive a compact multi‑round Pauli‑frame transfer‑matrix formalism to track accumulated logical errors when Pauli corrections are applied only at readout, and use these tools to optimize segment spacing between correction nodes, showing this spacing is largely independent of total storage time. ",
+    "Main quantitative results include a squeezing threshold ≈6.7 dB below which intermediate correction is detrimental, exponential improvement of storage time above threshold (e.g. >400 ms with logical infidelity <1% at 17 dB), and explicit benchmarks that clarify the trade‑offs among photon loss, finite squeezing, and correction frequency for continuous‑variable photonic memory."
   ],
   "relevance": 4,
   "worth_reading_full": true,
-  "used_openai": false,
+  "used_openai": true,
   "used_pdf_text": true,
   "pdf_text_chars": 25802,
   "featured": true

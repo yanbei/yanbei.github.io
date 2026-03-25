@@ -577,13 +577,13 @@
   },
   "qm::2603.21721": {
     "summary_bullets": [
-      "This paper studies All-optical quantum memory using bosonic quantum error correction codes using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-      "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-      "Key words/topics: quantum error correction; published about 1.3 days ago."
+      "The paper proposes and quantitatively analyzes an all‑optical quantum‑memory architecture in which a Gottesman–Kitaev–Preskill (GKP) encoded qubit is stored in a fibre loop and periodically stabilized using teleportation‑based error correction; fibre propagation is modelled as a pure‑loss channel and each correction round is represented as an effective logical map acting on the Bloch vector. ",
+      "They introduce a fidelity‑optimized syndrome decoder (which departs from the standard square‑grid GKP rule in both tile size and tile shape), derive a compact multi‑round Pauli‑frame transfer‑matrix formalism to track accumulated logical errors when Pauli corrections are applied only at readout, and use these tools to optimize segment spacing between correction nodes, showing this spacing is largely independent of total storage time. ",
+      "Main quantitative results include a squeezing threshold ≈6.7 dB below which intermediate correction is detrimental, exponential improvement of storage time above threshold (e.g. >400 ms with logical infidelity <1% at 17 dB), and explicit benchmarks that clarify the trade‑offs among photon loss, finite squeezing, and correction frequency for continuous‑variable photonic memory."
     ],
     "relevance": 4,
     "worth_reading_full": true,
-    "used_openai": false,
+    "used_openai": true,
     "used_pdf_text": true,
     "pdf_text_chars": 25802
   },
@@ -613,13 +613,13 @@
   },
   "qm::2603.21751": {
     "summary_bullets": [
-      "This paper studies Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.optics themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-      "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-      "Key words/topics: quantum control; published about 1.2 days ago."
+      "This work demonstrates a monolithic thin-film lithium niobate (TFLN) photonic circuit that integrates a periodically poled frequency-doubler (PPLN) with a GHz-bandwidth electro‑optic Mach–Zehnder modulator to produce and gate visible (532 nm) light on‑chip, delivering off‑chip green power exceeding 1 mW with an extinction ratio above 42 dB. The device exploits the quadratic dependence of second‑harmonic generation to square the pump modulation and achieve a nonlinear contrast enhancement that overcomes the usual EO‑modulator extinction–bandwidth tradeoff without active feedback. As a proof‑of‑concept the authors demonstrate nanosecond gating and coherent spin control of single NV centers (pulsed ODMR, Rabi oscillations, Ramsey) and time‑resolved lifetime measurements using time‑tagged photon counting.",
+      "Yanbei would care because the platform enables high‑speed, high‑contrast optical control and on‑chip visible light generation for solid‑state spin systems—capabilities that directly affect quantum‑limited readout, fast temporal gating of measurements, and the scaling of light–matter interfaces he studies; the nonlinear contrast enhancement in particular offers a way to suppress background photons and leakage without extra feedback, which is valuable for low‑noise quantum measurements and for experiments that require precise, time‑resolved control (e.g., entanglement distribution or tests of gravity‑induced decoherence/entanglement using spin systems).",
+      "Keywords/topics: integrated visible photonics, thin‑film lithium niobate (TFLN), periodically poled lithium niobate (PPLN), second‑harmonic generation (SHG), electro‑optic (EO) modulation, NV center coherent control, GHz gating, high extinction ratio, scalable quantum nodes; very recent — arXiv:2603.21751 (physics.optics), posted 23 Mar 2026."
     ],
     "relevance": 3,
-    "worth_reading_full": false,
-    "used_openai": false,
+    "worth_reading_full": true,
+    "used_openai": true,
     "used_pdf_text": true,
     "pdf_text_chars": 11146
   },
@@ -658,5 +658,101 @@
     "used_openai": true,
     "used_pdf_text": true,
     "pdf_text_chars": 17944
+  },
+  "gw::2603.22461": {
+    "summary_bullets": [
+      "Using a new inspiral-only post-Newtonian waveform (pyEFPE) that models both orbital eccentricity and spin-induced precession, the authors reanalyze all low-mass GWTC-4 events to jointly infer mass, spin, and eccentricity distributions for BNS and NSBH systems. They identify GW200105 as the only NSBH with significant residual eccentricity at 20 Hz, provide the first simultaneous constraints on spin precession and orbital eccentricity in NSBH mergers, and show that treating NSBHs as a single population yields results compatible with hierarchical-triple/dynamical formation while the quasi-circular subset is consistent with isolated evolution. The study combines coherent Bayesian parameter estimation with hierarchical inference and highlights eccentricity as an emerging discriminant of formation channels.",
+      "This paper should interest Yanbei because it advances waveform modeling and inference for inspiral-dominated low-mass binaries by jointly treating eccentricity and precession—areas that connect directly to his expertise in post-Newtonian expansions, waveform systematics, and gravitational-wave data-analysis. The population-level eccentricity constraints (and the identification of an eccentric NSBH) bear on astrophysical population modeling and formation-channel discrimination that Yanbei follows, and residual eccentricity/phasing systematics will matter for precision strong-field tests, waveform-calibration, and any study of gravitational-wave tails or nonlinear interactions in the inspiral regime.",
+      "Keywords/topics: gravitational waves; neutron-star–black-hole (NSBH) mergers; orbital eccentricity; spin precession; pyEFPE inspiral PN waveform; hierarchical Bayesian population inference; formation channels (hierarchical triples vs isolated evolution); waveform systematics. Published on arXiv 23 Mar 2026 (arXiv:2603.22461v1)."
+    ],
+    "relevance": 5,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 28197
+  },
+  "gw::2603.23437": {
+    "summary_bullets": [
+      "In this paper Ma and Szeftel prove global energy and Morawetz (integrated local energy decay) estimates for solutions of the tensorial Teukolsky equations on spacetimes whose metrics are perturbations (compatible with nonlinear applications) of subextremal Kerr for the full |a|<m range. They formulate the Teukolsky system as a coupled wave/transport hierarchy in a non‑integrable tensorial formalism, introduce a regular scalarization procedure to reduce tensorial waves to well‑behaved scalar systems, and use r‑foliation–adapted microlocal multipliers (extending scalar‑wave techniques) together with controls of linear coupling terms to derive the estimates. The result supplies the key linear energy‑Morawetz bounds needed to remove the slow‑rotation restriction in current Kerr stability proofs and is presented as an essential step toward a full nonlinear stability theorem for all subextremal Kerr metrics.",
+      "Why Yanbei would care: the paper delivers rigorous decay and integrated energy control for the radiative curvature variables (Teukolsky fields) that directly underpin late‑time tails, quasinormal‑mode decay rates, and nonlinear coupling effects important for ringdown and EMRI waveform modeling—areas tied to his prior work on black‑hole perturbation theory, waveform templates and gravitational‑wave tails. The introduced regular scalarization and microlocal multiplier machinery provide practical tools to convert tensorial perturbations into scalar estimates useful for extracting observables and for controlling nonlinear error terms in stability analyses, aligning with his interest in strong‑gravity tests and nonlinear black‑hole dynamics. By treating the full subextremal range rather than only slow rotation, the work strengthens the theoretical basis for using Kerr ringdown and late‑time signals to probe horizon physics and potential deviations from GR.",
+      "Keywords/topics: Teukolsky equations, energy and Morawetz (EMF) estimates, tensorial non‑integrable formalism, regular scalarization, r‑foliation microlocal multipliers, Teukolsky wave/transport system, Kerr stability conjecture, subextremal Kerr (|a|<m). Published: arXiv:2603.23437 (v1), 24 March 2026 — very recent."
+    ],
+    "relevance": 5,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 15823
+  },
+  "gw::2603.22419": {
+    "summary_bullets": [
+      "This paper introduces \"erythrohenosis\"—the coalescence of degenerate helium cores during red-giant collisions—as a novel class of transient that can produce high-energy (TeV–PeV) neutrinos, and builds a semi-analytic model anchored to MESA stellar models and 3D SPH simulations. It estimates a gravitational energy release ≈4.28×10^49 erg that heats the remnant to Tf≈5.3×10^8 K and, via small-scale dynamo action, can amplify magnetic fields to order B≈1.8×10^10 G, enabling hadronic acceleration in magnetized outflows and a neutrino flux that could explain part of IceCube’s diffuse signal and be detectable from a single event within ≲2 Mpc. The authors also quantify thermal and nuclear (MeV) neutrino channels (notably 18F decay) and argue that thermal neutrino losses are negligible on dynamical timescales, proposing a unique multimessenger signature of neutrinos + gravitational waves + possible electromagnetic emission from these collisions.",
+      "Why Yanbei would care: the paper connects dynamical, nonlinear merger physics to observable multimessenger signals and provides semi-quantitative estimates (energetics, timescales, magnetic saturation, particle acceleration) that can be used to predict transient gravitational-wave burst properties and neutrino counterparts; this matches Yanbei’s interests in waveform modeling of transients, strong-field observables, multimessenger probes, and the astrophysical populations that set event rates. Moreover, the work’s focus on rapid nonlinear evolution, magnetic-field amplification, and energy partitioning speaks to his interest in nonlinear gravitational-wave interactions and how astrophysical microphysics maps onto detectable signatures and tests of fundamental physics.",
+      "Keywords/topics: red-giant core collisions, helium detonation (erythrohenosis), TeV–PeV neutrinos, MESA + 3D SPH, magnetic dynamo / B-field saturation, hadronic particle acceleration, nuclear (18F) neutrinos, multimessenger (neutrinos + GW + EM). Published on arXiv in late March 2026 (arXiv:2603.22419; PDF dated March 25, 2026) — very recent."
+    ],
+    "relevance": 3,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 25467
+  },
+  "gw::2603.22516": {
+    "summary_bullets": [
+      "They compute the present-day and cosmological volumetric rate of primordial‑black‑hole (PBH) quantum tunneling to white holes, explicitly including competition between Hawking evaporation and tunneling, cosmological depletion, realistic mass‑dependent PBH‑abundance limits, extended (lognormal) mass functions, and an alternative memory‑burden sequential evolution. A systematic scan of the (M, α) plane shows the burst rate is sharply peaked along a narrow ridge where the effective PBH lifetime ≃ t0, and — for canonical Planck‑star α ∼ 10^−2–1 — FRB‑level volumetric rates arise only in two highly restricted regions (a low‑mass window near the evaporation boundary and a narrow sequential window under the memory‑burden hypothesis). Including observational abundance limits, redshift evolution, multiwavelength (radio/gamma/cosmic‑ray) detectability and FRB repetition/host constraints, they conclude PBH tunneling cannot generically explain the FRB population and at best provides a finely tuned subdominant contribution.",
+      "You would care because the paper ties a concrete quantum‑gravity proposal (Planck‑star black→white hole tunneling, parametrized by α) to observable, multiwavelength and population‑level signatures and constraints, intersecting your interests in black‑hole phenomenology, Hawking evaporation, PBH dark‑matter scenarios, and strong‑gravity tests tied to observables. The detailed (M, α) rate maps, treatment of depletion and extended mass functions, and discussion of possible gravitational‑wave counterparts/memory‑related signatures give ready inputs for constructing search strategies, estimating backgrounds for exotic‑object GW/EM signals, or folding into population‑level tests of GR and horizon modifications.",
+      "Keywords/topics: primordial black holes (PBHs), Planck‑star / black→white‑hole tunneling, tunneling lifetime parameter α, Hawking evaporation, extended mass functions, cosmological depletion, memory‑burden scenario, FRBs, radio/gamma/cosmic‑ray detectability, multiwavelength constraints, gravitational‑wave signatures. Posted to arXiv:2603.22516 (gr‑qc) on 2026‑03‑23 — very recent."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 16479
+  },
+  "qm::2603.22798": {
+    "summary_bullets": [
+      "The paper introduces Encoded Quantum Signal Processing (EQSP), a framework that unifies quantum error detection and quantum signal processing to map multi-qubit metrology into an effective single-qubit problem where syndrome measurements implement nonlinear signal transformations. Using repetition codes and syndrome-conditioned measurements (without active recovery) the authors prove one can restore Heisenberg-limited scaling under realistic noise, show that product-state sensing with only syndrome post-processing is fundamentally SQL-limited, and present four protocols (entanglement-based, sequential amplification, concatenated, and an adaptive GHZ binary search) that achieve Heisenberg precision with exponential error suppression in code distance. They further analyze spatially inhomogeneous fields via Bayesian marginalization, give quantum Fisher information bounds and device-quality conditions for preserved scaling, and validate finite-size behavior and practical thresholds with numerical simulations.",
+      "This is directly relevant to Yanbei's interests because EQSP provides a concrete, noise-robust route to preserve entanglement-enhanced (Heisenberg) sensitivity in realistic detectors—connecting to his work on quantum measurement theory, quantum noise in interferometers, QND/back-action evasion, and optomechanics—and it frames error-detection/syndrome readout as an active signal-processing primitive that could be adapted to interferometric or optomechanical sensor architectures. EQSP also sits at the intersection of quantum error correction, quantum signal processing, and metrology, matching Yanbei's current interest in quantum learning and QEC methods for preserving quantum resources, and it could enable more robust tabletop tests for gravity-induced decoherence or gravity-mediated entanglement by extending Heisenberg scaling into noisy regimes.",
+      "Keywords/topics: Encoded Quantum Signal Processing (EQSP), Heisenberg-limited metrology, error-detection/repetition codes, syndrome-based inference, quantum signal processing, Bayesian marginalization for inhomogeneous fields, concatenated protocols, quantum Fisher information, noisy metrology, optomechanics applications. Published on arXiv as 2603.22798 (posted 24–25 Mar 2026; ~1.5 days old)."
+    ],
+    "relevance": 5,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 19897
+  },
+  "qm::2603.22734": {
+    "summary_bullets": [
+      "The paper develops an interference-based framework that maps nonlinear collective-spin dynamics onto phase accumulation and self-interference in phase space, showing that one-axis twisting (OAT) yields GHZ states while two-axis twisting (TAT) produces multi-component GHZ superpositions relevant for multiparameter sensing.",
+      "Using this picture the authors compute quantum Fisher information under realistic Markovian noise (local and collective emission, pumping, and dephasing), characterize scaling with spin number N and optimal interrogation times, and identify how different noise channels—especially dephasing—severely limit metrological gain.",
+      "They analyze Hamiltonian control via linear drives (Jx) and nonlinear interactions (Jx^2/OAT), finding that control can enhance single-parameter sensitivity in noise-dependent regimes but that multiparameter estimation faces intrinsic, control-resistant bounds."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 23923
+  },
+  "qm::2603.22710": {
+    "summary_bullets": [
+      "This paper derives Heisenberg–Langevin dynamics for a \"giant\" cavity in waveguide QED coupled at two distant points, producing a linear continuous‑time model that explicitly includes both state and input propagation delays and preserves the nonlocal coupling. Because these delays induce noncommutativity among system operators at different times (so standard quantum filters fail), the authors design an optimal filter that computes delayed‑state covariance matrices and implements estimation via an interval‑wise backward recursion to produce a minimum‑mean‑square estimator under continuous homodyne measurement. Numerical simulations (tracking Wigner functions of coherent and cat states) validate that the filter can track the non‑Markovian cavity dynamics and delayed input–output structure.",
+      "Why Yanbei would care: the work directly addresses quantum measurement and optimal estimation under non‑Markovian, delay‑induced back‑action — areas that connect to Yanbei Chen's expertise in quantum measurement theory, quantum noise in interferometers, back‑action evasion and optomechanics. The interval‑wise covariance method and explicit handling of propagation delays provide practical tools for state estimation and feedback control in extended or distributed quantum systems (e.g. waveguide‑mediated or spatially extended optomechanical setups) that can impact macroscopic quantum state preparation, noise suppression, and experimental designs probing decoherence or subtle signatures such as gravity‑induced effects. Even if the paper is not about quantum gravity per se, its techniques for treating nonlocal couplings, delayed self‑feedback, and measurement back‑action are immediately relevant for improving observables and control in tabletop tests of macroscopic quantum mechanics.",
+      "Keywords/topics: quantum filtering; non‑Markovian quantum systems; waveguide QED; giant cavity; delayed quantum Langevin equation; continuous homodyne measurement; linear Gaussian quantum systems; state estimation; interval‑wise backward recursion; Wigner functions, cat states. Published on arXiv 24 Mar 2026 (very recent)."
+    ],
+    "relevance": 4,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 24624
+  },
+  "qm::2603.22416": {
+    "summary_bullets": [
+      "The paper defines \"Dicke materials\" as magnetic solids in which a fast‑dispersing magnon branch plays the role of the bosonic mode and weakly coupled spins act as the two‑level systems, yielding an effective Dicke/Hopfield Hamiltonian that can undergo a normal–superradiant phase transition. The authors diagonalize the model (Holstein‑Primakoff / Bogoliubov approaches), identify the optimally squeezed quadratures in both normal and superradiant phases, and show that the ground state near criticality exhibits strong (perfect at criticality) bosonic/spin squeezing. Crucially, they analyze perturbations expected in solids—finite temperature, dilute disorder, and local Ising interactions (and the cavity A^2 term)—and demonstrate that squeezing survives for experimentally realistic parameter ranges, quantifying regimes promising for observation.",
+      "This matters to you because it proposes a solid‑state, equilibrium source of macroscopic squeezing and entanglement that is directly relevant to quantum metrology and to experimental tests of macroscopic quantum mechanics—areas where your work on quantum noise in interferometers, quantum measurement theory, back‑action evasion, and optomechanics provides both the conceptual tools and possible coupling strategies. The paper's emphasis on realistic imperfections and on cavity A^2 physics makes it immediately useful when assessing whether Dicke‑material based squeezers can be integrated with cavity/optomechanical sensors or used in tabletop probes of decoherence or gravity‑induced effects.",
+      "Keywords/topics: Dicke materials, superradiant phase transition, ground‑state spin/bosonic squeezing, Holstein‑Primakoff / spin‑wave mapping, Hopfield/Dicke model, A^2 term, robustness to temperature/disorder/local interactions, ErFeO3 orthoferrite example, metrological entanglement. Very recent: arXiv v1 23 Mar 2026 (PDF header dated 25 Mar 2026)."
+    ],
+    "relevance": 5,
+    "worth_reading_full": true,
+    "used_openai": true,
+    "used_pdf_text": true,
+    "pdf_text_chars": 27550
   }
 }

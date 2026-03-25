@@ -1,0 +1,21 @@
+{
+  "id": "2603.23437",
+  "title": "Energy-Morawetz estimates for Teukolsky equations in perturbations of Kerr",
+  "authors": [
+    "Siyuan Ma",
+    "J'er'emie Szeftel"
+  ],
+  "category": "math.AP",
+  "published": "2026-03-24T17:11:27+00:00",
+  "summary_bullets": [
+    "In this paper Ma and Szeftel prove global energy and Morawetz (integrated local energy decay) estimates for solutions of the tensorial Teukolsky equations on spacetimes whose metrics are perturbations (compatible with nonlinear applications) of subextremal Kerr for the full |a|<m range. They formulate the Teukolsky system as a coupled wave/transport hierarchy in a non‑integrable tensorial formalism, introduce a regular scalarization procedure to reduce tensorial waves to well‑behaved scalar systems, and use r‑foliation–adapted microlocal multipliers (extending scalar‑wave techniques) together with controls of linear coupling terms to derive the estimates. The result supplies the key linear energy‑Morawetz bounds needed to remove the slow‑rotation restriction in current Kerr stability proofs and is presented as an essential step toward a full nonlinear stability theorem for all subextremal Kerr metrics.",
+    "Why Yanbei would care: the paper delivers rigorous decay and integrated energy control for the radiative curvature variables (Teukolsky fields) that directly underpin late‑time tails, quasinormal‑mode decay rates, and nonlinear coupling effects important for ringdown and EMRI waveform modeling—areas tied to his prior work on black‑hole perturbation theory, waveform templates and gravitational‑wave tails. The introduced regular scalarization and microlocal multiplier machinery provide practical tools to convert tensorial perturbations into scalar estimates useful for extracting observables and for controlling nonlinear error terms in stability analyses, aligning with his interest in strong‑gravity tests and nonlinear black‑hole dynamics. By treating the full subextremal range rather than only slow rotation, the work strengthens the theoretical basis for using Kerr ringdown and late‑time signals to probe horizon physics and potential deviations from GR.",
+    "Keywords/topics: Teukolsky equations, energy and Morawetz (EMF) estimates, tensorial non‑integrable formalism, regular scalarization, r‑foliation microlocal multipliers, Teukolsky wave/transport system, Kerr stability conjecture, subextremal Kerr (|a|<m). Published: arXiv:2603.23437 (v1), 24 March 2026 — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 15823,
+  "featured": true
+}

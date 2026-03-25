@@ -1,0 +1,23 @@
+{
+  "id": "2603.22734",
+  "title": "Interference-induced state engineering and Hamiltonian control for noisy collective-spin metrology",
+  "authors": [
+    "Le Bin Ho",
+    "Vu Xuan Tung Duong",
+    "Nozomu Takahashi",
+    "Hiroaki Matsueda"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-24T02:58:35+00:00",
+  "summary_bullets": [
+    "The paper develops an interference-based framework that maps nonlinear collective-spin dynamics onto phase accumulation and self-interference in phase space, showing that one-axis twisting (OAT) yields GHZ states while two-axis twisting (TAT) produces multi-component GHZ superpositions relevant for multiparameter sensing.",
+    "Using this picture the authors compute quantum Fisher information under realistic Markovian noise (local and collective emission, pumping, and dephasing), characterize scaling with spin number N and optimal interrogation times, and identify how different noise channels—especially dephasing—severely limit metrological gain.",
+    "They analyze Hamiltonian control via linear drives (Jx) and nonlinear interactions (Jx^2/OAT), finding that control can enhance single-parameter sensitivity in noise-dependent regimes but that multiparameter estimation faces intrinsic, control-resistant bounds."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 23923,
+  "featured": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2603.22798",
+  "title": "Encoded Quantum Signal Processing for Heisenberg-Limited Metrology",
+  "authors": [
+    "Carlos Ortiz Marrero",
+    "Rui Jie Tang",
+    "Nathan Wiebe"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-24T04:43:10+00:00",
+  "summary_bullets": [
+    "The paper introduces Encoded Quantum Signal Processing (EQSP), a framework that unifies quantum error detection and quantum signal processing to map multi-qubit metrology into an effective single-qubit problem where syndrome measurements implement nonlinear signal transformations. Using repetition codes and syndrome-conditioned measurements (without active recovery) the authors prove one can restore Heisenberg-limited scaling under realistic noise, show that product-state sensing with only syndrome post-processing is fundamentally SQL-limited, and present four protocols (entanglement-based, sequential amplification, concatenated, and an adaptive GHZ binary search) that achieve Heisenberg precision with exponential error suppression in code distance. They further analyze spatially inhomogeneous fields via Bayesian marginalization, give quantum Fisher information bounds and device-quality conditions for preserved scaling, and validate finite-size behavior and practical thresholds with numerical simulations.",
+    "This is directly relevant to Yanbei's interests because EQSP provides a concrete, noise-robust route to preserve entanglement-enhanced (Heisenberg) sensitivity in realistic detectors—connecting to his work on quantum measurement theory, quantum noise in interferometers, QND/back-action evasion, and optomechanics—and it frames error-detection/syndrome readout as an active signal-processing primitive that could be adapted to interferometric or optomechanical sensor architectures. EQSP also sits at the intersection of quantum error correction, quantum signal processing, and metrology, matching Yanbei's current interest in quantum learning and QEC methods for preserving quantum resources, and it could enable more robust tabletop tests for gravity-induced decoherence or gravity-mediated entanglement by extending Heisenberg scaling into noisy regimes.",
+    "Keywords/topics: Encoded Quantum Signal Processing (EQSP), Heisenberg-limited metrology, error-detection/repetition codes, syndrome-based inference, quantum signal processing, Bayesian marginalization for inhomogeneous fields, concatenated protocols, quantum Fisher information, noisy metrology, optomechanics applications. Published on arXiv as 2603.22798 (posted 24–25 Mar 2026; ~1.5 days old)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 19897,
+  "featured": true
+}

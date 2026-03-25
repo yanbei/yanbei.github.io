@@ -1,0 +1,30 @@
+{
+  "id": "2603.22416",
+  "title": "Dicke materials as a resource for quantum squeezing",
+  "authors": [
+    "Vaibhav Sharma",
+    "Shung-An Koh",
+    "Jonathan Stepp",
+    "Dasom Kim",
+    "Takumu Obata",
+    "Yuki Saito",
+    "Motoaki Bamba",
+    "Han Pu",
+    "Hanyu Zhu",
+    "Junichiro Kono",
+    "Kaden R. A. Hazzard"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-23T18:00:19+00:00",
+  "summary_bullets": [
+    "The paper defines \"Dicke materials\" as magnetic solids in which a fast‑dispersing magnon branch plays the role of the bosonic mode and weakly coupled spins act as the two‑level systems, yielding an effective Dicke/Hopfield Hamiltonian that can undergo a normal–superradiant phase transition. The authors diagonalize the model (Holstein‑Primakoff / Bogoliubov approaches), identify the optimally squeezed quadratures in both normal and superradiant phases, and show that the ground state near criticality exhibits strong (perfect at criticality) bosonic/spin squeezing. Crucially, they analyze perturbations expected in solids—finite temperature, dilute disorder, and local Ising interactions (and the cavity A^2 term)—and demonstrate that squeezing survives for experimentally realistic parameter ranges, quantifying regimes promising for observation.",
+    "This matters to you because it proposes a solid‑state, equilibrium source of macroscopic squeezing and entanglement that is directly relevant to quantum metrology and to experimental tests of macroscopic quantum mechanics—areas where your work on quantum noise in interferometers, quantum measurement theory, back‑action evasion, and optomechanics provides both the conceptual tools and possible coupling strategies. The paper's emphasis on realistic imperfections and on cavity A^2 physics makes it immediately useful when assessing whether Dicke‑material based squeezers can be integrated with cavity/optomechanical sensors or used in tabletop probes of decoherence or gravity‑induced effects.",
+    "Keywords/topics: Dicke materials, superradiant phase transition, ground‑state spin/bosonic squeezing, Holstein‑Primakoff / spin‑wave mapping, Hopfield/Dicke model, A^2 term, robustness to temperature/disorder/local interactions, ErFeO3 orthoferrite example, metrological entanglement. Very recent: arXiv v1 23 Mar 2026 (PDF header dated 25 Mar 2026)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 27550,
+  "featured": true
+}

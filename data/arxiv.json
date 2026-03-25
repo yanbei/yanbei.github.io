@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T08:48:52-07:00",
+  "updated": "2026-03-25T08:48:36-07:00",
   "openai_enabled": true,
   "display": {
     "max_authors": 3,
@@ -59,7 +59,7 @@
             "Teukolsky"
           ],
           "published": "2026-03-20T12:52:12+00:00",
-          "age_days": 4.1,
+          "age_days": 5.1,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -101,7 +101,7 @@
             "Teukolsky"
           ],
           "published": "2026-03-19T19:13:46+00:00",
-          "age_days": 4.9,
+          "age_days": 5.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -118,40 +118,41 @@
           "worth_reading_full": true
         },
         {
-          "id": "2603.18075",
-          "title": "Fluxes of Generic Extreme-Mass-Ratio Inspirals with a Spinning Secondary",
+          "id": "2603.22461",
+          "title": "Impact of eccentricity on the population properties of neutron star - black hole mergers",
           "authors": [
-            "Qiuxin Cui",
-            "Wen-Biao Han"
+            "Gonzalo Morras",
+            "Geraint Pratten",
+            "Patricia Schmidt"
           ],
           "authors_short": [
-            "Qiuxin Cui",
-            "Wen-Biao Han"
+            "Gonzalo Morras",
+            "Geraint Pratten",
+            "Patricia Schmidt"
           ],
           "category": "astro-ph.HE",
-          "abstract": "Extreme mass-ratio inspirals (EMRIs), comprising a stellar-mass compact object (CO) orbiting a supermassive black hole (BH), are key targets for future space-based gravitational-wave (GW) observatories. Incorporating the spin of the secondary body into waveform models not only enhances measurement precision but also offers insight into the spin distribution of stellar-mass objects. In this work, we construct the flux and waveform for an EMRI with a spinning secondary in a Kerr background under the linear-spin approximation. Using the radiative prescription (half-retarded minus half-advanced field), we derive orbit-averaged evolution equations for the fundamental constants of motion, including the energy, angular momentum, Carter-like constant, and the parallel spin component. This framework provides a tractable route to generating waveforms that incorporate the secondary spin, with the potential for further simplification in future work.",
-          "pdf_url": "https://arxiv.org/pdf/2603.18075.pdf",
+          "abstract": "We revisit the population properties of neutron star-black hole (NSBH) mergers using low-mass compact binary coalescences reported through GWTC-4. Employing pyEFPE, an inspiral-only waveform model that captures both orbital eccentricity and spin-induced precession, we reanalyse all binary neutron star (BNS) and NSBH events observed via gravitational waves. The BNS systems GW170817 and GW190425 are fully consistent with quasi-circular inspirals, while GW200105 stands out among the NSBH binaries as the only system exhibiting significant residual eccentricity at 20 Hz, strengthening evidence for dynamically driven formation pathways. The remaining NSBH events show no measurable eccentricity and appear broadly compatible with low-spin binaries formed through isolated stellar evolution. Using hierarchical Bayesian inference, we obtain the first joint constraints on the mass, spin, and eccentricity distributions of NSBH binaries. Our results also yield the first simultaneous constraints on spin precession and orbital eccentricity in NSBH mergers, while the inferred merger rates remain fully consistent with previous LVK measurements. Treating all NSBH systems as a single population yields results compatible with formation in hierarchical triples, whereas the quasi-circular population remains broadly consistent with isolated evolution. Our results highlight the emerging role of eccentricity as a key discriminator between formation channels. As the number of NSBH detections grows, joint constraints on masses, spins, and orbital eccentricity will enable increasingly sharp tests of dynamical versus isolated binary evolution, establishing NSBH systems as powerful probes of compact-object astrophysics.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22461.pdf",
           "matches": [
+            "gravitational waves",
             "inspiral",
-            "Kerr",
-            "EMRI"
+            "merger",
+            "binary neutron star"
           ],
-          "published": "2026-03-18T06:06:30+00:00",
-          "age_days": 6.4,
-          "previous_work_hits": [
-            "extreme-mass-ratio inspirals"
-          ],
+          "published": "2026-03-23T18:28:16+00:00",
+          "age_days": 1.9,
+          "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 22541,
+          "pdf_text_chars": 28197,
           "featured": true,
           "relevance": 5,
           "base_score": 14,
           "summary_bullets": [
-            "This paper constructs fluxes and leading-order waveforms for generic EMRIs with a spinning secondary in a Kerr background under the linear‑spin approximation, using the radiative (half‑retarded minus half‑advanced) prescription. They derive orbit‑averaged evolution equations for the constants of motion — energy, axial angular momentum, a Carter‑like constant, and the parallel spin component — by computing the Teukolsky source from an MPD worldline and performing a 3‑dimensional Fourier decomposition that includes the spin‑precession frequency. The novelty is a practical pipeline (numerical computation of spin‑weighted spheroidal harmonics and homogeneous radial functions via the Jiang‑Han Rust implementation, construction of asymptotic amplitudes Z^∞/H and fluxes) that yields flux data for generic spin‑aligned MPD orbits and provides a tractable route toward incorporating secondary spin into adiabatic/first‑post‑adiabatic EMRI waveform models.",
-            "This is directly relevant to your EMRI and black‑hole perturbation interests because it connects MPD dynamics for a spinning secondary to Teukolsky‑based flux calculations, delivering the dissipative spin contributions needed for more accurate templates and parameter estimation. Including linear secondary spin is an essential step for meeting Lindblom‑level accuracy at 1PA and for measuring secondary‑spin signatures that can distinguish astrophysical formation channels or compact‑object types — topics you have worked on (EMRIs, self‑force/perturbation theory, waveform templates and strong‑gravity observables). The methods (orbit‑averaging, radiative field, explicit Fourier expansion including precession) produce codeable ingredients that can be folded into template banks and tests of GR for space‑based detectors.",
-            "Keywords/topics: EMRI, Kerr spacetime, Mathisson‑Papapetrou‑Dixon (MPD) equations, spinning secondary (linear‑spin/dipole), Teukolsky formalism, spin‑weighted spheroidal harmonics, radiative prescription, orbit‑averaged fluxes, Carter constant evolution, waveform modeling for LISA. arXiv:2603.18075 (v1 posted 18 Mar 2026; PDF dated 20 Mar 2026) — very recent."
+            "Using a new inspiral-only post-Newtonian waveform (pyEFPE) that models both orbital eccentricity and spin-induced precession, the authors reanalyze all low-mass GWTC-4 events to jointly infer mass, spin, and eccentricity distributions for BNS and NSBH systems. They identify GW200105 as the only NSBH with significant residual eccentricity at 20 Hz, provide the first simultaneous constraints on spin precession and orbital eccentricity in NSBH mergers, and show that treating NSBHs as a single population yields results compatible with hierarchical-triple/dynamical formation while the quasi-circular subset is consistent with isolated evolution. The study combines coherent Bayesian parameter estimation with hierarchical inference and highlights eccentricity as an emerging discriminant of formation channels.",
+            "This paper should interest Yanbei because it advances waveform modeling and inference for inspiral-dominated low-mass binaries by jointly treating eccentricity and precession—areas that connect directly to his expertise in post-Newtonian expansions, waveform systematics, and gravitational-wave data-analysis. The population-level eccentricity constraints (and the identification of an eccentric NSBH) bear on astrophysical population modeling and formation-channel discrimination that Yanbei follows, and residual eccentricity/phasing systematics will matter for precision strong-field tests, waveform-calibration, and any study of gravitational-wave tails or nonlinear interactions in the inspiral regime.",
+            "Keywords/topics: gravitational waves; neutron-star–black-hole (NSBH) mergers; orbital eccentricity; spin precession; pyEFPE inspiral PN waveform; hierarchical Bayesian population inference; formation channels (hierarchical triples vs isolated evolution); waveform systematics. Published on arXiv 23 Mar 2026 (arXiv:2603.22461v1)."
           ],
           "worth_reading_full": true
         },
@@ -174,7 +175,7 @@
             "ringdown"
           ],
           "published": "2026-03-21T01:44:09+00:00",
-          "age_days": 3.6,
+          "age_days": 4.6,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -220,7 +221,7 @@
             "binary black hole"
           ],
           "published": "2026-03-20T19:00:00+00:00",
-          "age_days": 3.9,
+          "age_days": 4.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "cosmic evolution"
@@ -258,7 +259,7 @@
             "Teukolsky"
           ],
           "published": "2026-03-20T18:00:08+00:00",
-          "age_days": 3.9,
+          "age_days": 4.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -2079,7 +2080,7 @@
             "Kerr"
           ],
           "published": "2026-03-19T15:22:28+00:00",
-          "age_days": 5.0,
+          "age_days": 6.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -2119,7 +2120,7 @@
             "ringdown"
           ],
           "published": "2026-03-23T17:48:31+00:00",
-          "age_days": 0.9,
+          "age_days": 1.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -2138,36 +2139,73 @@
           "worth_reading_full": true
         },
         {
-          "id": "2603.21258",
-          "title": "Quasi-local thermodynamics of Kerr-Newman black holes: Pressure, volume, and shear work",
+          "id": "2603.23437",
+          "title": "Energy-Morawetz estimates for Teukolsky equations in perturbations of Kerr",
           "authors": [
-            "Thiago Campos"
+            "Siyuan Ma",
+            "J'er'emie Szeftel"
           ],
           "authors_short": [
-            "Thiago Campos"
+            "Siyuan Ma",
+            "J'er'emie Szeftel"
           ],
-          "category": "gr-qc",
-          "abstract": "While the quasi-local thermodynamics of spherically symmetric black holes is well described by pressure and volume, extending this framework to rotating spacetimes poses a significant challenge. Rotation induces an oblate deformation of the horizon, breaking the direct functional dependence between geometric volume and area. In this work, we resolve this difficulty by establishing a quasi-local thermodynamic framework for Kerr-Newman black holes. We demonstrate that accommodating this kinematic deformation requires extending the thermodynamic phase space to include a geometric eccentricity parameter $Y$ and its conjugate, a thermodynamic shear tension $X$. Consequently, the rotational contribution is incorporated into the first law with a shear work term $X dY$. We derive the generalized first laws and Smarr formulas (Euler relations) for both the internal energy and enthalpy representations, showing that these thermodynamic potentials can be obtained through Legendre transformations that isolate the quasi-local energy from the rotational energy. Thus, this framework provides a novel perspective on the thermodynamics of rotating black holes, integrating the geometric deformation of the horizon into a quasi-local description.",
-          "pdf_url": "https://arxiv.org/pdf/2603.21258.pdf",
+          "category": "math.AP",
+          "abstract": "In this paper, we prove energy and Morawetz estimates for solutions to Teukolsky equations in spacetimes with metrics that are perturbations, compatible with nonlinear applications, of Kerr metrics in the full subextremal range. The Teukolsky equations are written in tensorial form using the non-integrable formalism in \\cite{GKS22}, and we follow the approach in \\cite{Ma} of relying on a Teukolsky wave/transport system. The estimates are proved by extending the ideas from our earlier result \\cite{MaSz24} on the corresponding problem for the scalar wave, notably the use of $r$-foliation-adapted microlocal multipliers for the wave part, and by incorporating techniques from \\cite{Ma} to control the linear coupling terms between the components of the Teukolsky wave/transport system. Additionally, in order to adapt the methodology of \\cite{MaSz24} to tensorial waves, we introduce a well-suited regular scalarization procedure which is of independent interest. This result, alongside our companion paper \\cite{MaSz24}, is an essential step towards extending the current proof of Kerr stability in \\cite{GCM1} \\cite{GCM2} \\cite{KS:Kerr} \\cite{GKS22} \\cite{Shen}, valid in the slowly rotating case, to a complete resolution of the Kerr stability conjecture, i.e., the statement that the Kerr family of spacetimes is nonlinearly stable for all subextremal angular momenta.",
+          "pdf_url": "https://arxiv.org/pdf/2603.23437.pdf",
           "matches": [
-            "Kerr"
+            "Kerr",
+            "Teukolsky"
           ],
-          "published": "2026-03-22T14:29:16+00:00",
-          "age_days": 2.1,
+          "published": "2026-03-24T17:11:27+00:00",
+          "age_days": 0.9,
           "previous_work_hits": [],
-          "current_interest_hits": [
-            "black holes"
-          ],
+          "current_interest_hits": [],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 17471,
+          "pdf_text_chars": 15823,
           "featured": true,
-          "relevance": 4,
+          "relevance": 5,
           "base_score": 10,
           "summary_bullets": [
-            "This paper constructs a quasi-local thermodynamic framework for Kerr–Newman black holes by introducing a geometric eccentricity parameter Y and its conjugate thermodynamic shear tension X, so that the first law acquires an extra shear work term X dY. It derives generalized first laws and Smarr (Euler) relations in both internal-energy and enthalpy representations, shows the need for an “off-shell” treatment in the internal-energy picture (because geometric volume depends on entropy and Y), and produces closed-form state functions (T, X, V) with explicit Reissner–Nordström and Kerr limits. The novelty is treating horizon oblateness as a genuine thermodynamic degree of freedom (shear work), giving compact enthalpy expressions (e.g. X = −Y/(1+Y^2) H) and isolating rotational energy via Legendre transforms to incorporate rotation into quasi-local black-hole chemistry.",
-            "Yanbei would care because this work connects horizon geometry and local energy bookkeeping—topics relevant to his interests in black-hole perturbation theory, nonlinear horizon dynamics, and strong-gravity observables; the shear-tension X and eccentricity Y provide a formal way to parametrize horizon deformations that could couple to perturbations, quasinormal-mode dynamics, and energy/angular-momentum fluxes, thus affecting interpretations of near-horizon physics in GW generation and tests of GR. The paper’s clear enthalpy/internal-energy separation and off-shell→on-shell prescription could also be useful when relating quasi-local horizon quantities to asymptotic observables (important for EMRI and waveform modeling) or when exploring nontrivial matter stresses near the horizon in alternative-gravity or dark-matter scenarios.",
-            "Keywords/topics: quasi-local thermodynamics, Kerr–Newman, black-hole chemistry, shear work (X dY), geometric eccentricity Y, Smarr relations, enthalpy vs internal energy, horizon deformation, Reissner–Nordström/Kerr limits; arXiv:2603.21258 — submitted 22 Mar 2026 (very recent)."
+            "In this paper Ma and Szeftel prove global energy and Morawetz (integrated local energy decay) estimates for solutions of the tensorial Teukolsky equations on spacetimes whose metrics are perturbations (compatible with nonlinear applications) of subextremal Kerr for the full |a|<m range. They formulate the Teukolsky system as a coupled wave/transport hierarchy in a non‑integrable tensorial formalism, introduce a regular scalarization procedure to reduce tensorial waves to well‑behaved scalar systems, and use r‑foliation–adapted microlocal multipliers (extending scalar‑wave techniques) together with controls of linear coupling terms to derive the estimates. The result supplies the key linear energy‑Morawetz bounds needed to remove the slow‑rotation restriction in current Kerr stability proofs and is presented as an essential step toward a full nonlinear stability theorem for all subextremal Kerr metrics.",
+            "Why Yanbei would care: the paper delivers rigorous decay and integrated energy control for the radiative curvature variables (Teukolsky fields) that directly underpin late‑time tails, quasinormal‑mode decay rates, and nonlinear coupling effects important for ringdown and EMRI waveform modeling—areas tied to his prior work on black‑hole perturbation theory, waveform templates and gravitational‑wave tails. The introduced regular scalarization and microlocal multiplier machinery provide practical tools to convert tensorial perturbations into scalar estimates useful for extracting observables and for controlling nonlinear error terms in stability analyses, aligning with his interest in strong‑gravity tests and nonlinear black‑hole dynamics. By treating the full subextremal range rather than only slow rotation, the work strengthens the theoretical basis for using Kerr ringdown and late‑time signals to probe horizon physics and potential deviations from GR.",
+            "Keywords/topics: Teukolsky equations, energy and Morawetz (EMF) estimates, tensorial non‑integrable formalism, regular scalarization, r‑foliation microlocal multipliers, Teukolsky wave/transport system, Kerr stability conjecture, subextremal Kerr (|a|<m). Published: arXiv:2603.23437 (v1), 24 March 2026 — very recent."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.22419",
+          "title": "The Crimson Kiss of Two Giants: Helium Detonation and High-Energy Neutrino Production",
+          "authors": [
+            "Cecilia Romero Rodríguez",
+            "Pau Amaro Seoane"
+          ],
+          "authors_short": [
+            "Cecilia Romero Rodríguez",
+            "Pau Amaro Seoane"
+          ],
+          "category": "astro-ph.HE",
+          "abstract": "The coalescence of degenerate helium cores during red giant collisions - a process we term erythrohenosis - introduces a novel class of transient astrophysical sources of high-energy neutrinos. Using stellar models generated with MESA and SPH simulations of the final inspiral phase, we develop a semi-analytical model to estimate the amount of hydrogen mixed into the cores, the energy release ($\\approx 4.28 \\times 10^{49}$ erg) that heats the remnant to $T_f \\approx 5.3 \\times 10^8$ K, the magnetic field amplification ($B \\approx 1.77 \\times 10^{10}$ G), and the resulting neutrino flux. We find that the predicted TeV--PeV neutrino signal can account for the diffuse neutrino flux observed by IceCube and demonstrate that a single merger event within $\\sim 2$ Mpc would be detectable in this energy regime. Furthermore, we discuss the probability of a magnetized helium flash and assess the subsequent activation of the CNO cycle in the remnant core due to hydrogen mixing. In particular, neutrinos from the decay of $^{18}$F offer a direct observational test of the detonation. The simultaneous emission of high-energy hadronic neutrinos, gravitational waves, and -- if the optical depth permits -- an electromagnetic signal would constitute a unique multimessenger signature of red giant core collisions, positioning erythrohenosis events as exotic yet potentially observable phenomena in dense stellar systems.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22419.pdf",
+          "matches": [
+            "gravitational waves",
+            "inspiral",
+            "merger"
+          ],
+          "published": "2026-03-23T18:00:34+00:00",
+          "age_days": 1.9,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 25467,
+          "featured": true,
+          "relevance": 3,
+          "base_score": 10,
+          "summary_bullets": [
+            "This paper introduces \"erythrohenosis\"—the coalescence of degenerate helium cores during red-giant collisions—as a novel class of transient that can produce high-energy (TeV–PeV) neutrinos, and builds a semi-analytic model anchored to MESA stellar models and 3D SPH simulations. It estimates a gravitational energy release ≈4.28×10^49 erg that heats the remnant to Tf≈5.3×10^8 K and, via small-scale dynamo action, can amplify magnetic fields to order B≈1.8×10^10 G, enabling hadronic acceleration in magnetized outflows and a neutrino flux that could explain part of IceCube’s diffuse signal and be detectable from a single event within ≲2 Mpc. The authors also quantify thermal and nuclear (MeV) neutrino channels (notably 18F decay) and argue that thermal neutrino losses are negligible on dynamical timescales, proposing a unique multimessenger signature of neutrinos + gravitational waves + possible electromagnetic emission from these collisions.",
+            "Why Yanbei would care: the paper connects dynamical, nonlinear merger physics to observable multimessenger signals and provides semi-quantitative estimates (energetics, timescales, magnetic saturation, particle acceleration) that can be used to predict transient gravitational-wave burst properties and neutrino counterparts; this matches Yanbei’s interests in waveform modeling of transients, strong-field observables, multimessenger probes, and the astrophysical populations that set event rates. Moreover, the work’s focus on rapid nonlinear evolution, magnetic-field amplification, and energy partitioning speaks to his interest in nonlinear gravitational-wave interactions and how astrophysical microphysics maps onto detectable signatures and tests of fundamental physics.",
+            "Keywords/topics: red-giant core collisions, helium detonation (erythrohenosis), TeV–PeV neutrinos, MESA + 3D SPH, magnetic dynamo / B-field saturation, hadronic particle acceleration, nuclear (18F) neutrinos, multimessenger (neutrinos + GW + EM). Published on arXiv in late March 2026 (arXiv:2603.22419; PDF dated March 25, 2026) — very recent."
           ],
           "worth_reading_full": true
         },
@@ -2194,7 +2232,7 @@
             "binary black hole"
           ],
           "published": "2026-03-18T17:49:14+00:00",
-          "age_days": 5.9,
+          "age_days": 6.9,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -2227,7 +2265,7 @@
             "Teukolsky"
           ],
           "published": "2026-03-18T16:50:10+00:00",
-          "age_days": 6.0,
+          "age_days": 7.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
@@ -2246,42 +2284,36 @@
           "worth_reading_full": true
         },
         {
-          "id": "2603.20282",
-          "title": "Degeneracy in Accretion Disk Spectra from Naked Singularities and Kerr Black Holes: Application to the AGN MCG-06-30-15",
+          "id": "2603.22516",
+          "title": "Quantum Tunneling of Primordial Black Holes to White Holes: Rates, Constraints, and Implications for Fast Radio Bursts",
           "authors": [
-            "Vishva Patel",
-            "Sayantan Bhattacharya",
-            "Sudip Bhattacharyya",
-            "Pankaj S. Joshi"
+            "Christopher Ewasiuk",
+            "Stefano Profumo"
           ],
           "authors_short": [
-            "Vishva Patel",
-            "Sayantan Bhattacharya",
-            "Sudip Bhattacharyya",
-            "et al. (4 authors)"
+            "Christopher Ewasiuk",
+            "Stefano Profumo"
           ],
-          "category": "astro-ph.HE",
-          "abstract": "Theoretical studies suggest that gravitational collapse can form either a black hole or a visible (naked) singularity. Identifying observational signatures that distinguish these two types of collapsed objects is a holy grail of physics. Here, we examine whether relativistic accretion disk spectra can provide such a test. We construct an additive table model for a thin accretion disk in the Joshi-Malafarina-Narayan (JMN-1) naked singularity geometry matched to a Schwarzschild exterior and fit it to NuSTAR X-ray data from the AGN MCG-06-30-15. Our results are compared with standard Kerr and Schwarzschild black hole models. We also include the relativistic reflection spectral component relxill. Despite their different underlying geometries, the spinning (Kerr) black hole and the non-spinning JMN-1 naked singularity provide similar spectral fits, which are significantly better fits than the Schwarzschild black hole. This degeneracy between the naked singularity and the Kerr black hole could lead to incorrect spin measurements of collapsed objects using disk spectra. The degeneracy could be broken with an independent spin measurement, which could also help identify a naked singularity. Our results could also have a role in different spin distributions of collapsed objects measured from gravitational-wave sources and X-ray binaries.",
-          "pdf_url": "https://arxiv.org/pdf/2603.20282.pdf",
-          "matches": [
-            "Kerr"
-          ],
-          "published": "2026-03-18T04:35:07+00:00",
-          "age_days": 6.5,
+          "category": "gr-qc",
+          "abstract": "We calculate the present-day and cosmological volumetric rate of primordial black hole (PBH) quantum tunneling events to white holes, incorporating the competition between Hawking evaporation and tunneling, cosmological depletion, realistic mass-dependent abundance constraints, extended mass functions, and the alternative memory-burden scenario. The burst rate is maximized along a narrow ridge in the mass--tunneling-parameter plane where the effective PBH lifetime is comparable to the age of the Universe. Within the canonical Planck-star range of tunneling timescales, FRB-level rates arise only in two highly restricted regions: a low-mass window near the evaporation boundary, and a narrow sequential window where evaporation precedes tunneling; broadening the PBH mass function does not qualitatively alter this conclusion. We further assess observational constraints from FRB repetition statistics, radio spectral properties, prompt and diffuse gamma-ray limits, host-galaxy demographics, and gravitational-wave signatures. All current observations are consistent with a subdominant white-hole contribution to the FRB population but strongly disfavor a dominant origin. The rate calculation does not generically support FRB-level event densities, and any viable FRB interpretation requires narrow, fine-tuned, and strongly assumption-dependent corners of parameter space.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22516.pdf",
+          "matches": [],
+          "published": "2026-03-23T19:25:43+00:00",
+          "age_days": 1.8,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes"
           ],
           "used_openai": true,
           "used_pdf_text": true,
-          "pdf_text_chars": 18256,
+          "pdf_text_chars": 16479,
           "featured": true,
           "relevance": 4,
-          "base_score": 10,
+          "base_score": 9,
           "summary_bullets": [
-            "The authors construct an additive XSPEC table model for thin accretion disks in the Joshi–Malafarina–Narayan (JMN‑1) naked singularity interior matched to a Schwarzschild exterior and derive modified Novikov–Thorne flux and luminosity expressions that account for the matching boundary. They fit this NaSJMN model (plus relativistic reflection relxill) to NuSTAR spectra of the AGN MCG‑06‑30‑15 and find that a non‑spinning JMN‑1 naked singularity can reproduce the observed X‑ray spectrum as well as a high‑spin Kerr black hole, while both fit significantly better than a Schwarzschild black hole. The paper emphasizes a degeneracy that can bias electromagnetic spin measurements and recommends breaking it with independent spin determinations, noting potential consequences for comparing spin distributions from X‑ray and gravitational‑wave observations.",
-            "This should interest Yanbei because it directly bears on strong‑gravity tests from observables and on apparent tensions between spin measurements from electromagnetic probes and from gravitational waves — topics he has worked on (spin distributions, tests of GR, black‑hole phenomenology and EMRI science). The paper supplies a concrete, publicly loadable spectral model (NaSJMN.fits) and analytic expressions for boundary‑matched fluxes, giving a practical tool to test horizonless alternatives whose inspiral and ringdown (QNMs, tidal effects) would also affect GW templates and interpretations that Yanbei studies; thus the work links EM spectral systematics to potential GW signatures and to the cosmic‑censorship question he cares about.",
-            "Keywords/topics: JMN‑1 naked singularity, Kerr black hole, accretion disk spectra, Novikov–Thorne, XSPEC table model (NaSJMN.fits), NuSTAR, MCG‑06‑30‑15, spin measurement degeneracy, horizonless compact objects, strong‑field tests, cosmic censorship. Published: 18 March 2026 (arXiv:2603.20282, astro‑ph.HE) — very recent."
+            "They compute the present-day and cosmological volumetric rate of primordial‑black‑hole (PBH) quantum tunneling to white holes, explicitly including competition between Hawking evaporation and tunneling, cosmological depletion, realistic mass‑dependent PBH‑abundance limits, extended (lognormal) mass functions, and an alternative memory‑burden sequential evolution. A systematic scan of the (M, α) plane shows the burst rate is sharply peaked along a narrow ridge where the effective PBH lifetime ≃ t0, and — for canonical Planck‑star α ∼ 10^−2–1 — FRB‑level volumetric rates arise only in two highly restricted regions (a low‑mass window near the evaporation boundary and a narrow sequential window under the memory‑burden hypothesis). Including observational abundance limits, redshift evolution, multiwavelength (radio/gamma/cosmic‑ray) detectability and FRB repetition/host constraints, they conclude PBH tunneling cannot generically explain the FRB population and at best provides a finely tuned subdominant contribution.",
+            "You would care because the paper ties a concrete quantum‑gravity proposal (Planck‑star black→white hole tunneling, parametrized by α) to observable, multiwavelength and population‑level signatures and constraints, intersecting your interests in black‑hole phenomenology, Hawking evaporation, PBH dark‑matter scenarios, and strong‑gravity tests tied to observables. The detailed (M, α) rate maps, treatment of depletion and extended mass functions, and discussion of possible gravitational‑wave counterparts/memory‑related signatures give ready inputs for constructing search strategies, estimating backgrounds for exotic‑object GW/EM signals, or folding into population‑level tests of GR and horizon modifications.",
+            "Keywords/topics: primordial black holes (PBHs), Planck‑star / black→white‑hole tunneling, tunneling lifetime parameter α, Hawking evaporation, extended mass functions, cosmological depletion, memory‑burden scenario, FRBs, radio/gamma/cosmic‑ray detectability, multiwavelength constraints, gravitational‑wave signatures. Posted to arXiv:2603.22516 (gr‑qc) on 2026‑03‑23 — very recent."
           ],
           "worth_reading_full": true
         },
@@ -2305,7 +2337,7 @@
             "quasinormal mode"
           ],
           "published": "2026-03-21T01:50:05+00:00",
-          "age_days": 3.6,
+          "age_days": 4.6,
           "previous_work_hits": [],
           "current_interest_hits": [
             "black holes",
@@ -4129,7 +4161,7 @@
             "Kerr"
           ],
           "published": "2026-03-19T15:22:27+00:00",
-          "age_days": 5.0,
+          "age_days": 6.0,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -4142,49 +4174,6 @@
             "This LVK paper applies eight parameterized tests of GR to the GWTC‑4.0 compact‑binary sample (42 new O4a events plus 49 earlier events), constraining deviations in waveform generation (individual PN coefficients and post‑inspiral calibration terms), spin‑induced multipoles, line‑of‑sight acceleration (LOSA), and propagation effects (dispersion/birefringence) using two complementary analysis frameworks (FTI and TIGER).",
             "They find no evidence for physics beyond GR: over 90% of events include the null (no‑deviation) value within their 90% credible intervals and apparent tensions are traced to noise or waveform/data‑quality systematics rather than genuine departures from GR.",
             "The work tightens bounds on deviations in PN coefficients by factors of ≈1.2–5.5, updates the 90%‑credibility graviton‑mass limit to mg ≤ 1.92e‑23 eV/c^2, and emphasizes waveform‑systematics and prior‑effect checks in translating event‑by‑event results into catalog‑level constraints."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.17072",
-          "title": "Quantifying the Scientific Potential of Intermediate and Extreme Mass Ratio Inspirals with the Laser Interferometer Space Antenna",
-          "authors": [
-            "Lorenzo Speri",
-            "Francisco Duque",
-            "Susanna Barsanti",
-            "Alessandro Santini",
-            "Shubham Kejriwal",
-            "Ollie Burke",
-            "Christian E. A. Chapman-Bird"
-          ],
-          "authors_short": [
-            "Lorenzo Speri",
-            "Francisco Duque",
-            "Susanna Barsanti",
-            "et al. (7 authors)"
-          ],
-          "category": "astro-ph.IM",
-          "abstract": "The Laser Interferometer Space Antenna (LISA) will enable precision studies of Extreme and Intermediate Mass Ratio Inspirals (EMRIs/IMRIs), providing unique probes of astrophysical environments of galactic nuclei and strong-field gravity. Using a fully relativistic pipeline across primary masses $m_1 \\in [5\\times10^4, 10^7]\\,M_\\odot$ and secondary masses $m_2 \\in [1, 10^4]\\,M_\\odot$, we map instrumental performance directly to detection horizons and parameter measurement precision. EMRIs with $m_1 = 10^7\\,M_\\odot$ and $m_2 \\sim 1\\,M_\\odot$ are the most sensitive to instrument degradation, with redshift horizons at $z \\sim 0.01$, while IMRIs are the least sensitive to degradation and reach redshifts $z \\sim 1-3$. All prograde systems considered achieve sub-percent spin precision within three months of observation. The full 4.5-year mission increases the horizon of systems with $m_1 = 10^7\\,M_\\odot$ and $m_2 \\sim 1\\,M_\\odot$ by a factor of $\\sim 4$ and improves sky localization by one to two orders of magnitude reaching $ < 10\\,\\mathrm{deg}^2$. IMRI detection is robust against degradation, but their parameter estimation is more vulnerable due to fewer cycles in band. With the full baseline, EMRI observations constrain scalar dipole emission and Kerr quadrupole deviations below ground-based bounds by one to two orders of magnitude. We release the accompanying software and an interactive website to enable the community to rapidly quantify the scientific potential of EMRIs and IMRIs.",
-          "pdf_url": "https://arxiv.org/pdf/2603.17072.pdf",
-          "matches": [
-            "inspiral",
-            "Kerr",
-            "EMRI"
-          ],
-          "published": "2026-03-17T19:00:00+00:00",
-          "age_days": 6.9,
-          "previous_work_hits": [],
-          "current_interest_hits": [],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 28957,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 9,
-          "summary_bullets": [
-            "Using a fully relativistic EMRI/IMRI pipeline based on FastEMRIWaveform and Kerr eccentric equatorial flux models, the authors map LISA instrumental performance (sensitivity degradation and mission duration) across a grid of primary masses m1 ∈ [5×10^4, 10^7] M⊙ and secondary masses m2 ∈ [1, 10^4] M⊙ to detection horizons and Fisher-matrix parameter precisions. They introduce a quantitative “degradation framework” and compute SNRs and Fisher matrices (A and E TDI channels, realistic PSD plus galactic confusion, and duty-cycle considerations) to show that high-m1, low-m2 EMRIs are most vulnerable to sensitivity loss while IMRIs are robust in detection but more fragile in parameter estimation because of fewer cycles in band. Key novel results include sub-percent and even σa/a ≲ 10⁻³ spin measurements within months, order-of-magnitude improvements in sky localization for a 4.5-year mission, projected constraints on scalar dipole emission and Kerr quadrupole deviations that beat current ground-based bounds by 1–2 orders of magnitude, and the release of a GPU-optimized pipeline and interactive website to enable community studies.",
-            "Why Yanbei would care: this paper directly connects fully relativistic EMRI waveform modeling and black-hole perturbation technology to concrete LISA figures-of-merit for strong-field tests and astrophysical inference, which aligns with his past work on waveform modeling, black-hole perturbation theory, EMRIs, and tests of GR; the quantitative sensitivity to mission duration and instrumental degradation (e.g. which systems lose horizon or spin precision) informs the observational requirements needed to pursue precision measurements he cares about (spin at ∼10⁻³, multipole deviations, environmental torques), and the public pipeline/website provides a practical tool he or his collaborators could use to produce templates, forecasting studies, or to assess nonlinear/environmental effects in observable signals.",
-            "Keywords/topics: LISA, EMRI, IMRI, Kerr black holes, FastEMRIWaveform (FEW), Fisher-matrix, SNR, TDI A/E channels, instrumental degradation, mission duration, spin measurement, scalar dipole emission, Kerr multipole/quadrupole tests, environmental effects, GPU pipeline, software + interactive website. Published: 17 March 2026 (arXiv:2603.17072) — very recent."
           ],
           "worth_reading_full": true
         }
@@ -4235,7 +4224,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-23T16:14:52+00:00",
-          "age_days": 1.0,
+          "age_days": 2.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4271,7 +4260,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-23T09:15:48+00:00",
-          "age_days": 1.3,
+          "age_days": 2.3,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4312,21 +4301,21 @@
             "quantum error correction"
           ],
           "published": "2026-03-23T09:07:12+00:00",
-          "age_days": 1.3,
+          "age_days": 2.3,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
           ],
-          "used_openai": false,
+          "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 25802,
           "featured": true,
           "relevance": 4,
           "base_score": 9,
           "summary_bullets": [
-            "This paper studies All-optical quantum memory using bosonic quantum error correction codes using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
-            "Key words/topics: quantum error correction; published about 1.3 days ago."
+            "The paper proposes and quantitatively analyzes an all‑optical quantum‑memory architecture in which a Gottesman–Kitaev–Preskill (GKP) encoded qubit is stored in a fibre loop and periodically stabilized using teleportation‑based error correction; fibre propagation is modelled as a pure‑loss channel and each correction round is represented as an effective logical map acting on the Bloch vector. ",
+            "They introduce a fidelity‑optimized syndrome decoder (which departs from the standard square‑grid GKP rule in both tile size and tile shape), derive a compact multi‑round Pauli‑frame transfer‑matrix formalism to track accumulated logical errors when Pauli corrections are applied only at readout, and use these tools to optimize segment spacing between correction nodes, showing this spacing is largely independent of total storage time. ",
+            "Main quantitative results include a squeezing threshold ≈6.7 dB below which intermediate correction is detrimental, exponential improvement of storage time above threshold (e.g. >400 ms with logical infidelity <1% at 17 dB), and explicit benchmarks that clarify the trade‑offs among photon loss, finite squeezing, and correction frequency for continuous‑variable photonic memory."
           ],
           "worth_reading_full": true
         },
@@ -4352,7 +4341,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-23T05:47:59+00:00",
-          "age_days": 1.4,
+          "age_days": 2.4,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4396,7 +4385,7 @@
             "quantum learning"
           ],
           "published": "2026-03-18T18:00:00+00:00",
-          "age_days": 5.9,
+          "age_days": 6.9,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum learning"
@@ -4430,7 +4419,7 @@
             "quantum measurement"
           ],
           "published": "2026-03-23T10:06:49+00:00",
-          "age_days": 1.2,
+          "age_days": 2.2,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -4466,7 +4455,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-20T16:50:00+00:00",
-          "age_days": 4.0,
+          "age_days": 5.0,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4509,7 +4498,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-19T03:39:43+00:00",
-          "age_days": 5.5,
+          "age_days": 6.5,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4524,6 +4513,164 @@
             "The paper develops a perturbative, EEG‑basis method to map arbitrary small Markovian circuit‑level errors — including coherent and non‑Pauli errors — onto detector error models (DEMs), enabling efficient Monte Carlo simulation of fault‑tolerant quantum computing (FTQC) gadgets. It uses propagation of elementary error generators through Clifford circuits with mid‑circuit measurements and a Zassenhaus expansion to decompose the circuit error generator into DEM events, producing a compact, scalable DEM whose event rates can be analytically related to physical noise parameters. Applying this tool to surface and bivariate bicycle codes and to magic‑state cultivation, the authors show coherent errors can shift fault‑tolerance thresholds, increase the space–time cost of magic‑state production, and raise logical error rates by up to an order of magnitude versus equivalent Pauli stochastic errors.",
             "You would care because the paper directly links microscopic coherent/non‑Pauli noise models to observable detection histories and logical error rates — providing a hardware‑tailored, interpretable bridge from physical noise generators to experimentally measurable QEC outcomes; this complements your expertise in quantum measurement, back‑action and optomechanics and is useful for evaluating how non‑Pauli decoherence (including possible gravity‑induced coherent effects) would show up in syndrome data, decoder design, and metrology‑scale experiments.",
             "Keywords/topics: quantum error correction, coherent/non‑Pauli errors, detector error model (DEM), elementary error generator (EEG), Zassenhaus expansion, surface code, color/bicycle codes, magic‑state cultivation/distillation, Pauli twirling, noise‑adapted decoding, Monte Carlo simulation, fault‑tolerance thresholds; arXiv:2603.18457 (quant‑ph), posted 19 Mar 2026 — very recent."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.22798",
+          "title": "Encoded Quantum Signal Processing for Heisenberg-Limited Metrology",
+          "authors": [
+            "Carlos Ortiz Marrero",
+            "Rui Jie Tang",
+            "Nathan Wiebe"
+          ],
+          "authors_short": [
+            "Carlos Ortiz Marrero",
+            "Rui Jie Tang",
+            "Nathan Wiebe"
+          ],
+          "category": "quant-ph",
+          "abstract": "Entangled quantum probes can achieve Heisenberg-limited measurement precision, but this advantage is typically destroyed by noise. We address this issue by introducing a framework that we call encoded quantum signal processing, which unifies quantum error detection and quantum signal processing into an effective single-qubit framework, and provides a paradigm for constructing logical sensors that are robust to noise while remaining sensitive to the signal of interest. We show that encoding sensor qubits into a repetition code and using syndrome measurements as a signal-processing primitive restores Heisenberg scaling under realistic noise, without applying recovery operations. We prove that product-state sensing with syndrome post-processing is fundamentally limited to standard quantum limit (SQL) scaling, and develop four protocols that overcome this barrier through entanglement or sequential signal amplification, achieving Heisenberg-limited precision with exponential error suppression in code distance. For spatially inhomogeneous fields, Bayesian marginalization preserves Heisenberg scaling provided noise decreases sufficiently with system size. The underlying mechanism, which we formalize as encoded quantum signal processing, reduces multi-qubit metrology to an effective single-qubit problem where syndrome measurement implements nonlinear signal transformations. Numerical simulations validate the theoretical predictions: syndrome-based inference achieves near-Heisenberg scaling at noise levels where bare probes approach the SQL, and a concatenated protocol maintains this scaling under joint transverse noise and longitudinal inhomogeneities.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22798.pdf",
+          "matches": [
+            "standard quantum limit"
+          ],
+          "published": "2026-03-24T04:43:10+00:00",
+          "age_days": 1.5,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 19897,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 6,
+          "summary_bullets": [
+            "The paper introduces Encoded Quantum Signal Processing (EQSP), a framework that unifies quantum error detection and quantum signal processing to map multi-qubit metrology into an effective single-qubit problem where syndrome measurements implement nonlinear signal transformations. Using repetition codes and syndrome-conditioned measurements (without active recovery) the authors prove one can restore Heisenberg-limited scaling under realistic noise, show that product-state sensing with only syndrome post-processing is fundamentally SQL-limited, and present four protocols (entanglement-based, sequential amplification, concatenated, and an adaptive GHZ binary search) that achieve Heisenberg precision with exponential error suppression in code distance. They further analyze spatially inhomogeneous fields via Bayesian marginalization, give quantum Fisher information bounds and device-quality conditions for preserved scaling, and validate finite-size behavior and practical thresholds with numerical simulations.",
+            "This is directly relevant to Yanbei's interests because EQSP provides a concrete, noise-robust route to preserve entanglement-enhanced (Heisenberg) sensitivity in realistic detectors—connecting to his work on quantum measurement theory, quantum noise in interferometers, QND/back-action evasion, and optomechanics—and it frames error-detection/syndrome readout as an active signal-processing primitive that could be adapted to interferometric or optomechanical sensor architectures. EQSP also sits at the intersection of quantum error correction, quantum signal processing, and metrology, matching Yanbei's current interest in quantum learning and QEC methods for preserving quantum resources, and it could enable more robust tabletop tests for gravity-induced decoherence or gravity-mediated entanglement by extending Heisenberg scaling into noisy regimes.",
+            "Keywords/topics: Encoded Quantum Signal Processing (EQSP), Heisenberg-limited metrology, error-detection/repetition codes, syndrome-based inference, quantum signal processing, Bayesian marginalization for inhomogeneous fields, concatenated protocols, quantum Fisher information, noisy metrology, optomechanics applications. Published on arXiv as 2603.22798 (posted 24–25 Mar 2026; ~1.5 days old)."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.22734",
+          "title": "Interference-induced state engineering and Hamiltonian control for noisy collective-spin metrology",
+          "authors": [
+            "Le Bin Ho",
+            "Vu Xuan Tung Duong",
+            "Nozomu Takahashi",
+            "Hiroaki Matsueda"
+          ],
+          "authors_short": [
+            "Le Bin Ho",
+            "Vu Xuan Tung Duong",
+            "Nozomu Takahashi",
+            "et al. (4 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "Interference provides a fundamental mechanism for generating and manipulating entanglement in many-body quantum systems. Here, we develop an interference framework in which the nonlinear dynamics of collective spin-$\\tfrac{1}{2}$ ensembles are mapped onto phase accumulation and self-interference in phase space, providing a direct and physically transparent description of entanglement formation. Within this framework, one-axis twisting produces Greenberger-Horne-Zeilinger (GHZ) states, while two-axis twisting generates multi-component GHZ superpositions relevant for multiparameter quantum metrology. Building on this interference-based description, we analyze metrological performance under realistic Markovian noise, including local and collective emission, pumping, and dephasing, and examine the role of Hamiltonian control based on linear and nonlinear interactions. We show that while control can enhance single-parameter sensitivity in a noise-dependent regime, the achievable precision in multiparameter estimation is fundamentally constrained. These results establish interference as a unifying principle linking nonlinear dynamics, entanglement generation, and metrological performance, and reveal intrinsic limitations of multiparameter quantum sensing. Our framework provides broadly applicable insight into the design of robust quantum-enhanced measurement protocols in noisy many-body systems.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22734.pdf",
+          "matches": [
+            "quantum metrology"
+          ],
+          "published": "2026-03-24T02:58:35+00:00",
+          "age_days": 1.5,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 23923,
+          "featured": true,
+          "relevance": 4,
+          "base_score": 6,
+          "summary_bullets": [
+            "The paper develops an interference-based framework that maps nonlinear collective-spin dynamics onto phase accumulation and self-interference in phase space, showing that one-axis twisting (OAT) yields GHZ states while two-axis twisting (TAT) produces multi-component GHZ superpositions relevant for multiparameter sensing.",
+            "Using this picture the authors compute quantum Fisher information under realistic Markovian noise (local and collective emission, pumping, and dephasing), characterize scaling with spin number N and optimal interrogation times, and identify how different noise channels—especially dephasing—severely limit metrological gain.",
+            "They analyze Hamiltonian control via linear drives (Jx) and nonlinear interactions (Jx^2/OAT), finding that control can enhance single-parameter sensitivity in noise-dependent regimes but that multiparameter estimation faces intrinsic, control-resistant bounds."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.22710",
+          "title": "Optimal filtering for a giant cavity in waveguide QED systems",
+          "authors": [
+            "Guangpu Wu",
+            "Shibei Xue",
+            "Yuting Zhu",
+            "Guofeng Zhang",
+            "Ian R. Petersen"
+          ],
+          "authors_short": [
+            "Guangpu Wu",
+            "Shibei Xue",
+            "Yuting Zhu",
+            "et al. (5 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "In waveguide quantum electrodynamics (QED) systems, a giant cavity can be engineered to interact with quantum fields by multiple distant coupling points so that its non-Markovian dynamics are quite different from traditional quantum optical cavity systems. Towards feedback control this system, this paper designs an optimal filter for the giant cavity systems to estimate its state evolution under continuous quantum measurements. Firstly, the Langevin equation in the Heisenberg picture are derived, which is a linear continuous-time system with both states and inputs delays resulting from the unconventional distant couplings. Compared to existing modeling approaches, this formulation effectively preserves the nonlocal coupling and multiple delay dynamic characteristics inherent in the original system. In particular, the presence of coupling and propagation delays leads to noncommutativity among the system operators at different times, which prevents the direct application of existing quantum filtering methods. To address this issue, an optimal filter is designed, in which the delayed-state covariance matrices are computed. By iteratively evaluating the delayed-state covariance over successive time intervals, the resulting optimal filter can be implemented in an interval-wise backward recursion algorithm. Finally, numerical simulations are conducted to evaluate the tracking performance of the proposed optimal filter for the giant cavity. By comparing between the evolutions of Wigner functions of coherent and cat states and the filter, the effectiveness of the optimal filter is validated.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22710.pdf",
+          "matches": [
+            "quantum measurement"
+          ],
+          "published": "2026-03-24T02:02:41+00:00",
+          "age_days": 1.6,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 24624,
+          "featured": true,
+          "relevance": 4,
+          "base_score": 6,
+          "summary_bullets": [
+            "This paper derives Heisenberg–Langevin dynamics for a \"giant\" cavity in waveguide QED coupled at two distant points, producing a linear continuous‑time model that explicitly includes both state and input propagation delays and preserves the nonlocal coupling. Because these delays induce noncommutativity among system operators at different times (so standard quantum filters fail), the authors design an optimal filter that computes delayed‑state covariance matrices and implements estimation via an interval‑wise backward recursion to produce a minimum‑mean‑square estimator under continuous homodyne measurement. Numerical simulations (tracking Wigner functions of coherent and cat states) validate that the filter can track the non‑Markovian cavity dynamics and delayed input–output structure.",
+            "Why Yanbei would care: the work directly addresses quantum measurement and optimal estimation under non‑Markovian, delay‑induced back‑action — areas that connect to Yanbei Chen's expertise in quantum measurement theory, quantum noise in interferometers, back‑action evasion and optomechanics. The interval‑wise covariance method and explicit handling of propagation delays provide practical tools for state estimation and feedback control in extended or distributed quantum systems (e.g. waveguide‑mediated or spatially extended optomechanical setups) that can impact macroscopic quantum state preparation, noise suppression, and experimental designs probing decoherence or subtle signatures such as gravity‑induced effects. Even if the paper is not about quantum gravity per se, its techniques for treating nonlocal couplings, delayed self‑feedback, and measurement back‑action are immediately relevant for improving observables and control in tabletop tests of macroscopic quantum mechanics.",
+            "Keywords/topics: quantum filtering; non‑Markovian quantum systems; waveguide QED; giant cavity; delayed quantum Langevin equation; continuous homodyne measurement; linear Gaussian quantum systems; state estimation; interval‑wise backward recursion; Wigner functions, cat states. Published on arXiv 24 Mar 2026 (very recent)."
+          ],
+          "worth_reading_full": true
+        },
+        {
+          "id": "2603.22416",
+          "title": "Dicke materials as a resource for quantum squeezing",
+          "authors": [
+            "Vaibhav Sharma",
+            "Shung-An Koh",
+            "Jonathan Stepp",
+            "Dasom Kim",
+            "Takumu Obata",
+            "Yuki Saito",
+            "Motoaki Bamba",
+            "Han Pu",
+            "Hanyu Zhu",
+            "Junichiro Kono",
+            "Kaden R. A. Hazzard"
+          ],
+          "authors_short": [
+            "Vaibhav Sharma",
+            "Shung-An Koh",
+            "Jonathan Stepp",
+            "et al. (11 authors)"
+          ],
+          "category": "quant-ph",
+          "abstract": "We study magnetic materials whose low energy physics can be effectively described by a Dicke model, which we term Dicke materials. We show how a Dicke model emerges in such materials due to a coexistence of fast-dispersing and slow-dispersing spins, which are strongly coupled. Analogous to the paradigmatic Dicke model describing light-matter interactions, these materials also exhibit signatures of a superradiant phase transition. The ground state near the superradiant phase transition is expected to be squeezed, making Dicke materials a resource for quantum metrology and witnessing entanglement in solid-state systems. However, as an entanglement measure, squeezing can be sensitive to perturbations that are otherwise irrelevant for usual correlation functions and order parameters. Motivated by the prospect of observing squeezing in such Dicke materials, we study the robustness of ground state squeezing under ubiquitous imperfections such as finite temperature, disorder, and local interactions. Using analytical and numerical techniques, we show that the squeezing obtained is perturbatively stable against these imperfections and quantitatively evaluate regimes promising for experimental observation.",
+          "pdf_url": "https://arxiv.org/pdf/2603.22416.pdf",
+          "matches": [
+            "quantum metrology"
+          ],
+          "published": "2026-03-23T18:00:19+00:00",
+          "age_days": 1.9,
+          "previous_work_hits": [],
+          "current_interest_hits": [],
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 27550,
+          "featured": true,
+          "relevance": 5,
+          "base_score": 6,
+          "summary_bullets": [
+            "The paper defines \"Dicke materials\" as magnetic solids in which a fast‑dispersing magnon branch plays the role of the bosonic mode and weakly coupled spins act as the two‑level systems, yielding an effective Dicke/Hopfield Hamiltonian that can undergo a normal–superradiant phase transition. The authors diagonalize the model (Holstein‑Primakoff / Bogoliubov approaches), identify the optimally squeezed quadratures in both normal and superradiant phases, and show that the ground state near criticality exhibits strong (perfect at criticality) bosonic/spin squeezing. Crucially, they analyze perturbations expected in solids—finite temperature, dilute disorder, and local Ising interactions (and the cavity A^2 term)—and demonstrate that squeezing survives for experimentally realistic parameter ranges, quantifying regimes promising for observation.",
+            "This matters to you because it proposes a solid‑state, equilibrium source of macroscopic squeezing and entanglement that is directly relevant to quantum metrology and to experimental tests of macroscopic quantum mechanics—areas where your work on quantum noise in interferometers, quantum measurement theory, back‑action evasion, and optomechanics provides both the conceptual tools and possible coupling strategies. The paper's emphasis on realistic imperfections and on cavity A^2 physics makes it immediately useful when assessing whether Dicke‑material based squeezers can be integrated with cavity/optomechanical sensors or used in tabletop probes of decoherence or gravity‑induced effects.",
+            "Keywords/topics: Dicke materials, superradiant phase transition, ground‑state spin/bosonic squeezing, Holstein‑Primakoff / spin‑wave mapping, Hopfield/Dicke model, A^2 term, robustness to temperature/disorder/local interactions, ErFeO3 orthoferrite example, metrological entanglement. Very recent: arXiv v1 23 Mar 2026 (PDF header dated 25 Mar 2026)."
           ],
           "worth_reading_full": true
         },
@@ -4559,21 +4706,21 @@
             "quantum control"
           ],
           "published": "2026-03-23T09:45:28+00:00",
-          "age_days": 1.2,
+          "age_days": 2.3,
           "previous_work_hits": [],
           "current_interest_hits": [],
-          "used_openai": false,
+          "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 11146,
           "featured": true,
           "relevance": 3,
           "base_score": 6,
           "summary_bullets": [
-            "This paper studies Nonlinear Electro-Optic Visible Photonic Circuits for Solid-State Quantum Defects using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.optics themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-            "Key words/topics: quantum control; published about 1.2 days ago."
+            "This work demonstrates a monolithic thin-film lithium niobate (TFLN) photonic circuit that integrates a periodically poled frequency-doubler (PPLN) with a GHz-bandwidth electro‑optic Mach–Zehnder modulator to produce and gate visible (532 nm) light on‑chip, delivering off‑chip green power exceeding 1 mW with an extinction ratio above 42 dB. The device exploits the quadratic dependence of second‑harmonic generation to square the pump modulation and achieve a nonlinear contrast enhancement that overcomes the usual EO‑modulator extinction–bandwidth tradeoff without active feedback. As a proof‑of‑concept the authors demonstrate nanosecond gating and coherent spin control of single NV centers (pulsed ODMR, Rabi oscillations, Ramsey) and time‑resolved lifetime measurements using time‑tagged photon counting.",
+            "Yanbei would care because the platform enables high‑speed, high‑contrast optical control and on‑chip visible light generation for solid‑state spin systems—capabilities that directly affect quantum‑limited readout, fast temporal gating of measurements, and the scaling of light–matter interfaces he studies; the nonlinear contrast enhancement in particular offers a way to suppress background photons and leakage without extra feedback, which is valuable for low‑noise quantum measurements and for experiments that require precise, time‑resolved control (e.g., entanglement distribution or tests of gravity‑induced decoherence/entanglement using spin systems).",
+            "Keywords/topics: integrated visible photonics, thin‑film lithium niobate (TFLN), periodically poled lithium niobate (PPLN), second‑harmonic generation (SHG), electro‑optic (EO) modulation, NV center coherent control, GHz gating, high extinction ratio, scalable quantum nodes; very recent — arXiv:2603.21751 (physics.optics), posted 23 Mar 2026."
           ],
-          "worth_reading_full": false
+          "worth_reading_full": true
         },
         {
           "id": "2603.21643",
@@ -4599,7 +4746,7 @@
             "quantum metrology"
           ],
           "published": "2026-03-23T07:24:26+00:00",
-          "age_days": 1.3,
+          "age_days": 2.3,
           "previous_work_hits": [],
           "current_interest_hits": [],
           "used_openai": true,
@@ -4612,46 +4759,6 @@
             "The authors demonstrate an ancilla-based toolbox for optical-tweezer 88Sr arrays that enables repeated mid-circuit ancilla readout, coherence-preserving atom-loss detection via motional-state transduction, and a circuit-based algorithmic cooling that deterministically transfers motional entropy onto ancilla electronic states.",
             "They report that repeated ancilla readout raises detection fidelity from ~0.90 to near 0.99 with negligible heating of data atoms, implement a single-entangling-gate motional shelving protocol that preserves data-qubit coherence (measured detection fidelity ~0.88), and realize the first experimental algorithmic cooling in neutral-atom arrays with a measurable increase in motional ground-state occupation despite finite single-qubit errors.",
             "The work integrates high-fidelity Rydberg entangling gates, dynamical array reconfiguration, and motional Fock-state control to provide mid-circuit loss monitoring, low-disturbance QND-like measurements, and a pathway toward continuous operation of tweezer clocks and loss-aware quantum processors."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.21057",
-          "title": "Robust Quantum Sensing via Prethermal Spin Orbits",
-          "authors": [
-            "Enrico Daniel Richter",
-            "Ryan J. Smith",
-            "Brayden Glockzin",
-            "Emanuel Druga",
-            "Thomas Schenkel",
-            "Ashok Ajoy"
-          ],
-          "authors_short": [
-            "Enrico Daniel Richter",
-            "Ryan J. Smith",
-            "Brayden Glockzin",
-            "et al. (6 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Practical performance of quantum sensors is often curtailed by uncontrolled environmental drift (bias-field instability, temperature fluctuations, mechanical vibration), background fields, and imperfect control pulses. This motivates developing physical mechanisms that intrinsically compensate for such perturbations while retaining high sensitivity to target fields. We introduce an interaction-protected magnetometry scheme where periodic driving steers the collective magnetization onto two long-lived, prethermal Floquet \"orbit\" axes well-separated on the Bloch sphere. Rapid toggling between these axes encodes target fields as a differential signal, whereas background fields appear as common-mode motion that is strongly rejected, achieving >1000-fold suppression while canceling prethermal transients. This enables accurate reconstruction of rapidly varying audio-band magnetic signals without predictive filtering or spectral tuning. We provide an experimental proof-of-principle using a dense ensemble of coupled nuclear spins, operated here as a broadband (0-1 kHz) magnetometer. The protocol is remarkably tolerant to imperfections, operating robustly across millions of pulses under pulse-angle (~10°) and pulse frequency (>1 kHz) errors, large bias-field drifts (>50 $\\mathrmμ$T), temperature variations over 150 K, and harsh mechanical vibrations. These results establish Floquet prethermalization as a resource for robust quantum sensors that combines broadband magnetic-field sensitivity with intrinsic immunity to diverse environmental and control perturbations, opening a path toward stable quantum metrology beyond controlled laboratory conditions.",
-          "pdf_url": "https://arxiv.org/pdf/2603.21057.pdf",
-          "matches": [
-            "quantum metrology"
-          ],
-          "published": "2026-03-22T04:51:40+00:00",
-          "age_days": 2.5,
-          "previous_work_hits": [],
-          "current_interest_hits": [],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 27537,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 6,
-          "summary_bullets": [
-            "This paper introduces PRISM, an interaction-protected magnetometry protocol that uses periodic Floquet driving to steer a dense, interacting spin ensemble onto two long-lived prethermal Floquet “orbit” axes; rapid toggling between these axes encodes target magnetic fields as a differential signal while common-mode background and prethermal transients are strongly rejected (reported suppression >10^3).",
-            "The authors present an experimental proof-of-principle using a dense ensemble of 13C nuclear spins in single-crystal diamond (broadband 0–1 kHz magnetometry) demonstrating extended prethermal lifetimes (T2' ≈ 56–98 s), robustness across millions of pulses with large pulse-angle and detuning errors, large bias-field drifts (>50 μT), temperature swings >150 K, and mechanical vibration tolerance, and they show transient-free reconstruction of rapidly varying audio-band signals without predictive filtering.",
-            "The novelty is in exploiting Floquet prethermalization as a metrological resource—realizing time-domain gradiometry, intrinsic calibration, and broadband, transient-free sensing that avoids the narrowband and pulse-error sensitivities of conventional dynamical-decoupling approaches."
           ],
           "worth_reading_full": true
         },
@@ -4673,7 +4780,7 @@
             "quantum error correction"
           ],
           "published": "2026-03-21T12:33:13+00:00",
-          "age_days": 3.1,
+          "age_days": 4.1,
           "previous_work_hits": [],
           "current_interest_hits": [
             "quantum error correction"
@@ -4688,120 +4795,6 @@
             "The paper defines C(ρ) as the ℓ1 distance from an n‑qubit discrete Wigner function to the convex hull of stabilizer Wigner functions and relates it to the stabilizer extent Γ(ρ) via the tightness ratio κ := (Γ−1)/C. For three two‑qubit families in the repetition‑code subspace span{|00>,|11>} they prove κ takes exact integer values (κ=1 for the R_y and Bell+R_z families, κ=2 for the R_x family), explain the factor‑of‑2 by concentration of Wigner negativity at fewer phase‑space points, and derive a sharp bound Γ ≥ 1 + C/M_n. They further show the dual witness H* are logical Pauli operators (making C a fault‑tolerant observable invariant under correctable errors), establish a hemispheric dichotomy in tensor‑product behavior, and demonstrate C is not a magic monotone under the full Clifford group so asymptotic distillation rates require Γ.",
             "You would care because the work explicitly links phase‑space (Wigner) geometry to quantum error correction: the optimal dual witnesses are logical Pauli operators in a repetition‑code subspace, meaning the magic witness is a measurable, fault‑tolerant observable—this dovetails with your interests in measurement theory, QND/back‑action evasion and quantum error correction for making robust, experimentally accessible signatures. The fact that the witness reduces to Pauli expectations and that analytic closed forms exist for code subspaces suggests concrete diagnostics one could adapt to noisy or macroscopic platforms (including optomechanical/tabletop setups) when probing nonclassicality, resourcefulness, or decoherence mechanisms relevant to gravity‑induced effects.",
             "Keywords/topics: discrete Wigner function, magic/resource theory, stabilizer extent Γ, Wigner distance C(ρ), tightness ratio κ, logical Pauli witnesses, quantum error correction, tensor‑product/hemispheric dichotomy, classical simulation bounds; published 2026‑03‑21 (very recent, ≈3 days)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.19870",
-          "title": "Linear-optical generation of hybrid GKP entanglement from small-amplitude cat states",
-          "authors": [
-            "Shohei Kiryu",
-            "Yohji Chin",
-            "Masahiro Takeoka",
-            "Kosuke Fukui"
-          ],
-          "authors_short": [
-            "Shohei Kiryu",
-            "Yohji Chin",
-            "Masahiro Takeoka",
-            "et al. (4 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Hybrid bosonic codes combining bosonic codes with photon states offer a promising pathway for fault-tolerant quantum computation. However, the efficient generation of such states in optical setups remains technically challenging due to the requirement for complex non-Gaussian resources. In this paper, we propose a novel scheme to efficiently generate hybrid entangled states between a GKP qubit and a photon-number state using small-amplitude cat states as the primary resource. We apply a breeding process using small-amplitude cat states to increase the non-Gaussianity of the input states. This method requires only linear optical elements and homodyne measurements. Furthermore, we demonstrate that this protocol can be extended to generate hybrid qudit states. This scheme has the potential to provide a resource-efficient and experimentally attractive route toward implementing hybrid quantum error correction.",
-          "pdf_url": "https://arxiv.org/pdf/2603.19870.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-20T11:36:52+00:00",
-          "age_days": 4.2,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 22384,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 6,
-          "summary_bullets": [
-            "The paper proposes a linear-optical protocol to generate hybrid entanglement between a GKP-encoded qubit and a photon-number state using only small-amplitude cat states, beam splitters, a displacement, and homodyne postselection. It adds a cat-breeding stage that interferes multiple small cats and conditions on homodyne outcomes to progressively enhance non-Gaussianity, and reports fidelity/success-probability trade-offs (optimal amplitude α≈0.455 with fidelity up to ≈0.964 and practical success rates up to ≈40% for relaxed acceptance windows). The scheme is resource-efficient, avoids the need for large-amplitude cats or extreme squeezing, demonstrates extensibility to qudits (qutrit example), and notes that the current analysis does not yet include photon loss or detector inefficiency.",
-            "You would care because this directly addresses the resource bottleneck for producing bosonic-code resources (GKP and hybrid encodings) that underpin fault-tolerant optical quantum information—an area closely connected to your interests in quantum measurement, quantum noise in interferometers, and quantum error correction; the approach may also translate into more accessible nonclassical resource preparation for optomechanical transduction or tabletop tests that need robust hybrid entanglement. The protocol’s focus on back-action-friendly linear optics and homodyne conditioning ties to your background in measurement-based back-action evasion and could inform implementations where limited squeezing or loss-prone channels currently prevent realizing logical GKP operations or entanglement-distribution experiments relevant to gravity-induced-decoherence/entanglement scenarios.",
-            "Keywords/topics: GKP code, hybrid bosonic codes, small-amplitude cat states, cat breeding (non-Gaussianity enhancement), linear optics, homodyne postselection, resource-efficient state generation, hybrid qudit/qutrit extension, fidelity vs. success-probability trade-off; Published: arXiv v1 20 Mar 2026 (very recent)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.19522",
-          "title": "Preserving MWPM-Decodability in Fault-Equivalent Rewrites",
-          "authors": [
-            "Maximilian Schweikart",
-            "Linnea Grans-Samuelsson",
-            "Aleks Kissinger",
-            "Benjamin Rodatz"
-          ],
-          "authors_short": [
-            "Maximilian Schweikart",
-            "Linnea Grans-Samuelsson",
-            "Aleks Kissinger",
-            "et al. (4 authors)"
-          ],
-          "category": "quant-ph",
-          "abstract": "Decoding a quantum error correction code is generally NP-hard, but corrections must be applied at a high frequency to suppress noise successfully. Matchable codes, like the surface code, exhibit a special structure that makes it possible to efficiently, approximately solve the decoding problem through minimum-weight perfect matching (MWPM). However, this efficiency-enabling property can be lost when constructing implementations for fault-tolerant gadgets such as syndrome-extraction circuits or logical operations. In this work, we take a circuit-centric perspective to formalise how the decoding problem changes when applying ZX rewrites to a ZX diagram with a given detector basis. We demonstrate a set of rewrites that preserve MWPM-decodability of circuits and show that these matchability-preserving rewrites can be used to fault-tolerantly extract quantum circuits from phase-free ZX diagrams. In particular, this allows us to build efficiently decodable, fault-tolerant syndrome-extraction circuits for matchable codes.",
-          "pdf_url": "https://arxiv.org/pdf/2603.19522.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-19T23:23:28+00:00",
-          "age_days": 4.7,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 18423,
-          "featured": true,
-          "relevance": 4,
-          "base_score": 6,
-          "summary_bullets": [
-            "This paper formalises how ZX-calculus rewrites change the decoding problem by introducing detector-aware rewrites that track local detecting Pauli webs and their boundary actions. It defines matchability-preserving rewrites which guarantee that minimum-weight perfect matching (MWPM) decodability is retained, and proves any phase-free ZX diagram can be fault-equivalently extracted into a quantum circuit while preserving matchability. Using these constructions the authors build efficiently decodable, fault-tolerant syndrome-extraction circuits for matchable codes (e.g. surface-code-like spacetime codes).",
-            "Yanbei would care because his interests in quantum measurement, quantum noise and quantum error correction intersect where circuit-level noise propagation and real-time decoders meet experiment: preserving MWPM-decodability during circuit synthesis directly impacts the design of implementable syndrome-extraction and readout circuits that require low-latency, reliable classical decoding. The detector-aware, fault-equivalent rewrite framework gives a principled way to generate circuits whose noise-behaviour and decoder complexity are predictable, which is valuable for tabletop and optomechanical experiments (and any application where QND/back-action considerations and fast decoding are critical) and complements his interest in scalable QEC and experimental signatures that depend on preserving quantum coherence under realistic operations.",
-            "Keywords/topics: ZX calculus, detector-aware rewrites, matchability, MWPM decoding, fault-equivalent rewrites, Pauli webs, syndrome extraction, surface code, stabiliser codes, efficient classical decoding. Published on arXiv 19 Mar 2026 (very recent)."
-          ],
-          "worth_reading_full": true
-        },
-        {
-          "id": "2603.18381",
-          "title": "Observable-Conditioned Backaction in Dynamic Circuits: A Higher-Order Context-Conditioned Kernel for Local Dynamics",
-          "authors": [
-            "Petr Sramek"
-          ],
-          "authors_short": [
-            "Petr Sramek"
-          ],
-          "category": "quant-ph",
-          "abstract": "Mid-circuit measurements are essential primitives for dynamic circuits and quantum error correction, yet characterizing their induced disturbance on spectator qubits remains a central practical problem. Device-level benchmarking often compresses this disturbance into low-order proxy metrics such as $T_1$, $T_2$, readout assignment error, and pairwise crosstalk. We argue that these proxies can be operationally incomplete for multiscale dynamic circuits. We introduce a higher-order context-conditioned kernel, $Γ_{\\mathrm{eff}}[Y,O] = Γ_{\\mathrm{loc}}[O] + Γ_{\\mathrm{proxy}}[O] + Γ_{\\mathrm{rel}}[Y,O]$, where $Y$ is a global context label and $O$ a local observable. The term $Γ_{\\mathrm{rel}}[Y,O]$ is a phenomenological compression ansatz isolating residual context dependence unexplained by standard proxies. To avoid impossibility issues of quantum partial-information decompositions on non-commuting algebras, the Möbius weights entering this ansatz are evaluated operationally on classical measurement outcomes. We present evidence in three steps. First, earlier GHZ-versus-clock hardware results motivate an observable-class split. Second, we present dynamical evidence using the A6 synthetic hardware harness. A6 injects a pure higher-order context dependence via a programmed conditional interaction. Because the $(C_0,C_1,C_2)$ parity context is invisible to singles and pairs by construction, standard low-order diagnostics are fundamentally blind to the source of the probe's disturbance. Third, we demonstrate coherent controllability through the A6.2 quantum-eraser experiment. Programmable MARK interactions suppress unconditional fringes while eraser-basis conditioning restores them, consistent with complementarity bounds. These results validate a context-conditioned description of backaction over proxy-only null models.",
-          "pdf_url": "https://arxiv.org/pdf/2603.18381.pdf",
-          "matches": [
-            "quantum error correction"
-          ],
-          "published": "2026-03-19T00:59:11+00:00",
-          "age_days": 5.6,
-          "previous_work_hits": [],
-          "current_interest_hits": [
-            "quantum error correction"
-          ],
-          "used_openai": true,
-          "used_pdf_text": true,
-          "pdf_text_chars": 23468,
-          "featured": true,
-          "relevance": 5,
-          "base_score": 6,
-          "summary_bullets": [
-            "This paper introduces a higher-order context-conditioned kernel Γ_eff[Y,O]=Γ_loc[O]+Γ_proxy[O]+Γ_rel[Y,O] to capture mid-circuit measurement backaction that is invisible to standard low-order proxies (T1, T2, readout error, pairwise crosstalk).",
-            "The author implements a synthetic A6 hardware harness on IBM boston that programs a pure higher-order parity context (Y = C0⊕C1⊕C2) which is by construction invisible to all 1- and 2-body summaries, and shows empirically that the local probe EX,mean nevertheless exhibits a dose-dependent suppression ∝(1−cosθ) consistent with the Γ_rel term. The work further demonstrates coherent controllability via an A6.2 quantum-eraser (MARK/ERASE) where marker conditioning restores fringes, and it operationalizes Möbius-type weights on classical measurement outcomes to quantify the residual context dependence without invoking impossible operator-algebraic decompositions.",
-            "No extra technical note provided."
           ],
           "worth_reading_full": true
         }

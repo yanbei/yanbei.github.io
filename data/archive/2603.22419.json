@@ -1,0 +1,21 @@
+{
+  "id": "2603.22419",
+  "title": "The Crimson Kiss of Two Giants: Helium Detonation and High-Energy Neutrino Production",
+  "authors": [
+    "Cecilia Romero Rodríguez",
+    "Pau Amaro Seoane"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-23T18:00:34+00:00",
+  "summary_bullets": [
+    "This paper introduces \"erythrohenosis\"—the coalescence of degenerate helium cores during red-giant collisions—as a novel class of transient that can produce high-energy (TeV–PeV) neutrinos, and builds a semi-analytic model anchored to MESA stellar models and 3D SPH simulations. It estimates a gravitational energy release ≈4.28×10^49 erg that heats the remnant to Tf≈5.3×10^8 K and, via small-scale dynamo action, can amplify magnetic fields to order B≈1.8×10^10 G, enabling hadronic acceleration in magnetized outflows and a neutrino flux that could explain part of IceCube’s diffuse signal and be detectable from a single event within ≲2 Mpc. The authors also quantify thermal and nuclear (MeV) neutrino channels (notably 18F decay) and argue that thermal neutrino losses are negligible on dynamical timescales, proposing a unique multimessenger signature of neutrinos + gravitational waves + possible electromagnetic emission from these collisions.",
+    "Why Yanbei would care: the paper connects dynamical, nonlinear merger physics to observable multimessenger signals and provides semi-quantitative estimates (energetics, timescales, magnetic saturation, particle acceleration) that can be used to predict transient gravitational-wave burst properties and neutrino counterparts; this matches Yanbei’s interests in waveform modeling of transients, strong-field observables, multimessenger probes, and the astrophysical populations that set event rates. Moreover, the work’s focus on rapid nonlinear evolution, magnetic-field amplification, and energy partitioning speaks to his interest in nonlinear gravitational-wave interactions and how astrophysical microphysics maps onto detectable signatures and tests of fundamental physics.",
+    "Keywords/topics: red-giant core collisions, helium detonation (erythrohenosis), TeV–PeV neutrinos, MESA + 3D SPH, magnetic dynamo / B-field saturation, hadronic particle acceleration, nuclear (18F) neutrinos, multimessenger (neutrinos + GW + EM). Published on arXiv in late March 2026 (arXiv:2603.22419; PDF dated March 25, 2026) — very recent."
+  ],
+  "relevance": 3,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25467,
+  "featured": true
+}

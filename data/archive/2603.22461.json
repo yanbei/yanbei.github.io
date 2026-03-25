@@ -1,0 +1,22 @@
+{
+  "id": "2603.22461",
+  "title": "Impact of eccentricity on the population properties of neutron star - black hole mergers",
+  "authors": [
+    "Gonzalo Morras",
+    "Geraint Pratten",
+    "Patricia Schmidt"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-23T18:28:16+00:00",
+  "summary_bullets": [
+    "Using a new inspiral-only post-Newtonian waveform (pyEFPE) that models both orbital eccentricity and spin-induced precession, the authors reanalyze all low-mass GWTC-4 events to jointly infer mass, spin, and eccentricity distributions for BNS and NSBH systems. They identify GW200105 as the only NSBH with significant residual eccentricity at 20 Hz, provide the first simultaneous constraints on spin precession and orbital eccentricity in NSBH mergers, and show that treating NSBHs as a single population yields results compatible with hierarchical-triple/dynamical formation while the quasi-circular subset is consistent with isolated evolution. The study combines coherent Bayesian parameter estimation with hierarchical inference and highlights eccentricity as an emerging discriminant of formation channels.",
+    "This paper should interest Yanbei because it advances waveform modeling and inference for inspiral-dominated low-mass binaries by jointly treating eccentricity and precession—areas that connect directly to his expertise in post-Newtonian expansions, waveform systematics, and gravitational-wave data-analysis. The population-level eccentricity constraints (and the identification of an eccentric NSBH) bear on astrophysical population modeling and formation-channel discrimination that Yanbei follows, and residual eccentricity/phasing systematics will matter for precision strong-field tests, waveform-calibration, and any study of gravitational-wave tails or nonlinear interactions in the inspiral regime.",
+    "Keywords/topics: gravitational waves; neutron-star–black-hole (NSBH) mergers; orbital eccentricity; spin precession; pyEFPE inspiral PN waveform; hierarchical Bayesian population inference; formation channels (hierarchical triples vs isolated evolution); waveform systematics. Published on arXiv 23 Mar 2026 (arXiv:2603.22461v1)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28197,
+  "featured": true
+}

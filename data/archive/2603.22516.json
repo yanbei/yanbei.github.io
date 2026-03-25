@@ -1,0 +1,21 @@
+{
+  "id": "2603.22516",
+  "title": "Quantum Tunneling of Primordial Black Holes to White Holes: Rates, Constraints, and Implications for Fast Radio Bursts",
+  "authors": [
+    "Christopher Ewasiuk",
+    "Stefano Profumo"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-23T19:25:43+00:00",
+  "summary_bullets": [
+    "They compute the present-day and cosmological volumetric rate of primordial‑black‑hole (PBH) quantum tunneling to white holes, explicitly including competition between Hawking evaporation and tunneling, cosmological depletion, realistic mass‑dependent PBH‑abundance limits, extended (lognormal) mass functions, and an alternative memory‑burden sequential evolution. A systematic scan of the (M, α) plane shows the burst rate is sharply peaked along a narrow ridge where the effective PBH lifetime ≃ t0, and — for canonical Planck‑star α ∼ 10^−2–1 — FRB‑level volumetric rates arise only in two highly restricted regions (a low‑mass window near the evaporation boundary and a narrow sequential window under the memory‑burden hypothesis). Including observational abundance limits, redshift evolution, multiwavelength (radio/gamma/cosmic‑ray) detectability and FRB repetition/host constraints, they conclude PBH tunneling cannot generically explain the FRB population and at best provides a finely tuned subdominant contribution.",
+    "You would care because the paper ties a concrete quantum‑gravity proposal (Planck‑star black→white hole tunneling, parametrized by α) to observable, multiwavelength and population‑level signatures and constraints, intersecting your interests in black‑hole phenomenology, Hawking evaporation, PBH dark‑matter scenarios, and strong‑gravity tests tied to observables. The detailed (M, α) rate maps, treatment of depletion and extended mass functions, and discussion of possible gravitational‑wave counterparts/memory‑related signatures give ready inputs for constructing search strategies, estimating backgrounds for exotic‑object GW/EM signals, or folding into population‑level tests of GR and horizon modifications.",
+    "Keywords/topics: primordial black holes (PBHs), Planck‑star / black→white‑hole tunneling, tunneling lifetime parameter α, Hawking evaporation, extended mass functions, cosmological depletion, memory‑burden scenario, FRBs, radio/gamma/cosmic‑ray detectability, multiwavelength constraints, gravitational‑wave signatures. Posted to arXiv:2603.22516 (gr‑qc) on 2026‑03‑23 — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 16479,
+  "featured": true
+}

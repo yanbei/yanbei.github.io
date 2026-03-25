@@ -1,0 +1,24 @@
+{
+  "id": "2603.22710",
+  "title": "Optimal filtering for a giant cavity in waveguide QED systems",
+  "authors": [
+    "Guangpu Wu",
+    "Shibei Xue",
+    "Yuting Zhu",
+    "Guofeng Zhang",
+    "Ian R. Petersen"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-24T02:02:41+00:00",
+  "summary_bullets": [
+    "This paper derives Heisenberg–Langevin dynamics for a \"giant\" cavity in waveguide QED coupled at two distant points, producing a linear continuous‑time model that explicitly includes both state and input propagation delays and preserves the nonlocal coupling. Because these delays induce noncommutativity among system operators at different times (so standard quantum filters fail), the authors design an optimal filter that computes delayed‑state covariance matrices and implements estimation via an interval‑wise backward recursion to produce a minimum‑mean‑square estimator under continuous homodyne measurement. Numerical simulations (tracking Wigner functions of coherent and cat states) validate that the filter can track the non‑Markovian cavity dynamics and delayed input–output structure.",
+    "Why Yanbei would care: the work directly addresses quantum measurement and optimal estimation under non‑Markovian, delay‑induced back‑action — areas that connect to Yanbei Chen's expertise in quantum measurement theory, quantum noise in interferometers, back‑action evasion and optomechanics. The interval‑wise covariance method and explicit handling of propagation delays provide practical tools for state estimation and feedback control in extended or distributed quantum systems (e.g. waveguide‑mediated or spatially extended optomechanical setups) that can impact macroscopic quantum state preparation, noise suppression, and experimental designs probing decoherence or subtle signatures such as gravity‑induced effects. Even if the paper is not about quantum gravity per se, its techniques for treating nonlocal couplings, delayed self‑feedback, and measurement back‑action are immediately relevant for improving observables and control in tabletop tests of macroscopic quantum mechanics.",
+    "Keywords/topics: quantum filtering; non‑Markovian quantum systems; waveguide QED; giant cavity; delayed quantum Langevin equation; continuous homodyne measurement; linear Gaussian quantum systems; state estimation; interval‑wise backward recursion; Wigner functions, cat states. Published on arXiv 24 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24624,
+  "featured": true
+}
