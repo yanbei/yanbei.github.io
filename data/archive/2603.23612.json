@@ -1,0 +1,28 @@
+{
+  "id": "2603.23612",
+  "title": "Reducing cosmological degeneracies by combining multiple classes of LISA gravitational-wave standard sirens",
+  "authors": [
+    "Danny Laghi",
+    "Nicola Tamanini",
+    "Alberto Sesana",
+    "Jonathan Gair",
+    "Enrico Barausse",
+    "Chiara Caprini",
+    "Walter Del Pozzo",
+    "Alberto Mangiagli",
+    "Sylvain Marsat"
+  ],
+  "category": "astro-ph.CO",
+  "published": "2026-03-24T18:01:03+00:00",
+  "summary_bullets": [
+    "This paper presents the first joint LISA cosmological inference that combines EMRI dark sirens (z≲1) and MBHB bright sirens (z≳1) within a hierarchical Bayesian framework using simulated catalogs, Fisher-matrix errors, and galaxy cross-matching. It demonstrates that the complementary redshift leverage of low-z EMRIs and high-z MBHBs partially breaks degeneracies among late-time parameters, yielding percent-level constraints on H0 (≈0.6–2% depending on mission duration and assumptions) and competitive bounds on w0 (few–10%). The novelty is the quantitative demonstration that combining dark and bright LISA sirens—with selection effects and realistic counterpart scenarios—rotates degeneracy directions in the h–Ωm and w0 parameter space and substantially tightens late-time cosmological inferences.",
+    "You would care because the study directly involves EMRIs (a system you have worked on) and addresses how waveform/systematic assumptions, population modeling, and selection effects propagate into observable cosmological parameters; these are areas where your expertise in black‑hole perturbation theory, EMRI modeling, and statistical GW inference (template banks, hierarchical methods, tests of GR) can both critique and extend the analysis. The paper also links strong‑gravity observables to astrophysical populations and data‑analysis strategies that matter for LISA-era probes of the event horizon, nonlinear BH dynamics, and independent late‑time cosmology—topics that align tightly with your current interests in strong‑gravity tests and EMRI science.",
+    "Keywords/topics: LISA, EMRIs (dark sirens), massive black-hole binaries (MBHBs, bright sirens), standard sirens, hierarchical Bayesian inference, galaxy cross-matching, selection effects, population modeling, Fisher-matrix/IMRPhenom/AKS waveform assumptions, H0, Ωm, w0. Published: arXiv:2603.23612 (24 March 2026) — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

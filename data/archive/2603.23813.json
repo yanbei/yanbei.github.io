@@ -1,0 +1,20 @@
+{
+  "id": "2603.23813",
+  "title": "Identical Quantum Particles as Potential Parts",
+  "authors": [
+    "Philip Goyal"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T00:46:31+00:00",
+  "summary_bullets": [
+    "The paper reconstructs the quantum symmetrization procedure (the Feynman quantum symmetrization algorithm, fQSA) from an operational indistinguishability postulate plus an isolation condition and shows that the distinctive behaviour of identical particles derives from the conjunction of identicality and the active nature of quantum measurements. Using this reconstruction the author formulates two complementary object‑models—persistence and non‑persistence—built from detection events rather than particle labels, and proposes a metaphysics of 'potential parts' in which identical particles are actual parts only when sufficiently isolated but otherwise exist only potentially, yielding restricted transtemporal identity and an in‑principle loss of reidentifiability. The novelty is methodological and interpretational: by shifting focus from the standard algebraic symmetrization rules to an operationally grounded framework the work exposes implicit experimental heuristics (e.g. no‑overlap rules) and reframes identical‑particle behaviour as measurement‑contextual, with direct consequences for how models connect to observed detection data.",
+    "You would care because this paper directly interrogates the operational assumptions that underwrite how detection events are modeled as persistent particles — precisely the sort of measurement‑theory issues you and collaborators use when analysing quantum noise, back‑action, QND strategies and macroscopic/optomechanical experiments; surfacing hidden heuristics about labeling and reidentifiability can change how one interprets interferometric or matter‑wave readouts and thus affect claims about observed decoherence or entanglement (including proposals to detect gravity‑induced effects). The reconstruction approach also supplies a concrete operational language for designing tests and for assessing when particle‑based descriptions break down, which is useful when planning or interpreting tabletop probes of foundational phenomena (e.g. gravity‑induced decoherence/entanglement) where assumptions about identity and measurement matter.",
+    "Keywords/topics: identical quantum particles, symmetrization/fQSA, operational indistinguishability, reconstruction, measurement theory, persistence vs non‑persistence, potential parts, transtemporal identity, experimental assumptions; arXiv:2603.23813 — posted/published March 25–26, 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 16130,
+  "featured": true
+}

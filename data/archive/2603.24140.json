@@ -1,0 +1,24 @@
+{
+  "id": "2603.24140",
+  "title": "A Longitudinal Analysis of the CEC Single-Objective Competitions (2010-2024) and Implications for Variational Quantum Optimization",
+  "authors": [
+    "Vojtěch Novák",
+    "Tomáš Bezděk",
+    "Ivan Zelinka",
+    "Swagatam Das",
+    "Martin Beseda"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T10:04:46+00:00",
+  "summary_bullets": [
+    "The paper presents a longitudinal analysis of IEEE CEC Single‑Objective Optimization competitions from 2010–2024, tracing how benchmark changes shaped winning algorithmic mechanisms. It identifies the 2014 introduction of dense rotation matrices as a turning point that rendered benchmarks non‑separable and favoured rotationally invariant Differential Evolution variants (notably L‑SHADE), and documents a post‑2020 trend toward high‑complexity hybrid optimizers combining mechanisms like Eigenvector Crossover and reinforcement learning. As a novel contribution it argues that structural similarities between modern CEC benchmarks and Variational Quantum Algorithm landscapes (non‑separability, correlated parameters, sampling noise) make these evolved CEC solvers promising candidates for improving variational quantum optimization and quantum control.",
+    "Yanbei should care because the paper directly addresses classical optimizer strategies for correlated, noisy, and non‑separable parameter landscapes—precisely the problems that arise in VQAs and quantum control tasks relevant to his work on quantum measurement, optomechanics, and macroscopic quantum systems. Rotationally invariant DE variants (L‑SHADE family) and population‑based techniques flagged here map onto concrete fixes for entanglement‑induced parameter correlations and finite‑sampling noise (population averaging, ensemble strategies), which could improve variational circuit training for quantum sensing, control of mechanical degrees of freedom, or protocols probing gravity‑induced decoherence/entanglement.",
+    "Keywords/topics: Global optimization, Evolutionary algorithms, Differential Evolution, L‑SHADE, rotational invariance, non‑separability, hybrid optimizers, Variational Quantum Algorithms, quantum control; Published on arXiv: 25 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 16995,
+  "featured": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2603.23634",
+  "title": "Testing Dark Energy with Black Hole Ringdown",
+  "authors": [
+    "Laurens Smulders",
+    "Johannes Noller",
+    "Sergi Sirera"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-24T18:20:49+00:00",
+  "summary_bullets": [
+    "The paper demonstrates that a recently discovered stable, time-dependent cubic Galileon black‑hole solution carries cosmological ‘hair’ and that this hair parametrically links the cosmological scalar dynamics to the short‑range black hole background used for perturbation theory.  Perturbations around this quasi‑stationary background (worked out in Regge–Wheeler gauge) yield decoupled modified Regge–Wheeler and Zerilli equations and an analytic/numerical result that QNM frequencies are rescaled as ω = √β · ωGR, with β fitted numerically to the cosmological scalar velocity by β = 11.82 (q/q0 − 1) + 1.  The rescaling produces O(10–40%) shifts in ringdown frequencies (a smoking‑gun signature), the effect is degenerate with a mass rescaling (so inspiral/merger mass information is needed to break the degeneracy), and Fisher forecasts give σ(q/q0) ∼ 10−2 for LVK and ∼10−4 for LISA under their assumptions.",
+    "Yanbei should care because this paper directly connects cosmological dynamical dark energy to concrete, strong‑field observables (QNM spectra) using black‑hole perturbation theory and waveform forecasting — areas central to his past work on black‑hole perturbations, QNMs, waveform modeling and tests of GR.  The result offers a calculable, modelled target (the √β frequency shift and the explicit β(q/q0) relation) that can be incorporated into ringdown/inspiral joint analyses or waveform templates, and it naturally raises extensions Yanbei is well‑placed to pursue (spinning remnants, nonlinear mode coupling, EMRI probes, and refined merger modelling to lift the mass–β degeneracy).",
+    "Keywords/topics: cubic Galileon, dynamical dark energy, black‑hole hair, quasi‑normal modes, Regge–Wheeler/Zerilli formalism, QNM frequency rescaling (ω ∝ √β), numerical shooting for background matching, Fisher ringdown forecasts, LVK and LISA prospects; arXiv:2603.23634, posted 24–26 March 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 26328,
+  "featured": true
+}

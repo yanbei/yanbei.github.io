@@ -1,0 +1,22 @@
+{
+  "id": "2603.24237",
+  "title": "Correlated Atom Loss as a Resource for Quantum Error Correction",
+  "authors": [
+    "Hugo Perrin",
+    "Gatien Roger",
+    "Guido Pupillo"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T12:17:14+00:00",
+  "summary_bullets": [
+    "The paper introduces a decoder for the rotated surface code that exploits correlated atom-loss events in neutral-atom processors by constructing a loss graph and dynamically updating posterior loss probabilities to effectively convert delayed erasure channels into standard erasure channels.",
+    "Leveraging teleportation-based loss-detection units and an approximate but highly parallelizable inference algorithm, the decoder is compatible with real-time operation and yields up to an order-of-magnitude reduction in logical error probability while increasing the loss threshold from 3.2% to 4% in the fully correlated model.",
+    "The authors model circuit-level, partially correlated loss stemming from Rydberg-mediated two-qubit gates, present both an accurate (non-scalable) and a fast scalable correlated-loss decoder, and benchmark robust gains across experimentally relevant regimes."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2603.24035",
+  "title": "Efficient Many-Body Shadow Metrology via Clifford Lensing",
+  "authors": [
+    "Sooryansh Asthana",
+    "Conan Alexander",
+    "Anubhav Kumar Srivastava",
+    "T. S. Mahesh",
+    "Sai Vinjanampathy"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T07:48:06+00:00",
+  "summary_bullets": [
+    "Using experimentally accessible Clifford operations acting jointly on states and observables, the authors introduce \"Clifford lensing\"—θ-independent Clifford isometries that coherently refocus distributed many-body phase information onto a reduced subsystem while preserving the quantum Fisher information and expectation values. They prove constructive results linking [n,1] stabilizer codes to deterministic Clifford phase kickback, characterize when full localization to one qubit (stabilizer-compatible) versus partial localization to k qubits (stabilizer-incompatible) is possible, and show that Clifford lensing reduces the Pauli weight of the symmetric logarithmic derivative (SLD) to enable efficient classical-shadow estimation. The framework is implemented experimentally with liquid-state NMR up to 15 qubits, introducing metrologically sufficient channels and partial shadow tomography under restricted collective control and demonstrating near–Heisenberg-limited phase sensitivity with greatly reduced measurement complexity.",
+    "Why Yanbei would care: this work directly addresses the gap between formal optimal measurements (SLD eigenbases) and experimentally accessible measurements in many-body interferometry—a central theme in his work on quantum measurement theory, quantum noise in interferometers, back-action evasion, and optomechanics. The explicit mapping between error-correcting codes and interferometric phase kickback (Clifford lensing) provides a toolbox for concentrating weak, distributed phase signals onto few degrees of freedom, which is valuable for designing feasible Heisenberg-scaling probes and readouts in constrained platforms (including proposals for tabletop probes of gravity-induced phases or decoherence). Moreover, the metrologically sufficient channels and shadow protocols show how quantum-information methods (Clifford circuits, shadows, stabilizer techniques) can be used to reduce measurement complexity in realistic experiments—aligning with his interests in combining QIS techniques with precision sensing and foundational tests.",
+    "Keywords/topics: Clifford lensing, symmetric logarithmic derivative (SLD), quantum Fisher information, stabilizer codes / phase kickback, Pauli-weight reduction, classical shadows / partial shadow tomography, metrologically sufficient channels, collective Clifford control, NMR demonstration (≤15 qubits). Published: arXiv v1 25 Mar 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

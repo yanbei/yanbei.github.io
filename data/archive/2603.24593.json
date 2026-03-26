@@ -1,0 +1,21 @@
+{
+  "id": "2603.24593",
+  "title": "Fractal universe and quantum gravity made simple",
+  "authors": [
+    "Fabio Briscese",
+    "Gianluca Calcagni"
+  ],
+  "category": "hep-th",
+  "published": "2026-03-25T17:59:35+00:00",
+  "summary_bullets": [
+    "The authors construct a covariant, self-adjoint \"fractional quantum gravity\" (FQG) by formulating QFT on multiscale/fractal spacetimes with a nonlocal kinetic form factor F(□) that encodes dimensional flow and a fractional UV scaling γ. They prove perturbative super-renormalizability (power-counting leads to finiteness for γ>2, one-loop super-renormalizability for larger γ) and argue perturbative unitarity by expressing the propagator as the standard graviton pole plus a continuum of complex-conjugate modes that are removed from the physical spectrum via the fakeon prescription. The paper works out the propagator and gravitational action, and discusses phenomenology: standard GW and solar-system tests are largely insensitive if the fundamental scale ℓ* is Planckian, but short-distance modifications to Newtonian potential, microscopic regular black holes, and possible deviations in black-hole shadows and waveforms at scales ∼ℓ* are identified as targets for future observational study.",
+    "Yanbei would care because the paper gives a concrete, top-down quantum-gravity proposal that connects formal field-theory ingredients (fractional/nonlocal kinetic operators, spectral-dimension running, propagator structure and fakeon projection) to potential strong-gravity observables he studies: black-hole structure, waveforms, tails and tests of GR. The construction touches his prior work and interests in black-hole perturbation theory, waveform modeling and strong-gravity tests (including how fundamental high-energy modifications imprint on luminosity distances, GW dispersion and quasinormal spectra), and it proposes calculable short-scale modifications and candidate regular black holes whose QNM/shadow/waveform signatures could be modeled and constrained with GW and EM data.",
+    "keywords/topics: fractional quantum gravity, fractal/multiscale spacetime, spectral dimension, nonlocal kinetic operator F(□), propagator with continuum modes, renormalizability (super-renormalizable for γ>2), perturbative unitarity and fakeon prescription, black-hole modifications, gravitational-wave phenomenology, modified Newtonian potential. Published: arXiv:2603.24593 (hep-th), 25 March 2026 — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

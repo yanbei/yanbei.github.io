@@ -2,8 +2,264 @@
   "months": [
     {
       "month": "2026-03",
-      "count": 63,
+      "count": 75,
       "papers": [
+        {
+          "id": "2603.24593",
+          "title": "Fractal universe and quantum gravity made simple",
+          "authors": [
+            "Fabio Briscese",
+            "Gianluca Calcagni"
+          ],
+          "category": "hep-th",
+          "published": "2026-03-25T17:59:35+00:00",
+          "summary_bullets": [
+            "The authors construct a covariant, self-adjoint \"fractional quantum gravity\" (FQG) by formulating QFT on multiscale/fractal spacetimes with a nonlocal kinetic form factor F(□) that encodes dimensional flow and a fractional UV scaling γ. They prove perturbative super-renormalizability (power-counting leads to finiteness for γ>2, one-loop super-renormalizability for larger γ) and argue perturbative unitarity by expressing the propagator as the standard graviton pole plus a continuum of complex-conjugate modes that are removed from the physical spectrum via the fakeon prescription. The paper works out the propagator and gravitational action, and discusses phenomenology: standard GW and solar-system tests are largely insensitive if the fundamental scale ℓ* is Planckian, but short-distance modifications to Newtonian potential, microscopic regular black holes, and possible deviations in black-hole shadows and waveforms at scales ∼ℓ* are identified as targets for future observational study.",
+            "Yanbei would care because the paper gives a concrete, top-down quantum-gravity proposal that connects formal field-theory ingredients (fractional/nonlocal kinetic operators, spectral-dimension running, propagator structure and fakeon projection) to potential strong-gravity observables he studies: black-hole structure, waveforms, tails and tests of GR. The construction touches his prior work and interests in black-hole perturbation theory, waveform modeling and strong-gravity tests (including how fundamental high-energy modifications imprint on luminosity distances, GW dispersion and quasinormal spectra), and it proposes calculable short-scale modifications and candidate regular black holes whose QNM/shadow/waveform signatures could be modeled and constrained with GW and EM data.",
+            "keywords/topics: fractional quantum gravity, fractal/multiscale spacetime, spectral dimension, nonlocal kinetic operator F(□), propagator with continuum modes, renormalizability (super-renormalizable for γ>2), perturbative unitarity and fakeon prescription, black-hole modifications, gravitational-wave phenomenology, modified Newtonian potential. Published: arXiv:2603.24593 (hep-th), 25 March 2026 — very recent."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.24424",
+          "title": "Quasinormal Modes of a Massive Scalar Field in 4D Einstein--Gauss--Bonnet Black Hole Spacetimes",
+          "authors": [
+            "Bekir Can Lütfüoğlu"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-25T15:35:39+00:00",
+          "summary_bullets": [
+            "The paper computes quasinormal-mode spectra, grey-body factors, and absorption cross-sections for a massive scalar field on the asymptotically-flat four-dimensional Einstein–Gauss–Bonnet (4D-EGB) black-hole background while restricting the Gauss–Bonnet coupling to a stability-admissible window. Using high-order WKB–Padé approximants (up to WKB16) and independent time-domain characteristic integration with Prony fits, the author cross-validates frequency- and time-domain results and reports robust convergence where a single-barrier potential peak exists. The main results show that increasing the scalar mass strongly reduces damping and drives modes toward long-lived quasi-resonant behavior, whereas the Gauss–Bonnet coupling produces only mild deformations of the spectrum and scattering (consistent with an effective-potential barrier interpretation), and the paper provides tables/plots that quantify these trends for multiple ℓ and α within the stable region.",
+            "Why Yanbei would care: this work sits squarely at the intersection of black-hole perturbation theory, ringdown spectroscopy, and beyond-GR tests — areas Yanbei has long worked on — because it provides precision QNM and scattering diagnostics for a higher-curvature deformation (EGB) that can be used as a baseline for strong-field tests. The explicit WKB16 vs time-domain cross-checks and the mapping of how a finite scalar mass produces quasi-resonances and modifies grey-body/absorption behaviour are directly relevant to waveform-systematics, parameter estimation for non-GR signatures or ultralight dark-matter fields, and to interpreting ringdown/late-time observables in future high-SNR detectors.",
+            "Keywords/topics: quasinormal modes, 4D Einstein–Gauss–Bonnet (EGB) gravity, massive scalar fields, quasi-resonances, WKB–Padé (high-order WKB16), time-domain characteristic integration, grey-body factors, absorption cross-section, ringdown spectroscopy. Published/posted: arXiv:2603.24424 (v1) — 25 March 2026."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 23774
+        },
+        {
+          "id": "2603.24345",
+          "title": "Robust Parametric Quantum Gate Against Stochastic Time-Varying Noise",
+          "authors": [
+            "Yang He",
+            "Zigui Zhang",
+            "Zibo Miao"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T14:23:30+00:00",
+          "summary_bullets": [
+            "This paper extends the quantum control robustness landscape (QCRL) to realistic stochastic, time‑varying noise by integrating the filter‑function formalism and names the resulting method FF‑QCRL. The algorithm minimizes a generalized robustness metric that maps control parameters and noise power spectra to gate infidelity, enabling generation of parametric gate families via RIPV while preserving both fidelity and spectral robustness. As an auxiliary route the authors introduce a variational quantum circuit (VQC) surrogate to approximate the robustness metric and its gradients, and validate FF‑QCRL numerically for a single‑qubit Rx(θ) under multi‑band detuning noise with filter‑function analysis and Monte‑Carlo tests.",
+            "Why Yanbei would care: FF‑QCRL directly addresses spectrally structured, time‑dependent noise using filter functions, which is the same formalism used to connect control pulses to observable decoherence in precision experiments; that makes it relevant to designing noise‑resilient controls for optomechanical and interferometric platforms he works on and for separating technical noise from subtle effects like gravity‑induced decoherence or entanglement. The introduction of a VQC surrogate ties to his interests in quantum learning/variational methods and could be useful for low‑overhead, experiment‑driven optimization; moreover, robust parametric gates (and the RIPV traversal of robustness level sets) can improve experimental protocols and metrological readouts where maintaining both a tunable operation and noise immunity is critical.",
+            "Keywords/topics: filter function, QCRL, FF‑QCRL, robust quantum control, parametric quantum gates, RIPV, stochastic time‑varying noise, VQC surrogate, NISQ; published on arXiv 25 Mar 2026 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 26737
+        },
+        {
+          "id": "2603.24237",
+          "title": "Correlated Atom Loss as a Resource for Quantum Error Correction",
+          "authors": [
+            "Hugo Perrin",
+            "Gatien Roger",
+            "Guido Pupillo"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T12:17:14+00:00",
+          "summary_bullets": [
+            "The paper introduces a decoder for the rotated surface code that exploits correlated atom-loss events in neutral-atom processors by constructing a loss graph and dynamically updating posterior loss probabilities to effectively convert delayed erasure channels into standard erasure channels.",
+            "Leveraging teleportation-based loss-detection units and an approximate but highly parallelizable inference algorithm, the decoder is compatible with real-time operation and yields up to an order-of-magnitude reduction in logical error probability while increasing the loss threshold from 3.2% to 4% in the fully correlated model.",
+            "The authors model circuit-level, partially correlated loss stemming from Rydberg-mediated two-qubit gates, present both an accurate (non-scalable) and a fast scalable correlated-loss decoder, and benchmark robust gains across experimentally relevant regimes."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.24140",
+          "title": "A Longitudinal Analysis of the CEC Single-Objective Competitions (2010-2024) and Implications for Variational Quantum Optimization",
+          "authors": [
+            "Vojtěch Novák",
+            "Tomáš Bezděk",
+            "Ivan Zelinka",
+            "Swagatam Das",
+            "Martin Beseda"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T10:04:46+00:00",
+          "summary_bullets": [
+            "The paper presents a longitudinal analysis of IEEE CEC Single‑Objective Optimization competitions from 2010–2024, tracing how benchmark changes shaped winning algorithmic mechanisms. It identifies the 2014 introduction of dense rotation matrices as a turning point that rendered benchmarks non‑separable and favoured rotationally invariant Differential Evolution variants (notably L‑SHADE), and documents a post‑2020 trend toward high‑complexity hybrid optimizers combining mechanisms like Eigenvector Crossover and reinforcement learning. As a novel contribution it argues that structural similarities between modern CEC benchmarks and Variational Quantum Algorithm landscapes (non‑separability, correlated parameters, sampling noise) make these evolved CEC solvers promising candidates for improving variational quantum optimization and quantum control.",
+            "Yanbei should care because the paper directly addresses classical optimizer strategies for correlated, noisy, and non‑separable parameter landscapes—precisely the problems that arise in VQAs and quantum control tasks relevant to his work on quantum measurement, optomechanics, and macroscopic quantum systems. Rotationally invariant DE variants (L‑SHADE family) and population‑based techniques flagged here map onto concrete fixes for entanglement‑induced parameter correlations and finite‑sampling noise (population averaging, ensemble strategies), which could improve variational circuit training for quantum sensing, control of mechanical degrees of freedom, or protocols probing gravity‑induced decoherence/entanglement.",
+            "Keywords/topics: Global optimization, Evolutionary algorithms, Differential Evolution, L‑SHADE, rotational invariance, non‑separability, hybrid optimizers, Variational Quantum Algorithms, quantum control; Published on arXiv: 25 Mar 2026 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 16995
+        },
+        {
+          "id": "2603.24052",
+          "title": "Data-driven synthesis of high-fidelity triaxial magnetic waveforms for quantum control",
+          "authors": [
+            "Giuseppe Bevilacqua",
+            "Valerio Biancalana",
+            "Roberto Cecchi"
+          ],
+          "category": "physics.ins-det",
+          "published": "2026-03-25T08:00:46+00:00",
+          "summary_bullets": [
+            "This paper studies Data-driven synthesis of high-fidelity triaxial magnetic waveforms for quantum control using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.ins-det themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
+            "Key words/topics: quantum control; published about 1.3 days ago."
+          ],
+          "relevance": 3,
+          "worth_reading_full": false,
+          "used_openai": false,
+          "used_pdf_text": true,
+          "pdf_text_chars": 23086
+        },
+        {
+          "id": "2603.24035",
+          "title": "Efficient Many-Body Shadow Metrology via Clifford Lensing",
+          "authors": [
+            "Sooryansh Asthana",
+            "Conan Alexander",
+            "Anubhav Kumar Srivastava",
+            "T. S. Mahesh",
+            "Sai Vinjanampathy"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T07:48:06+00:00",
+          "summary_bullets": [
+            "Using experimentally accessible Clifford operations acting jointly on states and observables, the authors introduce \"Clifford lensing\"—θ-independent Clifford isometries that coherently refocus distributed many-body phase information onto a reduced subsystem while preserving the quantum Fisher information and expectation values. They prove constructive results linking [n,1] stabilizer codes to deterministic Clifford phase kickback, characterize when full localization to one qubit (stabilizer-compatible) versus partial localization to k qubits (stabilizer-incompatible) is possible, and show that Clifford lensing reduces the Pauli weight of the symmetric logarithmic derivative (SLD) to enable efficient classical-shadow estimation. The framework is implemented experimentally with liquid-state NMR up to 15 qubits, introducing metrologically sufficient channels and partial shadow tomography under restricted collective control and demonstrating near–Heisenberg-limited phase sensitivity with greatly reduced measurement complexity.",
+            "Why Yanbei would care: this work directly addresses the gap between formal optimal measurements (SLD eigenbases) and experimentally accessible measurements in many-body interferometry—a central theme in his work on quantum measurement theory, quantum noise in interferometers, back-action evasion, and optomechanics. The explicit mapping between error-correcting codes and interferometric phase kickback (Clifford lensing) provides a toolbox for concentrating weak, distributed phase signals onto few degrees of freedom, which is valuable for designing feasible Heisenberg-scaling probes and readouts in constrained platforms (including proposals for tabletop probes of gravity-induced phases or decoherence). Moreover, the metrologically sufficient channels and shadow protocols show how quantum-information methods (Clifford circuits, shadows, stabilizer techniques) can be used to reduce measurement complexity in realistic experiments—aligning with his interests in combining QIS techniques with precision sensing and foundational tests.",
+            "Keywords/topics: Clifford lensing, symmetric logarithmic derivative (SLD), quantum Fisher information, stabilizer codes / phase kickback, Pauli-weight reduction, classical shadows / partial shadow tomography, metrologically sufficient channels, collective Clifford control, NMR demonstration (≤15 qubits). Published: arXiv v1 25 Mar 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.23813",
+          "title": "Identical Quantum Particles as Potential Parts",
+          "authors": [
+            "Philip Goyal"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T00:46:31+00:00",
+          "summary_bullets": [
+            "The paper reconstructs the quantum symmetrization procedure (the Feynman quantum symmetrization algorithm, fQSA) from an operational indistinguishability postulate plus an isolation condition and shows that the distinctive behaviour of identical particles derives from the conjunction of identicality and the active nature of quantum measurements. Using this reconstruction the author formulates two complementary object‑models—persistence and non‑persistence—built from detection events rather than particle labels, and proposes a metaphysics of 'potential parts' in which identical particles are actual parts only when sufficiently isolated but otherwise exist only potentially, yielding restricted transtemporal identity and an in‑principle loss of reidentifiability. The novelty is methodological and interpretational: by shifting focus from the standard algebraic symmetrization rules to an operationally grounded framework the work exposes implicit experimental heuristics (e.g. no‑overlap rules) and reframes identical‑particle behaviour as measurement‑contextual, with direct consequences for how models connect to observed detection data.",
+            "You would care because this paper directly interrogates the operational assumptions that underwrite how detection events are modeled as persistent particles — precisely the sort of measurement‑theory issues you and collaborators use when analysing quantum noise, back‑action, QND strategies and macroscopic/optomechanical experiments; surfacing hidden heuristics about labeling and reidentifiability can change how one interprets interferometric or matter‑wave readouts and thus affect claims about observed decoherence or entanglement (including proposals to detect gravity‑induced effects). The reconstruction approach also supplies a concrete operational language for designing tests and for assessing when particle‑based descriptions break down, which is useful when planning or interpreting tabletop probes of foundational phenomena (e.g. gravity‑induced decoherence/entanglement) where assumptions about identity and measurement matter.",
+            "Keywords/topics: identical quantum particles, symmetrization/fQSA, operational indistinguishability, reconstruction, measurement theory, persistence vs non‑persistence, potential parts, transtemporal identity, experimental assumptions; arXiv:2603.23813 — posted/published March 25–26, 2026 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 16130
+        },
+        {
+          "id": "2603.23804",
+          "title": "Precision bounds for frequency estimation under collective dephasing and open-loop control",
+          "authors": [
+            "Francisco Riberi",
+            "Gerardo Paz-Silva",
+            "Lorenza Viola"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T00:26:14+00:00",
+          "summary_bullets": [
+            "They derive rigorous, state-independent precision bounds for entanglement-assisted frequency estimation under classical collective dephasing with arbitrary temporal correlations, showing that the achievable scaling is set solely by the short‑time behavior of the decoherence function. For Markovian (white) dephasing the precision is limited by a probe‑independent constant (precluding super‑classical scaling), while for stationary temporally correlated noise classical states can approach the noiseless limit and asymptotic quantum advantage is precluded. They construct generalized Ramsey protocols (GHZ and one‑axis‑twisted/squeezed inputs with pre‑readout disentangling and perfect‑echo) that saturate the bounds and prove two no‑go theorems that collective open‑loop control cannot restore super‑classical scaling, although constant‑factor gains are possible for colored noise.",
+            "Yanbei would care because the paper addresses fundamental decoherence limits and achievable protocols in a noise model (collective dephasing) directly relevant to precision interferometry and macroscopic quantum sensors—areas where his prior work on quantum noise, quantum measurement theory, back‑action evasion, and optomechanics is central. The constructive saturation of the bounds with experimentally realistic squeezed states and echo/disentangling operations, together with rigorous no‑go results for open‑loop control, provides concrete benchmarks and constraints that inform when entanglement, dynamical control, or error‑correction‑inspired strategies can meaningfully improve (or cannot improve) metrological performance—making it directly applicable to his interest in experimental signatures of decoherence and quantum‑limited sensing.",
+            "Keywords/topics: collective dephasing, frequency estimation, quantum metrology, quantum Fisher information, Ramsey interferometry, GHZ states, spin squeezing, one‑axis twisting, perfect echo, open‑loop control, dynamical decoupling, no‑go theorems, Markovian vs colored noise, standard quantum limit vs Heisenberg scaling. Published on 2026-03-25 (arXiv:2603.23804), ~1.6 days old."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 17442
+        },
+        {
+          "id": "2603.23634",
+          "title": "Testing Dark Energy with Black Hole Ringdown",
+          "authors": [
+            "Laurens Smulders",
+            "Johannes Noller",
+            "Sergi Sirera"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-24T18:20:49+00:00",
+          "summary_bullets": [
+            "The paper demonstrates that a recently discovered stable, time-dependent cubic Galileon black‑hole solution carries cosmological ‘hair’ and that this hair parametrically links the cosmological scalar dynamics to the short‑range black hole background used for perturbation theory.  Perturbations around this quasi‑stationary background (worked out in Regge–Wheeler gauge) yield decoupled modified Regge–Wheeler and Zerilli equations and an analytic/numerical result that QNM frequencies are rescaled as ω = √β · ωGR, with β fitted numerically to the cosmological scalar velocity by β = 11.82 (q/q0 − 1) + 1.  The rescaling produces O(10–40%) shifts in ringdown frequencies (a smoking‑gun signature), the effect is degenerate with a mass rescaling (so inspiral/merger mass information is needed to break the degeneracy), and Fisher forecasts give σ(q/q0) ∼ 10−2 for LVK and ∼10−4 for LISA under their assumptions.",
+            "Yanbei should care because this paper directly connects cosmological dynamical dark energy to concrete, strong‑field observables (QNM spectra) using black‑hole perturbation theory and waveform forecasting — areas central to his past work on black‑hole perturbations, QNMs, waveform modeling and tests of GR.  The result offers a calculable, modelled target (the √β frequency shift and the explicit β(q/q0) relation) that can be incorporated into ringdown/inspiral joint analyses or waveform templates, and it naturally raises extensions Yanbei is well‑placed to pursue (spinning remnants, nonlinear mode coupling, EMRI probes, and refined merger modelling to lift the mass–β degeneracy).",
+            "Keywords/topics: cubic Galileon, dynamical dark energy, black‑hole hair, quasi‑normal modes, Regge–Wheeler/Zerilli formalism, QNM frequency rescaling (ω ∝ √β), numerical shooting for background matching, Fisher ringdown forecasts, LVK and LISA prospects; arXiv:2603.23634, posted 24–26 March 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 26328
+        },
+        {
+          "id": "2603.23612",
+          "title": "Reducing cosmological degeneracies by combining multiple classes of LISA gravitational-wave standard sirens",
+          "authors": [
+            "Danny Laghi",
+            "Nicola Tamanini",
+            "Alberto Sesana",
+            "Jonathan Gair",
+            "Enrico Barausse",
+            "Chiara Caprini",
+            "Walter Del Pozzo",
+            "Alberto Mangiagli",
+            "Sylvain Marsat"
+          ],
+          "category": "astro-ph.CO",
+          "published": "2026-03-24T18:01:03+00:00",
+          "summary_bullets": [
+            "This paper presents the first joint LISA cosmological inference that combines EMRI dark sirens (z≲1) and MBHB bright sirens (z≳1) within a hierarchical Bayesian framework using simulated catalogs, Fisher-matrix errors, and galaxy cross-matching. It demonstrates that the complementary redshift leverage of low-z EMRIs and high-z MBHBs partially breaks degeneracies among late-time parameters, yielding percent-level constraints on H0 (≈0.6–2% depending on mission duration and assumptions) and competitive bounds on w0 (few–10%). The novelty is the quantitative demonstration that combining dark and bright LISA sirens—with selection effects and realistic counterpart scenarios—rotates degeneracy directions in the h–Ωm and w0 parameter space and substantially tightens late-time cosmological inferences.",
+            "You would care because the study directly involves EMRIs (a system you have worked on) and addresses how waveform/systematic assumptions, population modeling, and selection effects propagate into observable cosmological parameters; these are areas where your expertise in black‑hole perturbation theory, EMRI modeling, and statistical GW inference (template banks, hierarchical methods, tests of GR) can both critique and extend the analysis. The paper also links strong‑gravity observables to astrophysical populations and data‑analysis strategies that matter for LISA-era probes of the event horizon, nonlinear BH dynamics, and independent late‑time cosmology—topics that align tightly with your current interests in strong‑gravity tests and EMRI science.",
+            "Keywords/topics: LISA, EMRIs (dark sirens), massive black-hole binaries (MBHBs, bright sirens), standard sirens, hierarchical Bayesian inference, galaxy cross-matching, selection effects, population modeling, Fisher-matrix/IMRPhenom/AKS waveform assumptions, H0, Ωm, w0. Published: arXiv:2603.23612 (24 March 2026) — very recent."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.23599",
+          "title": "Enhanced Dark Matter Quantum Sensing via Geometric Phase",
+          "authors": [
+            "Xiaolin Ma",
+            "Jie Sheng"
+          ],
+          "category": "hep-ph",
+          "published": "2026-03-24T18:00:02+00:00",
+          "summary_bullets": [
+            "The paper proposes a geometric-phase-based quantum sensing protocol for dispersively coupled qubit–oscillator (transmon–cavity) systems that maps a weak dark-matter-induced cavity drive onto an amplified, spin-dependent geometric phase by combining large coherent displacements with squeezing and a spin-echo sequence. They show this converts the weak displacement into an enhanced quantum Fisher information scaling ∝β^2 (β = α e^r), surpassing the standard quantum limit while accounting for cavity loss and qubit decoherence, and projecting up to 1–2 orders of magnitude improved sensitivity to axion and dark-photon searches for realistic device parameters. The analysis uses Magnus-expansion-derived evolution operators, explicit QFI calculations, and decoherence trade-off estimates (cavity-induced which-path dephasing and spin-echo limits), and gives experimental benchmarks (squeezing ≲15 dB, β∼20, T_c1 choices) and extensions to entangled-cavity and more general control protocols.",
+            "You would care because the protocol sits squarely at the intersection of quantum measurement theory and practical macroscopic quantum sensing—areas where you and collaborators have deep contributions (quantum noise in interferometers, QND/back‑action evasion, quantum trajectories and optomechanics). The work offers a concrete way to amplify a weak, physically motivated signal into a measurable geometric phase while explicitly treating measurement back-action and decoherence, making it directly relevant to designing tabletop searches for new physics (dark matter, and by analogy methods for gravity‑induced decoherence/entanglement) and to applying squeezing/active control techniques you study to improve sensitivity of macroscopic quantum devices.",
+            "Keywords/topics: geometric phase amplification, quantum Fisher information, surpassing the standard quantum limit, squeezed displacement, dispersive transmon–cavity (cQED), Ramsey readout, axion and dark‑photon haloscopes, cavity‑induced dephasing, experimental benchmarks and trade-offs. Published: 24 Mar 2026 (arXiv:2603.23599) — very recent."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 27897
+        },
         {
           "id": "2603.23437",
           "title": "Energy-Morawetz estimates for Teukolsky equations in perturbations of Kerr",

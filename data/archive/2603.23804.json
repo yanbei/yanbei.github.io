@@ -1,0 +1,22 @@
+{
+  "id": "2603.23804",
+  "title": "Precision bounds for frequency estimation under collective dephasing and open-loop control",
+  "authors": [
+    "Francisco Riberi",
+    "Gerardo Paz-Silva",
+    "Lorenza Viola"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T00:26:14+00:00",
+  "summary_bullets": [
+    "They derive rigorous, state-independent precision bounds for entanglement-assisted frequency estimation under classical collective dephasing with arbitrary temporal correlations, showing that the achievable scaling is set solely by the short‑time behavior of the decoherence function. For Markovian (white) dephasing the precision is limited by a probe‑independent constant (precluding super‑classical scaling), while for stationary temporally correlated noise classical states can approach the noiseless limit and asymptotic quantum advantage is precluded. They construct generalized Ramsey protocols (GHZ and one‑axis‑twisted/squeezed inputs with pre‑readout disentangling and perfect‑echo) that saturate the bounds and prove two no‑go theorems that collective open‑loop control cannot restore super‑classical scaling, although constant‑factor gains are possible for colored noise.",
+    "Yanbei would care because the paper addresses fundamental decoherence limits and achievable protocols in a noise model (collective dephasing) directly relevant to precision interferometry and macroscopic quantum sensors—areas where his prior work on quantum noise, quantum measurement theory, back‑action evasion, and optomechanics is central. The constructive saturation of the bounds with experimentally realistic squeezed states and echo/disentangling operations, together with rigorous no‑go results for open‑loop control, provides concrete benchmarks and constraints that inform when entanglement, dynamical control, or error‑correction‑inspired strategies can meaningfully improve (or cannot improve) metrological performance—making it directly applicable to his interest in experimental signatures of decoherence and quantum‑limited sensing.",
+    "Keywords/topics: collective dephasing, frequency estimation, quantum metrology, quantum Fisher information, Ramsey interferometry, GHZ states, spin squeezing, one‑axis twisting, perfect echo, open‑loop control, dynamical decoupling, no‑go theorems, Markovian vs colored noise, standard quantum limit vs Heisenberg scaling. Published on 2026-03-25 (arXiv:2603.23804), ~1.6 days old."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 17442,
+  "featured": true
+}

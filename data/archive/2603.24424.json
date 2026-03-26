@@ -1,0 +1,20 @@
+{
+  "id": "2603.24424",
+  "title": "Quasinormal Modes of a Massive Scalar Field in 4D Einstein--Gauss--Bonnet Black Hole Spacetimes",
+  "authors": [
+    "Bekir Can Lütfüoğlu"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-25T15:35:39+00:00",
+  "summary_bullets": [
+    "The paper computes quasinormal-mode spectra, grey-body factors, and absorption cross-sections for a massive scalar field on the asymptotically-flat four-dimensional Einstein–Gauss–Bonnet (4D-EGB) black-hole background while restricting the Gauss–Bonnet coupling to a stability-admissible window. Using high-order WKB–Padé approximants (up to WKB16) and independent time-domain characteristic integration with Prony fits, the author cross-validates frequency- and time-domain results and reports robust convergence where a single-barrier potential peak exists. The main results show that increasing the scalar mass strongly reduces damping and drives modes toward long-lived quasi-resonant behavior, whereas the Gauss–Bonnet coupling produces only mild deformations of the spectrum and scattering (consistent with an effective-potential barrier interpretation), and the paper provides tables/plots that quantify these trends for multiple ℓ and α within the stable region.",
+    "Why Yanbei would care: this work sits squarely at the intersection of black-hole perturbation theory, ringdown spectroscopy, and beyond-GR tests — areas Yanbei has long worked on — because it provides precision QNM and scattering diagnostics for a higher-curvature deformation (EGB) that can be used as a baseline for strong-field tests. The explicit WKB16 vs time-domain cross-checks and the mapping of how a finite scalar mass produces quasi-resonances and modifies grey-body/absorption behaviour are directly relevant to waveform-systematics, parameter estimation for non-GR signatures or ultralight dark-matter fields, and to interpreting ringdown/late-time observables in future high-SNR detectors.",
+    "Keywords/topics: quasinormal modes, 4D Einstein–Gauss–Bonnet (EGB) gravity, massive scalar fields, quasi-resonances, WKB–Padé (high-order WKB16), time-domain characteristic integration, grey-body factors, absorption cross-section, ringdown spectroscopy. Published/posted: arXiv:2603.24424 (v1) — 25 March 2026."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 23774,
+  "featured": true
+}

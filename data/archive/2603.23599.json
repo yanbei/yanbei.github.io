@@ -1,0 +1,21 @@
+{
+  "id": "2603.23599",
+  "title": "Enhanced Dark Matter Quantum Sensing via Geometric Phase",
+  "authors": [
+    "Xiaolin Ma",
+    "Jie Sheng"
+  ],
+  "category": "hep-ph",
+  "published": "2026-03-24T18:00:02+00:00",
+  "summary_bullets": [
+    "The paper proposes a geometric-phase-based quantum sensing protocol for dispersively coupled qubit–oscillator (transmon–cavity) systems that maps a weak dark-matter-induced cavity drive onto an amplified, spin-dependent geometric phase by combining large coherent displacements with squeezing and a spin-echo sequence. They show this converts the weak displacement into an enhanced quantum Fisher information scaling ∝β^2 (β = α e^r), surpassing the standard quantum limit while accounting for cavity loss and qubit decoherence, and projecting up to 1–2 orders of magnitude improved sensitivity to axion and dark-photon searches for realistic device parameters. The analysis uses Magnus-expansion-derived evolution operators, explicit QFI calculations, and decoherence trade-off estimates (cavity-induced which-path dephasing and spin-echo limits), and gives experimental benchmarks (squeezing ≲15 dB, β∼20, T_c1 choices) and extensions to entangled-cavity and more general control protocols.",
+    "You would care because the protocol sits squarely at the intersection of quantum measurement theory and practical macroscopic quantum sensing—areas where you and collaborators have deep contributions (quantum noise in interferometers, QND/back‑action evasion, quantum trajectories and optomechanics). The work offers a concrete way to amplify a weak, physically motivated signal into a measurable geometric phase while explicitly treating measurement back-action and decoherence, making it directly relevant to designing tabletop searches for new physics (dark matter, and by analogy methods for gravity‑induced decoherence/entanglement) and to applying squeezing/active control techniques you study to improve sensitivity of macroscopic quantum devices.",
+    "Keywords/topics: geometric phase amplification, quantum Fisher information, surpassing the standard quantum limit, squeezed displacement, dispersive transmon–cavity (cQED), Ramsey readout, axion and dark‑photon haloscopes, cavity‑induced dephasing, experimental benchmarks and trade-offs. Published: 24 Mar 2026 (arXiv:2603.23599) — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 27897,
+  "featured": true
+}

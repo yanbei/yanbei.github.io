@@ -1,0 +1,22 @@
+{
+  "id": "2603.24345",
+  "title": "Robust Parametric Quantum Gate Against Stochastic Time-Varying Noise",
+  "authors": [
+    "Yang He",
+    "Zigui Zhang",
+    "Zibo Miao"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T14:23:30+00:00",
+  "summary_bullets": [
+    "This paper extends the quantum control robustness landscape (QCRL) to realistic stochastic, time‑varying noise by integrating the filter‑function formalism and names the resulting method FF‑QCRL. The algorithm minimizes a generalized robustness metric that maps control parameters and noise power spectra to gate infidelity, enabling generation of parametric gate families via RIPV while preserving both fidelity and spectral robustness. As an auxiliary route the authors introduce a variational quantum circuit (VQC) surrogate to approximate the robustness metric and its gradients, and validate FF‑QCRL numerically for a single‑qubit Rx(θ) under multi‑band detuning noise with filter‑function analysis and Monte‑Carlo tests.",
+    "Why Yanbei would care: FF‑QCRL directly addresses spectrally structured, time‑dependent noise using filter functions, which is the same formalism used to connect control pulses to observable decoherence in precision experiments; that makes it relevant to designing noise‑resilient controls for optomechanical and interferometric platforms he works on and for separating technical noise from subtle effects like gravity‑induced decoherence or entanglement. The introduction of a VQC surrogate ties to his interests in quantum learning/variational methods and could be useful for low‑overhead, experiment‑driven optimization; moreover, robust parametric gates (and the RIPV traversal of robustness level sets) can improve experimental protocols and metrological readouts where maintaining both a tunable operation and noise immunity is critical.",
+    "Keywords/topics: filter function, QCRL, FF‑QCRL, robust quantum control, parametric quantum gates, RIPV, stochastic time‑varying noise, VQC surrogate, NISQ; published on arXiv 25 Mar 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 26737,
+  "featured": true
+}
