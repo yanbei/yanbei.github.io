@@ -9,13 +9,13 @@
   "category": "physics.ins-det",
   "published": "2026-03-25T08:00:46+00:00",
   "summary_bullets": [
-    "This paper studies Data-driven synthesis of high-fidelity triaxial magnetic waveforms for quantum control using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.ins-det themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-    "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-    "Key words/topics: quantum control; published about 1.3 days ago."
+    "The paper presents a system for generating arbitrary, triaxial magnetic waveforms with spectral content spanning from DC to tens of kHz, targeted at quantum control and spin manipulation. It uses a data-driven compensation of amplifier–coil dynamics by identifying a Finite Impulse Response (FIR) model via weighted least squares on measured input–output data and then computes precompensated driving voltages through Wiener-regularized frequency-domain inversion. Experimental validation on representative spin-manipulation waveforms demonstrates high fidelity, sharp transient performance, synchronous three-axis control, and rapid reconfiguration without relying on detailed circuit models.",
+    "This is directly relevant to Yanbei’s interests because high-fidelity, synchronized multi-axis magnetic control mitigates classical noise sources and control errors that otherwise limit coherent spin/atomic protocols and precision measurements—areas tied to his work on quantum measurement theory, quantum noise in interferometers, back-action evasion, and optomechanical control. Moreover, the method’s ability to suppress switching transients and precisely shape control fields is valuable for tabletop tests of gravity-induced decoherence/entanglement and other quantum-gravity–adjacent experiments where spurious magnetic couplings must be tightly controlled, and for implementing robust control layers useful in quantum learning / error-mitigation experiments.",
+    "Keywords/topics: triaxial magnetic waveform generation; FIR/WLS system identification; frequency-domain inversion (Wiener regularisation); feed-forward precompensation; spin manipulation; atomic quantum control; DAC-driven three-axis amplifiers; DC–tens of kHz bandwidth; experimental validation. Published on arXiv: 25 March 2026 (arXiv:2603.24052)."
   ],
-  "relevance": 3,
-  "worth_reading_full": false,
-  "used_openai": false,
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
   "used_pdf_text": true,
   "pdf_text_chars": 23086,
   "featured": true

@@ -1,0 +1,22 @@
+{
+  "id": "2603.25630",
+  "title": "Repetitive Penrose Process in Kerr-Taub-NUT black hole spacetime",
+  "authors": [
+    "Mirzabek Alloqulov",
+    "Bobomurat Ahmedov",
+    "Chengxun Yuan"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T16:42:00+00:00",
+  "summary_bullets": [
+    "The paper analyzes the repetitive Penrose process in the Kerr–Taub–NUT spacetime, deriving horizon and ergosphere loci and showing that both radii increase with the gravitomagnetic (NUT) charge l while the irreducible mass behavior causes the maximum extractable rotational energy to decrease as l grows. The authors formulate iterative conservation laws and stopping conditions for repeated particle-splitting cycles, give analytic expressions for turning points and relevant orbital radii (marginally bound and photon orbits) in the Kerr–Taub–NUT metric, and track how M, a, irreducible mass and extractable energy evolve per iteration. Numerical examples (̂l = 0.2 with rp = 1.4 and 1.6) show the process terminates after a finite number of cycles, quantify energy-return and utilization efficiencies, and demonstrate that a fraction of the extractable energy is converted into irreducible mass rather than being fully liberated.",
+    "Why Yanbei would care: the paper connects horizon/ergosphere geometry, spin and irreducible-mass evolution under repeated energy-extraction—topics directly related to Yanbei’s interests in black-hole physics, event-horizon properties and strong-gravity observables. Although Kerr–Taub–NUT is an exotic (Misner-string) extension, the explicit analytic relations and numeric tracking of how non-Kerr gravitomagnetic charge modifies energetics and stopping conditions could inform work on spin evolution, bounds on rotational-energy reservoirs (relevant to jet physics), and hypothesis tests where non-Kerr multipoles or topology change observables such as emitted radiation or mode frequencies in perturbed black holes. The iterative, nonlinear character of the process and its bookkeeping of irreducible mass make it potentially useful background for thinking about backreaction in EMRIs or nonlinear oscillation scenarios Yanbei studies.",
+    "Keywords/topics: Kerr–Taub–NUT spacetime, NUT/gravitomagnetic charge, repetitive Penrose process, ergosphere and horizon structure, irreducible mass, marginally bound / photon orbits, iterative stopping conditions, energy-extraction efficiency, numerical examples. Published: 26 March 2026 (arXiv:2603.25630) — very recent."
+  ],
+  "relevance": 3,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 20233,
+  "featured": true
+}

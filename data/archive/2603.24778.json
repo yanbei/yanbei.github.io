@@ -1,0 +1,22 @@
+{
+  "id": "2603.24778",
+  "title": "Resource-optimal quantum mode parameter estimation with multimode Gaussian states",
+  "authors": [
+    "Maximilian Reichert",
+    "Mikel Sanz",
+    "Nicolas Fabre"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-25T19:49:33+00:00",
+  "summary_bullets": [
+    "This paper develops a resource‑normalized framework for quantum mode‑parameter estimation with multimode pure Gaussian states, identifying the signal photon number N_S and two modal resources — the generator mean ḡ and its variance Δg — as the physically meaningful quantities that govern precision. The authors derive a tight upper bound on the quantum Fisher information F ≤ (8 ḡ^2 + 4 Δg^2) N_S^2 + O(N_S), construct analytically optimal Gaussian probes (two‑mode squeezers in the generator eigenbasis) that saturate Heisenberg scaling, and prove multimode homodyne detection is an optimal measurement. They also show ḡ and Δg play distinct operational roles (phase‑sensitive vs phase‑insensitive) and apply the framework to time/frequency shifts and spatial beam-parameter estimation (displacement and tilt).",
+    "Why Yanbei would care: the paper gives a clear, operational resource accounting and an end‑to‑end optimal protocol (probe + measurement) for mode-parameter tasks that underlie interferometry and optomechanical sensing — areas central to Yanbei's work on quantum noise, quantum measurement theory, back‑action evasion and optomechanics. The identification of generator-eigenmode basis as the natural basis for optimal probes, the analytic construction of two‑mode squeezed optimal states, and the phase‑sensitive vs phase‑insensitive distinction directly inform design choices for quantum‑limited readout in gravitational‑wave–style interferometers, quantum-limited lidar/radar and tabletop optomechanical tests probing decoherence or gravity-induced effects. Finally, the result that multimode homodyne attains the bound is practically useful for experimental proposals that Yanbei and collaborators pursue, since it ties optimal metrology to realizable detection schemes.",
+    "Keywords/topics: multimode Gaussian states, quantum Fisher information, resource‑normalized quantum metrology, Heisenberg limit, two‑mode squeezing, multimode homodyne detection, time-delay and frequency-shift estimation, beam displacement/tilt, mode engineering, optomechanics. Publication: arXiv preprint (Mar 2026; v1 posted 25 Mar 2026, paper dated 27 Mar 2026) — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28440,
+  "featured": true
+}

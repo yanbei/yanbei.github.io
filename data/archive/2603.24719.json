@@ -1,0 +1,22 @@
+{
+  "id": "2603.24719",
+  "title": "Dynamical Tidal Response of Regular Black Holes: Perturbative Analysis and Shell EFT Interpretation",
+  "authors": [
+    "Arpan Bhattacharyya",
+    "Naman Kumar",
+    "Shailesh Kumar"
+  ],
+  "category": "hep-th",
+  "published": "2026-03-25T18:44:54+00:00",
+  "summary_bullets": [
+    "We compute frequency-dependent (dynamical) tidal Love numbers for three regular black-hole geometries (Bardeen, Hayward, Fan–Wang) by solving the coupled linear perturbation equations with ingoing-wave/asymptotic boundary conditions and by constructing a shell EFT that encodes renormalized, frequency-dependent response functions. In the polar sector the dynamical TLNs show strong dispersion with oscillatory and resonant features that smoothly reproduce the static limit, while in the axial sector gravitational and electromagnetic perturbations remain coupled and exhibit a pronounced frequency-dependent enhancement near extremality. The shell-EFT analysis isolates scheme-independent logarithmic running from scheme-dependent finite parts, provides gauge-invariant Wilson coefficients matched to perturbation theory, and thus establishes dynamical TLNs as well-defined EFT observables that probe near-horizon and interior structure absent in the static limit.",
+    "Yanbei would care because this paper sits at the intersection of black-hole perturbation theory, tidal interactions, and EFT parameterizations—areas where he has contributed to waveform modelling, EMRI/strong-field calculations, and tests of GR; the frequency-dependent (and resonant) tidal responses reported here provide concrete finite-size corrections that can accumulate in inspiral phasing or produce distinctive signatures for EMRIs and high-precision tests. Moreover, the shell-EFT matching to renormalized Wilson coefficients gives a clean, gauge-invariant template for incorporating these effects into waveform models and for separating measurable running from model-dependent finite pieces when constraining modified interiors or deviations from vacuum GR.",
+    "Keywords/topics: dynamical tidal Love numbers (frequency-dependent TLNs), regular/non-singular black holes (Bardeen, Hayward, Fan–Wang), black-hole perturbation theory, polar and axial sectors, shell EFT / renormalized response, resonances and dispersion, near-horizon/interior probes, potential GW/EMRI waveform imprints. Published on arXiv 25 March 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 16464,
+  "featured": true
+}

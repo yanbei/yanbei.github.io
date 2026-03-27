@@ -2,8 +2,300 @@
   "months": [
     {
       "month": "2026-03",
-      "count": 75,
+      "count": 88,
       "papers": [
+        {
+          "id": "2603.25630",
+          "title": "Repetitive Penrose Process in Kerr-Taub-NUT black hole spacetime",
+          "authors": [
+            "Mirzabek Alloqulov",
+            "Bobomurat Ahmedov",
+            "Chengxun Yuan"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T16:42:00+00:00",
+          "summary_bullets": [
+            "The paper analyzes the repetitive Penrose process in the Kerr–Taub–NUT spacetime, deriving horizon and ergosphere loci and showing that both radii increase with the gravitomagnetic (NUT) charge l while the irreducible mass behavior causes the maximum extractable rotational energy to decrease as l grows. The authors formulate iterative conservation laws and stopping conditions for repeated particle-splitting cycles, give analytic expressions for turning points and relevant orbital radii (marginally bound and photon orbits) in the Kerr–Taub–NUT metric, and track how M, a, irreducible mass and extractable energy evolve per iteration. Numerical examples (̂l = 0.2 with rp = 1.4 and 1.6) show the process terminates after a finite number of cycles, quantify energy-return and utilization efficiencies, and demonstrate that a fraction of the extractable energy is converted into irreducible mass rather than being fully liberated.",
+            "Why Yanbei would care: the paper connects horizon/ergosphere geometry, spin and irreducible-mass evolution under repeated energy-extraction—topics directly related to Yanbei’s interests in black-hole physics, event-horizon properties and strong-gravity observables. Although Kerr–Taub–NUT is an exotic (Misner-string) extension, the explicit analytic relations and numeric tracking of how non-Kerr gravitomagnetic charge modifies energetics and stopping conditions could inform work on spin evolution, bounds on rotational-energy reservoirs (relevant to jet physics), and hypothesis tests where non-Kerr multipoles or topology change observables such as emitted radiation or mode frequencies in perturbed black holes. The iterative, nonlinear character of the process and its bookkeeping of irreducible mass make it potentially useful background for thinking about backreaction in EMRIs or nonlinear oscillation scenarios Yanbei studies.",
+            "Keywords/topics: Kerr–Taub–NUT spacetime, NUT/gravitomagnetic charge, repetitive Penrose process, ergosphere and horizon structure, irreducible mass, marginally bound / photon orbits, iterative stopping conditions, energy-extraction efficiency, numerical examples. Published: 26 March 2026 (arXiv:2603.25630) — very recent."
+          ],
+          "relevance": 3,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 20233
+        },
+        {
+          "id": "2603.25578",
+          "title": "Particle Physics and Gravitational Waves as complementary windows on the Universe",
+          "authors": [
+            "Steven D. Bass",
+            "Laura Baudis",
+            "Gianfranco Bertone",
+            "Oliver Buchmueller",
+            "Babette Döbrich",
+            "Reinhard Genzel",
+            "Anne M. Green",
+            "Klaus Helbing",
+            "Michèle Heurs",
+            "Karl Jakobs",
+            "Markus Klute",
+            "Samaya Nissanke",
+            "Hiranya Peiris",
+            "Albino Perego",
+            "Stefan Pokorski",
+            "Matthias Schott",
+            "Stefano Vitale",
+            "Georg Weiglein",
+            "Jochen Weller"
+          ],
+          "category": "astro-ph.CO",
+          "published": "2026-03-26T15:56:10+00:00",
+          "summary_bullets": [
+            "This Perspectives article surveys how gravitational-wave observations—from neutron-star tidal signals and black-hole binaries to stochastic backgrounds measurable by LISA and third-generation detectors—can probe particle-physics phenomena such as the QCD phase diagram, first-order electroweak‑scale phase transitions, and dark-matter scenarios including primordial black holes and ultralight bosons.",
+            "The paper highlights concrete observational signatures and detectors: NS inspiral/merger constraints on dense QCD, stochastic GW backgrounds from TeV‑scale phase transitions accessible to LISA, environment‑induced waveform dephasing from dark‑matter spikes and ‘gravitational‑atom’ effects due to superradiance, and synergies with collider, direct‑detection and atom‑interferometer programs.",
+            "Its novelty is synthesising particle‑physics targets and GW observables across frequency bands (pulsar‑timing, LISA, ET/CE, atom interferometers), mapping which experiments probe which particle models, and advocating a coordinated multi‑messenger program to maximise discovery potential in the 2030s–2040s."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.25503",
+          "title": "Implementing Bell causality in Quantum Sequential Growth",
+          "authors": [
+            "Ritesh Srivastava",
+            "Sumati Surya"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T14:41:23+00:00",
+          "summary_bullets": [
+            "The authors analyse different operator-ordering implementations of quantum Bell causality (QBC) within the quantum sequential growth (QSG) framework of causal-set quantum gravity, allowing non-commuting transition operators and assuming non-singular dynamics. They prove that for the two most natural orderings the transition-operator algebra A reduces to a commutative algebra (recovering the complex sequential growth, CSG, models), while a third ordering that depends on the size of the precursor set yields new commutation relations that do not force commutativity. They also show that if any generator of the antichain subalgebra Q lies in its center then A becomes commutative, and that a simple d=2 Pauli-matrix representation of Q is inconsistent, implying any non-trivial representation must be higher-dimensional—positioning this work as a first step toward a genuinely non-commutative QSG.",
+            "You would care because the paper probes how Bell-causality constraints and operator-ordering ambiguities shape the algebraic (commutative versus non-commutative) structure of quantum-gravitational transition operators—a question closely related to the foundations of quantum measurement and how gravity might mediate or constrain entanglement and decoherence. Given your background on quantum measurement theory, back-action, and optomechanics, the result that non-commutative realizations are nontrivial (and likely high-dimensional) bears on modelling effective quantum channels or noise induced by Planck-scale/causal-set degrees of freedom and on whether such channels could produce observable gravity-induced decoherence or entanglement signatures. While the work is foundational and formal rather than directly experimental, its algebraic constraints could inform phenomenological models used to predict signatures in tabletop tests or interferometric probes of quantum gravity.",
+            "Keywords/topics: causal set theory, quantum sequential growth (QSG), quantum Bell causality (QBC), operator ordering, non-commutative operator algebra, antichain subalgebra, decoherence functional, quantum gravity foundations. Publication: arXiv:2603.25503, posted 26 March 2026 (very recent)."
+          ],
+          "relevance": 3,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 16487
+        },
+        {
+          "id": "2603.25413",
+          "title": "Testing the strong equivalence principle with multimessenger binary neutron star mergers",
+          "authors": [
+            "Jie Zhu",
+            "Hanlin Song",
+            "Zhenwei Lyu",
+            "Hao Li",
+            "Peixiang Ji",
+            "Jun-Chen Wang",
+            "Haobo Yan",
+            "Bo-Qiang Ma"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T13:09:02+00:00",
+          "summary_bullets": [
+            "The authors construct a gravitational-wave waveform model for a slowly time-varying Newton constant G that self-consistently includes both source-generation effects (object-dependent sensitivities entering inspiral phasing and amplitude) and propagation effects across an FLRW background, implementing ppE-like corrections (a = −8, b = −13) and enforcing EOS-dependent neutron-star mass/sensitivity bounds via TOV solutions. They compute neutron-star sensitivities numerically for multiple EOSs, give a model-independent argument that stationary black-hole sensitivity = 1/2, and perform full Bayesian inference on GW170817 combining GW data with electromagnetic priors (GRB 170817A) using TaylorF2 and IMRPhenomXAS_NRTidalv2 waveforms. The multimessenger analysis yields no evidence for ˙G and produces a conservative 3σ bound ˙G/G ∈ [−3.36×10^−9, 5.34×10^−10] yr^−1, claimed as the most stringent constraint from real GW observations to date.",
+            "This paper should interest you because it provides a concrete, data-ready prescription for incorporating a fundamental-constant variation into waveform templates (phase and amplitude) and demonstrates how multimessenger priors break degeneracies — directly relevant to your work on waveform modeling, strong-field tests of GR, and GW data-analysis/statistical inference. The use of EOS-dependent TOV sensitivities and the explicit derivation of black-hole sensitivity = 1/2 connect to your interests in compact-object physics and horizon properties, while the propagation-side modifications bear on cosmological/modified-gravity probes (dark energy/cosmic evolution) that you follow.",
+            "Keywords/topics: varying G, strong equivalence principle, multimessenger binary neutron star, GW170817, ppE corrections (a = −8, b = −13), neutron-star sensitivities (TOV), black-hole sensitivity = 1/2, Bayesian parameter inference, waveform systematics. Published: arXiv:2603.25413 (26 Mar 2026)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 21205
+        },
+        {
+          "id": "2603.25305",
+          "title": "Non parametric constraints of gravitational-electromagnetic luminosity distance ratio",
+          "authors": [
+            "Sergio Andrés Vallejo-Peña",
+            "Antonio Enea Romano",
+            "Jonathan Gair"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T10:49:43+00:00",
+          "summary_bullets": [
+            "The authors develop a non-parametric reconstruction of the gravitational-to-electromagnetic luminosity-distance ratio r(z) using a Piecewise Cubic Hermite Interpolating Polynomial (PCHIP) and implement it into the gwcosmo hierarchical Bayesian pipeline.",
+            "They apply this method to a joint population–cosmology analysis of 42 binary-black-hole dark-siren events from GWTC‑3, combining sky-localization, galaxy-catalogue priors, and detector-frame mass information.",
+            "The results are consistent with general relativity and previous parametric constraints, and the approach is designed to map directly onto effective gravitational-coupling / modified-gravity parameters without assuming a specific theoretical parametrization."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 12229
+        },
+        {
+          "id": "2603.25210",
+          "title": "Magnetic Modification of Black Hole Photospheres with Image Contraction, Efficiency Shifts and Redshift Boosts in Schwarzschild-Bertotti-Robinson Spacetime",
+          "authors": [
+            "Javokhir Sharipov",
+            "Pankaj Sheoran",
+            "Sanjar Shaymatov"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T09:13:18+00:00",
+          "summary_bullets": [
+            "Using the exact Schwarzschild–Bertotti–Robinson solution to the Einstein–Maxwell equations, the authors study null geodesics and Novikov–Thorne thin-disk radiation to show that a self-consistent uniform magnetic field alters photon propagation and expands light bundles relative to Schwarzschild.",
+            "They compute magnetic-field-dependent shifts of the event horizon, photon sphere and ISCO (all moving outward with increasing B), produce ray-traced disk images showing contraction of the direct image with enhanced maximal energy flux, temperature and redshift, and derive analytic expressions for the modified Keplerian frequency, specific energy and angular momentum including an exact ISCO; for β = B M ≃ 0.1 they report an ≃91% drop in radiative efficiency.",
+            "The work highlights potential observable discriminants of magnetic fields in BH–magnetar binaries and provides an exact non-rotating baseline for extensions to the Kerr–Bertotti–Robinson case."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 24936
+        },
+        {
+          "id": "2603.25128",
+          "title": "Optimal measurement-based quantum thermal machines in a finite-size system",
+          "authors": [
+            "Chinonso Onah",
+            "Obinna Uzoh",
+            "Obinna Abah"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-26T07:51:16+00:00",
+          "summary_bullets": [
+            "The paper proposes a measurement-based quantum thermal machine whose working medium is a finite-size array of coupled two-level systems with Ising-like interactions and extracts work from measurement back-action via a three-stroke cycle (measurement, feedback, thermalization). It derives analytic stationarity conditions (Theorem 1) for optimal local feedback angles that minimize the post-feedback energy and presents two numerical algorithms (hybrid local–global search and grid-sweep) to obtain global optima for small-to-moderate system sizes. Numerical results show efficiency peaks in the projective-measurement limit, that symmetry breaking (detuning or weak coupling) enlarges exploitable energy gaps, and that performance is robust to ~10° feedback-pulse errors; the framework is platform-agnostic and implementable on superconducting, trapped-ion, or NMR setups.",
+            "Why Yanbei would care: the work directly addresses measurement back-action, optimal feedback control, and the thermodynamic cost of measurement/erasure—areas closely tied to Yanbei's expertise in quantum measurement theory, back-action evasion, and optomechanical control. The analytic stationarity conditions and scalable optimization strategies could inform design of feedback and control protocols in optomechanical or spin-based experiments he cares about, and the emphasis on experimental implementability and robustness is relevant for proposals that seek observable signatures of nonclassicality (and, by extension, for designing sensitive schemes to probe gravity-induced decoherence/entanglement in tabletop platforms).",
+            "Keywords/topics: measurement-based quantum thermal machines, quantum thermodynamics, measurement back-action, feedback control, finite-size coupled two-level systems, Ising-like interaction, optimization algorithms (hybrid local–global, grid sweep), projective-measurement limit, symmetry-breaking enhancements, robustness to feedback errors; Published on arXiv 2026-03-26 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 28880
+        },
+        {
+          "id": "2603.25102",
+          "title": "Binary neutron star mergers with a subsolar mass star",
+          "authors": [
+            "Maxence Corman",
+            "William E. East",
+            "Jocelyn S. Read"
+          ],
+          "category": "astro-ph.HE",
+          "published": "2026-03-26T07:18:40+00:00",
+          "summary_bullets": [
+            "The authors present fully general‑relativistic numerical‑relativity simulations of unequal‑mass binary neutron star mergers that include a subsolar‑mass component (they study configurations like 1.8 M⊙ + 0.7 M⊙), yielding tidal deformabilities for the light star up to O(10^4).",
+            "They find mass transfer from the light star, substantially lower disruption/merger frequencies (∼990–1050 Hz) than in equal‑mass cases, and a large increase in dynamically ejected mass relative to existing phenomenological fits. The paper hybridizes NR and analytical inspirals to show that while current waveform models miss the late disruption physics, mismatches remain ≲7×10^−4 and parameter‑estimation injections at LIGO–Virgo design sensitivity show no significant biases for realistic SNRs (≲100).",
+            "No extra technical note provided."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 25463
+        },
+        {
+          "id": "2603.25084",
+          "title": "Particle motions and gravitational waveforms in rotating black hole spacetimes of loop quantum gravity",
+          "authors": [
+            "Yang Yang",
+            "Yu-Xuan Bai",
+            "Yong-Zhuang Li",
+            "Yu Han"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T06:38:36+00:00",
+          "summary_bullets": [
+            "The paper builds two Kerr‑like rotating black‑hole spacetimes by applying a revised Newman–Janis algorithm to spherically symmetric loop‑quantum‑gravity (LQG) seed metrics and introduces a holonomy regularization parameter ξ that encodes quantum corrections and reduces to Kerr when ξ→0. The authors analyze horizon structure (including extremal conditions and constraints on ξ and a), derive integrable timelike geodesics with a Carter constant, and map how ξ shifts orbital quantities (LMBO, LISCO, EISCO, rISCO) and confines off‑equatorial motion toward the equator. Using a simplified extreme‑mass‑ratio inspiral (EMRI) model at leading‑order post‑Newtonian order they compute gravitational waveforms from periodic prograde orbits and show that increasing ξ enhances waveform deviations near the horizon, highlighting potentially observable LQG imprints for future space detectors.",
+            "Why Yanbei would care: the paper directly connects an explicit family of effective, rotating LQG metrics to geodesic structure and EMRI waveforms—areas Yanbei has worked on (EMRIs, black‑hole perturbation theory, ISCO/MBO analyses and waveform modeling) and is interested in (strong‑gravity tests tied to observables, event‑horizon physics). Although the waveform treatment is a leading‑order PN toy model rather than a full perturbative/Teukolsky/self‑force calculation, the demonstrated shifts in ISCO/MBO, Carter‑constant confinement, and enhanced near‑horizon waveform signatures provide concrete targets for more rigorous follow‑ups (self‑force, Teukolsky QNM/waveform calculations or parameter‑estimation impact studies for LISA/Taiji/TianQin).",
+            "Keywords/topics: loop quantum gravity, holonomy corrections (ξ), revised Newman–Janis algorithm, rotating regular black holes, horizon/extremality conditions, Carter constant, timelike geodesics (ISCO/MBO, precessing/periodic orbits), EMRIs, gravitational waveforms (leading‑order PN), observational prospects (LISA/Taiji/TianQin); arXiv preprint posted 26 March 2026 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 22725
+        },
+        {
+          "id": "2603.25023",
+          "title": "Explicit States with Two-sided Long-Range Magic",
+          "authors": [
+            "Zhi Li"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-26T04:40:08+00:00",
+          "summary_bullets": [
+            "This paper constructs explicit many-body states that provably possess two-sided long-range magic—i.e., nonstabilizerness that cannot be produced by either Clifford◦FDU or FDU◦Clifford circuits—thereby placing them outside the first level of the recently proposed magic hierarchy. Concrete examples include the \"ZX-cat\" state (|ψ> ∝ |0^n> + |+^n>) and ground states of certain nonabelian quantum-double/string-net topological orders, with rigorous proofs that preparation by those circuit classes is impossible up to constant or inverse-polynomial error. The work introduces new proof techniques tying long-range magic to many-body phase structure and principles of quantum error correction, connecting circuit complexity, topological order, and nonstabilizerness.",
+            "Why you would care: the paper identifies which macroscopic many-body states carry robust, topologically protected \"magic\" resources and gives constructive examples and lower bounds, which directly bears on resource accounting for preparing and certifying nonclassical macroscopic states (relevant to macroscopic quantum mechanics and optomechanical platforms you study). Its link between nonabelian topological order, error-correcting structure, and provable hardness of state preparation informs both fault-tolerant encoding strategies and criteria for experimentally distinguishing genuinely nonstabilizer quantum resources—topics that touch your interests in quantum error correction, macroscopic quantum states, and foundations that underlie proposals to probe gravity-induced decoherence/entanglement. ",
+            "Keywords/topics: long-range magic; nonstabilizerness/magic; magic hierarchy; ZX‑cat (magical cat) state; nonabelian topological order; quantum error correction; circuit complexity; many-body phases. Published on arXiv as quant-ph:2603.25023 (v1) 26 Mar 2026."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 12979
+        },
+        {
+          "id": "2603.24778",
+          "title": "Resource-optimal quantum mode parameter estimation with multimode Gaussian states",
+          "authors": [
+            "Maximilian Reichert",
+            "Mikel Sanz",
+            "Nicolas Fabre"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-25T19:49:33+00:00",
+          "summary_bullets": [
+            "This paper develops a resource‑normalized framework for quantum mode‑parameter estimation with multimode pure Gaussian states, identifying the signal photon number N_S and two modal resources — the generator mean ḡ and its variance Δg — as the physically meaningful quantities that govern precision. The authors derive a tight upper bound on the quantum Fisher information F ≤ (8 ḡ^2 + 4 Δg^2) N_S^2 + O(N_S), construct analytically optimal Gaussian probes (two‑mode squeezers in the generator eigenbasis) that saturate Heisenberg scaling, and prove multimode homodyne detection is an optimal measurement. They also show ḡ and Δg play distinct operational roles (phase‑sensitive vs phase‑insensitive) and apply the framework to time/frequency shifts and spatial beam-parameter estimation (displacement and tilt).",
+            "Why Yanbei would care: the paper gives a clear, operational resource accounting and an end‑to‑end optimal protocol (probe + measurement) for mode-parameter tasks that underlie interferometry and optomechanical sensing — areas central to Yanbei's work on quantum noise, quantum measurement theory, back‑action evasion and optomechanics. The identification of generator-eigenmode basis as the natural basis for optimal probes, the analytic construction of two‑mode squeezed optimal states, and the phase‑sensitive vs phase‑insensitive distinction directly inform design choices for quantum‑limited readout in gravitational‑wave–style interferometers, quantum-limited lidar/radar and tabletop optomechanical tests probing decoherence or gravity-induced effects. Finally, the result that multimode homodyne attains the bound is practically useful for experimental proposals that Yanbei and collaborators pursue, since it ties optimal metrology to realizable detection schemes.",
+            "Keywords/topics: multimode Gaussian states, quantum Fisher information, resource‑normalized quantum metrology, Heisenberg limit, two‑mode squeezing, multimode homodyne detection, time-delay and frequency-shift estimation, beam displacement/tilt, mode engineering, optomechanics. Publication: arXiv preprint (Mar 2026; v1 posted 25 Mar 2026, paper dated 27 Mar 2026) — very recent."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 28440
+        },
+        {
+          "id": "2603.24719",
+          "title": "Dynamical Tidal Response of Regular Black Holes: Perturbative Analysis and Shell EFT Interpretation",
+          "authors": [
+            "Arpan Bhattacharyya",
+            "Naman Kumar",
+            "Shailesh Kumar"
+          ],
+          "category": "hep-th",
+          "published": "2026-03-25T18:44:54+00:00",
+          "summary_bullets": [
+            "We compute frequency-dependent (dynamical) tidal Love numbers for three regular black-hole geometries (Bardeen, Hayward, Fan–Wang) by solving the coupled linear perturbation equations with ingoing-wave/asymptotic boundary conditions and by constructing a shell EFT that encodes renormalized, frequency-dependent response functions. In the polar sector the dynamical TLNs show strong dispersion with oscillatory and resonant features that smoothly reproduce the static limit, while in the axial sector gravitational and electromagnetic perturbations remain coupled and exhibit a pronounced frequency-dependent enhancement near extremality. The shell-EFT analysis isolates scheme-independent logarithmic running from scheme-dependent finite parts, provides gauge-invariant Wilson coefficients matched to perturbation theory, and thus establishes dynamical TLNs as well-defined EFT observables that probe near-horizon and interior structure absent in the static limit.",
+            "Yanbei would care because this paper sits at the intersection of black-hole perturbation theory, tidal interactions, and EFT parameterizations—areas where he has contributed to waveform modelling, EMRI/strong-field calculations, and tests of GR; the frequency-dependent (and resonant) tidal responses reported here provide concrete finite-size corrections that can accumulate in inspiral phasing or produce distinctive signatures for EMRIs and high-precision tests. Moreover, the shell-EFT matching to renormalized Wilson coefficients gives a clean, gauge-invariant template for incorporating these effects into waveform models and for separating measurable running from model-dependent finite pieces when constraining modified interiors or deviations from vacuum GR.",
+            "Keywords/topics: dynamical tidal Love numbers (frequency-dependent TLNs), regular/non-singular black holes (Bardeen, Hayward, Fan–Wang), black-hole perturbation theory, polar and axial sectors, shell EFT / renormalized response, resonances and dispersion, near-horizon/interior probes, potential GW/EMRI waveform imprints. Published on arXiv 25 March 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 16464
+        },
+        {
+          "id": "2603.24686",
+          "title": "Topological signatures in Kerr-Sen AdS black hole thermodynamics",
+          "authors": [
+            "Mohd Rehan",
+            "Md Sabir Ali",
+            "Sushant G. Ghosh"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-25T18:05:13+00:00",
+          "summary_bullets": [
+            "The authors apply Duan’s ϕ‑mapping topological current theory together with a novel complex‑residue method to classify the thermodynamic phase structure of the Kerr‑Sen AdS black hole (a rotating, dilaton‑charged solution from heterotic string theory). They find three on‑shell branches (small, intermediate, large) carrying winding numbers +1, −1, +1 respectively, giving a total topological charge W=+1, and show that this topological class is invariant under variations of the dilaton charge while being controlled by the rotation parameter. They also analytically continue the off‑shell Gibbs free energy into the complex plane and demonstrate that isolated singularities of the characterized function have residues that directly encode the winding numbers, providing an alternative residue‑based classification of critical points.",
+            "Why Yanbei would care: The paper develops coordinate‑independent, topological diagnostics of black‑hole phase structure and introduces a residue technique that codifies critical‑point creation/annihilation—methods that complement Yanbei’s interests in black‑hole structure and universal, observable signatures of strong gravity. Although the work is thermodynamic/AdS‑focused rather than waveform modelling, the emphasis on rotation‑driven changes in global topology and on invariant quantities under dilaton deformations may map onto questions Yanbei studies (how spin and additional fields modify stability, quasinormal spectra, nonlinear oscillations, and holographic observables), and the residue/topological viewpoint could inspire new invariant diagnostics for perturbation theory or ringdown analyses. In short, it offers conceptual tools that could bridge thermodynamic topology and dynamical/observable properties of black holes—relevant to testing gravity and to holographic interpretations Yanbei follows.",
+            "Keywords/topics: Kerr‑Sen AdS, thermodynamic topology, Duan’s ϕ‑mapping, complex residue method, winding numbers, dilaton charge, rotation effects, phase transitions, holography. arXiv:2603.24686 (submitted 25 Mar 2026; PDF dated 27 Mar 2026) — very recent."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 20992
+        },
         {
           "id": "2603.24593",
           "title": "Fractal universe and quantum gravity made simple",
@@ -119,13 +411,13 @@
           "category": "physics.ins-det",
           "published": "2026-03-25T08:00:46+00:00",
           "summary_bullets": [
-            "This paper studies Data-driven synthesis of high-fidelity triaxial magnetic waveforms for quantum control using the methods and problem setup described in the abstract. Its scientific content appears to center on physics.ins-det themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
-            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum learning, quantum error correction.",
-            "Key words/topics: quantum control; published about 1.3 days ago."
+            "The paper presents a system for generating arbitrary, triaxial magnetic waveforms with spectral content spanning from DC to tens of kHz, targeted at quantum control and spin manipulation. It uses a data-driven compensation of amplifier–coil dynamics by identifying a Finite Impulse Response (FIR) model via weighted least squares on measured input–output data and then computes precompensated driving voltages through Wiener-regularized frequency-domain inversion. Experimental validation on representative spin-manipulation waveforms demonstrates high fidelity, sharp transient performance, synchronous three-axis control, and rapid reconfiguration without relying on detailed circuit models.",
+            "This is directly relevant to Yanbei’s interests because high-fidelity, synchronized multi-axis magnetic control mitigates classical noise sources and control errors that otherwise limit coherent spin/atomic protocols and precision measurements—areas tied to his work on quantum measurement theory, quantum noise in interferometers, back-action evasion, and optomechanical control. Moreover, the method’s ability to suppress switching transients and precisely shape control fields is valuable for tabletop tests of gravity-induced decoherence/entanglement and other quantum-gravity–adjacent experiments where spurious magnetic couplings must be tightly controlled, and for implementing robust control layers useful in quantum learning / error-mitigation experiments.",
+            "Keywords/topics: triaxial magnetic waveform generation; FIR/WLS system identification; frequency-domain inversion (Wiener regularisation); feed-forward precompensation; spin manipulation; atomic quantum control; DAC-driven three-axis amplifiers; DC–tens of kHz bandwidth; experimental validation. Published on arXiv: 25 March 2026 (arXiv:2603.24052)."
           ],
-          "relevance": 3,
-          "worth_reading_full": false,
-          "used_openai": false,
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 23086
         },

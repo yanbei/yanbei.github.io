@@ -1,0 +1,22 @@
+{
+  "id": "2603.25305",
+  "title": "Non parametric constraints of gravitational-electromagnetic luminosity distance ratio",
+  "authors": [
+    "Sergio Andrés Vallejo-Peña",
+    "Antonio Enea Romano",
+    "Jonathan Gair"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T10:49:43+00:00",
+  "summary_bullets": [
+    "The authors develop a non-parametric reconstruction of the gravitational-to-electromagnetic luminosity-distance ratio r(z) using a Piecewise Cubic Hermite Interpolating Polynomial (PCHIP) and implement it into the gwcosmo hierarchical Bayesian pipeline.",
+    "They apply this method to a joint population–cosmology analysis of 42 binary-black-hole dark-siren events from GWTC‑3, combining sky-localization, galaxy-catalogue priors, and detector-frame mass information.",
+    "The results are consistent with general relativity and previous parametric constraints, and the approach is designed to map directly onto effective gravitational-coupling / modified-gravity parameters without assuming a specific theoretical parametrization."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 12229,
+  "featured": true
+}

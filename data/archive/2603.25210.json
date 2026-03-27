@@ -1,0 +1,22 @@
+{
+  "id": "2603.25210",
+  "title": "Magnetic Modification of Black Hole Photospheres with Image Contraction, Efficiency Shifts and Redshift Boosts in Schwarzschild-Bertotti-Robinson Spacetime",
+  "authors": [
+    "Javokhir Sharipov",
+    "Pankaj Sheoran",
+    "Sanjar Shaymatov"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T09:13:18+00:00",
+  "summary_bullets": [
+    "Using the exact Schwarzschild–Bertotti–Robinson solution to the Einstein–Maxwell equations, the authors study null geodesics and Novikov–Thorne thin-disk radiation to show that a self-consistent uniform magnetic field alters photon propagation and expands light bundles relative to Schwarzschild.",
+    "They compute magnetic-field-dependent shifts of the event horizon, photon sphere and ISCO (all moving outward with increasing B), produce ray-traced disk images showing contraction of the direct image with enhanced maximal energy flux, temperature and redshift, and derive analytic expressions for the modified Keplerian frequency, specific energy and angular momentum including an exact ISCO; for β = B M ≃ 0.1 they report an ≃91% drop in radiative efficiency.",
+    "The work highlights potential observable discriminants of magnetic fields in BH–magnetar binaries and provides an exact non-rotating baseline for extensions to the Kerr–Bertotti–Robinson case."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24936,
+  "featured": true
+}

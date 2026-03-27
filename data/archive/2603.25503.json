@@ -1,0 +1,21 @@
+{
+  "id": "2603.25503",
+  "title": "Implementing Bell causality in Quantum Sequential Growth",
+  "authors": [
+    "Ritesh Srivastava",
+    "Sumati Surya"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T14:41:23+00:00",
+  "summary_bullets": [
+    "The authors analyse different operator-ordering implementations of quantum Bell causality (QBC) within the quantum sequential growth (QSG) framework of causal-set quantum gravity, allowing non-commuting transition operators and assuming non-singular dynamics. They prove that for the two most natural orderings the transition-operator algebra A reduces to a commutative algebra (recovering the complex sequential growth, CSG, models), while a third ordering that depends on the size of the precursor set yields new commutation relations that do not force commutativity. They also show that if any generator of the antichain subalgebra Q lies in its center then A becomes commutative, and that a simple d=2 Pauli-matrix representation of Q is inconsistent, implying any non-trivial representation must be higher-dimensional—positioning this work as a first step toward a genuinely non-commutative QSG.",
+    "You would care because the paper probes how Bell-causality constraints and operator-ordering ambiguities shape the algebraic (commutative versus non-commutative) structure of quantum-gravitational transition operators—a question closely related to the foundations of quantum measurement and how gravity might mediate or constrain entanglement and decoherence. Given your background on quantum measurement theory, back-action, and optomechanics, the result that non-commutative realizations are nontrivial (and likely high-dimensional) bears on modelling effective quantum channels or noise induced by Planck-scale/causal-set degrees of freedom and on whether such channels could produce observable gravity-induced decoherence or entanglement signatures. While the work is foundational and formal rather than directly experimental, its algebraic constraints could inform phenomenological models used to predict signatures in tabletop tests or interferometric probes of quantum gravity.",
+    "Keywords/topics: causal set theory, quantum sequential growth (QSG), quantum Bell causality (QBC), operator ordering, non-commutative operator algebra, antichain subalgebra, decoherence functional, quantum gravity foundations. Publication: arXiv:2603.25503, posted 26 March 2026 (very recent)."
+  ],
+  "relevance": 3,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 16487,
+  "featured": true
+}

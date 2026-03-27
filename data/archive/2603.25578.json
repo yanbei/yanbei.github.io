@@ -1,0 +1,38 @@
+{
+  "id": "2603.25578",
+  "title": "Particle Physics and Gravitational Waves as complementary windows on the Universe",
+  "authors": [
+    "Steven D. Bass",
+    "Laura Baudis",
+    "Gianfranco Bertone",
+    "Oliver Buchmueller",
+    "Babette Döbrich",
+    "Reinhard Genzel",
+    "Anne M. Green",
+    "Klaus Helbing",
+    "Michèle Heurs",
+    "Karl Jakobs",
+    "Markus Klute",
+    "Samaya Nissanke",
+    "Hiranya Peiris",
+    "Albino Perego",
+    "Stefan Pokorski",
+    "Matthias Schott",
+    "Stefano Vitale",
+    "Georg Weiglein",
+    "Jochen Weller"
+  ],
+  "category": "astro-ph.CO",
+  "published": "2026-03-26T15:56:10+00:00",
+  "summary_bullets": [
+    "This Perspectives article surveys how gravitational-wave observations—from neutron-star tidal signals and black-hole binaries to stochastic backgrounds measurable by LISA and third-generation detectors—can probe particle-physics phenomena such as the QCD phase diagram, first-order electroweak‑scale phase transitions, and dark-matter scenarios including primordial black holes and ultralight bosons.",
+    "The paper highlights concrete observational signatures and detectors: NS inspiral/merger constraints on dense QCD, stochastic GW backgrounds from TeV‑scale phase transitions accessible to LISA, environment‑induced waveform dephasing from dark‑matter spikes and ‘gravitational‑atom’ effects due to superradiance, and synergies with collider, direct‑detection and atom‑interferometer programs.",
+    "Its novelty is synthesising particle‑physics targets and GW observables across frequency bands (pulsar‑timing, LISA, ET/CE, atom interferometers), mapping which experiments probe which particle models, and advocating a coordinated multi‑messenger program to maximise discovery potential in the 2030s–2040s."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

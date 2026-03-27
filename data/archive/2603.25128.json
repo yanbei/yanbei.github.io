@@ -1,0 +1,22 @@
+{
+  "id": "2603.25128",
+  "title": "Optimal measurement-based quantum thermal machines in a finite-size system",
+  "authors": [
+    "Chinonso Onah",
+    "Obinna Uzoh",
+    "Obinna Abah"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-26T07:51:16+00:00",
+  "summary_bullets": [
+    "The paper proposes a measurement-based quantum thermal machine whose working medium is a finite-size array of coupled two-level systems with Ising-like interactions and extracts work from measurement back-action via a three-stroke cycle (measurement, feedback, thermalization). It derives analytic stationarity conditions (Theorem 1) for optimal local feedback angles that minimize the post-feedback energy and presents two numerical algorithms (hybrid local–global search and grid-sweep) to obtain global optima for small-to-moderate system sizes. Numerical results show efficiency peaks in the projective-measurement limit, that symmetry breaking (detuning or weak coupling) enlarges exploitable energy gaps, and that performance is robust to ~10° feedback-pulse errors; the framework is platform-agnostic and implementable on superconducting, trapped-ion, or NMR setups.",
+    "Why Yanbei would care: the work directly addresses measurement back-action, optimal feedback control, and the thermodynamic cost of measurement/erasure—areas closely tied to Yanbei's expertise in quantum measurement theory, back-action evasion, and optomechanical control. The analytic stationarity conditions and scalable optimization strategies could inform design of feedback and control protocols in optomechanical or spin-based experiments he cares about, and the emphasis on experimental implementability and robustness is relevant for proposals that seek observable signatures of nonclassicality (and, by extension, for designing sensitive schemes to probe gravity-induced decoherence/entanglement in tabletop platforms).",
+    "Keywords/topics: measurement-based quantum thermal machines, quantum thermodynamics, measurement back-action, feedback control, finite-size coupled two-level systems, Ising-like interaction, optimization algorithms (hybrid local–global, grid sweep), projective-measurement limit, symmetry-breaking enhancements, robustness to feedback errors; Published on arXiv 2026-03-26 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 28880,
+  "featured": true
+}

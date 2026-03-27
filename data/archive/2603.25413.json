@@ -1,0 +1,27 @@
+{
+  "id": "2603.25413",
+  "title": "Testing the strong equivalence principle with multimessenger binary neutron star mergers",
+  "authors": [
+    "Jie Zhu",
+    "Hanlin Song",
+    "Zhenwei Lyu",
+    "Hao Li",
+    "Peixiang Ji",
+    "Jun-Chen Wang",
+    "Haobo Yan",
+    "Bo-Qiang Ma"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T13:09:02+00:00",
+  "summary_bullets": [
+    "The authors construct a gravitational-wave waveform model for a slowly time-varying Newton constant G that self-consistently includes both source-generation effects (object-dependent sensitivities entering inspiral phasing and amplitude) and propagation effects across an FLRW background, implementing ppE-like corrections (a = −8, b = −13) and enforcing EOS-dependent neutron-star mass/sensitivity bounds via TOV solutions. They compute neutron-star sensitivities numerically for multiple EOSs, give a model-independent argument that stationary black-hole sensitivity = 1/2, and perform full Bayesian inference on GW170817 combining GW data with electromagnetic priors (GRB 170817A) using TaylorF2 and IMRPhenomXAS_NRTidalv2 waveforms. The multimessenger analysis yields no evidence for ˙G and produces a conservative 3σ bound ˙G/G ∈ [−3.36×10^−9, 5.34×10^−10] yr^−1, claimed as the most stringent constraint from real GW observations to date.",
+    "This paper should interest you because it provides a concrete, data-ready prescription for incorporating a fundamental-constant variation into waveform templates (phase and amplitude) and demonstrates how multimessenger priors break degeneracies — directly relevant to your work on waveform modeling, strong-field tests of GR, and GW data-analysis/statistical inference. The use of EOS-dependent TOV sensitivities and the explicit derivation of black-hole sensitivity = 1/2 connect to your interests in compact-object physics and horizon properties, while the propagation-side modifications bear on cosmological/modified-gravity probes (dark energy/cosmic evolution) that you follow.",
+    "Keywords/topics: varying G, strong equivalence principle, multimessenger binary neutron star, GW170817, ppE corrections (a = −8, b = −13), neutron-star sensitivities (TOV), black-hole sensitivity = 1/2, Bayesian parameter inference, waveform systematics. Published: arXiv:2603.25413 (26 Mar 2026)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 21205,
+  "featured": true
+}

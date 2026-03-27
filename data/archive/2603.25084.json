@@ -1,0 +1,23 @@
+{
+  "id": "2603.25084",
+  "title": "Particle motions and gravitational waveforms in rotating black hole spacetimes of loop quantum gravity",
+  "authors": [
+    "Yang Yang",
+    "Yu-Xuan Bai",
+    "Yong-Zhuang Li",
+    "Yu Han"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T06:38:36+00:00",
+  "summary_bullets": [
+    "The paper builds two Kerr‑like rotating black‑hole spacetimes by applying a revised Newman–Janis algorithm to spherically symmetric loop‑quantum‑gravity (LQG) seed metrics and introduces a holonomy regularization parameter ξ that encodes quantum corrections and reduces to Kerr when ξ→0. The authors analyze horizon structure (including extremal conditions and constraints on ξ and a), derive integrable timelike geodesics with a Carter constant, and map how ξ shifts orbital quantities (LMBO, LISCO, EISCO, rISCO) and confines off‑equatorial motion toward the equator. Using a simplified extreme‑mass‑ratio inspiral (EMRI) model at leading‑order post‑Newtonian order they compute gravitational waveforms from periodic prograde orbits and show that increasing ξ enhances waveform deviations near the horizon, highlighting potentially observable LQG imprints for future space detectors.",
+    "Why Yanbei would care: the paper directly connects an explicit family of effective, rotating LQG metrics to geodesic structure and EMRI waveforms—areas Yanbei has worked on (EMRIs, black‑hole perturbation theory, ISCO/MBO analyses and waveform modeling) and is interested in (strong‑gravity tests tied to observables, event‑horizon physics). Although the waveform treatment is a leading‑order PN toy model rather than a full perturbative/Teukolsky/self‑force calculation, the demonstrated shifts in ISCO/MBO, Carter‑constant confinement, and enhanced near‑horizon waveform signatures provide concrete targets for more rigorous follow‑ups (self‑force, Teukolsky QNM/waveform calculations or parameter‑estimation impact studies for LISA/Taiji/TianQin).",
+    "Keywords/topics: loop quantum gravity, holonomy corrections (ξ), revised Newman–Janis algorithm, rotating regular black holes, horizon/extremality conditions, Carter constant, timelike geodesics (ISCO/MBO, precessing/periodic orbits), EMRIs, gravitational waveforms (leading‑order PN), observational prospects (LISA/Taiji/TianQin); arXiv preprint posted 26 March 2026 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 22725,
+  "featured": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2603.24686",
+  "title": "Topological signatures in Kerr-Sen AdS black hole thermodynamics",
+  "authors": [
+    "Mohd Rehan",
+    "Md Sabir Ali",
+    "Sushant G. Ghosh"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-25T18:05:13+00:00",
+  "summary_bullets": [
+    "The authors apply Duan’s ϕ‑mapping topological current theory together with a novel complex‑residue method to classify the thermodynamic phase structure of the Kerr‑Sen AdS black hole (a rotating, dilaton‑charged solution from heterotic string theory). They find three on‑shell branches (small, intermediate, large) carrying winding numbers +1, −1, +1 respectively, giving a total topological charge W=+1, and show that this topological class is invariant under variations of the dilaton charge while being controlled by the rotation parameter. They also analytically continue the off‑shell Gibbs free energy into the complex plane and demonstrate that isolated singularities of the characterized function have residues that directly encode the winding numbers, providing an alternative residue‑based classification of critical points.",
+    "Why Yanbei would care: The paper develops coordinate‑independent, topological diagnostics of black‑hole phase structure and introduces a residue technique that codifies critical‑point creation/annihilation—methods that complement Yanbei’s interests in black‑hole structure and universal, observable signatures of strong gravity. Although the work is thermodynamic/AdS‑focused rather than waveform modelling, the emphasis on rotation‑driven changes in global topology and on invariant quantities under dilaton deformations may map onto questions Yanbei studies (how spin and additional fields modify stability, quasinormal spectra, nonlinear oscillations, and holographic observables), and the residue/topological viewpoint could inspire new invariant diagnostics for perturbation theory or ringdown analyses. In short, it offers conceptual tools that could bridge thermodynamic topology and dynamical/observable properties of black holes—relevant to testing gravity and to holographic interpretations Yanbei follows.",
+    "Keywords/topics: Kerr‑Sen AdS, thermodynamic topology, Duan’s ϕ‑mapping, complex residue method, winding numbers, dilaton charge, rotation effects, phase transitions, holography. arXiv:2603.24686 (submitted 25 Mar 2026; PDF dated 27 Mar 2026) — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 20992,
+  "featured": true
+}

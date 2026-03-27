@@ -1,0 +1,20 @@
+{
+  "id": "2603.25023",
+  "title": "Explicit States with Two-sided Long-Range Magic",
+  "authors": [
+    "Zhi Li"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-26T04:40:08+00:00",
+  "summary_bullets": [
+    "This paper constructs explicit many-body states that provably possess two-sided long-range magic—i.e., nonstabilizerness that cannot be produced by either Clifford◦FDU or FDU◦Clifford circuits—thereby placing them outside the first level of the recently proposed magic hierarchy. Concrete examples include the \"ZX-cat\" state (|ψ> ∝ |0^n> + |+^n>) and ground states of certain nonabelian quantum-double/string-net topological orders, with rigorous proofs that preparation by those circuit classes is impossible up to constant or inverse-polynomial error. The work introduces new proof techniques tying long-range magic to many-body phase structure and principles of quantum error correction, connecting circuit complexity, topological order, and nonstabilizerness.",
+    "Why you would care: the paper identifies which macroscopic many-body states carry robust, topologically protected \"magic\" resources and gives constructive examples and lower bounds, which directly bears on resource accounting for preparing and certifying nonclassical macroscopic states (relevant to macroscopic quantum mechanics and optomechanical platforms you study). Its link between nonabelian topological order, error-correcting structure, and provable hardness of state preparation informs both fault-tolerant encoding strategies and criteria for experimentally distinguishing genuinely nonstabilizer quantum resources—topics that touch your interests in quantum error correction, macroscopic quantum states, and foundations that underlie proposals to probe gravity-induced decoherence/entanglement. ",
+    "Keywords/topics: long-range magic; nonstabilizerness/magic; magic hierarchy; ZX‑cat (magical cat) state; nonabelian topological order; quantum error correction; circuit complexity; many-body phases. Published on arXiv as quant-ph:2603.25023 (v1) 26 Mar 2026."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 12979,
+  "featured": true
+}

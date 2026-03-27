@@ -1,0 +1,22 @@
+{
+  "id": "2603.25102",
+  "title": "Binary neutron star mergers with a subsolar mass star",
+  "authors": [
+    "Maxence Corman",
+    "William E. East",
+    "Jocelyn S. Read"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-26T07:18:40+00:00",
+  "summary_bullets": [
+    "The authors present fully general‑relativistic numerical‑relativity simulations of unequal‑mass binary neutron star mergers that include a subsolar‑mass component (they study configurations like 1.8 M⊙ + 0.7 M⊙), yielding tidal deformabilities for the light star up to O(10^4).",
+    "They find mass transfer from the light star, substantially lower disruption/merger frequencies (∼990–1050 Hz) than in equal‑mass cases, and a large increase in dynamically ejected mass relative to existing phenomenological fits. The paper hybridizes NR and analytical inspirals to show that while current waveform models miss the late disruption physics, mismatches remain ≲7×10^−4 and parameter‑estimation injections at LIGO–Virgo design sensitivity show no significant biases for realistic SNRs (≲100).",
+    "No extra technical note provided."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 25463,
+  "featured": true
+}
