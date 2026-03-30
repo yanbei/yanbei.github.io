@@ -33,7 +33,7 @@ permalink: /people/
   <li><strong>2022</strong> — Xiang Li, Rhondale Tso</li>
   <li><strong>2023</strong> — Sizheng Ma</li>
   <li><strong>2024</strong> — Dongjun Li, Yijun Wang</li>
-  <li><strong>2025</strong> — Rajashik Tarafder, James Gardner (visiting from ANU)</li>
+  <li><strong>2025</strong> — Brian Seymour, Rajashik Tarafder, James Gardner (visiting from ANU)</li>
 </ul>
 
 <h2>Former Postdocs</h2>
