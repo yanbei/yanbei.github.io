@@ -1,0 +1,22 @@
+{
+  "id": "2603.25795",
+  "title": "Primordial Black Hole interpretation of the sub-solar merger event S251112cm",
+  "authors": [
+    "Md Riajul Haque",
+    "Fabio Iocco",
+    "Luca Visinelli"
+  ],
+  "category": "astro-ph.CO",
+  "published": "2026-03-26T18:01:57+00:00",
+  "summary_bullets": [
+    "The paper assesses whether the LVK O4 candidate S251112cm, which shows a chirp mass implying at least one sub-solar component, can be explained as a merger of primordial black holes (PBHs) with masses in the 0.1–1 M⊙ range by combining analytic PBH binary merger-rate estimates with LVK detector sensitivity and observational constraints. The authors compute merger rates for equal-mass, monochromatic PBH binaries, calibrate an effective spacetime volume ⟨VT⟩ from O3/O4a injection results with an empirical scaling ⟨VT⟩∝M^2.34 for sub-solar masses, and use Poisson statistics to obtain the probability P(MPBH) of observing ≥1 event as a function of PBH mass and abundance. The novel quantitative result is that, under relaxed microlensing constraints and extrapolated O4a sensitivity, the detection probability can approach unity for MPBH≈0.5–1 M⊙ (and remains sizable ≲O(0.5) in conservative cases), showing sub-solar GW candidates are a viable probe of PBHs and their dark-matter fraction.",
+    "Yanbei would care because this paper directly connects population-level PBH merger-rate theory and detector sensitivity to a concrete LVK candidate, tying early-Universe models and dark-matter hypotheses to observable GW statistics; this complements his interests in black-hole physics and strong-gravity tests by highlighting a clean sub-solar mass window largely free of stellar backgrounds. The work also raises practical modelling questions (e.g., template sensitivity, mass-function assumptions, and selection effects) that intersect with his expertise in waveform modeling, EMRI/perturbation techniques and tests of GR, and it motivates targeted searches and theoretical work to distinguish primordial from exotic astrophysical compact objects.",
+    "Keywords/topics: primordial black holes, sub-solar mass mergers, LVK O3/O4a sensitivity scaling, PBH merger rates, microlensing constraints, detector selection effects, dark matter probes. Posted to arXiv March 26, 2026 (PDF dated March 30, 2026) — very recent."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 20373,
+  "featured": true
+}

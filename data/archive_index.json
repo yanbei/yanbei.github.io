@@ -2,8 +2,273 @@
   "months": [
     {
       "month": "2026-03",
-      "count": 88,
+      "count": 101,
       "papers": [
+        {
+          "id": "2603.26641",
+          "title": "Recoil geometry determines electromagnetic counterparts from supermassive black hole merger remnants",
+          "authors": [
+            "Yoonsoo Kim",
+            "Elias R. Most",
+            "Hai-Yang Wang"
+          ],
+          "category": "astro-ph.HE",
+          "published": "2026-03-27T17:45:53+00:00",
+          "summary_bullets": [
+            "This paper presents the first general-relativistic magnetohydrodynamic (GRMHD) simulations of a recoiling supermassive black hole (SMBH) interacting with a magnetically arrested circumbinary disk that was consistently evolved through the inspiral; simulations explore recoil speeds (v_r up to 0.10c) and three recoil geometries (vertical, oblique, horizontal).",
+            "They demonstrate qualitatively distinct post-merger outcomes tied to recoil geometry: perpendicular recoils leave a bound inner disk and sustain relativistic jets, in-plane (horizontal) recoils drive strong bow shocks, copious shock heating and eventual jet quenching, while oblique recoils tilt the accretion flow and produce intermittent jet–disk interactions and episodic outbursts. The simulations also identify MAD-specific features (magnetic flux tubes, reconnection sites) that can power nonthermal flares and quantify thermal energy injection in the disk as a function of recoil path.",
+            "Key words/topics: GRMHD simulations, magnetically arrested disk (MAD), SMBH mergers, gravitational-wave recoil kicks, jet launching and quenching, shock heating, magnetic reconnection, EM afterglows, LISA-era multi-messenger counterparts; posted on arXiv 27 Mar 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 29800
+        },
+        {
+          "id": "2603.26602",
+          "title": "An Online Approach for Entanglement Verification Using Classical Shadows",
+          "authors": [
+            "Marwa Marso",
+            "Sabrina Herbst",
+            "Jadwiga Wilkens",
+            "Vincenzo De Maio",
+            "Ivona Brandic",
+            "Richard Kueng"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-27T16:59:14+00:00",
+          "summary_bullets": [
+            "The paper develops an online hybrid quantum–classical framework that processes classical shadows incrementally during the slack time between measurement shots, enabling real-time updates rather than offline post-processing.",
+            "Focusing on entanglement verification via PT-moments (trace moments of the partially transposed density matrix), the authors derive two unbiased online estimators that characterize the trade-off between memory footprint and per-shot computational cost: one memory-efficient estimator works directly from raw measurement records without constructing empirical density matrices, while the other maintains accumulated matrices to achieve constant per-shot cost and handle high moment orders.",
+            "By exploiting all combinations of snapshots and the incremental structure of classical shadows, the online estimators require fewer samples than state-of-the-art baselines in relevant regimes and turn PT-moment based entanglement detection from a purely offline diagnostic into a protocol that runs concurrently with experiments."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 23725
+        },
+        {
+          "id": "2603.26521",
+          "title": "The High-Mass-Ratio Challenge in Gravitational Waveform Modelling",
+          "authors": [
+            "Parthapratim Mahapatra",
+            "Jonathan E. Thompson",
+            "Edward Fauchon-Jones",
+            "Mark Hannam"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-27T15:35:22+00:00",
+          "summary_bullets": [
+            "The paper presents new numerical-relativity simulations of highly asymmetric, strongly precessing binary black holes with mass ratio q = 18 and primary spin χ1 = 0.8 (secondary non-spinning), exploring five spin-misalignment angles (30°, 60°, 90°, 120°, 150°).",
+            "Comparing these NR waveforms to current state-of-the-art waveform models (IMRPhenomXPNR, IMRPhenomTPHM, SEOBNRv5PHM, NRSur7dq4) the authors find systematically large mismatches (≳0.1) across much of this regime. Targeted parameter-estimation injections into a three-detector LIGO–Virgo network reveal dramatic parameter biases in some cases (mass errors >100%), showing an urgent need for NR-calibrated improvements and offering these simulations as calibration data.",
+            "This is directly relevant to waveform-modeling and inference systematics for high-q, precessing BBHs and supplies scarce long, accurate NR waveforms in that corner of parameter space."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.26405",
+          "title": "Simulation-based Inference towards Gravitational-wave waveform systematics in Intermediate-Mass Binary Black Holes",
+          "authors": [
+            "Sama Al-Shammari",
+            "Alexandre Göttel",
+            "Masaki Iwaya",
+            "Vivien Raymond"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-27T13:30:10+00:00",
+          "summary_bullets": [
+            "Using a large simulated training set drawn equally from IMRPhenomXPHM and SEOBNRv5PHM, the authors train a neural posterior estimator based on neural-spline normalising flows with a jointly learned dual-domain (frequency + time) embedding to amortise parameter estimation for intermediate-mass binary black hole (IMBH) signals. By treating the waveform-model index as a latent variable the network learns posteriors marginalised over waveform-model systematics and returns samples in milliseconds, demonstrating close agreement with evidence-weighted bilby-dynesty results while reducing inference time by orders of magnitude. The approach is validated on Gaussian-noise injections, recovers a 13-dimensional subset of a 15-D training prior, and enables large-scale calibration tests (10^4 injections) thanks to the millisecond inference cost.",
+            "This paper directly addresses waveform-systematics and rapid, systematics-aware inference for high-mass BBH signals—topics tightly connected to Yanbei's interests in waveform modeling, strong-field tests, and black-hole astrophysics; marginalising over approximants (IMRPhenomXPHM vs SEOBNRv5PHM) is especially relevant for extracting robust strong-gravity observables from short, few-cycle IMBH mergers. The dual-domain embedding and the prospect of extending the training set to include NR surrogates, non-Gaussian noise, eccentricity or additional dynamical effects make the method promising for Yanbei's work on improving waveform-systematics, performing population studies, and enabling fast follow-up tests of GR in regimes where perturbation- and nonlinear effects matter.",
+            "Keywords/topics: Simulation-based inference (SBI), Neural Posterior Estimation (NPE), normalising flows (neural spline flows), waveform systematics, IMBHs, IMRPhenomXPHM, SEOBNRv5PHM, dual-domain (time+frequency) embedding, amortised inference, LIGO LVK pipelines. Publication/recency: arXiv:2603.26405 (gr-qc), v1 posted 27–30 March 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.26311",
+          "title": "Majorana-XYZ subsystem code",
+          "authors": [
+            "Tobias Busse",
+            "Lauri Toikka"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-27T11:30:07+00:00",
+          "summary_bullets": [
+            "This paper studies Majorana-XYZ subsystem code using the methods and problem setup described in the abstract. Its scientific content appears to center on quant-ph themes highlighted by the metadata. The apparent novelty is inferred only from the abstract/title metadata because PDF summarization was unavailable.",
+            "Yanbei may care because it connects to his previous work and current interests, especially quantum noise in interferometers, quantum measurement theory; and also to quantum error correction.",
+            "Key words/topics: quantum error correction; published about 3.2 days ago."
+          ],
+          "relevance": 3,
+          "worth_reading_full": false,
+          "used_openai": false,
+          "used_pdf_text": true,
+          "pdf_text_chars": 29467
+        },
+        {
+          "id": "2603.26243",
+          "title": "Noise modelling of waveguide based squeezed light sources",
+          "authors": [
+            "Erik Anders Torsten Svanberg",
+            "Daniel Voigt",
+            "Vaishali Adya"
+          ],
+          "category": "physics.optics",
+          "published": "2026-03-27T10:06:34+00:00",
+          "summary_bullets": [
+            "This paper presents a comprehensive noise model for waveguide-based optical parametric amplifiers that generate squeezed light, deriving coupled‑mode and matrix formalisms to quantify the effects of phase noise, in-/out‑coupling, propagation and detection losses, and unconverted fundamental leakage (using the PDF excerpt results). It shows that phase noise and distributed losses determine an optimal squeezing parameter and that ppLN waveguides—owing to high nonlinearity, THz bandwidth, and intrinsically low phase noise—can approach cavity squeezer performance while being primarily limited by out‑coupling and fabrication‑induced propagation loss. The authors further model and propose a cascaded (phase‑sensitive) waveguide OPA (SU(1,1) style) to mitigate detection and out‑coupling losses, giving tradeoffs and design criteria aimed at applications in gravitational‑wave detectors such as the Einstein Telescope.",
+            "Why Yanbei would care: the paper addresses quantum‑noise engineering for interferometric precision measurement—directly relevant to Yanbei’s work on quantum noise in interferometers, quantum measurement theory, back‑action evasion and optomechanics—by providing a practically realistic route (integrated, low‑phase‑noise waveguide squeezers and cascaded amplification) to reduce quantum noise and backscatter problems in GW detectors; additionally, the high bandwidth and integrability make these sources attractive for tabletop optomechanical tests and quantum‑limited sensors that probe macroscopic quantum behavior or gravity‑related decoherence/entanglement scenarios that Yanbei is currently interested in.",
+            "Keywords/topics: squeezed light, waveguide OPA (ppLN/ppLNOI), phase noise/phase jitter, in‑/out‑coupling and propagation loss, leakage/seeding, cascaded phase‑sensitive amplification (SU(1,1)), noise budgeting, applications to gravitational‑wave detectors and integrated photonics. Publication: arXiv:2603.26243 (submitted 27 Mar 2026) — very recent."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 23691
+        },
+        {
+          "id": "2603.26075",
+          "title": "Minimal noise in non-quantized gravity",
+          "authors": [
+            "Giuseppe Fabiano",
+            "Tomohiro Fujita",
+            "Akira Matsumura",
+            "Daniel Carney"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-27T05:06:51+00:00",
+          "summary_bullets": [
+            "The authors provide a general parametrization of all non-quantized (non-graviton) models of Newtonian-limit gravity under minimal assumptions (Galilean invariance, time locality, and Ehrenfest-averaged Newtonian forces), showing the dissipative part of the dynamics can be written as Lindblad operators L_{k,i}=e^{ik·R}J_{k,i}(r) and reduced to single-body and correlated two-body noise functions. They prove that any model that fails to entangle two masses must inject a quantifiable, irreducible minimum amount of noise, derive explicit noise/entanglement thresholds for several experimental setups (mechanical oscillators, two-position-state masses, hybrid source–two-state systems), and give concrete numerical benchmarks (e.g., acceleration-noise threshold ~10^{-18} m/s^2/√Hz at 1 mm for equal masses). The framework subsumes prior classical-quantum and entropic-gravity proposals, keeps non-Gaussian single-body dissipation terms (avoiding Gaussian truncations used previously), and supplies Lindblad equations and entanglement/noise criteria directly applicable to tabletop force-sensing experiments.",
+            "Yanbei should care because the paper translates alternative gravity hypotheses into experimentally measurable noise budgets and explicit Lindblad dynamics that tie directly to quantum-noise, back-action, and force-sensing techniques he has developed in interferometry and optomechanics; the derived force-noise thresholds and the role of correlated versus local noise give concrete targets and modelling prescriptions for proposals to detect gravity-induced entanglement or rule out non-quantized gravity. The emphasis on non-Gaussian single-body dissipation and on mapping concrete CQ/entropic models into parameter space will inform how to design, analyze, and interpret tabletop experiments (including readout and error budgets) relevant to his interests in gravity-induced decoherence/entanglement and quantum gravity phenomenology.",
+            "Keywords/topics: non-quantized gravity, Lindblad master equation, gravitational decoherence, gravitationally induced noise, Newtonian entanglement, force-noise thresholds, classical-quantum models, entropic gravity, optomechanics, tabletop quantum-gravity tests; Posted on arXiv (v1) 27 Mar 2026 — a very recent work."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
+        },
+        {
+          "id": "2603.25897",
+          "title": "Detectability and Systematic Bias from First-Order Phase-Transition Dephasing in Kerr EMRIs",
+          "authors": [
+            "Jingxu Wu",
+            "Liangyu Luo",
+            "Junyi Zhang",
+            "Jiyun Yang",
+            "Haoxiang Ma",
+            "Jie Shi"
+          ],
+          "category": "gr-qc",
+          "published": "2026-03-26T20:37:53+00:00",
+          "summary_bullets": [
+            "The paper builds a controlled phenomenological model of a first-order phase transition in the dissipative flux sector of a circular equatorial Kerr EMRI, implemented as a finite-width restructuring of an effective coupling that perturbs the flux and therefore the inspiral clock.",
+            "Using this model and standard LISA matched-filter diagnostics the authors show that a narrow transition window can produce very large accumulated dephasing (benchmark: ΔΦ22 ≃ 5×10^3 rad) while yielding a deceptively small normalized mismatch (M ≃ 2.986×10^−3 after maximization over time and phase) and a detector-weighted residual norm of order unity.",
+            "The novel and central result is an explicit identification of a bias-sensitive regime in which detectability is preserved but waveform faithfulness and precision parameter inference are compromised, motivating the incorporation of parameterized transition sectors into high-accuracy EMRI waveform models."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 18072
+        },
+        {
+          "id": "2603.25809",
+          "title": "Binary neutron star mergers with tabulated equations of state in SPHINCS_BSSN",
+          "authors": [
+            "Swapnil Shankar",
+            "Stephan Rosswog",
+            "Peter Diener"
+          ],
+          "category": "astro-ph.HE",
+          "published": "2026-03-26T18:14:27+00:00",
+          "summary_bullets": [
+            "Using the Lagrangian numerical-relativity code SPHINCS_BSSN, the authors implement conservative-to-primitive (con2prim) recovery for tabulated high-density equations of state and present three algorithms: a 3D Newton–Raphson solver, a 2D Newton–Raphson variant, and a 1D Ridders' root-finder. They demonstrate in a full binary neutron-star merger with the DD2 table that the 3D scheme is very fast and robust (average failure fraction well below 1%), while the 1D Ridders' method, although much slower, serves as a practically fail-safe fallback. The paper supplies detailed algebraic reductions, Jacobian formulae, convergence diagnostics and a production strategy (3D NR default, 1D Ridders' parachute) specifically adapted to SPHINCS_BSSN's evolved conservative variables and tabulated-EOS interpolation.",
+            "Why Yanbei would care: the work directly improves the robustness and physical fidelity of numerical-relativity simulations that produce inspiral, merger and post-merger gravitational-wave signals sensitive to the high-density EOS and nonlinear strong-field dynamics—areas relevant to Yanbei's interests in waveform modeling, strong-gravity tests tied to observables, and nonlinear GW interactions. A reliable con2prim pipeline for tabulated EOS reduces spurious failures and bias in post-merger dynamics (oscillation spectra, damping/tails, possible nonlinear mode couplings) and thus makes simulation outputs more trustworthy for EOS inference, tests of GR with post-merger features, and for building or validating data-analysis templates for next-generation detectors. Additionally, SPHINCS_BSSN's hybrid particle+AMR approach and the provided fallback strategy could be of interest when comparing different NR methods' systematics or when seeking robust waveform inputs for studies of GW memory, nonlinear mode excitation, or matter–gravity couplings.",
+            "Keywords/topics: SPHINCS_BSSN; conservative-to-primitive inversion; tabulated equation of state; 3D/2D Newton–Raphson; Ridders' method; smoothed-particle hydrodynamics; BSSN spacetime evolution; binary neutron-star mergers; post-merger oscillations and waveform modeling; numerical-relativity algorithms. Published/submitted: arXiv:2603.25809 (submitted 26 Mar 2026; PDF draft dated 30 Mar 2026)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 20808
+        },
+        {
+          "id": "2603.25801",
+          "title": "Ultrabroadband Passive Laser Noise Suppression to Quantum Noise Limit through on-chip Second Harmonic Generation",
+          "authors": [
+            "Geun Ho Ahn",
+            "Ziyu Wang",
+            "Devin J. Dean",
+            "Hubert S. Stokowski",
+            "Taewon Park",
+            "Martin M. Fejer",
+            "Jonathan Simon",
+            "Amir H. Safavi-Naeini"
+          ],
+          "category": "physics.optics",
+          "published": "2026-03-26T18:09:06+00:00",
+          "summary_bullets": [
+            "This paper demonstrates a passive, all‑optical \"photonic integrated nonlinear noise eater\" (PINE) that uses highly efficient on‑chip second‑harmonic generation in thin‑film lithium niobate to suppress laser intensity noise from DC to >10 GHz. Operating at a pump‑depletion stationary point (≈70% conversion) decouples first‑order input fluctuations from the transmitted fundamental, yielding intrinsic >25–60 dB relative intensity noise (RIN) suppression and stabilization of a noisy fiber amplifier to the shot‑noise limit. Because the device is single‑pass, non‑resonant, compact, and broadband (bandwidth set by group‑velocity walk‑off rather than electronic feedback), it provides a scalable chip‑scale route to ultra‑low‑RIN light and potentially on‑chip amplitude‑squeezed sources for quantum metrology.",
+            "Yanbei should care because this technique directly tackles classical intensity noise and produces shot‑noise‑limited (and potentially squeezed) optical carriers that are central to his work on quantum noise in interferometers, quantum measurement theory, QND/back‑action evasion and optomechanics; a passive, ultrabroadband, chip‑scale low‑RIN source would reduce technical noise floors in precision interferometry, atom/ion control, and tabletop tests of gravity‑induced decoherence or entanglement. The elimination of electronic feedback bandwidth limits and the compatibility with integrated photonics make the PINE immediately relevant for deploying low‑noise local oscillators and squeezed‑light generation in experiments Yanbei and collaborators design and analyze.",
+            "Keywords/topics: second‑harmonic generation (χ(2)), thin‑film lithium niobate (TFLN), passive noise eater, relative intensity noise (RIN), shot‑noise limit, ultrabroadband (>10 GHz), integrated photonics, squeezed light, laser stabilization, quantum metrology, optomechanics, atom/ion control. Published: arXiv v1 26 March 2026 (very recent)."
+          ],
+          "relevance": 5,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 24496
+        },
+        {
+          "id": "2603.25795",
+          "title": "Primordial Black Hole interpretation of the sub-solar merger event S251112cm",
+          "authors": [
+            "Md Riajul Haque",
+            "Fabio Iocco",
+            "Luca Visinelli"
+          ],
+          "category": "astro-ph.CO",
+          "published": "2026-03-26T18:01:57+00:00",
+          "summary_bullets": [
+            "The paper assesses whether the LVK O4 candidate S251112cm, which shows a chirp mass implying at least one sub-solar component, can be explained as a merger of primordial black holes (PBHs) with masses in the 0.1–1 M⊙ range by combining analytic PBH binary merger-rate estimates with LVK detector sensitivity and observational constraints. The authors compute merger rates for equal-mass, monochromatic PBH binaries, calibrate an effective spacetime volume ⟨VT⟩ from O3/O4a injection results with an empirical scaling ⟨VT⟩∝M^2.34 for sub-solar masses, and use Poisson statistics to obtain the probability P(MPBH) of observing ≥1 event as a function of PBH mass and abundance. The novel quantitative result is that, under relaxed microlensing constraints and extrapolated O4a sensitivity, the detection probability can approach unity for MPBH≈0.5–1 M⊙ (and remains sizable ≲O(0.5) in conservative cases), showing sub-solar GW candidates are a viable probe of PBHs and their dark-matter fraction.",
+            "Yanbei would care because this paper directly connects population-level PBH merger-rate theory and detector sensitivity to a concrete LVK candidate, tying early-Universe models and dark-matter hypotheses to observable GW statistics; this complements his interests in black-hole physics and strong-gravity tests by highlighting a clean sub-solar mass window largely free of stellar backgrounds. The work also raises practical modelling questions (e.g., template sensitivity, mass-function assumptions, and selection effects) that intersect with his expertise in waveform modeling, EMRI/perturbation techniques and tests of GR, and it motivates targeted searches and theoretical work to distinguish primordial from exotic astrophysical compact objects.",
+            "Keywords/topics: primordial black holes, sub-solar mass mergers, LVK O3/O4a sensitivity scaling, PBH merger rates, microlensing constraints, detector selection effects, dark matter probes. Posted to arXiv March 26, 2026 (PDF dated March 30, 2026) — very recent."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 20373
+        },
+        {
+          "id": "2603.25782",
+          "title": "Negative energies and the breakdown of bulk geometry",
+          "authors": [
+            "John Preskill",
+            "Mykhaylo Usatyuk",
+            "Shreya Vardhan"
+          ],
+          "category": "hep-th",
+          "published": "2026-03-26T18:00:00+00:00",
+          "summary_bullets": [
+            "The authors compute inner products of fixed-length (|ℓ⟩) states in pure 2D JT gravity by summing the gravitational path integral over all topologies and matching to the dual random-matrix boundary description. They show that nonperturbative contributions from rare ensemble members with negative-energy eigenstates produce exponentially large corrections that cause the semiclassical bulk Hilbert space to break down already at geodesic lengths ℓ ∼ e^{S0/3}, parametrically shorter than the previously expected ℓ ∼ e^{S0}, with both the mean and variance scaling like exp[const·(¯ℓ e^{-S0/3})^{3/2}]. The mechanism is tied to the universal Airy-regime density of states and instanton effects in the matrix model and has striking consequences such as an infinite expectation value for a natural definition of the wormhole length in the thermofield-double state.",
+            "You would care because this paper identifies a new, nonperturbative route (negative-energy rare states in the dual matrix ensemble) by which semiclassical geometry and naive bulk-to-boundary maps fail at much shorter scales than expected; that changes the regime where quantum fluctuations dominate geometric observables — precisely the sort of semiclassical-to-quantum transition relevant to your interests in gravity-induced decoherence/entanglement, the foundations of quantum measurement in gravitational settings, and how microscopic corrections affect observable quantities (e.g. length growth of wormholes). The techniques (topology resummation in JT gravity, Airy-kernel universality, and matrix-model instantons) and the emphasis on concrete diagnostics of breakdowns of effective descriptions are directly relevant to framing phenomenological or information-theoretic tests of quantum gravity and to thinking about error-correction/encoding of bulk geometry into boundary degrees of freedom.",
+            "Keywords/topics: JT gravity, random-matrix dual, nonperturbative effects, negative-energy states, Airy regime, genus/topology resummation, wormhole length, thermofield double, semiclassical breakdown. Published: arXiv v1 posted 2026-03-26 (very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 27038
+        },
         {
           "id": "2603.25630",
           "title": "Repetitive Penrose Process in Kerr-Taub-NUT black hole spacetime",
@@ -107,6 +372,25 @@
           "used_openai": true,
           "used_pdf_text": true,
           "pdf_text_chars": 21205
+        },
+        {
+          "id": "2603.25774",
+          "title": "Catalytic Coherence Amplification for Quantum State Recovery: Theory, Numerical Validation, and Comparison with Conventional Error Correction",
+          "authors": [
+            "Hikaru Wakaura"
+          ],
+          "category": "quant-ph",
+          "published": "2026-03-26T12:03:20+00:00",
+          "summary_bullets": [
+            "Catalytic Quantum Error Correction (CQEC) is a state-recovery protocol that uses catalytic covariant (energy‑conserving) transformations to arbitrarily amplify coherence: if the coherent modes of a known target state are contained within those of multiple noisy copies (mode inclusion), a reusable catalyst mediates a covariant channel that restores the target fidelity without an error threshold. The authors construct a variational energy‑conserving circuit ansatz, derive finite‑copy scaling (1−F ≤ O(1/√n)), and numerically validate CQEC across four quantum algorithms and a tree tensor‑network cryptographic protocol under dephasing, depolarizing and combined noise, showing asymptotic recovery from F ≈ 0.07 to F > 0.999. They compare CQEC to Steane and surface codes, demonstrate 100‑cycle catalyst reuse with negligible deviation, and identify practical limitations (copy overhead, exponential catalyst dimension) and the regimes where coherence‑based recovery outperforms conventional QEC.",
+            "Why Yanbei would care: CQEC frames error protection in the language of coherence resource theory and covariant (energy‑conserving) operations, directly connecting to his expertise in quantum noise, quantum measurement theory, back‑action evasion and optomechanics where energy conservation and phase/coherence are central; the paper explicitly uses quantum Fisher information and mode structure to quantify recoverable metrological resources. The protocol’s threshold‑free recovery and correlated catalyst reuse suggest new, lower‑overhead strategies for restoring fragile macroscopic or metrological quantum states (potentially relevant for tabletop tests of gravity‑induced decoherence or gravity‑mediated entanglement), while its requirements—known target state, many noisy copies and large catalyst Hilbert space—map onto realistic experimental tradeoffs Yanbei studies.",
+            "Keywords/topics: catalytic quantum error correction, coherence resource theory, covariant/energy‑conserving operations, coherent modes/mode inclusion, correlated catalysis, quantum Fisher information, variational EC circuits, comparison with Steane/surface codes; arXiv:2603.25774 (dated March 2026 — very recent)."
+          ],
+          "relevance": 4,
+          "worth_reading_full": true,
+          "used_openai": true,
+          "used_pdf_text": true,
+          "pdf_text_chars": 30000
         },
         {
           "id": "2603.25305",

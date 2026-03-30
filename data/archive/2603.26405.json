@@ -1,0 +1,23 @@
+{
+  "id": "2603.26405",
+  "title": "Simulation-based Inference towards Gravitational-wave waveform systematics in Intermediate-Mass Binary Black Holes",
+  "authors": [
+    "Sama Al-Shammari",
+    "Alexandre Göttel",
+    "Masaki Iwaya",
+    "Vivien Raymond"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-27T13:30:10+00:00",
+  "summary_bullets": [
+    "Using a large simulated training set drawn equally from IMRPhenomXPHM and SEOBNRv5PHM, the authors train a neural posterior estimator based on neural-spline normalising flows with a jointly learned dual-domain (frequency + time) embedding to amortise parameter estimation for intermediate-mass binary black hole (IMBH) signals. By treating the waveform-model index as a latent variable the network learns posteriors marginalised over waveform-model systematics and returns samples in milliseconds, demonstrating close agreement with evidence-weighted bilby-dynesty results while reducing inference time by orders of magnitude. The approach is validated on Gaussian-noise injections, recovers a 13-dimensional subset of a 15-D training prior, and enables large-scale calibration tests (10^4 injections) thanks to the millisecond inference cost.",
+    "This paper directly addresses waveform-systematics and rapid, systematics-aware inference for high-mass BBH signals—topics tightly connected to Yanbei's interests in waveform modeling, strong-field tests, and black-hole astrophysics; marginalising over approximants (IMRPhenomXPHM vs SEOBNRv5PHM) is especially relevant for extracting robust strong-gravity observables from short, few-cycle IMBH mergers. The dual-domain embedding and the prospect of extending the training set to include NR surrogates, non-Gaussian noise, eccentricity or additional dynamical effects make the method promising for Yanbei's work on improving waveform-systematics, performing population studies, and enabling fast follow-up tests of GR in regimes where perturbation- and nonlinear effects matter.",
+    "Keywords/topics: Simulation-based inference (SBI), Neural Posterior Estimation (NPE), normalising flows (neural spline flows), waveform systematics, IMBHs, IMRPhenomXPHM, SEOBNRv5PHM, dual-domain (time+frequency) embedding, amortised inference, LIGO LVK pipelines. Publication/recency: arXiv:2603.26405 (gr-qc), v1 posted 27–30 March 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

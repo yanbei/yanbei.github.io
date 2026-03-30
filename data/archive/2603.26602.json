@@ -1,0 +1,25 @@
+{
+  "id": "2603.26602",
+  "title": "An Online Approach for Entanglement Verification Using Classical Shadows",
+  "authors": [
+    "Marwa Marso",
+    "Sabrina Herbst",
+    "Jadwiga Wilkens",
+    "Vincenzo De Maio",
+    "Ivona Brandic",
+    "Richard Kueng"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-27T16:59:14+00:00",
+  "summary_bullets": [
+    "The paper develops an online hybrid quantum–classical framework that processes classical shadows incrementally during the slack time between measurement shots, enabling real-time updates rather than offline post-processing.",
+    "Focusing on entanglement verification via PT-moments (trace moments of the partially transposed density matrix), the authors derive two unbiased online estimators that characterize the trade-off between memory footprint and per-shot computational cost: one memory-efficient estimator works directly from raw measurement records without constructing empirical density matrices, while the other maintains accumulated matrices to achieve constant per-shot cost and handle high moment orders.",
+    "By exploiting all combinations of snapshots and the incremental structure of classical shadows, the online estimators require fewer samples than state-of-the-art baselines in relevant regimes and turn PT-moment based entanglement detection from a purely offline diagnostic into a protocol that runs concurrently with experiments."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 23725,
+  "featured": true
+}

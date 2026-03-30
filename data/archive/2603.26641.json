@@ -1,0 +1,22 @@
+{
+  "id": "2603.26641",
+  "title": "Recoil geometry determines electromagnetic counterparts from supermassive black hole merger remnants",
+  "authors": [
+    "Yoonsoo Kim",
+    "Elias R. Most",
+    "Hai-Yang Wang"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-27T17:45:53+00:00",
+  "summary_bullets": [
+    "This paper presents the first general-relativistic magnetohydrodynamic (GRMHD) simulations of a recoiling supermassive black hole (SMBH) interacting with a magnetically arrested circumbinary disk that was consistently evolved through the inspiral; simulations explore recoil speeds (v_r up to 0.10c) and three recoil geometries (vertical, oblique, horizontal).",
+    "They demonstrate qualitatively distinct post-merger outcomes tied to recoil geometry: perpendicular recoils leave a bound inner disk and sustain relativistic jets, in-plane (horizontal) recoils drive strong bow shocks, copious shock heating and eventual jet quenching, while oblique recoils tilt the accretion flow and produce intermittent jet–disk interactions and episodic outbursts. The simulations also identify MAD-specific features (magnetic flux tubes, reconnection sites) that can power nonthermal flares and quantify thermal energy injection in the disk as a function of recoil path.",
+    "Key words/topics: GRMHD simulations, magnetically arrested disk (MAD), SMBH mergers, gravitational-wave recoil kicks, jet launching and quenching, shock heating, magnetic reconnection, EM afterglows, LISA-era multi-messenger counterparts; posted on arXiv 27 Mar 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 29800,
+  "featured": true
+}

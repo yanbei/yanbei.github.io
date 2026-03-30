@@ -1,0 +1,25 @@
+{
+  "id": "2603.25897",
+  "title": "Detectability and Systematic Bias from First-Order Phase-Transition Dephasing in Kerr EMRIs",
+  "authors": [
+    "Jingxu Wu",
+    "Liangyu Luo",
+    "Junyi Zhang",
+    "Jiyun Yang",
+    "Haoxiang Ma",
+    "Jie Shi"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-26T20:37:53+00:00",
+  "summary_bullets": [
+    "The paper builds a controlled phenomenological model of a first-order phase transition in the dissipative flux sector of a circular equatorial Kerr EMRI, implemented as a finite-width restructuring of an effective coupling that perturbs the flux and therefore the inspiral clock.",
+    "Using this model and standard LISA matched-filter diagnostics the authors show that a narrow transition window can produce very large accumulated dephasing (benchmark: ΔΦ22 ≃ 5×10^3 rad) while yielding a deceptively small normalized mismatch (M ≃ 2.986×10^−3 after maximization over time and phase) and a detector-weighted residual norm of order unity.",
+    "The novel and central result is an explicit identification of a bias-sensitive regime in which detectability is preserved but waveform faithfulness and precision parameter inference are compromised, motivating the incorporation of parameterized transition sectors into high-accuracy EMRI waveform models."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 18072,
+  "featured": true
+}

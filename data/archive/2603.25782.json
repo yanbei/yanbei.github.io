@@ -1,0 +1,22 @@
+{
+  "id": "2603.25782",
+  "title": "Negative energies and the breakdown of bulk geometry",
+  "authors": [
+    "John Preskill",
+    "Mykhaylo Usatyuk",
+    "Shreya Vardhan"
+  ],
+  "category": "hep-th",
+  "published": "2026-03-26T18:00:00+00:00",
+  "summary_bullets": [
+    "The authors compute inner products of fixed-length (|ℓ⟩) states in pure 2D JT gravity by summing the gravitational path integral over all topologies and matching to the dual random-matrix boundary description. They show that nonperturbative contributions from rare ensemble members with negative-energy eigenstates produce exponentially large corrections that cause the semiclassical bulk Hilbert space to break down already at geodesic lengths ℓ ∼ e^{S0/3}, parametrically shorter than the previously expected ℓ ∼ e^{S0}, with both the mean and variance scaling like exp[const·(¯ℓ e^{-S0/3})^{3/2}]. The mechanism is tied to the universal Airy-regime density of states and instanton effects in the matrix model and has striking consequences such as an infinite expectation value for a natural definition of the wormhole length in the thermofield-double state.",
+    "You would care because this paper identifies a new, nonperturbative route (negative-energy rare states in the dual matrix ensemble) by which semiclassical geometry and naive bulk-to-boundary maps fail at much shorter scales than expected; that changes the regime where quantum fluctuations dominate geometric observables — precisely the sort of semiclassical-to-quantum transition relevant to your interests in gravity-induced decoherence/entanglement, the foundations of quantum measurement in gravitational settings, and how microscopic corrections affect observable quantities (e.g. length growth of wormholes). The techniques (topology resummation in JT gravity, Airy-kernel universality, and matrix-model instantons) and the emphasis on concrete diagnostics of breakdowns of effective descriptions are directly relevant to framing phenomenological or information-theoretic tests of quantum gravity and to thinking about error-correction/encoding of bulk geometry into boundary degrees of freedom.",
+    "Keywords/topics: JT gravity, random-matrix dual, nonperturbative effects, negative-energy states, Airy regime, genus/topology resummation, wormhole length, thermofield double, semiclassical breakdown. Published: arXiv v1 posted 2026-03-26 (very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 27038,
+  "featured": true
+}

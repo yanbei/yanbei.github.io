@@ -1,0 +1,22 @@
+{
+  "id": "2603.25809",
+  "title": "Binary neutron star mergers with tabulated equations of state in SPHINCS_BSSN",
+  "authors": [
+    "Swapnil Shankar",
+    "Stephan Rosswog",
+    "Peter Diener"
+  ],
+  "category": "astro-ph.HE",
+  "published": "2026-03-26T18:14:27+00:00",
+  "summary_bullets": [
+    "Using the Lagrangian numerical-relativity code SPHINCS_BSSN, the authors implement conservative-to-primitive (con2prim) recovery for tabulated high-density equations of state and present three algorithms: a 3D Newton–Raphson solver, a 2D Newton–Raphson variant, and a 1D Ridders' root-finder. They demonstrate in a full binary neutron-star merger with the DD2 table that the 3D scheme is very fast and robust (average failure fraction well below 1%), while the 1D Ridders' method, although much slower, serves as a practically fail-safe fallback. The paper supplies detailed algebraic reductions, Jacobian formulae, convergence diagnostics and a production strategy (3D NR default, 1D Ridders' parachute) specifically adapted to SPHINCS_BSSN's evolved conservative variables and tabulated-EOS interpolation.",
+    "Why Yanbei would care: the work directly improves the robustness and physical fidelity of numerical-relativity simulations that produce inspiral, merger and post-merger gravitational-wave signals sensitive to the high-density EOS and nonlinear strong-field dynamics—areas relevant to Yanbei's interests in waveform modeling, strong-gravity tests tied to observables, and nonlinear GW interactions. A reliable con2prim pipeline for tabulated EOS reduces spurious failures and bias in post-merger dynamics (oscillation spectra, damping/tails, possible nonlinear mode couplings) and thus makes simulation outputs more trustworthy for EOS inference, tests of GR with post-merger features, and for building or validating data-analysis templates for next-generation detectors. Additionally, SPHINCS_BSSN's hybrid particle+AMR approach and the provided fallback strategy could be of interest when comparing different NR methods' systematics or when seeking robust waveform inputs for studies of GW memory, nonlinear mode excitation, or matter–gravity couplings.",
+    "Keywords/topics: SPHINCS_BSSN; conservative-to-primitive inversion; tabulated equation of state; 3D/2D Newton–Raphson; Ridders' method; smoothed-particle hydrodynamics; BSSN spacetime evolution; binary neutron-star mergers; post-merger oscillations and waveform modeling; numerical-relativity algorithms. Published/submitted: arXiv:2603.25809 (submitted 26 Mar 2026; PDF draft dated 30 Mar 2026)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 20808,
+  "featured": true
+}

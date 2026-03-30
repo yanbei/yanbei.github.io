@@ -1,0 +1,23 @@
+{
+  "id": "2603.26075",
+  "title": "Minimal noise in non-quantized gravity",
+  "authors": [
+    "Giuseppe Fabiano",
+    "Tomohiro Fujita",
+    "Akira Matsumura",
+    "Daniel Carney"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-27T05:06:51+00:00",
+  "summary_bullets": [
+    "The authors provide a general parametrization of all non-quantized (non-graviton) models of Newtonian-limit gravity under minimal assumptions (Galilean invariance, time locality, and Ehrenfest-averaged Newtonian forces), showing the dissipative part of the dynamics can be written as Lindblad operators L_{k,i}=e^{ik·R}J_{k,i}(r) and reduced to single-body and correlated two-body noise functions. They prove that any model that fails to entangle two masses must inject a quantifiable, irreducible minimum amount of noise, derive explicit noise/entanglement thresholds for several experimental setups (mechanical oscillators, two-position-state masses, hybrid source–two-state systems), and give concrete numerical benchmarks (e.g., acceleration-noise threshold ~10^{-18} m/s^2/√Hz at 1 mm for equal masses). The framework subsumes prior classical-quantum and entropic-gravity proposals, keeps non-Gaussian single-body dissipation terms (avoiding Gaussian truncations used previously), and supplies Lindblad equations and entanglement/noise criteria directly applicable to tabletop force-sensing experiments.",
+    "Yanbei should care because the paper translates alternative gravity hypotheses into experimentally measurable noise budgets and explicit Lindblad dynamics that tie directly to quantum-noise, back-action, and force-sensing techniques he has developed in interferometry and optomechanics; the derived force-noise thresholds and the role of correlated versus local noise give concrete targets and modelling prescriptions for proposals to detect gravity-induced entanglement or rule out non-quantized gravity. The emphasis on non-Gaussian single-body dissipation and on mapping concrete CQ/entropic models into parameter space will inform how to design, analyze, and interpret tabletop experiments (including readout and error budgets) relevant to his interests in gravity-induced decoherence/entanglement and quantum gravity phenomenology.",
+    "Keywords/topics: non-quantized gravity, Lindblad master equation, gravitational decoherence, gravitationally induced noise, Newtonian entanglement, force-noise thresholds, classical-quantum models, entropic gravity, optomechanics, tabletop quantum-gravity tests; Posted on arXiv (v1) 27 Mar 2026 — a very recent work."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

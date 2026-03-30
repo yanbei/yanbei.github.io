@@ -1,0 +1,20 @@
+{
+  "id": "2603.25774",
+  "title": "Catalytic Coherence Amplification for Quantum State Recovery: Theory, Numerical Validation, and Comparison with Conventional Error Correction",
+  "authors": [
+    "Hikaru Wakaura"
+  ],
+  "category": "quant-ph",
+  "published": "2026-03-26T12:03:20+00:00",
+  "summary_bullets": [
+    "Catalytic Quantum Error Correction (CQEC) is a state-recovery protocol that uses catalytic covariant (energy‑conserving) transformations to arbitrarily amplify coherence: if the coherent modes of a known target state are contained within those of multiple noisy copies (mode inclusion), a reusable catalyst mediates a covariant channel that restores the target fidelity without an error threshold. The authors construct a variational energy‑conserving circuit ansatz, derive finite‑copy scaling (1−F ≤ O(1/√n)), and numerically validate CQEC across four quantum algorithms and a tree tensor‑network cryptographic protocol under dephasing, depolarizing and combined noise, showing asymptotic recovery from F ≈ 0.07 to F > 0.999. They compare CQEC to Steane and surface codes, demonstrate 100‑cycle catalyst reuse with negligible deviation, and identify practical limitations (copy overhead, exponential catalyst dimension) and the regimes where coherence‑based recovery outperforms conventional QEC.",
+    "Why Yanbei would care: CQEC frames error protection in the language of coherence resource theory and covariant (energy‑conserving) operations, directly connecting to his expertise in quantum noise, quantum measurement theory, back‑action evasion and optomechanics where energy conservation and phase/coherence are central; the paper explicitly uses quantum Fisher information and mode structure to quantify recoverable metrological resources. The protocol’s threshold‑free recovery and correlated catalyst reuse suggest new, lower‑overhead strategies for restoring fragile macroscopic or metrological quantum states (potentially relevant for tabletop tests of gravity‑induced decoherence or gravity‑mediated entanglement), while its requirements—known target state, many noisy copies and large catalyst Hilbert space—map onto realistic experimental tradeoffs Yanbei studies.",
+    "Keywords/topics: catalytic quantum error correction, coherence resource theory, covariant/energy‑conserving operations, coherent modes/mode inclusion, correlated catalysis, quantum Fisher information, variational EC circuits, comparison with Steane/surface codes; arXiv:2603.25774 (dated March 2026 — very recent)."
+  ],
+  "relevance": 4,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

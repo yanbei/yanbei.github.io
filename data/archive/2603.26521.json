@@ -1,0 +1,23 @@
+{
+  "id": "2603.26521",
+  "title": "The High-Mass-Ratio Challenge in Gravitational Waveform Modelling",
+  "authors": [
+    "Parthapratim Mahapatra",
+    "Jonathan E. Thompson",
+    "Edward Fauchon-Jones",
+    "Mark Hannam"
+  ],
+  "category": "gr-qc",
+  "published": "2026-03-27T15:35:22+00:00",
+  "summary_bullets": [
+    "The paper presents new numerical-relativity simulations of highly asymmetric, strongly precessing binary black holes with mass ratio q = 18 and primary spin χ1 = 0.8 (secondary non-spinning), exploring five spin-misalignment angles (30°, 60°, 90°, 120°, 150°).",
+    "Comparing these NR waveforms to current state-of-the-art waveform models (IMRPhenomXPNR, IMRPhenomTPHM, SEOBNRv5PHM, NRSur7dq4) the authors find systematically large mismatches (≳0.1) across much of this regime. Targeted parameter-estimation injections into a three-detector LIGO–Virgo network reveal dramatic parameter biases in some cases (mass errors >100%), showing an urgent need for NR-calibrated improvements and offering these simulations as calibration data.",
+    "This is directly relevant to waveform-modeling and inference systematics for high-q, precessing BBHs and supplies scarce long, accurate NR waveforms in that corner of parameter space."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 30000,
+  "featured": true
+}

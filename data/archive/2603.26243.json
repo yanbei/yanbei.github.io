@@ -1,0 +1,22 @@
+{
+  "id": "2603.26243",
+  "title": "Noise modelling of waveguide based squeezed light sources",
+  "authors": [
+    "Erik Anders Torsten Svanberg",
+    "Daniel Voigt",
+    "Vaishali Adya"
+  ],
+  "category": "physics.optics",
+  "published": "2026-03-27T10:06:34+00:00",
+  "summary_bullets": [
+    "This paper presents a comprehensive noise model for waveguide-based optical parametric amplifiers that generate squeezed light, deriving coupled‑mode and matrix formalisms to quantify the effects of phase noise, in-/out‑coupling, propagation and detection losses, and unconverted fundamental leakage (using the PDF excerpt results). It shows that phase noise and distributed losses determine an optimal squeezing parameter and that ppLN waveguides—owing to high nonlinearity, THz bandwidth, and intrinsically low phase noise—can approach cavity squeezer performance while being primarily limited by out‑coupling and fabrication‑induced propagation loss. The authors further model and propose a cascaded (phase‑sensitive) waveguide OPA (SU(1,1) style) to mitigate detection and out‑coupling losses, giving tradeoffs and design criteria aimed at applications in gravitational‑wave detectors such as the Einstein Telescope.",
+    "Why Yanbei would care: the paper addresses quantum‑noise engineering for interferometric precision measurement—directly relevant to Yanbei’s work on quantum noise in interferometers, quantum measurement theory, back‑action evasion and optomechanics—by providing a practically realistic route (integrated, low‑phase‑noise waveguide squeezers and cascaded amplification) to reduce quantum noise and backscatter problems in GW detectors; additionally, the high bandwidth and integrability make these sources attractive for tabletop optomechanical tests and quantum‑limited sensors that probe macroscopic quantum behavior or gravity‑related decoherence/entanglement scenarios that Yanbei is currently interested in.",
+    "Keywords/topics: squeezed light, waveguide OPA (ppLN/ppLNOI), phase noise/phase jitter, in‑/out‑coupling and propagation loss, leakage/seeding, cascaded phase‑sensitive amplification (SU(1,1)), noise budgeting, applications to gravitational‑wave detectors and integrated photonics. Publication: arXiv:2603.26243 (submitted 27 Mar 2026) — very recent."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 23691,
+  "featured": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2603.25801",
+  "title": "Ultrabroadband Passive Laser Noise Suppression to Quantum Noise Limit through on-chip Second Harmonic Generation",
+  "authors": [
+    "Geun Ho Ahn",
+    "Ziyu Wang",
+    "Devin J. Dean",
+    "Hubert S. Stokowski",
+    "Taewon Park",
+    "Martin M. Fejer",
+    "Jonathan Simon",
+    "Amir H. Safavi-Naeini"
+  ],
+  "category": "physics.optics",
+  "published": "2026-03-26T18:09:06+00:00",
+  "summary_bullets": [
+    "This paper demonstrates a passive, all‑optical \"photonic integrated nonlinear noise eater\" (PINE) that uses highly efficient on‑chip second‑harmonic generation in thin‑film lithium niobate to suppress laser intensity noise from DC to >10 GHz. Operating at a pump‑depletion stationary point (≈70% conversion) decouples first‑order input fluctuations from the transmitted fundamental, yielding intrinsic >25–60 dB relative intensity noise (RIN) suppression and stabilization of a noisy fiber amplifier to the shot‑noise limit. Because the device is single‑pass, non‑resonant, compact, and broadband (bandwidth set by group‑velocity walk‑off rather than electronic feedback), it provides a scalable chip‑scale route to ultra‑low‑RIN light and potentially on‑chip amplitude‑squeezed sources for quantum metrology.",
+    "Yanbei should care because this technique directly tackles classical intensity noise and produces shot‑noise‑limited (and potentially squeezed) optical carriers that are central to his work on quantum noise in interferometers, quantum measurement theory, QND/back‑action evasion and optomechanics; a passive, ultrabroadband, chip‑scale low‑RIN source would reduce technical noise floors in precision interferometry, atom/ion control, and tabletop tests of gravity‑induced decoherence or entanglement. The elimination of electronic feedback bandwidth limits and the compatibility with integrated photonics make the PINE immediately relevant for deploying low‑noise local oscillators and squeezed‑light generation in experiments Yanbei and collaborators design and analyze.",
+    "Keywords/topics: second‑harmonic generation (χ(2)), thin‑film lithium niobate (TFLN), passive noise eater, relative intensity noise (RIN), shot‑noise limit, ultrabroadband (>10 GHz), integrated photonics, squeezed light, laser stabilization, quantum metrology, optomechanics, atom/ion control. Published: arXiv v1 26 March 2026 (very recent)."
+  ],
+  "relevance": 5,
+  "worth_reading_full": true,
+  "used_openai": true,
+  "used_pdf_text": true,
+  "pdf_text_chars": 24496,
+  "featured": true
+}
